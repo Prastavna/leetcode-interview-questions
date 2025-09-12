@@ -1,0 +1,56 @@
+query discussPostDetail($topicId: ID!) {
+  ugcArticleDiscussionArticle(topicId: $topicId) {
+    uuid
+    title
+    slug
+    summary
+    content
+    isSlate
+    author {
+      realName
+      userAvatar
+      userSlug
+      userName
+      nameColor
+      certificationLevel
+      activeBadge {
+        icon
+        displayName
+      }
+    }
+    isOwner
+    isAnonymous
+    isSerialized
+    isAuthorArticleReviewer
+    scoreInfo {
+      scoreCoefficient
+    }
+    articleType
+    thumbnail
+    summary
+    createdAt
+    updatedAt
+    status
+    isLeetcode
+    canSee
+    canEdit
+    isMyFavorite
+    myReactionType
+    topicId
+    hitCount
+    reactions {
+      count
+      reactionType
+    }
+    tags {
+      name
+      slug
+      tagType
+    }
+    topic {
+      id
+      topLevelCommentCount
+    }
+  }
+}
+    
