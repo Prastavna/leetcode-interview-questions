@@ -21,12 +21,17 @@ export type Question = {
   content: string
 }
 
+export type Round = {
+  id: string,
+  questions: Question[]
+}
+
 export type Interview = {
   id: string
   leetcode_id: string
   company: string
   role: string
   yoe: number
-  questions: Question[]
+  rounds: Round[]
   date: string
 }

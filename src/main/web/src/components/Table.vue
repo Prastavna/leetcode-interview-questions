@@ -13,11 +13,21 @@ const data = ref<Interview[]>([
     company: 'Amazon',
     role: 'SDE 1',
     yoe: 2,
-    questions: [
+    rounds: [
       {
-        id: '1223',
-        type: 'DSA',
-        content: 'Some questoinnnn'
+        id: 'r1',
+        questions: [
+          {
+            id: '1223',
+            type: 'DSA',
+            content: 'Some questoinnnn'
+          },
+          {
+            id: 'q-23',
+            type: 'LLD',
+            content: "Design Library mangement"
+          }
+        ]
       }
     ],
     date: '2025-03-04'
@@ -28,11 +38,16 @@ const data = ref<Interview[]>([
     company: 'Microsoft',
     role: 'SDE II',
     yoe: 5,
-    questions: [
+    rounds: [
       {
-        id: '1223',
-        type: 'HLD',
-        content: 'Design patebin'
+        id: 'xada',
+        questions: [
+          {
+            id: '1223',
+            type: 'HLD',
+            content: 'Design patebin'
+          }
+        ]
       }
     ],
     date: '2025-03-04'
@@ -76,10 +91,10 @@ const columns: TableColumn<Interview>[] = [
     header: 'YoE'
   },
   {
-    accessorKey: 'questions',
-    header: '# of Questions',
+    accessorKey: 'rounds',
+    header: '# of Rounds',
     cell: ({ row }) => {
-      return row.getValue("questions").length
+      return row.getValue("rounds").length
     }
   },
   {
@@ -116,9 +131,11 @@ const expanded = ref({ 1: true })
     >
         <template #expanded="{ row }">
           <UContainer>
-            <div v-for="question in row.getValue('questions')">
-              <p>{{ question.type }}</p>
-              <p>{{ question.content }}</p>
+            <div v-for="round in row.getValue('rounds')">
+              <div v-for="question in round.questions">
+                <p>{{ question.type }}</p>
+                <p>{{ question.content }}</p>
+              </div>
             </div>
           </UContainer>
         </template>
