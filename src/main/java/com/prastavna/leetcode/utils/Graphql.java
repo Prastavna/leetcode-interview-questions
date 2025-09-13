@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Graphql {
-  public static String getSchema(String path) {
+  public static String getQuery(String path) {
     File file = new File(path);
     List<String> lines = new ArrayList<>();
 

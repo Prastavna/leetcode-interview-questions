@@ -3,8 +3,8 @@ plugins {
   java
 }
 
-application {
-  mainClass = "com.prastavna.leetcode.App"
+repositories {
+    mavenCentral()
 }
 
 tasks.jar {
@@ -13,10 +13,12 @@ tasks.jar {
   }
 }
 
-repositories {
-    mavenCentral()
+dependencies {
+  implementation("com.fasterxml.jackson.core:jackson-core:2.20.0")
+  implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
 }
 
-dependencies {
-    implementation("com.graphql-java:graphql-java:24.2")
+application {
+  mainClass = "com.prastavna.leetcode.App"
 }
+
