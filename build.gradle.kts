@@ -16,6 +16,7 @@ tasks.jar {
 dependencies {
   implementation("com.fasterxml.jackson.core:jackson-core:2.20.0")
   implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
+  implementation("com.openai:openai-java:3.5.2")
 }
 
 application {
