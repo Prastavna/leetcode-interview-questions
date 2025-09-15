@@ -1,11 +1,14 @@
 package com.prastavna.leetcode.services;
 
-import com.fasterxml.jackson.databind.util.JSONWrappedObject;
+import java.util.Optional;
+
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.models.ChatModel;
-import com.openai.models.chat.completions.ChatCompletion;
 import com.openai.models.chat.completions.ChatCompletionCreateParams;
+import com.openai.models.chat.completions.StructuredChatCompletion;
+import com.openai.models.chat.completions.StructuredChatCompletionCreateParams;
+import com.prastavna.leetcode.models.Interview;
 
 public class Openai {
   private final OpenAIClient openAIClient;
@@ -17,15 +20,22 @@ public class Openai {
       .build();
   }
 
-  public void getJsonCompletion() {
-    ChatCompletionCreateParams params = ChatCompletionCreateParams.builder()
-      .addUserMessage("Hiii name 3 colors")
+  public void getJsonCompletion(String msg) {
+    StructuredChatCompletionCreateParams<Interview> params = StructuredChatCompletionCreateParams.<Interview>builder()
+      .addSystemMessage("You are a helpful assistant who would parse leetcode interview questions and return them in a specific json format")
+      .addUserMessage(msg)
       .model(ChatModel.GPT_4O_MINI)
+      .responseFormat(Interview.class)
       .build();
+    
+    StructuredChatCompletion<Interview> response =
+        openAIClient.chat().completions().create(params);
 
-    // ChatCompletion chatCompletion = openAIClient.chat().completions().create(params);
-    openAIClient.chat().completions().create(params).choices().stream()
-                .flatMap(choice -> choice.message().content().stream())
-                .forEach(System.out::println);
+    Optional<Interview> interview = response.choices().get(0).message().content();
+    System.out.println(interview);
+
+    System.out.println("Company: " + interview.get().getCompany());
+    System.out.println("Role: " + interview.get().getRole());
+    System.out.println("Rounds: " + interview.get().getRounds().size());
   }
 }

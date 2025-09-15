@@ -13,12 +13,10 @@ public class App {
   public static void main(String[] args) {
     System.out.println("leetcode");
     Dotenv dotenv = Dotenv.load();
+    Openai openai = new Openai(dotenv.get("OPENAI_BASE_URL"), dotenv.get("OPENAI_API_KEY"));
 
     System.out.println(dotenv.get("OPENAI_BASE_URL"));
    
-    Openai openai = new Openai(dotenv.get("OPENAI_BASE_URL"), dotenv.get("OPENAI_API_KEY"));
-    openai.getJsonCompletion();
-  
     Leetcode leetcodeClient = new Leetcode();
     try {
       DiscussPostItems discussPostItems =  leetcodeClient.fetchDiscussionPostItems();
@@ -26,7 +24,7 @@ public class App {
       discussPostItems.ugcArticleDiscussionArticles.edges.forEach(edge -> {
         try {
           DiscussPostDetail discussPostDetail = leetcodeClient.fetchPostDetails(edge.node.topicId);
-          System.out.println(discussPostDetail);
+          openai.getJsonCompletion(discussPostDetail.ugcArticleDiscussionArticle.content);
         } catch (Exception e) {
           System.err.println("Error: " + e.getMessage());
         }

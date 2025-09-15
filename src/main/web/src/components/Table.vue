@@ -9,7 +9,7 @@ const UButton = resolveComponent("UButton");
 const data = ref<Interview[]>([
 	{
 		id: "123",
-		leetcode_id: "abc",
+		leetcodeId: "abc",
 		company: "Amazon",
 		role: "SDE 1",
 		yoe: 2,
@@ -34,7 +34,7 @@ const data = ref<Interview[]>([
 	},
 	{
 		id: "123a",
-		leetcode_id: "abac",
+		leetcodeId: "abac",
 		company: "Microsoft",
 		role: "SDE II",
 		yoe: 5,

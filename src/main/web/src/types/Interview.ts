@@ -28,7 +28,7 @@ export type Round = {
 
 export type Interview = {
 	id: string;
-	leetcode_id: string;
+	leetcodeId: string;
 	company: string;
 	role: string;
 	yoe: number;
