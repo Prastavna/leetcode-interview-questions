@@ -46,7 +46,6 @@ public class Leetcode {
     HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 
     if (response.statusCode() == 200) {
-      System.out.println(response.body());
       JsonNode root = objectMapper.readTree(response.body());
       JsonNode dataNode = root.get("data");
       T responseJson = objectMapper.treeToValue(dataNode, responseType);

@@ -1,6 +1,10 @@
 package com.prastavna.leetcode.models;
 
 import java.util.List;
+import java.util.ArrayList;
+
+import com.prastavna.leetcode.utils.Date;
+import com.prastavna.leetcode.utils.Uuid;
 
 public class Interview {
     private String id;
@@ -31,6 +35,29 @@ public class Interview {
 
     public String getDate() { return date; }
     public void setDate(String date) { this.date = date; }
+
+    // Enrich fields from LeetCode metadata and ensure IDs
+    public void enrichFromLeetcode(String leetcodeTopicId, String createdAtIso) {
+        // Always set canonical identifiers from LeetCode
+        this.leetcodeId = leetcodeTopicId;
+        this.date = Date.toDate(createdAtIso);
+        this.id = Uuid.generate("i");
+
+        if (this.rounds == null) {
+            this.rounds = new ArrayList<>();
+        }
+        for (Round r : this.rounds) {
+            if (r == null) continue;
+            r.setId(Uuid.generate("r"));
+            if (r.getQuestions() == null) {
+                r.setQuestions(new ArrayList<>());
+            }
+            for (Question q : r.getQuestions()) {
+                if (q == null) continue;
+                q.setId(Uuid.generate("q"));
+            }
+        }
+    }
 }
 
 class Round {
