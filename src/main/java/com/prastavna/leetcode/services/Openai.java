@@ -5,7 +5,6 @@ import java.util.Optional;
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.models.ChatModel;
-import com.openai.models.chat.completions.ChatCompletionCreateParams;
 import com.openai.models.chat.completions.StructuredChatCompletion;
 import com.openai.models.chat.completions.StructuredChatCompletionCreateParams;
 import com.prastavna.leetcode.models.Interview;
@@ -20,9 +19,9 @@ public class Openai {
       .build();
   }
 
-  public void getJsonCompletion(String msg) {
+  public Optional<Interview> getJsonCompletion(String msg) {
     StructuredChatCompletionCreateParams<Interview> params = StructuredChatCompletionCreateParams.<Interview>builder()
-      .addSystemMessage("You are a helpful assistant who would parse leetcode interview questions and return them in a specific json format")
+      .addSystemMessage("You parse leetcode discussion post. You need to extract interview questions and return them in a specific json format. You need to figure out whether the post contains Interview questions or not. If it contains Interview questions, you should return a valid json format. If it doesn't contain Interview questions or someone is asking what type of questions come in the interview, you should return null.")
       .addUserMessage(msg)
       .model(ChatModel.GPT_4O_MINI)
       .responseFormat(Interview.class)
@@ -31,11 +30,6 @@ public class Openai {
     StructuredChatCompletion<Interview> response =
         openAIClient.chat().completions().create(params);
 
-    Optional<Interview> interview = response.choices().get(0).message().content();
-    System.out.println(interview);
-
-    System.out.println("Company: " + interview.get().getCompany());
-    System.out.println("Role: " + interview.get().getRole());
-    System.out.println("Rounds: " + interview.get().getRounds().size());
+    return response.choices().get(0).message().content();
   }
 }
