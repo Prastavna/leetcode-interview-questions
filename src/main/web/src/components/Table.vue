@@ -1,58 +1,27 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
-import { h, ref, resolveComponent } from "vue";
+import { h, onMounted, ref, resolveComponent } from "vue";
 import type { Interview } from "../types/Interview";
 
-const UBadge = resolveComponent("UBadge");
 const UButton = resolveComponent("UButton");
 
-const data = ref<Interview[]>([
-	{
-		id: "123",
-		leetcodeId: "abc",
-		company: "Amazon",
-		role: "SDE 1",
-		yoe: 2,
-		rounds: [
-			{
-				id: "r1",
-				questions: [
-					{
-						id: "1223",
-						type: "DSA",
-						content: "Some questoinnnn",
-					},
-					{
-						id: "q-23",
-						type: "LLD",
-						content: "Design Library mangement",
-					},
-				],
-			},
-		],
-		date: "2025-03-04",
-	},
-	{
-		id: "123a",
-		leetcodeId: "abac",
-		company: "Microsoft",
-		role: "SDE II",
-		yoe: 5,
-		rounds: [
-			{
-				id: "xada",
-				questions: [
-					{
-						id: "1223",
-						type: "HLD",
-						content: "Design patebin",
-					},
-				],
-			},
-		],
-		date: "2025-03-04",
-	},
-]);
+// Table data state
+const data = ref<Interview[]>([]);
+const isLoading = ref(true);
+const error = ref<string | null>(null);
+
+onMounted(async () => {
+  try {
+    const res = await fetch("/interviews.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to load interviews.json (${res.status})`);
+    const json = await res.json();
+    data.value = Array.isArray(json) ? (json as Interview[]) : [];
+  } catch (e: any) {
+    error.value = e?.message ?? "Unknown error loading data";
+  } finally {
+    isLoading.value = false;
+  }
+});
 
 const columns: TableColumn<Interview>[] = [
 	{
@@ -122,23 +91,26 @@ const expanded = ref({ 1: true });
       <UInput v-model="globalFilter" class="max-w-sm" placeholder="Filter..." />
     </div>
 
+    <div class="p-4" v-if="isLoading">Loading interviews…</div>
+    <div class="p-4 text-red-600" v-else-if="error">{{ error }}</div>
     <UTable
+      v-else
       v-model:expanded="expanded"
       ref="table"
       v-model:global-filter="globalFilter"
       :data="data"
       :columns="columns"
     >
-        <template #expanded="{ row }">
-          <UContainer>
-            <div v-for="round in row.getValue('rounds')">
-              <div v-for="question in round.questions">
-                <p>{{ question.type }}</p>
-                <p>{{ question.content }}</p>
-              </div>
+      <template #expanded="{ row }">
+        <UContainer>
+          <div v-for="round in row.getValue('rounds')">
+            <div v-for="question in round.questions">
+              <p>{{ question.type }}</p>
+              <p>{{ question.content }}</p>
             </div>
-          </UContainer>
-        </template>
-    </Utable>
+          </div>
+        </UContainer>
+      </template>
+    </UTable>
   </div>
 </template>
