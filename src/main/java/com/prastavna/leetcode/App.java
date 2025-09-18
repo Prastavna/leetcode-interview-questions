@@ -1,6 +1,9 @@
 package com.prastavna.leetcode;
 
 import java.util.Optional;
+import java.util.List;
+import java.util.ArrayList;
+import java.time.LocalDate;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -25,41 +28,97 @@ public class App {
     ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
 
     try {
-      DiscussPostItems discussPostItems = leetcodeClient.fetchDiscussionPostItems();
+      LocalDate cutoff = LocalDate.now().minusDays(com.prastavna.leetcode.config.Leetcode.LAG_DAYS);
+      LocalDate start = LocalDate.parse(com.prastavna.leetcode.config.Leetcode.FETCH_START_DATE);
+      int skip = 0;
+      int first = com.prastavna.leetcode.config.Leetcode.PAGE_SIZE;
 
-      discussPostItems.ugcArticleDiscussionArticles.edges.forEach(edge -> {
-        try {
-          DiscussPostDetail discussPostDetail = leetcodeClient.fetchPostDetails(edge.node.topicId);
-
-          Optional<Interview> interviewOpt = openai.getJsonCompletion(
-              discussPostDetail.ugcArticleDiscussionArticle.content);
-
-          if (interviewOpt.isPresent()) {
-            try {
-              Interview itv = interviewOpt.get();
-              itv.enrichFromLeetcode(
-                String.valueOf(edge.node.topicId),
-                discussPostDetail.ugcArticleDiscussionArticle.createdAt
-              );
-              String json = mapper.writeValueAsString(itv);
-              System.out.println("Parsed interview JSON for topicId=" + edge.node.topicId + ":\n" + json);
-              storage.append(itv);
-              System.out.println("Saved to " + storage.getPath().toString());
-            } catch (JsonProcessingException e) {
-              System.err.println("Failed to serialize interview for topicId=" + edge.node.topicId + ": " + e.getMessage());
-            } catch (Exception e) {
-              System.err.println("Failed to persist interview for topicId=" + edge.node.topicId + ": " + e.getMessage());
+      // Determine the latest stored interview date (if any)
+      LocalDate latestStored = null;
+      try {
+        List<Interview> existing = storage.readAll();
+        for (Interview it : existing) {
+          if (it == null || it.getDate() == null || it.getDate().isBlank()) continue;
+          try {
+            LocalDate d = LocalDate.parse(it.getDate());
+            if (latestStored == null || d.isAfter(latestStored)) {
+              latestStored = d;
             }
-          } else {
-            System.out.println("No interview extracted for topicId=" + edge.node.topicId);
-          }
-        } catch (Exception e) {
-          System.err.println("Error processing topicId=" + edge.node.topicId + ": " + e.getMessage());
+          } catch (Exception ignore) {}
         }
-      });
+      } catch (Exception ignore) {}
+
+      List<DiscussPostItems.Node> toProcess = new ArrayList<>();
+      boolean stop = false;
+
+      while (true) {
+        DiscussPostItems page = leetcodeClient.fetchDiscussionPostItems(skip, first);
+        if (page == null || page.ugcArticleDiscussionArticles == null || page.ugcArticleDiscussionArticles.edges == null || page.ugcArticleDiscussionArticles.edges.isEmpty()) {
+          break;
+        }
+
+        boolean anyAdded = false;
+        for (DiscussPostItems.Edge edge : page.ugcArticleDiscussionArticles.edges) {
+          String createdStr = com.prastavna.leetcode.utils.Date.toDate(edge.node.createdAt);
+          LocalDate created;
+          try { created = LocalDate.parse(createdStr); } catch (Exception ex) { continue; }
+
+          // Stop if we've gone beyond our persistence frontier
+          if (latestStored != null && (created.isBefore(latestStored) || created.isEqual(latestStored))) {
+            stop = true;
+            break;
+          }
+
+          // Stop if we've reached configured start date boundary
+          if (created.isBefore(start)) {
+            stop = true;
+            break;
+          }
+
+          // Skip records within lag days (too recent)
+          if (created.isAfter(cutoff)) {
+            continue;
+          }
+
+          toProcess.add(edge.node);
+          anyAdded = true;
+        }
+
+        if (stop) break;
+        if (!anyAdded) {
+          // No eligible records in this page; advance
+          skip += first;
+          continue;
+        }
+
+        // Continue paging to gather more until stop condition
+        boolean hasNext = page.ugcArticleDiscussionArticles.pageInfo != null && page.ugcArticleDiscussionArticles.pageInfo.hasNextPage;
+        if (!hasNext) break;
+        skip += first;
+      }
+
+      // Process collected posts one-by-one via OpenAI and persist
+      for (DiscussPostItems.Node node : toProcess) {
+        try {
+          DiscussPostDetail detail = leetcodeClient.fetchPostDetails(node.topicId);
+          Optional<Interview> interviewOpt = openai.getJsonCompletion( detail.ugcArticleDiscussionArticle.title+ " -- "+ detail.ugcArticleDiscussionArticle.content);
+          if (interviewOpt.isPresent()) {
+            Interview itv = interviewOpt.get();
+            itv.enrichFromLeetcode(String.valueOf(node.topicId), detail.ugcArticleDiscussionArticle.createdAt);
+            String json = mapper.writeValueAsString(itv);
+            System.out.println("Parsed interview JSON for topicId=" + node.topicId + ":\n" + json);
+            storage.append(itv);
+            System.out.println("Saved to " + storage.getPath());
+          } else {
+            System.out.println("No interview extracted for topicId=" + node.topicId);
+          }
+        } catch (Exception ex) {
+          System.err.println("Error processing topicId=" + node.topicId + ": " + ex.getMessage());
+        }
+      }
 
     } catch (Exception e) {
-      System.err.println("Error fetching discussion posts: " + e.getMessage());
+      System.err.println("Error during fetch loop: " + e.getMessage());
     }
   }
 }

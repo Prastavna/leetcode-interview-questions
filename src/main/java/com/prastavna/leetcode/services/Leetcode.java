@@ -56,14 +56,18 @@ public class Leetcode {
   }
 
   public DiscussPostItems fetchDiscussionPostItems() throws IOException, InterruptedException {
+    return fetchDiscussionPostItems(0, com.prastavna.leetcode.config.Leetcode.PAGE_SIZE);
+  }
+
+  public DiscussPostItems fetchDiscussionPostItems(int skip, int first) throws IOException, InterruptedException {
     String query = Graphql.getQuery("src/main/java/com/prastavna/leetcode/queries/discussion_post_items.gql");
     Map<String, Object> variables = new HashMap<>();
 
     variables.put("orderBy", "MOST_RECENT");
     variables.put("keywords", new String[] {});
     variables.put("tagSlugs", new String[] {"interview"});
-    variables.put("skip", 0);
-    variables.put("first", com.prastavna.leetcode.config.Leetcode.PAGE_SIZE);
+    variables.put("skip", skip);
+    variables.put("first", first);
 
     DiscussPostItems discussPostItems = new DiscussPostItems();
 
