@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
 import { computed, defineProps, h, ref, resolveComponent, watch, withDefaults } from "vue";
-import { getPaginationRowModel } from "@tanstack/vue-table";
+import { getPaginationRowModel, type HeaderContext } from "@tanstack/vue-table";
 import type { Interview, Round } from "../types/Interview";
 import Rounds from "./Rounds.vue";
 import RoundChip from "./RoundChip.vue";
@@ -20,6 +20,26 @@ const props = withDefaults(
 );
 
 const UButton = resolveComponent("UButton");
+
+const SORT_ICON_CLASS = "text-[0.65rem] font-medium text-gray-400";
+
+const createSortableHeader = (label: string) => ({ column }: HeaderContext<Interview, unknown>) => {
+	if (!column.getCanSort()) return label;
+	const direction = column.getIsSorted();
+	const symbol = direction === "asc" ? "↑" : direction === "desc" ? "↓" : "↕";
+	return h(
+		"button",
+		{
+			type: "button",
+			class: "flex items-center gap-1 uppercase tracking-wide text-xs font-semibold text-gray-600",
+			onClick: (event: MouseEvent) => {
+				event.preventDefault();
+				column.toggleSorting(undefined, event.shiftKey);
+			},
+		},
+		[h("span", null, label), h("span", { class: SORT_ICON_CLASS }, symbol)],
+	);
+};
 
 const pagination = ref({
 	pageIndex: 0,
@@ -131,48 +151,66 @@ const columns: TableColumn<Interview>[] = [
 	},
 	{
 		accessorKey: "company",
-		header: "Company",
+		header: createSortableHeader("Company"),
+		enableSorting: true,
 	},
 	{
 		accessorKey: "role",
-		header: "Role",
+		header: createSortableHeader("Role"),
+		enableSorting: true,
 	},
 	{
 		accessorKey: "yoe",
-		header: "YoE",
+		header: createSortableHeader("YoE"),
+		enableSorting: true,
+		sortingFn: "basic",
 	},
 	{
-		accessorKey: "rounds",
-		header: "# of Rounds",
-    cell: ({ row }) => `${(row.getValue("rounds") as Round[]).length}`
+		id: "roundCount",
+		accessorFn: (row) => (Array.isArray(row.rounds) ? row.rounds.length : 0),
+		header: createSortableHeader("# of Rounds"),
+		enableSorting: true,
+		sortingFn: "basic",
+		cell: ({ row }) => {
+			const count = Number(row.getValue("roundCount")) || 0;
+			return h("span", { class: "text-sm font-semibold text-gray-900" }, count.toString());
+		},
 	},
-  {
-		accessorKey: "rounds",
+	{
+		id: "roundDetails",
 		header: "Round Types",
 		cell: ({ row }) => {
-			const rounds = (row.getValue("rounds") as Round[]) ?? [];
+			const rounds = (row.original.rounds ?? []) as Round[];
 			const chipNodes = (Array.isArray(rounds) ? rounds : []).map((round, index) =>
 				h(RoundChip, {
 					key: round?.id ?? index,
 					round,
 				}),
 			);
-			return h("div", { class: "flex flex-col gap-2" }, [
+			return h("div", { class: "flex flex-wrap gap-2" },
 				chipNodes.length
-					? h("div", { class: "flex flex-wrap gap-2" }, chipNodes)
-					: h("span", { class: "text-xs text-gray-500" }, "No question details"),
-			]);
+					? chipNodes
+					: [h("span", { class: "text-xs text-gray-500" }, "No question details")],
+			);
 		},
-  },
+	},
 	{
-		accessorKey: "date",
-		header: "Date",
+		id: "date",
+		accessorFn: (row) => {
+			const timestamp = Date.parse(String(row.date));
+			return Number.isNaN(timestamp) ? 0 : timestamp;
+		},
+		header: createSortableHeader("Date"),
+		enableSorting: true,
+		sortingFn: "datetime",
 		cell: ({ row }) => {
-			return new Date(row.getValue("date")).toLocaleString("en-US", {
+			const rawDate = row.original.date;
+			if (!rawDate) return "—";
+			return new Date(rawDate).toLocaleString("en-US", {
 				day: "numeric",
 				month: "short",
 				year: "numeric",
-      });
+			});
 		},
 	},
 ];
@@ -192,10 +230,9 @@ const expanded = ref<Record<string, boolean>>({});
       :data="props.data"
       :columns="columns"
       :pagination-options="paginationOptions"
-      class="[&_td]:!py-1"
     >
       <template #expanded="{ row }">
-        <Rounds :rounds="row.getValue('rounds') as Round[]" />
+        <Rounds :rounds="(row.original?.rounds ?? []) as Round[]" />
       </template>
     </UTable>
 

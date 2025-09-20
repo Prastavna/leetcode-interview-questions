@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+[data-reka-popper-content-wrapper] {
+	z-index: 5 !important;
+}
