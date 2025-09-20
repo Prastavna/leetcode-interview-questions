@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
-import { h, ref, resolveComponent } from "vue";
+import { h, ref, resolveComponent, withDefaults, defineProps } from "vue";
 import type { Interview, Round } from "../types/Interview";
+import Rounds from "./Rounds.vue";
 
 const props = withDefaults(
   defineProps<{
@@ -112,14 +113,7 @@ const expanded = ref<Record<string, boolean>>({});
       :columns="columns"
     >
       <template #expanded="{ row }">
-        <UContainer>
-          <div v-for="round in row.getValue('rounds')">
-            <div v-for="question in round.questions">
-              <p>{{ question.type }}</p>
-              <p>{{ question.content }}</p>
-            </div>
-          </div>
-        </UContainer>
+        <Rounds :rounds="row.getValue('rounds') as Round[]" />
       </template>
     </UTable>
   </div>
