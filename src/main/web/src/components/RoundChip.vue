@@ -54,7 +54,7 @@ const badgeStyle = computed(() => {
 <template>
   <UBadge
     variant="solid"
-    size="xs"
+    size="sm"
     :style="badgeStyle"
     class="uppercase tracking-wide border border-transparent"
   >

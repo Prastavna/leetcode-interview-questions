@@ -121,7 +121,7 @@ watch(
 </script>
 
 <template>
-  <div class="flex w-full flex-col justify-center gap-4 px-4 md:flex-row md:flex-wrap md:items-end md:gap-6 lg:flex-nowrap">
+  <div class="flex pt-6 w-full flex-col justify-center gap-4 px-4 md:flex-row md:flex-wrap md:items-end md:gap-6 lg:flex-nowrap">
     <UInput
       v-model="search"
       placeholder="Search company or role"

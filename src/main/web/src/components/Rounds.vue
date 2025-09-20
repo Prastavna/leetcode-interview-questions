@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, withDefaults, defineProps } from "vue";
 import type { Round } from "../types/Interview";
-import { QuestionType } from "../types/Interview";
+import { QuestionType, QuestionTypeColors } from "../types/Interview";
 
 const props = withDefaults(
   defineProps<{
@@ -21,7 +21,7 @@ const getQuestionLabel = (type: Round["questions"][number]["type"] | undefined) 
 </script>
 
 <template>
-  <div class="space-y-4">
+  <div class="space-y-4 px-8 py-2">
     <p v-if="!normalizedRounds.length" class="text-sm text-gray-500">No rounds provided.</p>
     <div v-else class="grid gap-4 md:grid-cols-2">
       <div
@@ -29,7 +29,7 @@ const getQuestionLabel = (type: Round["questions"][number]["type"] | undefined) 
         :key="round?.id ?? index"
         class="rounded-lg border border-accented bg-white/5 p-4 shadow-sm max-h-60 overflow-auto"
       >
-        <header class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
+        <header class="mb-3 font-semibold uppercase tracking-wide text-primary text-center">
           Round {{ index + 1 }}
         </header>
         <ul class="space-y-3">
@@ -38,7 +38,10 @@ const getQuestionLabel = (type: Round["questions"][number]["type"] | undefined) 
             :key="question?.id ?? qIndex"
             class="space-y-1"
           >
-            <p class="text-sm font-medium text-primary">
+            <p
+              class="text-sm font-bold uppercase"
+              :style="{color:QuestionTypeColors[question?.type]}"
+            >
               {{ getQuestionLabel(question?.type) }}
             </p>
             <p class="text-sm leading-relaxed text-gray-600 whitespace-pre-line">

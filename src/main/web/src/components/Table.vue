@@ -144,9 +144,13 @@ const columns: TableColumn<Interview>[] = [
 	{
 		accessorKey: "rounds",
 		header: "# of Rounds",
+    cell: ({ row }) => `${(row.getValue("rounds") as Round[]).length}`
+	},
+  {
+		accessorKey: "rounds",
+		header: "Round Types",
 		cell: ({ row }) => {
 			const rounds = (row.getValue("rounds") as Round[]) ?? [];
-			const count = Array.isArray(rounds) ? rounds.length : 0;
 			const chipNodes = (Array.isArray(rounds) ? rounds : []).map((round, index) =>
 				h(RoundChip, {
 					key: round?.id ?? index,
@@ -154,13 +158,12 @@ const columns: TableColumn<Interview>[] = [
 				}),
 			);
 			return h("div", { class: "flex flex-col gap-2" }, [
-				h("span", { class: "text-sm font-semibold text-gray-900" }, count.toString()),
 				chipNodes.length
 					? h("div", { class: "flex flex-wrap gap-2" }, chipNodes)
 					: h("span", { class: "text-xs text-gray-500" }, "No question details"),
 			]);
 		},
-	},
+  },
 	{
 		accessorKey: "date",
 		header: "Date",
@@ -189,6 +192,7 @@ const expanded = ref<Record<string, boolean>>({});
       :data="props.data"
       :columns="columns"
       :pagination-options="paginationOptions"
+      class="[&_td]:!py-1"
     >
       <template #expanded="{ row }">
         <Rounds :rounds="row.getValue('rounds') as Round[]" />
