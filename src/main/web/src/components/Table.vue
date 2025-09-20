@@ -185,7 +185,7 @@ const columns: TableColumn<Interview>[] = [
 		sortingFn: "basic",
 		cell: ({ row }) => {
 			const count = Number(row.getValue("roundCount")) || 0;
-			return h("span", { class: "text-sm font-semibold text-gray-900" }, count.toString());
+			return h("span", { class: "text-sm font-semibold" }, count.toString());
 		},
 		meta: withColumnWidth("10%"),
 	},
