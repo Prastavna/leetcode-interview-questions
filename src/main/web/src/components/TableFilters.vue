@@ -55,7 +55,10 @@ const questionTypes = computed({
   get: () => filters.value.questionTypes,
   set: (value: string[] | string) => {
     const arrayValue = Array.isArray(value) ? value : value ? [value] : [];
-    filters.value = { ...filters.value, questionTypes: arrayValue };
+    const normalized = arrayValue
+      .map((item) => (typeof item === "string" ? item : (item as any)?.value))
+      .filter((item): item is string => typeof item === "string" && item.length > 0);
+    filters.value = { ...filters.value, questionTypes: normalized };
   },
 });
 
@@ -129,6 +132,7 @@ watch(
     <USelectMenu
       v-model="questionTypes"
       multiple
+      value-key="value"
       :items="props.questionTypeOptions"
       placeholder="Question types"
       class="w-full md:w-64 lg:w-72"
