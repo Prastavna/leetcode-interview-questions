@@ -176,16 +176,11 @@ const columns: TableColumn<Interview>[] = [
 	},
 ];
 
-const globalFilter = ref("");
 const expanded = ref<Record<string, boolean>>({});
 </script>
 
 <template>
   <div class="flex flex-col flex-1 w-full">
-    <div class="flex px-4 py-3.5 border-b border-accented">
-      <UInput v-model="globalFilter" class="max-w-sm" placeholder="Filter..." />
-    </div>
-
     <div class="p-4" v-if="props.isLoading">Loading interviews…</div>
     <div class="p-4 text-red-600" v-else-if="props.error">{{ props.error }}</div>
     <UTable
@@ -193,7 +188,6 @@ const expanded = ref<Record<string, boolean>>({});
       v-model:expanded="expanded"
       v-model:pagination="pagination"
       ref="table"
-      v-model:global-filter="globalFilter"
       :data="props.data"
       :columns="columns"
       :pagination-options="paginationOptions"
