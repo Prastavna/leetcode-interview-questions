@@ -1,5 +1,5 @@
 import { use } from "echarts/core";
-import { CanvasRenderer } from "echarts/renderers";
+import { SVGRenderer } from "echarts/renderers";
 import { BarChart, PieChart } from "echarts/charts";
 import {
   DatasetComponent,
@@ -10,7 +10,7 @@ import {
 } from "echarts/components";
 
 use([
-  CanvasRenderer,
+  SVGRenderer,
   PieChart,
   BarChart,
   LegendComponent,

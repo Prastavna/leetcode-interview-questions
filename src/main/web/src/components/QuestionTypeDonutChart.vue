@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full flex-col gap-4 rounded-lg bg-white p-4">
+  <div class="flex h-full flex-col gap-4 rounded-lg p-4">
     <header class="flex items-start justify-between gap-2">
       <div>
         <h2 class="text-lg font-semibold">Most Asked Question Types</h2>
@@ -69,6 +69,7 @@ const chartData = computed<ChartDatum[]>(() => {
 const hasData = computed(() => chartData.value.length > 0);
 
 const chartOptions = computed(() => ({
+  renderer: 'svg',
   tooltip: {
     trigger: "item",
     formatter: ({ name, value, percent }: any) =>
@@ -85,14 +86,17 @@ const chartOptions = computed(() => ({
       type: "pie",
       radius: ["45%", "70%"],
       center: ["40%", "50%"],
-      avoidLabelOverlap: false,
+      avoidLabelOverlap: true,
       itemStyle: {
         borderRadius: 8,
         borderColor: "#fff",
-        borderWidth: 2,
+        borderWidth: 0,
       },
       label: {
         show: true,
+        textStyle: {
+          textBorderColor : 'transparent'
+        },
         formatter: "{b}: {c} ({d}%)",
       },
       emphasis: {
