@@ -25,9 +25,13 @@ import { computed } from "vue";
 import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
-import { QuestionType } from "../types/Interview";
+import { QuestionType, QuestionTypeColors } from "../types/Interview";
 
-type ChartDatum = { name: string; value: number };
+type ChartDatum = {
+  name: string;
+  value: number;
+  itemStyle: { color: string };
+};
 
 const props = defineProps<{
   interviews: Interview[];
@@ -56,6 +60,7 @@ const chartData = computed<ChartDatum[]>(() => {
     .map(([key, label]) => ({
       name: label,
       value: counts.get(key) ?? 0,
+      itemStyle: { color: QuestionTypeColors[key] ?? "#cccccc" },
     }))
     .filter((item) => item.value > 0)
     .sort((a, b) => b.value - a.value);

@@ -18,6 +18,26 @@ export const QuestionType = {
 	SYSTEM_DESIGN: "System Design",
 } as const;
 
+export const QuestionTypeColors: Record<keyof typeof QuestionType, string> = {
+	TECHNICAL: "#00c16a",
+	DSA: "#5ec985",
+	SYSTEM_DESIGN: "#8bcfa0",
+	MACHINE_CODING: "#b1d5bb",
+	LLD: "#87baab",
+	HLD: "#8ccbba",
+	PROJECT_DISCUSSION: "#91dcc9",
+	APTITUDE: "#fc7a57",
+	DEBUGGING: "#ff9b7e",
+	CULTURE_FIT: "#ffbba6",
+	GD: "#ffdacf",
+	HM: "#95edd9",
+	HR: "#98ffea",
+	LANGUAGE_SPECIFIC: "#a491d3",
+	OTHER: "#d0bdea",
+	TAKE_HOME_ASSIGNMENT: "#c2addf",
+	SCREENING: "#b49dd4",
+};
+
 export type Question = {
 	id: string;
 	type: keyof typeof QuestionType;

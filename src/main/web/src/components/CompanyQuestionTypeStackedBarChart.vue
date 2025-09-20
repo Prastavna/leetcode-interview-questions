@@ -25,7 +25,7 @@ import { computed } from "vue";
 import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
-import { QuestionType } from "../types/Interview";
+import { QuestionType, QuestionTypeColors } from "../types/Interview";
 
 type QuestionTypeKey = keyof typeof QuestionType;
 
@@ -74,13 +74,17 @@ const aggregated = computed(() => {
     companiesWithTotals.some(({ counts }) => (counts.get(key) ?? 0) > 0),
   );
 
-  const series = activeTypeEntries.map(([key, label]) => ({
-    name: label,
-    type: "bar" as const,
-    stack: "total",
-    emphasis: { focus: "series" as const },
-    data: companyNames.map((_, index) => companiesWithTotals[index]?.counts.get(key) ?? 0),
-  }));
+  const series = activeTypeEntries.map(([key, label]) => {
+    const color = QuestionTypeColors[key] ?? "#cccccc";
+    return {
+      name: label,
+      type: "bar" as const,
+      stack: "total",
+      emphasis: { focus: "series" as const },
+      itemStyle: { color },
+      data: companyNames.map((_, index) => companiesWithTotals[index]?.counts.get(key) ?? 0),
+    };
+  });
 
   return { companyNames, series };
 });
