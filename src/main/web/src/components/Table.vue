@@ -23,6 +23,13 @@ const UButton = resolveComponent("UButton");
 
 const SORT_ICON_CLASS = "text-[0.65rem] font-medium text-gray-400";
 
+const withColumnWidth = (width: string) => ({
+	style: {
+		th: { width },
+		td: { width },
+	},
+});
+
 const createSortableHeader = (label: string) => ({ column }: HeaderContext<Interview, unknown>) => {
 	if (!column.getCanSort()) return label;
 	const direction = column.getIsSorted();
@@ -128,6 +135,7 @@ const columns: TableColumn<Interview>[] = [
 				},
 				onClick: () => row.toggleExpanded(),
 			}),
+		meta: withColumnWidth("4%"),
 	},
 	{
 		accessorKey: "leetcodeId",
@@ -148,22 +156,26 @@ const columns: TableColumn<Interview>[] = [
 				leetcodeId,
 			);
 		},
+		meta: withColumnWidth("6%"),
 	},
 	{
 		accessorKey: "company",
 		header: createSortableHeader("Company"),
 		enableSorting: true,
+		meta: withColumnWidth("14%"),
 	},
 	{
 		accessorKey: "role",
 		header: createSortableHeader("Role"),
 		enableSorting: true,
+		meta: withColumnWidth("14%"),
 	},
 	{
 		accessorKey: "yoe",
 		header: createSortableHeader("YoE"),
 		enableSorting: true,
 		sortingFn: "basic",
+		meta: withColumnWidth("6%"),
 	},
 	{
 		id: "roundCount",
@@ -175,6 +187,7 @@ const columns: TableColumn<Interview>[] = [
 			const count = Number(row.getValue("roundCount")) || 0;
 			return h("span", { class: "text-sm font-semibold text-gray-900" }, count.toString());
 		},
+		meta: withColumnWidth("10%"),
 	},
 	{
 		id: "roundDetails",
@@ -193,6 +206,7 @@ const columns: TableColumn<Interview>[] = [
 					: [h("span", { class: "text-xs text-gray-500" }, "No question details")],
 			);
 		},
+		meta: withColumnWidth("40%"),
 	},
 	{
 		id: "date",
@@ -212,6 +226,7 @@ const columns: TableColumn<Interview>[] = [
 				year: "numeric",
 			});
 		},
+		meta: withColumnWidth("6%"),
 	},
 ];
 
