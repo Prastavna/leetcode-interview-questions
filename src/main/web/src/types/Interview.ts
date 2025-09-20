@@ -14,6 +14,7 @@ export const QuestionType = {
 	PROJECT_DISCUSSION: "Project Discussion",
 	TAKE_HOME_ASSIGNMENT: "Take Home Assignment",
 	TECHNICAL: "Technical",
+  SCREENING: "Screening",
 	SYSTEM_DESIGN: "System Design",
 } as const;
 
