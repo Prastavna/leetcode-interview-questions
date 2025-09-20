@@ -1,12 +1,17 @@
 <template>
-  <div class="flex flex-col gap-6">
+  <div class="flex flex-col gap-6 w-5/6 mx-auto">
+    <div v-if="!isLoading" class="grid gap-6 lg:grid-cols-2">
+      <QuestionTypeDonutChart :interviews="filteredInterviews" />
+      <CompanyQuestionTypeStackedBarChart :interviews="filteredInterviews" />
+    </div>
+
     <TableFilters
       v-model="filters"
       :question-type-options="questionTypeItems"
       :min-yoe="YOE_MIN"
       :max-yoe="YOE_MAX"
-      :min-date="dateBounds.min"
-      :max-date="dateBounds.max"
+      :min-date="MIN_DATE"
+      :max-date="MAX_DATE"
     />
 
     <Table :data="filteredInterviews" :is-loading="isLoading" :error="error" />
@@ -14,9 +19,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from "vue";
+import { computed, onMounted, ref } from "vue";
 import Table from "../components/Table.vue";
 import TableFilters, { type TableFiltersState } from "../components/TableFilters.vue";
+import QuestionTypeDonutChart from "../components/QuestionTypeDonutChart.vue";
+import CompanyQuestionTypeStackedBarChart from "../components/CompanyQuestionTypeStackedBarChart.vue";
 import type { Interview } from "../types/Interview";
 import { QuestionType } from "../types/Interview";
 
@@ -27,20 +34,6 @@ const error = ref<string | null>(null);
 const YOE_MIN = 0;
 const YOE_MAX = 35;
 
-const filters = ref<TableFiltersState>({
-	search: "",
-	questionTypes: [],
-	yoeRange: [YOE_MIN, YOE_MAX],
-	dateRange: { from: null, to: null },
-});
-
-const questionTypeItems = computed(() =>
-	Object.entries(QuestionType).map(([value, label]) => ({
-		value,
-		label,
-	}))
-);
-
 const toDateInputString = (value: Date | string | null | undefined) => {
 	if (!value) return null;
 	const date = value instanceof Date ? value : new Date(value);
@@ -50,45 +43,21 @@ const toDateInputString = (value: Date | string | null | undefined) => {
 	return local.toISOString().slice(0, 10);
 };
 
-const dateBounds = computed(() => {
-	if (!interviews.value.length) {
-		return { min: null as string | null, max: null as string | null };
-	}
-	let minDate: Date | null = null;
-	let maxDate: Date | null = null;
-	for (const interview of interviews.value) {
-		if (!interview.date) continue;
-		const current = new Date(interview.date);
-		if (Number.isNaN(current.getTime())) continue;
-		if (!minDate || current < minDate) {
-			minDate = current;
-		}
-		if (!maxDate || current > maxDate) {
-			maxDate = current;
-		}
-	}
-	return {
-		min: minDate ? toDateInputString(minDate) : null,
-		max: maxDate ? toDateInputString(maxDate) : null,
-	};
+const MIN_DATE = "2024-01-01";
+const MAX_DATE = toDateInputString(new Date()) ?? MIN_DATE;
+
+const filters = ref<TableFiltersState>({
+	search: "",
+	questionTypes: [],
+	yoeRange: [YOE_MIN, YOE_MAX],
+	dateRange: { from: MIN_DATE, to: MAX_DATE },
 });
 
-watch(
-	dateBounds,
-	(bounds) => {
-		const nextFrom = filters.value.dateRange.from ?? bounds.min;
-		const nextTo = filters.value.dateRange.to ?? bounds.max;
-		if (filters.value.dateRange.from !== nextFrom || filters.value.dateRange.to !== nextTo) {
-			filters.value = {
-				...filters.value,
-				dateRange: {
-					from: nextFrom,
-					to: nextTo,
-				},
-			};
-		}
-	},
-	{ immediate: true },
+const questionTypeItems = computed(() =>
+	Object.entries(QuestionType).map(([value, label]) => ({
+		value: value as string,
+		label: String(label),
+	})) as { value: string; label: string }[]
 );
 
 const filteredInterviews = computed(() => {

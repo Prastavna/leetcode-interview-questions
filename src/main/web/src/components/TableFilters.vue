@@ -118,12 +118,12 @@ watch(
 </script>
 
 <template>
-  <div class="flex w-full flex-col gap-4 px-4 md:flex-row md:flex-wrap md:items-end md:gap-6">
+  <div class="flex w-full flex-col justify-center gap-4 px-4 md:flex-row md:flex-wrap md:items-end md:gap-6 lg:flex-nowrap">
     <UInput
       v-model="search"
       placeholder="Search company or role"
       icon="i-lucide-search"
-      class="w-full md:w-64"
+      class="w-full md:w-64 lg:w-72"
     />
 
     <USelectMenu
@@ -131,11 +131,10 @@ watch(
       multiple
       :items="props.questionTypeOptions"
       placeholder="Question types"
-      class="w-full md:w-64"
+      class="w-full md:w-64 lg:w-72"
     />
 
-    <div class="flex flex-col gap-2 w-full md:w-64">
-      <label class="text-xs font-semibold uppercase tracking-wide text-gray-500">Years of Experience</label>
+    <div class="flex flex-col gap-2 w-full relative -mb-2 md:w-64 lg:w-72">
       <USlider
         v-model="yoeRange"
         :min="props.minYoe"
@@ -150,7 +149,6 @@ watch(
     </div>
 
     <div class="flex flex-col gap-2 w-full md:max-w-[320px]">
-      <label class="text-xs font-semibold uppercase tracking-wide text-gray-500">Date Range</label>
       <div class="grid grid-cols-2 gap-3">
         <UInput
           v-model="dateFrom"

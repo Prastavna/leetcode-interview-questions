@@ -168,10 +168,8 @@ const columns: TableColumn<Interview>[] = [
 			return new Date(row.getValue("date")).toLocaleString("en-US", {
 				day: "numeric",
 				month: "short",
-				hour: "2-digit",
-				minute: "2-digit",
-				hour12: false,
-			});
+				year: "numeric",
+      });
 		},
 	},
 ];
