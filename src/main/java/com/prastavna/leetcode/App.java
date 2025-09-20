@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.prastavna.leetcode.models.DiscussPostDetail;
 import com.prastavna.leetcode.models.DiscussPostItems;
 import com.prastavna.leetcode.models.Interview;
+import com.prastavna.leetcode.models.InterviewValidator;
 import com.prastavna.leetcode.config.Storage;
 import com.prastavna.leetcode.repositories.JsonStorage;
 import com.prastavna.leetcode.services.Leetcode;
@@ -104,6 +105,11 @@ public class App {
           Optional<Interview> interviewOpt = openai.getJsonCompletion( detail.ugcArticleDiscussionArticle.title+ " -- "+ detail.ugcArticleDiscussionArticle.content);
           if (interviewOpt.isPresent()) {
             Interview itv = interviewOpt.get();
+            List<String> validationErrors = InterviewValidator.validate(itv);
+            if (!validationErrors.isEmpty()) {
+              System.out.println("Skipping topicId=" + node.topicId + " due to validation errors: " + String.join("; ", validationErrors));
+              continue;
+            }
             itv.enrichFromLeetcode(String.valueOf(node.topicId), detail.ugcArticleDiscussionArticle.createdAt);
             String json = mapper.writeValueAsString(itv);
             System.out.println("Parsed interview JSON for topicId=" + node.topicId + ":\n" + json);

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
 import { h, onMounted, ref, resolveComponent } from "vue";
-import type { Interview } from "../types/Interview";
+import type { Interview, Round } from "../types/Interview";
 
 const UButton = resolveComponent("UButton");
 
@@ -45,7 +45,7 @@ const columns: TableColumn<Interview>[] = [
 	{
 		accessorKey: "id",
 		header: "#",
-		cell: ({ row }) => `${row.getValue("id")}`,
+		cell: ({ row }) => `${row.getValue("leetcodeId")}`,
 	},
 	{
 		accessorKey: "company",
@@ -63,7 +63,7 @@ const columns: TableColumn<Interview>[] = [
 		accessorKey: "rounds",
 		header: "# of Rounds",
 		cell: ({ row }) => {
-			return row.getValue("rounds").length;
+			return row.getValue<Round[]>("rounds").length;
 		},
 	},
 	{

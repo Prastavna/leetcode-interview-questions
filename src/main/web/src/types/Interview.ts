@@ -9,6 +9,7 @@ export const QuestionType = {
 	LANGUAGE_SPECIFIC: "Language Specific",
 	LLD: "Low Level Design",
 	MACHINE_CODING: "Machine Coding",
+  OTHER: "Other",
 	PROJECT_DISCUSSION: "Project Discussion",
 	TAKE_HOME_ASSIGNMENT: "Take Home Assignment",
 	TECHNICAL: "Technical",
