@@ -3,7 +3,6 @@
     <header class="flex items-start justify-between gap-2">
       <div>
         <h2 class="text-lg font-semibold">Question Type Breakdown by Company</h2>
-        <p class="text-sm text-gray-500">Top 10 companies with the most question data</p>
       </div>
     </header>
 

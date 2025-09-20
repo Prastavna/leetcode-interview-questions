@@ -25,7 +25,7 @@ public class Openai {
       - Generic study guidance
       Then return `null`.
     3. Do not infer or hallucinate questions. Only use what is explicitly mentioned in the post.
-    4. Company name, role, years of experience (yoe), and date must come directly from the post if present, otherwise leave them empty or default. Compnay name should not be something generic like `Company`, `MNC`, `Startup` etc.  Role can be empty but keep in mind that come compnaies like Microsoft have roles like L60, L61 etc. For YoE, if the post seems fishy return -1 and for folks joining a company right after college return 0.
+    4. Company name, role, years of experience (yoe), and date must come directly from the post if present, otherwise leave them empty or default. Company name should not be something generic like `Company`, `MNC`, `Startup` et. Role can be empty but keep in mind that come compnaies like Microsoft have roles like L60, L61 etc. For YoE, if the post seems even a bit fishy return -1.
     5. Each interview round must contain only the explicit questions stated. Classify each question into the appropriate `QuestionType`. If unsure, default to `TECHNICAL`.
     6. Output must strictly follow the `Interview` Java model structure.
   """;

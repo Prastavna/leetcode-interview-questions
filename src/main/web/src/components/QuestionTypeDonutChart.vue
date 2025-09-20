@@ -3,7 +3,6 @@
     <header class="flex items-start justify-between gap-2">
       <div>
         <h2 class="text-lg font-semibold">Most Asked Question Types</h2>
-        <p class="text-sm text-gray-500">Based on the current table filters</p>
       </div>
     </header>
 

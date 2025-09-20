@@ -27,7 +27,7 @@ const getQuestionLabel = (type: Round["questions"][number]["type"] | undefined) 
       <div
         v-for="(round, index) in normalizedRounds"
         :key="round?.id ?? index"
-        class="rounded-lg border border-accented bg-white/5 p-4 shadow-sm"
+        class="rounded-lg border border-accented bg-white/5 p-4 shadow-sm max-h-60 overflow-auto"
       >
         <header class="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
           Round {{ index + 1 }}
@@ -38,7 +38,7 @@ const getQuestionLabel = (type: Round["questions"][number]["type"] | undefined) 
             :key="question?.id ?? qIndex"
             class="space-y-1"
           >
-            <p class="text-sm font-medium text-gray-700">
+            <p class="text-sm font-medium text-primary">
               {{ getQuestionLabel(question?.type) }}
             </p>
             <p class="text-sm leading-relaxed text-gray-600 whitespace-pre-line">
