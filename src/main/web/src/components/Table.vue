@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
-import { h, ref, resolveComponent, withDefaults, defineProps } from "vue";
+import { defineProps, h, ref, resolveComponent, withDefaults } from "vue";
 import type { Interview, Round } from "../types/Interview";
+import { QuestionType } from "../types/Interview";
+import Chip from "./Chip.vue";
 import Rounds from "./Rounds.vue";
 
 const props = withDefaults(
@@ -74,7 +76,29 @@ const columns: TableColumn<Interview>[] = [
 		accessorKey: "rounds",
 		header: "# of Rounds",
 		cell: ({ row }) => {
-			return (row.getValue("rounds") as Round[]).length;
+			const rounds = (row.getValue("rounds") as Round[]) ?? [];
+			const count = Array.isArray(rounds) ? rounds.length : 0;
+			const chipNodes = (Array.isArray(rounds) ? rounds : []).map((round, index) => {
+				const uniqueLabels = new Set<string>();
+				(round?.questions ?? []).forEach((question) => {
+					if (!question) return;
+					const typeKey = question.type as keyof typeof QuestionType | undefined;
+					const label = typeKey && QuestionType[typeKey] ? QuestionType[typeKey] : question.type;
+					if (label) uniqueLabels.add(label as string);
+				});
+				const segments = Array.from(uniqueLabels);
+				return h(Chip, {
+					key: round?.id ?? index,
+					segments,
+					text: segments.length ? undefined : "—",
+				});
+			});
+			return h("div", { class: "flex flex-col gap-2" }, [
+				h("span", { class: "text-sm font-semibold text-gray-900" }, count.toString()),
+				chipNodes.length
+					? h("div", { class: "flex flex-wrap gap-2" }, chipNodes)
+					: h("span", { class: "text-xs text-gray-500" }, "No question details"),
+			]);
 		},
 	},
 	{
@@ -84,9 +108,7 @@ const columns: TableColumn<Interview>[] = [
 			return new Date(row.getValue("date")).toLocaleString("en-US", {
 				day: "numeric",
 				month: "short",
-				hour: "2-digit",
-				minute: "2-digit",
-				hour12: false,
+        year: "numeric",
 			});
 		},
 	},
