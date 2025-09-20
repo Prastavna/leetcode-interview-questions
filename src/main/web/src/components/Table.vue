@@ -1,27 +1,22 @@
 <script setup lang="ts">
 import type { TableColumn } from "@nuxt/ui";
-import { h, onMounted, ref, resolveComponent } from "vue";
+import { h, ref, resolveComponent } from "vue";
 import type { Interview, Round } from "../types/Interview";
 
+const props = withDefaults(
+  defineProps<{
+    data?: Interview[];
+    isLoading?: boolean;
+    error?: string | null;
+  }>(),
+  {
+    data: () => [],
+    isLoading: false,
+    error: null,
+  },
+);
+
 const UButton = resolveComponent("UButton");
-
-// Table data state
-const data = ref<Interview[]>([]);
-const isLoading = ref(true);
-const error = ref<string | null>(null);
-
-onMounted(async () => {
-  try {
-    const res = await fetch("/interviews.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`Failed to load interviews.json (${res.status})`);
-    const json = await res.json();
-    data.value = Array.isArray(json) ? (json as Interview[]) : [];
-  } catch (e: any) {
-    error.value = e?.message ?? "Unknown error loading data";
-  } finally {
-    isLoading.value = false;
-  }
-});
 
 const columns: TableColumn<Interview>[] = [
 	{
@@ -43,9 +38,24 @@ const columns: TableColumn<Interview>[] = [
 			}),
 	},
 	{
-		accessorKey: "id",
+		accessorKey: "leetcodeId",
 		header: "#",
-		cell: ({ row }) => `${row.getValue("leetcodeId")}`,
+		cell: ({ row }) => {
+			const leetcodeId = row.getValue("leetcodeId") as string | undefined;
+			if (!leetcodeId) {
+				return "-";
+			}
+			return h(
+				"a",
+				{
+					href: `https://leetcode.com/discuss/post/${leetcodeId}/`,
+					target: "_blank",
+					rel: "noopener noreferrer",
+					class: "text-primary hover:underline",
+				},
+				leetcodeId,
+			);
+		},
 	},
 	{
 		accessorKey: "company",
@@ -63,7 +73,7 @@ const columns: TableColumn<Interview>[] = [
 		accessorKey: "rounds",
 		header: "# of Rounds",
 		cell: ({ row }) => {
-			return row.getValue<Round[]>("rounds").length;
+			return (row.getValue("rounds") as Round[]).length;
 		},
 	},
 	{
@@ -82,7 +92,7 @@ const columns: TableColumn<Interview>[] = [
 ];
 
 const globalFilter = ref("");
-const expanded = ref({ 1: true });
+const expanded = ref<Record<string, boolean>>({});
 </script>
 
 <template>
@@ -91,14 +101,14 @@ const expanded = ref({ 1: true });
       <UInput v-model="globalFilter" class="max-w-sm" placeholder="Filter..." />
     </div>
 
-    <div class="p-4" v-if="isLoading">Loading interviews…</div>
-    <div class="p-4 text-red-600" v-else-if="error">{{ error }}</div>
+    <div class="p-4" v-if="props.isLoading">Loading interviews…</div>
+    <div class="p-4 text-red-600" v-else-if="props.error">{{ props.error }}</div>
     <UTable
       v-else
       v-model:expanded="expanded"
       ref="table"
       v-model:global-filter="globalFilter"
-      :data="data"
+      :data="props.data"
       :columns="columns"
     >
       <template #expanded="{ row }">

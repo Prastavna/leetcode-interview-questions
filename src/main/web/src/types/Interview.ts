@@ -1,6 +1,7 @@
 export const QuestionType = {
 	APTITUDE: "Aptitude",
 	DEBUGGING: "Debugging",
+  CULTURE_FIT: "Culture Fit",
 	DSA: "DSA",
 	GD: "Group Discussion",
 	HLD: "High Level Design",
