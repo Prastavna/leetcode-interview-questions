@@ -43,7 +43,7 @@ const toDateInputString = (value: Date | string | null | undefined) => {
 	return local.toISOString().slice(0, 10);
 };
 
-const MIN_DATE = "2024-01-01";
+const MIN_DATE = "2025-01-01";
 const MAX_DATE = toDateInputString(new Date()) ?? MIN_DATE;
 
 const filters = ref<TableFiltersState>({
