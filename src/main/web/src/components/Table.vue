@@ -53,6 +53,13 @@ const pagination = ref({
 	pageSize: 25,
 });
 
+const sorting = ref([
+	{
+		id: "date",
+		desc: true,
+	},
+]);
+
 const paginationOptions = {
 	getPaginationRowModel: getPaginationRowModel(),
 };
@@ -241,6 +248,7 @@ const expanded = ref<Record<string, boolean>>({});
       v-else
       v-model:expanded="expanded"
       v-model:pagination="pagination"
+      v-model:sorting="sorting"
       ref="table"
       :data="props.data"
       :columns="columns"
