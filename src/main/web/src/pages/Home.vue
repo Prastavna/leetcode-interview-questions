@@ -98,9 +98,15 @@ const filteredInterviews = computed(() => {
 	});
 });
 
+
+const datasetUrl = (() => {
+	const base = import.meta.env.BASE_URL ?? "/";
+	return base.endsWith("/") ? `${base}interviews.json` : `${base}/interviews.json`;
+})();
+
 onMounted(async () => {
 	try {
-		const res = await fetch("/interviews.json", { cache: "no-store" });
+		const res = await fetch(datasetUrl, { cache: "no-store" });
 		if (!res.ok) throw new Error(`Failed to load interviews.json (${res.status})`);
 		const json = await res.json();
 		interviews.value = Array.isArray(json) ? (json as Interview[]) : [];
