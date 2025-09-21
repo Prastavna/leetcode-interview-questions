@@ -15,6 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.prastavna.leetcode.models.Interview;
+import com.prastavna.leetcode.utils.Json;
 
 public class JsonStorage {
   private final Path path;
@@ -91,7 +92,8 @@ public class JsonStorage {
       array.add(mapper.valueToTree(interview));
     }
 
-    Files.writeString(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(array));
+    ArrayNode sorted = Json.sortArray(array, "date", false);
+    Files.writeString(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(sorted));
   }
 
   public synchronized List<Interview> readAll() throws IOException {
