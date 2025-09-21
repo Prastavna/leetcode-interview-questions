@@ -14,7 +14,7 @@ public class Openai {
   private final String prompt = """
     IMPORTANT: DO NOT GENERATE ANYTHING THAT's NOT IN THE POST
     -----------------------------------
-    You are given a LeetCode discussion post. Your job is to determine if it contains actual interview experiences with explicit questions. 
+    You are given a LeetCode discussion post. Your job is to determine if it contains actual interview experiences with explicit questions. If it seems like that this post doesn't contain anything meaning full, just return null.
 
     Rules:
     1. If the post contains one or more explicit interview questions (DSA problems, coding tasks, system design, aptitude, HR, etc.), return a valid JSON object matching the `Interview` schema below.

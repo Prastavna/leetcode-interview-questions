@@ -3,9 +3,13 @@ package com.prastavna.leetcode;
 import java.util.Optional;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 import java.time.LocalDate;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.prastavna.leetcode.models.DiscussPostDetail;
@@ -98,33 +102,106 @@ public class App {
         skip += first;
       }
 
-      // Process collected posts one-by-one via OpenAI and persist
+      if (toProcess.isEmpty()) {
+        System.out.println("No eligible posts found for processing.");
+        return;
+      }
+
+      int concurrency = resolveConcurrency(dotenv);
+      System.out.println("Processing " + toProcess.size() + " posts with concurrency=" + concurrency);
+
+      ExecutorService executor = Executors.newFixedThreadPool(concurrency);
+      List<Future<?>> futures = new ArrayList<>();
+
       for (DiscussPostItems.Node node : toProcess) {
+        futures.add(executor.submit(() -> processNode(node, leetcodeClient, openai, storage, mapper)));
+      }
+
+      boolean interrupted = false;
+      for (Future<?> future : futures) {
         try {
-          DiscussPostDetail detail = leetcodeClient.fetchPostDetails(node.topicId);
-          Optional<Interview> interviewOpt = openai.getJsonCompletion( detail.ugcArticleDiscussionArticle.title+ " -- "+ detail.ugcArticleDiscussionArticle.content);
-          if (interviewOpt.isPresent()) {
-            Interview itv = interviewOpt.get();
-            List<String> validationErrors = InterviewValidator.validate(itv);
-            if (!validationErrors.isEmpty()) {
-              System.out.println("Skipping topicId=" + node.topicId + " due to validation errors: " + String.join("; ", validationErrors));
-              continue;
-            }
-            itv.enrichFromLeetcode(String.valueOf(node.topicId), detail.ugcArticleDiscussionArticle.createdAt);
-            String json = mapper.writeValueAsString(itv);
-            System.out.println("Parsed interview JSON for topicId=" + node.topicId + ":\n" + json);
-            storage.append(itv);
-            System.out.println("Saved to " + storage.getPath());
-          } else {
-            System.out.println("No interview extracted for topicId=" + node.topicId);
-          }
-        } catch (Exception ex) {
-          System.err.println("Error processing topicId=" + node.topicId + ": " + ex.getMessage());
+          future.get();
+        } catch (InterruptedException ie) {
+          Thread.currentThread().interrupt();
+          interrupted = true;
+          break;
+        } catch (ExecutionException ee) {
+          Throwable cause = ee.getCause();
+          String message = (cause != null && cause.getMessage() != null) ? cause.getMessage() : ee.getMessage();
+          System.err.println("Worker task failed: " + message);
         }
+      }
+
+      executor.shutdown();
+      try {
+        if (!executor.awaitTermination(60, TimeUnit.SECONDS)) {
+          executor.shutdownNow();
+        }
+      } catch (InterruptedException ie) {
+        executor.shutdownNow();
+        Thread.currentThread().interrupt();
+        interrupted = true;
+      }
+
+      if (interrupted) {
+        System.err.println("Processing interrupted before completion.");
       }
 
     } catch (Exception e) {
       System.err.println("Error during fetch loop: " + e.getMessage());
     }
+  }
+
+  private static void processNode(
+      DiscussPostItems.Node node,
+      Leetcode leetcodeClient,
+      Openai openai,
+      JsonStorage storage,
+      ObjectMapper mapper) {
+    try {
+      DiscussPostDetail detail = leetcodeClient.fetchPostDetails(node.topicId);
+      if (detail == null || detail.ugcArticleDiscussionArticle == null) {
+        System.err.println("Missing discussion detail for topicId=" + node.topicId);
+        return;
+      }
+
+      String title = Optional.ofNullable(detail.ugcArticleDiscussionArticle.title).orElse("");
+      String content = Optional.ofNullable(detail.ugcArticleDiscussionArticle.content).orElse("");
+      Optional<Interview> interviewOpt = openai.getJsonCompletion(title + " -- " + content);
+      if (interviewOpt.isPresent()) {
+        Interview itv = interviewOpt.get();
+        List<String> validationErrors = InterviewValidator.validate(itv);
+        if (!validationErrors.isEmpty()) {
+          System.out.println("Skipping topicId=" + node.topicId + " due to validation errors: " + String.join("; ", validationErrors));
+          return;
+        }
+        itv.enrichFromLeetcode(String.valueOf(node.topicId), detail.ugcArticleDiscussionArticle.createdAt);
+        String json = mapper.writeValueAsString(itv);
+        System.out.println("Parsed interview JSON for topicId=" + node.topicId + ":\n" + json);
+        storage.append(itv);
+        System.out.println("Saved to " + storage.getPath());
+      } else {
+        System.out.println("No interview extracted for topicId=" + node.topicId);
+      }
+    } catch (Exception ex) {
+      System.err.println("Error processing topicId=" + node.topicId + ": " + ex.getMessage());
+    }
+  }
+
+  private static int resolveConcurrency(Dotenv dotenv) {
+    String override = dotenv.get("OPENAI_CONCURRENCY");
+    if (override != null && !override.isBlank()) {
+      try {
+        int parsed = Integer.parseInt(override.trim());
+        if (parsed > 0) {
+          return parsed;
+        }
+      } catch (NumberFormatException nfe) {
+        System.err.println("Invalid OPENAI_CONCURRENCY value '" + override + "', falling back to default.");
+      }
+    }
+
+    int cores = Runtime.getRuntime().availableProcessors();
+    return Math.max(1, Math.min(cores, 4));
   }
 }

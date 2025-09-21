@@ -19,7 +19,7 @@ public final class InterviewValidator {
     }
 
     if (interview.getYoe() < 0 || interview.getYoe() > 35) {
-      errors.add("yoe must be greater than 0");
+      errors.add("yoe must be greater than or equal to 0");
     }
 
     List<Round> rounds = interview.getRounds();
