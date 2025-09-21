@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-6 w-5/6 mx-auto">
-    <div v-if="!isLoading" class="grid gap-6 lg:grid-cols-2">
+    <div v-if="!isLoading" class="grid lg:grid-cols-2 pt-4">
       <QuestionTypeDonutChart :interviews="filteredInterviews" />
       <CompanyQuestionTypeStackedBarChart :interviews="filteredInterviews" />
     </div>

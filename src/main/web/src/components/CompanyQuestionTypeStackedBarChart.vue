@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full flex-col gap-4 rounded-lg p-4">
+  <div class="flex h-full flex-col gap-4 rounded-lg">
     <header class="flex items-start justify-between gap-2">
       <div>
         <h2 class="text-lg font-semibold">Question Type Breakdown by Company</h2>

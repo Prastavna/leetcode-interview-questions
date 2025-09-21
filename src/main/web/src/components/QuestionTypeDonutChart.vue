@@ -1,12 +1,12 @@
 <template>
-  <div class="flex h-full flex-col gap-4 rounded-lg p-4">
+  <div class="flex h-full flex-col gap-4 rounded-lg">
     <header class="flex items-start justify-between gap-2">
       <div>
         <h2 class="text-lg font-semibold">Most Asked Question Types</h2>
       </div>
     </header>
 
-    <div class="min-h-[16rem] flex-1">
+    <div class="min-h-[20rem] flex-1">
       <div v-if="!hasData" class="flex h-full items-center justify-center text-sm text-gray-500">
         No question data available for the selected filters.
       </div>
@@ -76,9 +76,8 @@ const chartOptions = computed(() => ({
       `${name}: ${value} (${percent}%)`,
   },
   legend: {
-    orient: "vertical",
-    left: "right",
-    top: "middle",
+    type: "scroll",
+    top: 0,
   },
   series: [
     {
