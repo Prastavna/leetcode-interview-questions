@@ -73,6 +73,24 @@ public class Leetcode {
 
     try {
       discussPostItems = executeQuery(query, variables, DiscussPostItems.class);
+      if (discussPostItems != null
+          && discussPostItems.ugcArticleDiscussionArticles != null
+          && discussPostItems.ugcArticleDiscussionArticles.edges != null) {
+        discussPostItems.ugcArticleDiscussionArticles.edges.removeIf(edge -> {
+          if (edge == null || edge.node == null || edge.node.reactions == null) {
+            return false;
+          }
+
+          for (DiscussPostItems.Reaction reaction : edge.node.reactions) {
+            if (reaction != null
+                && "UPVOTE".equalsIgnoreCase(reaction.reactionType)
+                && reaction.count > 0) {
+              return true;
+            }
+          }
+          return false;
+        });
+      }
     } catch (Exception e) {
       System.err.println("Error: " + e.getMessage());
     }
