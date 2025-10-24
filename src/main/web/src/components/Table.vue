@@ -244,33 +244,35 @@ const expanded = ref<Record<string, boolean>>({});
   <div class="flex flex-col flex-1 w-full">
     <div class="p-4" v-if="props.isLoading">Loading interviews…</div>
     <div class="p-4 text-red-600" v-else-if="props.error">{{ props.error }}</div>
-    <UTable
-      v-else
-      v-model:expanded="expanded"
-      v-model:pagination="pagination"
-      v-model:sorting="sorting"
-      ref="table"
-      :data="props.data"
-      :columns="columns"
-      :pagination-options="paginationOptions"
-    >
-      <template #expanded="{ row }">
-        <Rounds :rounds="(row.original?.rounds ?? []) as Round[]" />
-      </template>
-    </UTable>
+    <div v-else>
+      <div class="flex flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500">
+          {{ pageSummary }}
+        </span>
 
-    <div class="flex flex-col gap-3 px-4 py-3 border-t border-accented sm:flex-row sm:items-center sm:justify-between">
-      <span class="text-sm text-gray-500">
-        {{ pageSummary }}
-      </span>
-
-      <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-medium uppercase tracking-wide text-gray-500">Rows</span>
-          <USelect v-model="pageSizeModel" :items="pageSizeItems" class="w-28" />
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-medium uppercase tracking-wide text-gray-500">Rows</span>
+            <USelect v-model="pageSizeModel" :items="pageSizeItems" class="w-28" />
+          </div>
+          <UPagination v-model:page="currentPage" :items-per-page="pagination.pageSize" :total="totalRows" />
         </div>
-        <UPagination v-model:page="currentPage" :items-per-page="pagination.pageSize" :total="totalRows" />
       </div>
+
+      <UTable
+        v-model:expanded="expanded"
+        v-model:pagination="pagination"
+        v-model:sorting="sorting"
+        ref="table"
+        :data="props.data"
+        :columns="columns"
+        :pagination-options="paginationOptions"
+      >
+        <template #expanded="{ row }">
+          <Rounds :rounds="(row.original?.rounds ?? []) as Round[]" />
+        </template>
+      </UTable>
     </div>
+
   </div>
 </template>

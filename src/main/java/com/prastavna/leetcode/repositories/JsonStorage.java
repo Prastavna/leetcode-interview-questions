@@ -17,7 +17,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.prastavna.leetcode.models.Interview;
 import com.prastavna.leetcode.utils.Json;
 
-public class JsonStorage {
+public class JsonStorage implements InterviewRepository {
   private final Path path;
   private final ObjectMapper mapper;
 
@@ -62,6 +62,7 @@ public class JsonStorage {
     return "id:" + id;
   }
 
+  @Override
   public synchronized void append(Interview interview) throws IOException {
     if (interview == null) return;
     ensureFile();
@@ -96,6 +97,7 @@ public class JsonStorage {
     Files.writeString(path, mapper.writerWithDefaultPrettyPrinter().writeValueAsString(sorted));
   }
 
+  @Override
   public synchronized List<Interview> readAll() throws IOException {
     ensureFile();
     try {
@@ -109,6 +111,7 @@ public class JsonStorage {
     }
   }
 
+  @Override
   public Path getPath() {
     return path;
   }

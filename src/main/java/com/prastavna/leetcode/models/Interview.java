@@ -1,7 +1,7 @@
 package com.prastavna.leetcode.models;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.prastavna.leetcode.utils.Date;
 import com.prastavna.leetcode.utils.Uuid;
@@ -57,61 +57,5 @@ public class Interview {
                 q.setId(Uuid.generate("q"));
             }
         }
-    }
-}
-
-class Round {
-    private String id;
-    private List<Question> questions;
-
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
-
-    public List<Question> getQuestions() { return questions; }
-    public void setQuestions(List<Question> questions) { this.questions = questions; }
-}
-
-class Question {
-    private String id;
-    private QuestionType type;
-    private String content;
-
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
-
-    public QuestionType getType() { return type; }
-    public void setType(QuestionType type) { this.type = type; }
-
-    public String getContent() { return content; }
-    public void setContent(String content) { this.content = content; }
-}
-
-enum QuestionType {
-    APTITUDE("Aptitude"),
-    DEBUGGING("Debugging"),
-    CULTURE_FIT("Culture Fit"),
-    DSA("DSA"),
-    GD("Group Discussion"),
-    HLD("High Level Design"),
-    HM("Hiring Manager"),
-    HR("HR"),
-    LANGUAGE_SPECIFIC("Language Specific"),
-    LLD("Low Level Design"),
-    MACHINE_CODING("Machine Coding"),
-    OTHER("Other"),
-    PROJECT_DISCUSSION("Project Discussion"),
-    TAKE_HOME_ASSIGNMENT("Take Home Assignment"),
-    TECHNICAL("Technical"),
-    SCREENING("Screening"),
-    SYSTEM_DESIGN("System Design");
-
-    private final String label;
-
-    QuestionType(String label) {
-        this.label = label;
-    }
-
-    public String getLabel() {
-        return label;
     }
 }
