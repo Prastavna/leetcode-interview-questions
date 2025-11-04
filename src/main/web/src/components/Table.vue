@@ -238,6 +238,36 @@ const columns: TableColumn<Interview>[] = [
 ];
 
 const expanded = ref<Record<string, boolean>>({});
+const rowIdAccessor = (row: Interview, index: number) => {
+	const identifier = row.id || row.leetcodeId;
+	if (identifier) {
+		return identifier;
+	}
+	return `${row.company ?? "company"}-${row.role ?? "role"}-${row.date ?? index}-${index}`;
+};
+
+watch(
+	() => props.data,
+	(rows?: Interview[]) => {
+		const normalizedRows = Array.isArray(rows) ? rows : [];
+		const nextExpanded: Record<string, boolean> = {};
+		const validIds = new Set(
+			normalizedRows.map((row, index) => rowIdAccessor(row, index)),
+		);
+		let didChange = false;
+		for (const [key, value] of Object.entries(expanded.value)) {
+			if (validIds.has(key) && value) {
+				nextExpanded[key] = value;
+			} else if (value) {
+				didChange = true;
+			}
+		}
+		if (didChange) {
+			expanded.value = nextExpanded;
+		}
+	},
+	{ immediate: true },
+);
 </script>
 
 <template>
@@ -267,6 +297,7 @@ const expanded = ref<Record<string, boolean>>({});
         :data="props.data"
         :columns="columns"
         :pagination-options="paginationOptions"
+        :get-row-id="rowIdAccessor"
       >
         <template #expanded="{ row }">
           <Rounds :rounds="(row.original?.rounds ?? []) as Round[]" />
