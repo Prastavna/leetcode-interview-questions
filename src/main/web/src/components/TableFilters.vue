@@ -1,15 +1,6 @@
 <script setup lang="ts">
 import { computed, watch } from "vue";
-
-export type TableFiltersState = {
-  search: string;
-  questionTypes: string[];
-  yoeRange: [number, number];
-  dateRange: {
-    from: string | null;
-    to: string | null;
-  };
-};
+import type { TableFiltersState } from "../features/interviews/types";
 
 const props = withDefaults(
   defineProps<{
