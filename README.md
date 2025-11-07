@@ -105,6 +105,27 @@ bun run build       # or npm run build
 
 Static assets will be emitted to `dist/` ready for deployment.
 
+## Automation
+
+The [`automatic-data-refresh`](.github/workflows/data-refresh.yaml) workflow mirrors the manual ingestion flow and runs every day at 02:00 UTC (plus `workflow_dispatch` for on-demand runs). It:
+
+1. Checks out the repository and sets up Java 21 + Gradle caching.
+2. Executes `./gradlew --no-daemon run`, which regenerates `src/main/web/public/interviews.json`.
+3. Commits the refreshed dataset and opens an automated PR (`data-refresh` branch) whenever the JSON changes.
+
+Configure the following secrets/variables in the repository or organization settings before enabling the workflow:
+
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `OPENAI_API_KEY` | Secret | ✅ | Key used by the OpenAI client to structure discussions. |
+| `OPENAI_BASE_URL` | Secret | Optional | Override for custom OpenAI-compatible endpoints. |
+| `PAT_TOKEN` | Secret | ✅ | Classic PAT with `repo` scope so the workflow can open PRs. |
+| `LEETCODE_*` | Variable | Optional | Override API URL, paging, lag days, or fetch start date. |
+| `OPENAI_CONCURRENCY` | Variable | Optional | Caps concurrent OpenAI requests (defaults to 4). |
+| `INTERVIEWS_JSON_PATH` | Variable | Optional | Alternate output location for the dataset. |
+
+Once these values are present, the workflow will keep the published dataset up to date without manual intervention.
+
 ## Configuration & Customisation
 
 - **Backfill window**: Adjust `LEETCODE_FETCH_START_DATE` to match your historical cut-off. The crawler will only stop once it reaches that date or the LeetCode paging ceiling.
@@ -136,4 +157,3 @@ Issues and feature proposals are welcome—please include reproduction details o
 ---
 
 <p align="center">Built by <a href="https://prastavna.com">Prastavna</a> with ♥︎</p>
-

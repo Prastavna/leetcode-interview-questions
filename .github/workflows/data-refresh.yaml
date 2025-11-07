@@ -1,0 +1,71 @@
+name: automatic-data-refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: automatic-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  sync-interviews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+      OPENAI_CONCURRENCY: ${{ vars.OPENAI_CONCURRENCY || '4' }}
+      LEETCODE_API_URL: ${{ vars.LEETCODE_API_URL || 'https://leetcode.com/graphql' }}
+      LEETCODE_PAGE_SIZE: ${{ vars.LEETCODE_PAGE_SIZE || '50' }}
+      LEETCODE_TIMEOUT_MS: ${{ vars.LEETCODE_TIMEOUT_MS || '60000' }}
+      LEETCODE_LAG_DAYS: ${{ vars.LEETCODE_LAG_DAYS || '7' }}
+      LEETCODE_FETCH_START_DATE: ${{ vars.LEETCODE_FETCH_START_DATE || '2025-01-01' }}
+      INTERVIEWS_JSON_PATH: ${{ vars.INTERVIEWS_JSON_PATH || 'src/main/web/public/interviews.json' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Run interview sync
+        run: ./gradlew --no-daemon run
+
+      - name: Commit refreshed dataset
+        id: commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/main/web/public/interviews.json
+          if git diff --cached --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: refresh interviews dataset"
+          fi
+
+      - name: Create pull request
+        if: steps.commit.outputs.no_changes != 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          branch: data-refresh
+          title: "Automated data refresh"
+          commit-message: "chore: refresh interviews dataset"
+          body: |
+            Automated run of the Java ingestion pipeline.
+            - Updates `src/main/web/public/interviews.json` with the latest interviews.
+          delete-branch: true
