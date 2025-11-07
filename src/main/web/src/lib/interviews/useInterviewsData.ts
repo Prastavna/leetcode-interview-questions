@@ -1,7 +1,7 @@
 import { onMounted, ref } from "vue";
 import type { Ref } from "vue";
-import type { Interview } from "../../../types/Interview";
-import { buildInterviewsDatasetUrl } from "../utils";
+import type { Interview } from "../../types/Interview";
+import { buildInterviewsDatasetUrl } from "../../utils/interviews";
 
 export type UseInterviewsDataResult = {
 	interviews: Ref<Interview[]>;

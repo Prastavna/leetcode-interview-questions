@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, watch } from "vue";
-import type { TableFiltersState } from "../features/interviews/types";
+import type { TableFiltersState } from "../types/TableFiltersState";
 
 const props = withDefaults(
   defineProps<{

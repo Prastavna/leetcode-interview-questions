@@ -23,8 +23,8 @@ import Table from "../components/Table.vue";
 import TableFilters from "../components/TableFilters.vue";
 import QuestionTypeDonutChart from "../components/QuestionTypeDonutChart.vue";
 import CompanyQuestionTypeStackedBarChart from "../components/CompanyQuestionTypeStackedBarChart.vue";
-import { useInterviewsData } from "../features/interviews/composables/useInterviewsData";
-import { useInterviewFilters } from "../features/interviews/composables/useInterviewFilters";
+import { useInterviewsData } from "../lib/interviews/useInterviewsData";
+import { useInterviewFilters } from "../lib/interviews/useInterviewFilters";
 
 const { interviews, isLoading, error } = useInterviewsData();
 const {

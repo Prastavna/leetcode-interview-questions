@@ -10,18 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.0.0-alpha.1",
+    "@nuxt/ui": "^4.1.0",
     "echarts": "^6.0.0",
-    "vue": "^3.5.18",
-    "vue-echarts": "^7.0.3",
-    "vue-router": "^4.5.1"
+    "vue": "^3.5.23",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.3.4",
     "@vitejs/plugin-vue": "^6.0.1",
-    "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.8.3",
-    "vite": "^7.1.2",
-    "vue-tsc": "^3.0.5"
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.1",
+    "vue-tsc": "^3.1.3"
   }
 }
