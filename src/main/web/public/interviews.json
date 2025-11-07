@@ -1,4 +1,231 @@
 [ {
+  "id" : "i_M9wzRKws69Sa4fBLTUYpJM",
+  "leetcodeId" : "7316892",
+  "company" : "Cashfree Payments",
+  "role" : "SDE-2",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_KM9nisUi3To6MpbX85oikt",
+    "questions" : [ {
+      "id" : "q_GCKGdwdRNatvqjkBNtGsqY",
+      "type" : "DSA",
+      "content" : "You need to find a common time interval when all celebrities can meet."
+    }, {
+      "id" : "q_JW5v9fYvsY4xL5q8rKEC3P",
+      "type" : "DSA",
+      "content" : "Interval merging logic"
+    }, {
+      "id" : "q_KnSpnamZdJAnYNtQnnFt5L",
+      "type" : "DSA",
+      "content" : "Sorting and boundary handling"
+    }, {
+      "id" : "q_TEawLCy511pVM1689qSCk4",
+      "type" : "DSA",
+      "content" : "Time and space complexity discussion"
+    } ]
+  }, {
+    "id" : "r_75geRQgPhYZBjeZSVCcybC",
+    "questions" : [ {
+      "id" : "q_6hVeJ1sqsGewHD2pvszZ2q",
+      "type" : "HLD",
+      "content" : "Design an Online Parking Lot System"
+    }, {
+      "id" : "q_PHi2A2ybN8j1sr5gg98tiA",
+      "type" : "HLD",
+      "content" : "Search available parking slots"
+    }, {
+      "id" : "q_VC7N8AYgYE731zTCzdicVW",
+      "type" : "HLD",
+      "content" : "Book / Reserve a slot"
+    } ]
+  } ],
+  "date" : "2025-10-31"
+}, {
+  "id" : "i_X5bsoAj6b8XGSjgfHk1hXU",
+  "leetcodeId" : "7298066",
+  "company" : "Amazon",
+  "role" : "AUTA",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_8kqC5HM4k6fCYkuRdvJYxi",
+    "questions" : [ {
+      "id" : "q_BdCGAdY9SyNQ8HjXjapx1y",
+      "type" : "DSA",
+      "content" : "DSA all testcases passed"
+    } ]
+  } ],
+  "date" : "2025-10-24"
+}, {
+  "id" : "i_GAFjLSdEd5H56Nk1J1p2tj",
+  "leetcodeId" : "7296755",
+  "company" : "EXA-G",
+  "role" : "JavaScript",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_Pz3521ZE9s55Hcdmd5oRGc",
+    "questions" : [ {
+      "id" : "q_Jpo85BFzT1W2dkhcPxMDKG",
+      "type" : "OTHER",
+      "content" : "basic questions on Javascript"
+    }, {
+      "id" : "q_XeY7LZjyHdzEEZNrz2S15V",
+      "type" : "DSA",
+      "content" : "one DSA problem"
+    } ]
+  } ],
+  "date" : "2025-10-24"
+}, {
+  "id" : "i_KeU7x5cD5pwNFnLLkerTD7",
+  "leetcodeId" : "7268985",
+  "company" : "Google",
+  "role" : "L5",
+  "yoe" : 7,
+  "rounds" : [ {
+    "id" : "r_QB2BzJT4XHi356EKSboPoB",
+    "questions" : [ {
+      "id" : "q_QMjkbuwvvsovAPGhjw8rFL",
+      "type" : "OTHER",
+      "content" : "What is the typical timeframe for the L5 team matching process to conclude? Does it commonly take this long?"
+    }, {
+      "id" : "q_4RdWAL1PbSCJpD22Fjmgn9",
+      "type" : "OTHER",
+      "content" : "What happens if I don't secure a 'green light' in a hiring manager (HM) round? How does this affect my overall candidacy and the future team matching process?"
+    } ]
+  } ],
+  "date" : "2025-10-12"
+}, {
+  "id" : "i_PcbG8JwEwagCUJtQjgurff",
+  "leetcodeId" : "7266228",
+  "company" : "Motive",
+  "role" : "SSE",
+  "yoe" : 7,
+  "rounds" : [ {
+    "id" : "r_3GuneMstvRkBKmzrgPSQc7",
+    "questions" : [ {
+      "id" : "q_RqUNumBjEThybxDzgCqZ2P",
+      "type" : "DSA",
+      "content" : "Find an element through a rotated sorted array"
+    } ]
+  }, {
+    "id" : "r_EePkcGSEGoYBGEFc6Zm8eq",
+    "questions" : [ {
+      "id" : "q_TaxecWbd4KAqNDhGuM8Exo",
+      "type" : "HLD",
+      "content" : "Talk about a project that I'm proud of"
+    }, {
+      "id" : "q_JUt82WjB65e3Ry3oMmmo6g",
+      "type" : "HLD",
+      "content" : "Table schema for book my show."
+    } ]
+  } ],
+  "date" : "2025-10-11"
+}, {
+  "id" : "i_GExwarnDXUEJEp5NDJwmfR",
+  "leetcodeId" : "7190422",
+  "company" : "ZOHO",
+  "role" : "Software Developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_jiGesdGDpSyuJGnSEHdVA",
+    "questions" : [ {
+      "id" : "q_DrayRMNM64vg2sdKAVgaKx",
+      "type" : "APTITUDE",
+      "content" : "10 Aptitude and 10 Programming Questions"
+    }, {
+      "id" : "q_8NgWpgR9FbiZBpNBAWaXXP",
+      "type" : "OTHER",
+      "content" : "Difficulty: Easy – Intermediate"
+    } ]
+  }, {
+    "id" : "r_Wj4iinHMLzgetY4ohV8A9v",
+    "questions" : [ {
+      "id" : "q_M7kXxaQvy3c6pfAmyQZXhG",
+      "type" : "DSA",
+      "content" : "Chocolate Distribution"
+    }, {
+      "id" : "q_Ej9AKoNo9JbAe1Xvca9jpz",
+      "type" : "DSA",
+      "content" : "Diagonal Traversal"
+    }, {
+      "id" : "q_8neFrGGmr6DMdLdXHeWdmU",
+      "type" : "DSA",
+      "content" : "Group Anagrams"
+    }, {
+      "id" : "q_9j2Qyt6UP6QUaPyxrz2GTU",
+      "type" : "DSA",
+      "content" : "Meeting Room Allocation"
+    }, {
+      "id" : "q_WTM6DcTFPkLP86zqLo7oPm",
+      "type" : "DSA",
+      "content" : "Word Pattern"
+    } ]
+  }, {
+    "id" : "r_7mzmU4dm1KH9aqrqkRMPdk",
+    "questions" : [ {
+      "id" : "q_PUWDsvuBUHtQbPXVvLKC8c",
+      "type" : "DSA",
+      "content" : "Matrix-based coding problems (hard level)"
+    } ]
+  }, {
+    "id" : "r_7DxnzZJ9FCWAwt4DSfmFba",
+    "questions" : [ {
+      "id" : "q_LUx9ty5J1zcfwAeond1SQr",
+      "type" : "DSA",
+      "content" : "3Sum problem with time complexity"
+    }, {
+      "id" : "q_TKpMejbn4ndaeFypfFXWy6",
+      "type" : "DSA",
+      "content" : "2D Array traversal without recursion (write logic)"
+    }, {
+      "id" : "q_VPxZbBsguuWWMzVuwKYGg4",
+      "type" : "DSA",
+      "content" : "How to check if a Linked List is circular (write logic)"
+    }, {
+      "id" : "q_3Lwropi48vUyiCmE2UxMAX",
+      "type" : "DSA",
+      "content" : "BFS vs DFS (with and without recursion)"
+    }, {
+      "id" : "q_G9EPUwX1zi29qzM9sPyQzj",
+      "type" : "OTHER",
+      "content" : "Questions from my projects (mainly code-related)"
+    } ]
+  } ],
+  "date" : "2025-09-14"
+}, {
+  "id" : "i_EaoDpYNCdfRA1DqcCNdnxD",
+  "leetcodeId" : "7189857",
+  "company" : "eBay",
+  "role" : "SSE",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_6zgvtnzSPz9RGn9A4ZkKjq",
+    "questions" : [ {
+      "id" : "q_JBzNorAsqQB3LMWJuHBoyS",
+      "type" : "DSA",
+      "content" : "Given a number n, print all the prime numbers leading upto n."
+    } ]
+  }, {
+    "id" : "r_7gxM6pJNFg8EtR8wwVmdLs",
+    "questions" : [ {
+      "id" : "q_7BEb24SzueD7vkVRHMkaNv",
+      "type" : "OTHER",
+      "content" : "How to productionize a system?"
+    }, {
+      "id" : "q_KTxtPfLpftdaXvBpj2RPL9",
+      "type" : "OTHER",
+      "content" : "How to scale a system?"
+    }, {
+      "id" : "q_RHDoudesXJXP3WyFzZvYQo",
+      "type" : "OTHER",
+      "content" : "What metrics to look for when building and testing a API?"
+    }, {
+      "id" : "q_QPqGoCTW8NP5qEYCnBrjUb",
+      "type" : "OTHER",
+      "content" : "Some genAI tools related questions."
+    } ]
+  } ],
+  "date" : "2025-09-14"
+}, {
   "id" : "i_XKuF4ukcaj49uutk1o4Lis",
   "leetcodeId" : "7187071",
   "company" : "Microsoft",
@@ -114,78 +341,6 @@
     } ]
   } ],
   "date" : "2025-09-10"
-}, {
-  "id" : "i_GExwarnDXUEJEp5NDJwmfR",
-  "leetcodeId" : "7190422",
-  "company" : "ZOHO",
-  "role" : "Software Developer",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_jiGesdGDpSyuJGnSEHdVA",
-    "questions" : [ {
-      "id" : "q_DrayRMNM64vg2sdKAVgaKx",
-      "type" : "APTITUDE",
-      "content" : "10 Aptitude and 10 Programming Questions"
-    }, {
-      "id" : "q_8NgWpgR9FbiZBpNBAWaXXP",
-      "type" : "OTHER",
-      "content" : "Difficulty: Easy – Intermediate"
-    } ]
-  }, {
-    "id" : "r_Wj4iinHMLzgetY4ohV8A9v",
-    "questions" : [ {
-      "id" : "q_M7kXxaQvy3c6pfAmyQZXhG",
-      "type" : "DSA",
-      "content" : "Chocolate Distribution"
-    }, {
-      "id" : "q_Ej9AKoNo9JbAe1Xvca9jpz",
-      "type" : "DSA",
-      "content" : "Diagonal Traversal"
-    }, {
-      "id" : "q_8neFrGGmr6DMdLdXHeWdmU",
-      "type" : "DSA",
-      "content" : "Group Anagrams"
-    }, {
-      "id" : "q_9j2Qyt6UP6QUaPyxrz2GTU",
-      "type" : "DSA",
-      "content" : "Meeting Room Allocation"
-    }, {
-      "id" : "q_WTM6DcTFPkLP86zqLo7oPm",
-      "type" : "DSA",
-      "content" : "Word Pattern"
-    } ]
-  }, {
-    "id" : "r_7mzmU4dm1KH9aqrqkRMPdk",
-    "questions" : [ {
-      "id" : "q_PUWDsvuBUHtQbPXVvLKC8c",
-      "type" : "DSA",
-      "content" : "Matrix-based coding problems (hard level)"
-    } ]
-  }, {
-    "id" : "r_7DxnzZJ9FCWAwt4DSfmFba",
-    "questions" : [ {
-      "id" : "q_LUx9ty5J1zcfwAeond1SQr",
-      "type" : "DSA",
-      "content" : "3Sum problem with time complexity"
-    }, {
-      "id" : "q_TKpMejbn4ndaeFypfFXWy6",
-      "type" : "DSA",
-      "content" : "2D Array traversal without recursion (write logic)"
-    }, {
-      "id" : "q_VPxZbBsguuWWMzVuwKYGg4",
-      "type" : "DSA",
-      "content" : "How to check if a Linked List is circular (write logic)"
-    }, {
-      "id" : "q_3Lwropi48vUyiCmE2UxMAX",
-      "type" : "DSA",
-      "content" : "BFS vs DFS (with and without recursion)"
-    }, {
-      "id" : "q_G9EPUwX1zi29qzM9sPyQzj",
-      "type" : "OTHER",
-      "content" : "Questions from my projects (mainly code-related)"
-    } ]
-  } ],
-  "date" : "2025-09-14"
 }, {
   "id" : "i_X3gorirwSPcwEAXjhAGeUN",
   "leetcodeId" : "7174964",
@@ -1207,40 +1362,6 @@
     } ]
   } ],
   "date" : "2025-09-03"
-}, {
-  "id" : "i_EaoDpYNCdfRA1DqcCNdnxD",
-  "leetcodeId" : "7189857",
-  "company" : "eBay",
-  "role" : "SSE",
-  "yoe" : 6,
-  "rounds" : [ {
-    "id" : "r_6zgvtnzSPz9RGn9A4ZkKjq",
-    "questions" : [ {
-      "id" : "q_JBzNorAsqQB3LMWJuHBoyS",
-      "type" : "DSA",
-      "content" : "Given a number n, print all the prime numbers leading upto n."
-    } ]
-  }, {
-    "id" : "r_7gxM6pJNFg8EtR8wwVmdLs",
-    "questions" : [ {
-      "id" : "q_7BEb24SzueD7vkVRHMkaNv",
-      "type" : "OTHER",
-      "content" : "How to productionize a system?"
-    }, {
-      "id" : "q_KTxtPfLpftdaXvBpj2RPL9",
-      "type" : "OTHER",
-      "content" : "How to scale a system?"
-    }, {
-      "id" : "q_RHDoudesXJXP3WyFzZvYQo",
-      "type" : "OTHER",
-      "content" : "What metrics to look for when building and testing a API?"
-    }, {
-      "id" : "q_QPqGoCTW8NP5qEYCnBrjUb",
-      "type" : "OTHER",
-      "content" : "Some genAI tools related questions."
-    } ]
-  } ],
-  "date" : "2025-09-14"
 }, {
   "id" : "i_FdeZwc42KhJyz6pb3rzDpR",
   "leetcodeId" : "7150342",
@@ -8665,6 +8786,44 @@
   } ],
   "date" : "2025-06-12"
 }, {
+  "id" : "i_Ne3KDMSLnUEeu1NwUWYYZ9",
+  "leetcodeId" : "6834494",
+  "company" : "Zeta",
+  "role" : "SDE 1",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_PmWQd11GhuRtM3APMAfTB4",
+    "questions" : [ {
+      "id" : "q_QeoH16bFT2yfjtmu7CK61W",
+      "type" : "DSA",
+      "content" : "You are given an integer array. You have to find the length of the valley for each element. Vally is defined as, Let i be the current index and l is the leftmost index, r is the rightmost index satisflying property a[l]>a[l+1]>...>a[i]..<a[r-1]<a[r], then length is (r-l+1) is the length of the valley. Example, A : [7,2,1,5,7,9] Answer : [1,2,6,3,2,1]"
+    }, {
+      "id" : "q_RWfUrr3svnbnpTR6w3TjK6",
+      "type" : "DSA",
+      "content" : "Given two strings s1 and s2 such that S1<S2. Both strings length are equals. Find the total number of lexicographic strings between S1 and S2. S1 = ACX S2 = ADB"
+    } ]
+  }, {
+    "id" : "r_8vgykvUMgRBjxRMKDq6YUK",
+    "questions" : [ {
+      "id" : "q_6BhHZqhp7D7azNXukEfoHL",
+      "type" : "OTHER",
+      "content" : "Past project discussion (all api's, database table, sql query etc)"
+    }, {
+      "id" : "q_KcK7xenXNTiyVgGEZMd2pv",
+      "type" : "OTHER",
+      "content" : "car -  maruti, toyota, bmw engine - 1, 2,4 How to implement it using OOP's"
+    }, {
+      "id" : "q_QdZjqWdjnPzpostHzhPQw4",
+      "type" : "OTHER",
+      "content" : "Solid principles Tcp, udp Http, https CAP theorem"
+    }, {
+      "id" : "q_XmULEsjjiZuVJp6oz3sQDV",
+      "type" : "OTHER",
+      "content" : "Behavioral questions"
+    } ]
+  } ],
+  "date" : "2025-06-12"
+}, {
   "id" : "i_THDroZ421XxEbwcEF9hpVj",
   "leetcodeId" : "6832936",
   "company" : "PayPay",
@@ -9446,44 +9605,6 @@
     } ]
   } ],
   "date" : "2025-06-05"
-}, {
-  "id" : "i_Ne3KDMSLnUEeu1NwUWYYZ9",
-  "leetcodeId" : "6834494",
-  "company" : "Zeta",
-  "role" : "SDE 1",
-  "yoe" : 1,
-  "rounds" : [ {
-    "id" : "r_PmWQd11GhuRtM3APMAfTB4",
-    "questions" : [ {
-      "id" : "q_QeoH16bFT2yfjtmu7CK61W",
-      "type" : "DSA",
-      "content" : "You are given an integer array. You have to find the length of the valley for each element. Vally is defined as, Let i be the current index and l is the leftmost index, r is the rightmost index satisflying property a[l]>a[l+1]>...>a[i]..<a[r-1]<a[r], then length is (r-l+1) is the length of the valley. Example, A : [7,2,1,5,7,9] Answer : [1,2,6,3,2,1]"
-    }, {
-      "id" : "q_RWfUrr3svnbnpTR6w3TjK6",
-      "type" : "DSA",
-      "content" : "Given two strings s1 and s2 such that S1<S2. Both strings length are equals. Find the total number of lexicographic strings between S1 and S2. S1 = ACX S2 = ADB"
-    } ]
-  }, {
-    "id" : "r_8vgykvUMgRBjxRMKDq6YUK",
-    "questions" : [ {
-      "id" : "q_6BhHZqhp7D7azNXukEfoHL",
-      "type" : "OTHER",
-      "content" : "Past project discussion (all api's, database table, sql query etc)"
-    }, {
-      "id" : "q_KcK7xenXNTiyVgGEZMd2pv",
-      "type" : "OTHER",
-      "content" : "car -  maruti, toyota, bmw engine - 1, 2,4 How to implement it using OOP's"
-    }, {
-      "id" : "q_QdZjqWdjnPzpostHzhPQw4",
-      "type" : "OTHER",
-      "content" : "Solid principles Tcp, udp Http, https CAP theorem"
-    }, {
-      "id" : "q_XmULEsjjiZuVJp6oz3sQDV",
-      "type" : "OTHER",
-      "content" : "Behavioral questions"
-    } ]
-  } ],
-  "date" : "2025-06-12"
 }, {
   "id" : "i_SGEa6fHhZ3YhaKdrJXfoE3",
   "leetcodeId" : "6809775",
