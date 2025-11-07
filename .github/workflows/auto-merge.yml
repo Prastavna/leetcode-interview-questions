@@ -1,0 +1,41 @@
+name: Auto-merge PR
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get authenticated user
+        id: get-user
+        run: |
+          USERNAME=$(gh api user -q ".login")
+          echo "username=$USERNAME" >> $GITHUB_OUTPUT
+          echo "Authenticated as: $USERNAME"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      - name: Enable auto-merge for bot PRs
+        if: >
+          (github.head_ref == 'data-refresh' || startsWith(github.head_ref, 'manual-cleanup-')) &&
+          github.actor == steps.get-user.outputs.username &&
+          github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} --auto --squash
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
