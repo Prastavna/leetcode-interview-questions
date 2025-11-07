@@ -15,7 +15,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 public class App {
   public static void main(String[] args) {
-    Dotenv dotenv = Dotenv.load();
+    Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
     Openai openai = new Openai(dotenv.get("OPENAI_BASE_URL"), dotenv.get("OPENAI_API_KEY"));
     InterviewRepository repository = new JsonStorage(Storage.INTERVIEWS_JSON_PATH);
     Leetcode leetcodeClient = new Leetcode();
