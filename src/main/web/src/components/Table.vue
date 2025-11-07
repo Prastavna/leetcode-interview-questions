@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, defineProps, ref, watch, withDefaults } from "vue";
+import { computed, ref, watch } from "vue";
 import { getPaginationRowModel, type Row } from "@tanstack/vue-table";
 import type { TableColumn } from "@nuxt/ui";
 import type { Interview, Round } from "../types/Interview";

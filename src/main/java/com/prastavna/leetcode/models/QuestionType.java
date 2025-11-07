@@ -2,8 +2,9 @@ package com.prastavna.leetcode.models;
 
 public enum QuestionType {
   APTITUDE("Aptitude"),
-  DEBUGGING("Debugging"),
+  BEHAVIOURAL("Behavioural"),
   CULTURE_FIT("Culture Fit"),
+  DEBUGGING("Debugging"),
   DSA("DSA"),
   GD("Group Discussion"),
   HLD("High Level Design"),

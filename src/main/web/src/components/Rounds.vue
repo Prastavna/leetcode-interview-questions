@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, withDefaults, defineProps } from "vue";
+import { computed } from "vue";
 import type { Round } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
 
