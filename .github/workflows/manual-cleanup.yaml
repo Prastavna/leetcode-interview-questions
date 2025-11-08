@@ -58,7 +58,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_TOKEN }}
-          branch: manual-cleanup/${{ github.run_id }}
+          branch: manual-cleanup-${{ github.run_id }}
           title: "Manual cleanup - ${{ inputs.leetcode_ids }}"
           commit-message: "chore: remove interviews (${{ inputs.leetcode_ids }})"
           body: |
