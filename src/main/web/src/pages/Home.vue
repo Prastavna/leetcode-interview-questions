@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-6 w-5/6 mx-auto">
-    <div class="flex gap-3 px-4 pt-4 flex-row items-center justify-center">
-      <div class="text-base font-semibold text-gray-800">Leetcode Interview Questions</div>
+    <div class="flex gap-3 px-4 pt-4 flex-col sm:flex-row items-center justify-center">
+      <div class="text-base font-semibold text-gray-800 dark:text-white">Leetcode Interview Questions</div>
       <a
         class="inline-flex items-center gap-2 text-sm text-primary hover:underline"
         href="https://github.com/prastavna/leetcode-interview-questions"

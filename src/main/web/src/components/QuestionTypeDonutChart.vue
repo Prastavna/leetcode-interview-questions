@@ -1,8 +1,8 @@
 <template>
   <div class="flex h-full flex-col gap-4 rounded-lg">
-    <header class="flex items-start justify-between gap-2">
+    <header class="items-start justify-between gap-2">
       <div>
-        <h2 class="text-lg font-semibold">Most Asked Question Types</h2>
+        <h2 class="text-lg font-semibold text-center">Most Asked Question Types</h2>
       </div>
     </header>
 
@@ -26,6 +26,7 @@ import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
+import { usePrefersDark } from "../utils/usePrefersDark";
 
 type ChartDatum = {
   name: string;
@@ -68,16 +69,26 @@ const chartData = computed<ChartDatum[]>(() => {
 
 const hasData = computed(() => chartData.value.length > 0);
 
+const prefersDark = usePrefersDark();
+
+const labelColor = computed(() => (prefersDark.value ? "#f9fafb" : "#111827"));
+const labelLineColor = computed(() => (prefersDark.value ? "rgba(255,255,255,0.6)" : "#4b5563"));
+
 const chartOptions = computed(() => ({
-  renderer: 'svg',
+  renderer: "svg",
+  textStyle: {
+    color: labelColor.value,
+  },
   tooltip: {
     trigger: "item",
-    formatter: ({ name, value, percent }: any) =>
-      `${name}: ${value} (${percent}%)`,
+    formatter: ({ name, value, percent }: any) => `${name}: ${value} (${percent}%)`,
   },
   legend: {
     type: "scroll",
     top: 0,
+    textStyle: {
+      color: labelColor.value,
+    },
   },
   series: [
     {
@@ -93,8 +104,10 @@ const chartOptions = computed(() => ({
       },
       label: {
         show: true,
+        color: labelColor.value,
         textStyle: {
-          textBorderColor : 'transparent'
+          color: labelColor.value,
+          textBorderColor: "transparent",
         },
         formatter: "{b}: {c} ({d}%)",
       },
@@ -106,6 +119,9 @@ const chartOptions = computed(() => ({
         show: true,
         length: 10,
         length2: 10,
+        lineStyle: {
+          color: labelLineColor.value,
+        },
       },
       data: chartData.value,
     },

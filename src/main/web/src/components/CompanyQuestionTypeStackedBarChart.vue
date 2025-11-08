@@ -1,8 +1,8 @@
 <template>
   <div class="flex h-full flex-col gap-4 rounded-lg">
-    <header class="flex items-start justify-between gap-2">
+    <header class="items-start justify-between gap-2">
       <div>
-        <h2 class="text-lg font-semibold">Question Type Breakdown by Company</h2>
+        <h2 class="text-lg font-semibold text-center">Question Type Breakdown by Company</h2>
       </div>
     </header>
 
@@ -26,6 +26,7 @@ import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
+import { usePrefersDark } from "../utils/usePrefersDark";
 
 type QuestionTypeKey = keyof typeof QuestionType;
 
@@ -95,7 +96,14 @@ const shouldRotateLabels = computed(() =>
   aggregated.value.companyNames.some((company) => company.length > 12),
 );
 
+const prefersDark = usePrefersDark();
+const textColor = computed(() => (prefersDark.value ? "#f9fafb" : "#111827"));
+const gridLineColor = computed(() => (prefersDark.value ? "rgba(255,255,255,0.2)" : "#e5e7eb"));
+
 const chartOptions = computed(() => ({
+  textStyle: {
+    color: textColor.value,
+  },
   tooltip: {
     trigger: "axis",
     axisPointer: { type: "shadow" },
@@ -103,6 +111,9 @@ const chartOptions = computed(() => ({
   legend: {
     type: "scroll",
     top: 0,
+    textStyle: {
+      color: textColor.value,
+    },
   },
   grid: {
     left: "6%",
@@ -116,12 +127,24 @@ const chartOptions = computed(() => ({
     axisLabel: {
       interval: 0,
       rotate: shouldRotateLabels.value ? 30 : 0,
+      color: textColor.value,
       formatter: (value: string) => value,
+    },
+    axisLine: {
+      lineStyle: { color: textColor.value },
+    },
+    axisTick: {
+      lineStyle: { color: textColor.value },
     },
   },
   yAxis: {
     type: "value",
     name: "Questions",
+    nameTextStyle: { color: textColor.value },
+    axisLabel: { color: textColor.value },
+    splitLine: {
+      lineStyle: { color: gridLineColor.value },
+    },
   },
   series: aggregated.value.series,
 }));
