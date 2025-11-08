@@ -98,7 +98,7 @@ const chartOptions = computed(() => ({
       name: "Question Types",
       type: "pie",
       radius: ["45%", "70%"],
-      center: ["40%", "50%"],
+      center: ["50%", "50%"],
       avoidLabelOverlap: true,
       itemStyle: {
         borderRadius: 8,
@@ -106,7 +106,7 @@ const chartOptions = computed(() => ({
         borderWidth: 0,
       },
       label: {
-        show: isMobile ? false : true,
+        show: isMobile.value ? false : true,
         color: labelColor.value,
         textStyle: {
           color: labelColor.value,
