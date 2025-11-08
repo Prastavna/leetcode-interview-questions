@@ -41,21 +41,6 @@
   } ],
   "date" : "2025-10-31"
 }, {
-  "id" : "i_X5bsoAj6b8XGSjgfHk1hXU",
-  "leetcodeId" : "7298066",
-  "company" : "Amazon",
-  "role" : "AUTA",
-  "yoe" : 1,
-  "rounds" : [ {
-    "id" : "r_8kqC5HM4k6fCYkuRdvJYxi",
-    "questions" : [ {
-      "id" : "q_BdCGAdY9SyNQ8HjXjapx1y",
-      "type" : "DSA",
-      "content" : "DSA all testcases passed"
-    } ]
-  } ],
-  "date" : "2025-10-24"
-}, {
   "id" : "i_GAFjLSdEd5H56Nk1J1p2tj",
   "leetcodeId" : "7296755",
   "company" : "EXA-G",
