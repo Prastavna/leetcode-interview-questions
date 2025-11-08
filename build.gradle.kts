@@ -1,3 +1,5 @@
+import org.gradle.api.tasks.JavaExec
+
 plugins {
   application
   java
@@ -24,3 +26,9 @@ application {
   mainClass = "com.prastavna.leetcode.App"
 }
 
+tasks.register<JavaExec>("runCleanup") {
+  group = "application"
+  description = "Removes interviews whose LeetCode IDs are provided as a comma separated list."
+  mainClass.set("com.prastavna.leetcode.tools.InterviewCleanup")
+  classpath = sourceSets["main"].runtimeClasspath
+}

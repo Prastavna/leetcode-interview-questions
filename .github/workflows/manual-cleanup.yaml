@@ -1,0 +1,69 @@
+name: manual-cleanup
+
+on:
+  workflow_dispatch:
+    inputs:
+      leetcode_ids:
+        description: "Comma-separated LeetCode discussion IDs to purge"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  cleanup-interviews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      INTERVIEWS_JSON_PATH: ${{ vars.INTERVIEWS_JSON_PATH || 'src/main/web/public/interviews.json' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Run cleanup script
+        env:
+          LEETCODE_IDS: ${{ inputs.leetcode_ids }}
+        run: ./gradlew --no-daemon runCleanup --args "${{ inputs.leetcode_ids }}"
+
+      - name: Commit cleanup changes
+        id: commit
+        env:
+          IDS_SANITIZED: ${{ inputs.leetcode_ids }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$INTERVIEWS_JSON_PATH"
+          if git diff --cached --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            SANITIZED_IDS=$(echo "$IDS_SANITIZED" | tr -d '\r\n')
+            git commit -m "chore: remove interviews ($SANITIZED_IDS)"
+          fi
+
+      - name: Create pull request
+        if: steps.commit.outputs.no_changes != 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          branch: manual-cleanup/${{ github.run_id }}
+          title: "Manual cleanup - ${{ inputs.leetcode_ids }}"
+          commit-message: "chore: remove interviews (${{ inputs.leetcode_ids }})"
+          body: |
+            Manual cleanup run triggered via workflow dispatch.
+
+            Removed the following LeetCode discussion IDs:
+            `${{ inputs.leetcode_ids }}`
+          delete-branch: true
