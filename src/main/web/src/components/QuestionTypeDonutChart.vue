@@ -27,6 +27,7 @@ import "../lib/echarts";
 import type { Interview } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
 import { usePrefersDark } from "../utils/usePrefersDark";
+import { useIsMobile } from "../utils/useIsMobile";
 
 type ChartDatum = {
   name: string;
@@ -70,6 +71,7 @@ const chartData = computed<ChartDatum[]>(() => {
 const hasData = computed(() => chartData.value.length > 0);
 
 const prefersDark = usePrefersDark();
+const isMobile = useIsMobile();
 
 const labelColor = computed(() => (prefersDark.value ? "#f9fafb" : "#111827"));
 const labelLineColor = computed(() => (prefersDark.value ? "rgba(255,255,255,0.6)" : "#4b5563"));
@@ -103,7 +105,7 @@ const chartOptions = computed(() => ({
         borderWidth: 0,
       },
       label: {
-        show: true,
+        show: isMobile ? false : true,
         color: labelColor.value,
         textStyle: {
           color: labelColor.value,
