@@ -1,5 +1,21 @@
 <template>
   <div class="flex flex-col gap-6 w-5/6 mx-auto">
+    <div class="flex gap-3 px-4 pt-4 flex-row items-center justify-center">
+      <div class="text-base font-semibold text-gray-800">Leetcode Interview Questions</div>
+      <a
+        class="inline-flex items-center gap-2 text-sm text-primary hover:underline"
+        href="https://github.com/prastavna/leetcode-interview-questions"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          alt="Star this repo on GitHub"
+          src="https://img.shields.io/github/stars/prastavna/leetcode-interview-questions?style=social"
+          class="h-6"
+        />
+      </a>
+    </div>
+
     <div v-if="!isLoading" class="grid lg:grid-cols-2 pt-4">
       <QuestionTypeDonutChart :interviews="filteredInterviews" />
       <CompanyQuestionTypeStackedBarChart :interviews="filteredInterviews" />
@@ -15,6 +31,20 @@
     />
 
     <Table :data="filteredInterviews" :is-loading="isLoading" :error="error" />
+
+    <footer class="mt-6 border-t border-gray-200 pt-6 pb-10 text-center text-sm text-gray-600">
+      <span>
+        Compensation insights generated from Leetcode Discussions:
+        <a
+          href="https://leetcode-compensation.prastavna.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-primary font-semibold hover:underline"
+        >
+          Leetcode Compensation
+        </a>
+      </span>
+    </footer>
   </div>
 </template>
 
