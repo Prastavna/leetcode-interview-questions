@@ -65,7 +65,8 @@ const chartData = computed<ChartDatum[]>(() => {
       itemStyle: { color: QuestionTypeColors[key] ?? "#cccccc" },
     }))
     .filter((item) => item.value > 0)
-    .sort((a, b) => b.value - a.value);
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 10);
 });
 
 const hasData = computed(() => chartData.value.length > 0);
