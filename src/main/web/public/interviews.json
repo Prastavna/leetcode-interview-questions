@@ -1,4 +1,27 @@
 [ {
+  "id" : "i_U4K7XzKcwkAeTuHsxMube4",
+  "leetcodeId" : "7342308",
+  "company" : "Arista networks",
+  "role" : "SDE-2",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_4X5AUGfF7wsqYxkths3qaf",
+    "questions" : [ {
+      "id" : "q_At9ASDAzv1RmDVPsuCHoNT",
+      "type" : "OTHER",
+      "content" : "How HTTPS Works?"
+    }, {
+      "id" : "q_WW4Nu5ZaJiAE4RyuH4BFUk",
+      "type" : "DEBUGGING",
+      "content" : "Given a small code snippet I have to find deadlock in the code discuss and resolve it. (e.g. A wants to transfer money to B same time B wants to transfer money to A)"
+    }, {
+      "id" : "q_WLkZ2PWFeZNQfbVhmPB5iS",
+      "type" : "DSA",
+      "content" : "https://leetcode.com/problems/time-based-key-value-store/description/"
+    } ]
+  } ],
+  "date" : "2025-11-11"
+}, {
   "id" : "i_Jmg9Hken9MWmjEz2EWiLmP",
   "leetcodeId" : "7331952",
   "company" : "JPMorgan Chase",
