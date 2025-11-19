@@ -22,21 +22,6 @@
   } ],
   "date" : "2025-11-11"
 }, {
-  "id" : "i_Jmg9Hken9MWmjEz2EWiLmP",
-  "leetcodeId" : "7331952",
-  "company" : "JPMorgan Chase",
-  "role" : "",
-  "yoe" : 8,
-  "rounds" : [ {
-    "id" : "r_73nwPW2sGGR91PfkNa46J5",
-    "questions" : [ {
-      "id" : "q_PRLEcCcqow3JbQ6voDjrLk",
-      "type" : "OTHER",
-      "content" : "Do we need to run all edge cases as well for DSA problems?"
-    } ]
-  } ],
-  "date" : "2025-11-07"
-}, {
   "id" : "i_M9wzRKws69Sa4fBLTUYpJM",
   "leetcodeId" : "7316892",
   "company" : "Cashfree Payments",
