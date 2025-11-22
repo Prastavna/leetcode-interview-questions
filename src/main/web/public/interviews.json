@@ -1,23 +1,4 @@
 [ {
-  "id" : "i_GzseHQVApWrXKyGYhi3pqV",
-  "leetcodeId" : "7347613",
-  "company" : "Microsoft",
-  "role" : "",
-  "yoe" : 2,
-  "rounds" : [ {
-    "id" : "r_4gjihMF16WyqvdHHkHAPGQ",
-    "questions" : [ {
-      "id" : "q_AkdmKbdnCrYUfwKjvugXbf",
-      "type" : "OTHER",
-      "content" : "How many LLD rounds will there be after DSA rounds?"
-    }, {
-      "id" : "q_SQQBCC7QMUkrDaJCcZM2Mp",
-      "type" : "OTHER",
-      "content" : "Are we expected to run the complete code or just class diagram and rough flow be sufficient?"
-    } ]
-  } ],
-  "date" : "2025-11-14"
-}, {
   "id" : "i_U4K7XzKcwkAeTuHsxMube4",
   "leetcodeId" : "7342308",
   "company" : "Arista networks",
