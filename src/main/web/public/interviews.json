@@ -1,4 +1,50 @@
 [ {
+  "id" : "i_Y36aKje5rBYhaiUstMLRT",
+  "leetcodeId" : "7352868",
+  "company" : "Amazon",
+  "role" : "SDE 1",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_RLiAA8UW9gjTmGxjiWxXeK",
+    "questions" : [ {
+      "id" : "q_AWz13CuZ1VkHz4jkSjmq8Q",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about yourself"
+    }, {
+      "id" : "q_LCmG7NQV7W8zC9VzeXmSs6",
+      "type" : "DSA",
+      "content" : "Explain the approach for solving the maximum frequency stack problem"
+    }, {
+      "id" : "q_EiA1qbMDUCMACFW8gRiod3",
+      "type" : "DSA",
+      "content" : "Trace the max heap tree structure for the test case"
+    }, {
+      "id" : "q_VQKncxnpGDryCFPW51CB4N",
+      "type" : "DSA",
+      "content" : "Discuss handling of stale nodes in the context of the maximum frequency stack problem"
+    } ]
+  } ],
+  "date" : "2025-11-16"
+}, {
+  "id" : "i_FYyixAhg2Qi6kCzjQHrsWW",
+  "leetcodeId" : "7347613",
+  "company" : "Microsoft",
+  "role" : "",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_Yc3yqQZha4r7Ko6CrXFptz",
+    "questions" : [ {
+      "id" : "q_QdxgkorbeBzYvkdPzBaXbR",
+      "type" : "OTHER",
+      "content" : "After DSA rounds how many LLD rounds will be there?"
+    }, {
+      "id" : "q_BrHNjDGEhQzS2Ss5sXj6QQ",
+      "type" : "OTHER",
+      "content" : "Are we expected to run the complete code or just class diagram and rough flow be sufficient?"
+    } ]
+  } ],
+  "date" : "2025-11-14"
+}, {
   "id" : "i_U4K7XzKcwkAeTuHsxMube4",
   "leetcodeId" : "7342308",
   "company" : "Arista networks",
