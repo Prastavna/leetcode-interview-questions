@@ -1,4 +1,58 @@
 [ {
+  "id" : "i_VRDvYcuCwQnHxtD4vZBpbD",
+  "leetcodeId" : "7367413",
+  "company" : "Alkira",
+  "role" : "SWE – Networking Role",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_CFEX1F5twj6sfCbr3j6eTL",
+    "questions" : [ {
+      "id" : "q_GZXXBU1UMAnpkL3Ump19SP",
+      "type" : "DSA",
+      "content" : "Remove duplicates from sorted linked list."
+    }, {
+      "id" : "q_B1LfS8uVmYuW1ayk85qL4B",
+      "type" : "DSA",
+      "content" : "Follow-up: remove all duplicates (delete all occurrences of elements that repeat)."
+    }, {
+      "id" : "q_GuR6R5dj1fyiUnkVodDAvF",
+      "type" : "DSA",
+      "content" : "Two functions incrementing & decrementing a shared variable 1000 times."
+    }, {
+      "id" : "q_xuFrG8zsRx8os4Db8HEwP",
+      "type" : "DSA",
+      "content" : "Expected output with multiple threads? Why race conditions occur?"
+    }, {
+      "id" : "q_XdBAvKMZ6sgHqQ6qC9ETq6",
+      "type" : "DSA",
+      "content" : "Check if a number is a power of 2."
+    }, {
+      "id" : "q_EaUyVbkFJKeCFUGxqXmvAB",
+      "type" : "DSA",
+      "content" : "Count set bits for a given number."
+    }, {
+      "id" : "q_HWoFHvYp7FobXC4wa1xJoB",
+      "type" : "DSA",
+      "content" : "Design and implement full working code for a lockless circular queue."
+    } ]
+  }, {
+    "id" : "r_BmHCNhexvCbNS7kERTUbp9",
+    "questions" : [ {
+      "id" : "q_DvfMd2UdF8zh4XQCMAR3ry",
+      "type" : "DSA",
+      "content" : "Debug a C problem related to threading."
+    }, {
+      "id" : "q_FQZSPmMY168BCF72PFxc1R",
+      "type" : "DSA",
+      "content" : "Why count++ isn’t atomic?"
+    }, {
+      "id" : "q_HomPG3tkgTzRgqu61t1rME",
+      "type" : "DSA",
+      "content" : "Debug a deadlock scenario + how to resolve it."
+    } ]
+  } ],
+  "date" : "2025-11-22"
+}, {
   "id" : "i_Y36aKje5rBYhaiUstMLRT",
   "leetcodeId" : "7352868",
   "company" : "Amazon",
