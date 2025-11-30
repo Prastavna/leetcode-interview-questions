@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+button, a, [role="button"] {
+  cursor: pointer;
+}
+
 [data-reka-popper-content-wrapper] {
 	z-index: 5 !important;
 }
