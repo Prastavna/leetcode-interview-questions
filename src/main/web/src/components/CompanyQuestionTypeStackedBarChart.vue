@@ -26,7 +26,7 @@ import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
-import { usePrefersDark } from "../utils/usePrefersDark";
+import { useTheme } from "../utils/useTheme";
 
 type QuestionTypeKey = keyof typeof QuestionType;
 
@@ -96,9 +96,9 @@ const shouldRotateLabels = computed(() =>
   aggregated.value.companyNames.some((company) => company.length > 12),
 );
 
-const prefersDark = usePrefersDark();
-const textColor = computed(() => (prefersDark.value ? "#f9fafb" : "#111827"));
-const gridLineColor = computed(() => (prefersDark.value ? "rgba(255,255,255,0.2)" : "#e5e7eb"));
+const { effectiveTheme } = useTheme();
+const textColor = computed(() => (effectiveTheme.value === "dark" ? "#f9fafb" : "#111827"));
+const gridLineColor = computed(() => (effectiveTheme.value === "dark" ? "rgba(255,255,255,0.2)" : "#e5e7eb"));
 
 const chartOptions = computed(() => ({
   textStyle: {

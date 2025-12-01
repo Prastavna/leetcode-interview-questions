@@ -52,23 +52,24 @@ function initializeThemeSync(): Theme {
 // Initialize theme synchronously on module load
 const initialTheme = initializeThemeSync();
 
-export function useTheme() {
-	const theme = ref<Theme>(initialTheme);
+const theme = ref<Theme>(initialTheme);
+const effectiveTheme = ref<"light" | "dark">(getEffectiveTheme(theme.value));
+let initialized = false;
+let mediaQuery: MediaQueryList | null = null;
 
-	// Computed effective theme for display purposes
-	const effectiveTheme = ref<"light" | "dark">(getEffectiveTheme(theme.value));
-	
-	const updateEffectiveTheme = () => {
-		effectiveTheme.value = getEffectiveTheme(theme.value);
-		applyTheme(effectiveTheme.value);
-	};
+const updateEffectiveTheme = () => {
+	effectiveTheme.value = getEffectiveTheme(theme.value);
+	applyTheme(effectiveTheme.value);
+};
 
-	// Watch for theme changes
+const ensureInitialized = () => {
+	if (initialized) return;
+	initialized = true;
+
 	watch(theme, updateEffectiveTheme, { immediate: true });
 
-	// Watch for system preference changes when theme is "auto"
 	if (typeof window !== "undefined") {
-		const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+		mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 		const handleSystemThemeChange = () => {
 			if (theme.value === "auto") {
 				updateEffectiveTheme();
@@ -76,6 +77,10 @@ export function useTheme() {
 		};
 		mediaQuery.addEventListener("change", handleSystemThemeChange);
 	}
+};
+
+export function useTheme() {
+	ensureInitialized();
 
 	const setTheme = (newTheme: Theme) => {
 		theme.value = newTheme;

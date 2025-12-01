@@ -26,7 +26,7 @@ import VChart from "vue-echarts";
 import "../lib/echarts";
 import type { Interview } from "../types/Interview";
 import { QuestionType, QuestionTypeColors } from "../types/Interview";
-import { usePrefersDark } from "../utils/usePrefersDark";
+import { useTheme } from "../utils/useTheme";
 import { useIsMobile } from "../utils/useIsMobile";
 
 type ChartDatum = {
@@ -71,11 +71,11 @@ const chartData = computed<ChartDatum[]>(() => {
 
 const hasData = computed(() => chartData.value.length > 0);
 
-const prefersDark = usePrefersDark();
+const { effectiveTheme } = useTheme();
 const isMobile = useIsMobile();
 
-const labelColor = computed(() => (prefersDark.value ? "#f9fafb" : "#111827"));
-const labelLineColor = computed(() => (prefersDark.value ? "rgba(255,255,255,0.6)" : "#4b5563"));
+const labelColor = computed(() => (effectiveTheme.value === "dark" ? "#f9fafb" : "#111827"));
+const labelLineColor = computed(() => (effectiveTheme.value === "dark" ? "rgba(255,255,255,0.6)" : "#4b5563"));
 
 const chartOptions = computed(() => ({
   renderer: "svg",
