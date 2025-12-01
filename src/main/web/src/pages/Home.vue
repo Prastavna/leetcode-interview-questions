@@ -43,7 +43,7 @@
     <Table :data="filteredInterviews" :is-loading="isLoading" :error="error" />
 
     <footer class="mt-6 border-t border-gray-200 pt-6 pb-10 text-center text-sm text-gray-600">
-      <span>
+      <span class="dark:text-white">
         Compensation insights generated from Leetcode Discussions:
         <a
           href="https://leetcode-compensation.prastavna.com/"

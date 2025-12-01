@@ -137,8 +137,9 @@ watch(
         :step="1"
         tooltip
       />
-      <div class="flex justify-between text-xs text-gray-600">
+      <div class="flex justify-between text-xs text-gray-600 dark:text-gray-200">
         <span>{{ yoeRange[0] }}</span>
+        <span>Years of experience</span>
         <span>{{ yoeRange[1] }}</span>
       </div>
     </div>

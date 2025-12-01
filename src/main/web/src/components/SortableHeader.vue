@@ -9,7 +9,7 @@ const props = defineProps<{
 }>();
 
 const buttonClass =
-	"flex items-center gap-1 uppercase tracking-wide text-xs font-semibold text-gray-600";
+	"flex items-center gap-1 uppercase tracking-wide text-xs font-semibold text-gray-600 dark:text-white";
 const iconClass = "text-[0.65rem] font-medium text-gray-400";
 
 const sortIcon = computed(() => {

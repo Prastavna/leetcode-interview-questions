@@ -245,13 +245,13 @@ watch(
     <div class="p-4 text-red-600" v-else-if="props.error">{{ props.error }}</div>
     <div v-else>
       <div class="flex flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500">
+        <span class="text-sm text-gray-500 dark:text-white">
           {{ pageSummary }}
         </span>
 
         <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div class="flex items-center gap-2">
-            <span class="text-xs font-medium uppercase tracking-wide text-gray-500">Rows</span>
+            <span class="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-white">Rows</span>
             <USelect v-model="pageSizeModel" :items="pageSizeItems" class="w-28" />
           </div>
           <UPagination v-model:page="currentPage" :items-per-page="pagination.pageSize" :total="totalRows" />
@@ -316,12 +316,30 @@ watch(
           </template>
         </template>
 
+        <template #company-cell="{ row }">
+            <span class="text-sm font-semibold dark:text-white">
+              {{ row.getValue("company") }}
+            </span>
+        </template>
+
+        <template #role-cell="{ row }">
+            <span class="text-sm dark:text-white">
+              {{ row.getValue("role") }}
+            </span>
+        </template>
+
         <template #roundCount-cell="{ row }">
           <template v-for="count in [Number(row.getValue('roundCount')) || 0]" :key="`roundCount-${row.id}`">
-            <span class="text-sm font-semibold">
+            <span class="text-sm font-semibold dark:text-white">
               {{ count }}
             </span>
           </template>
+        </template>
+
+        <template #yoe-cell="{ row }">
+            <span class="text-sm dark:text-white">
+              {{ row.getValue("yoe") }}
+            </span>
         </template>
 
         <template #roundDetails-cell="{ row }">
@@ -342,7 +360,9 @@ watch(
         </template>
 
         <template #date-cell="{ row }">
-          {{ formatInterviewDate(row.original?.date) }}
+          <span class="dark:text-white">
+            {{ formatInterviewDate(row.original?.date) }}
+          </span>
         </template>
 
         <template #expanded="{ row }">
