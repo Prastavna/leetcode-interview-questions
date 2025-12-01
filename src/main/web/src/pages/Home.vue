@@ -5,7 +5,7 @@
       <div class="flex items-center gap-3">
         <UButton
           :icon="theme === 'auto' ? 'i-lucide-monitor' : effectiveTheme === 'dark' ? 'i-lucide-sun' : 'i-lucide-moon'"
-          color="gray"
+          color="neutral"
           variant="ghost"
           size="sm"
           @click="toggleTheme"
