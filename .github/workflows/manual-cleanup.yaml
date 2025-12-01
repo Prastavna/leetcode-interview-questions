@@ -67,3 +67,4 @@ jobs:
             Removed the following LeetCode discussion IDs:
             `${{ inputs.leetcode_ids }}`
           delete-branch: true
+          draft: false

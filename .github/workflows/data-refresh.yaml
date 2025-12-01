@@ -69,3 +69,4 @@ jobs:
             Automated run of the Java ingestion pipeline.
             - Updates `src/main/web/public/interviews.json` with the latest interviews.
           delete-branch: true
+          draft: false

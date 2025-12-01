@@ -23,6 +23,7 @@ public class Openai {
       - General advice about interviews
       - Self-promotion or course links
       - Generic study guidance
+      - Any other content not related to interviews
       Then return `null`.
     3. Do not infer or hallucinate questions. Only use what is explicitly mentioned in the post. If you feel like that no question is present in the post, reject that post.
     4. Company name, role, years of experience (yoe), and date must come directly from the post if present, otherwise leave them empty or default. Company name should not be something generic like `Company`, `MNC`, `Startup` et. Role can be empty but keep in mind that come compnaies like Microsoft have roles like L60, L61 etc. For YoE, if the post seems even a bit fishy return -1.
