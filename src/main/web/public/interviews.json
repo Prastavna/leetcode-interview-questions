@@ -1,4 +1,264 @@
 [ {
+  "id" : "i_BivL8vYRdfskdttLZXd1qa",
+  "leetcodeId" : "7409063",
+  "company" : "HashedIn by Deloitte",
+  "role" : "Backend + GenAI",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_HfGZCf7Vx8gHA8kAPz5Nu4",
+    "questions" : [ {
+      "id" : "q_3qtXegHA4U571WUTUuNd39",
+      "type" : "DSA",
+      "content" : "Best Time to Buy and Sell Stock (Max Profit)"
+    }, {
+      "id" : "q_3xmDz1Pub4YvenQGriSXRZ",
+      "type" : "DSA",
+      "content" : "Search in a 2D Matrix"
+    }, {
+      "id" : "q_AGVRpWDiQ62i46JYfXhtej",
+      "type" : "OTHER",
+      "content" : "Swap Sex of Employees"
+    } ]
+  }, {
+    "id" : "r_TBinfZ4bMBhP7zmBDD3hwj",
+    "questions" : [ {
+      "id" : "q_52TjWn8BFHQyg56Qj2zaLi",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a multi-tenant e-commerce platform."
+    } ]
+  }, {
+    "id" : "r_VUPtDtqqWLZ3PZVjHBeg2k",
+    "questions" : [ {
+      "id" : "q_PvHkBJvZFH8SL6gHxHtU4H",
+      "type" : "BEHAVIOURAL",
+      "content" : "Walkthrough of my recent project"
+    }, {
+      "id" : "q_31tfeVktWkaNiFoJAesZFE",
+      "type" : "BEHAVIOURAL",
+      "content" : "How I debug production bugs"
+    }, {
+      "id" : "q_8RfYoTtYcsC1KDVcGnjjbc",
+      "type" : "BEHAVIOURAL",
+      "content" : "Times I worked under pressure"
+    }, {
+      "id" : "q_WjxfQg7h62zmxDLH3xvboz",
+      "type" : "BEHAVIOURAL",
+      "content" : "Conflict resolution within a team"
+    }, {
+      "id" : "q_WR2tgfjCnJK45nSYrNqnrZ",
+      "type" : "BEHAVIOURAL",
+      "content" : "Motivation for switching roles"
+    } ]
+  } ],
+  "date" : "2025-12-12"
+}, {
+  "id" : "i_LQNAij6U8fNneBwXrnCbDG",
+  "leetcodeId" : "7409465",
+  "company" : "Deutsche Bank",
+  "role" : "Java Backend Developer - AVP",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_647MFjdkxPNLtiXAAYzAEe",
+    "questions" : [ {
+      "id" : "q_CCocNDj9vdMWSkz9PvAAmW",
+      "type" : "OTHER",
+      "content" : "What is OOP? Explain the principles with real examples."
+    }, {
+      "id" : "q_6yvTV3RGhRupzbT3WHhpdo",
+      "type" : "OTHER",
+      "content" : "Frequently used design patterns and their use cases."
+    }, {
+      "id" : "q_4bCxrpPv6d4fALKyoPQjQq",
+      "type" : "OTHER",
+      "content" : "How @Transactional works internally in Spring."
+    }, {
+      "id" : "q_GKkLjwNp6yFVtFh6tHu8LR",
+      "type" : "OTHER",
+      "content" : "Implement a custom HashMap (used LinkedHashMap)."
+    }, {
+      "id" : "q_8QTY6bBpTJtTN5AcKytp23",
+      "type" : "OTHER",
+      "content" : "Different ways to create objects in Java."
+    }, {
+      "id" : "q_EAwgzD6BeeXeaw1TYuPTXW",
+      "type" : "OTHER",
+      "content" : "What is reflection and why it is used?"
+    }, {
+      "id" : "q_45mdKhhhv9QYSnbXWf8N1W",
+      "type" : "OTHER",
+      "content" : "How Spring Boot works internally. Spring Bean lifecycle."
+    }, {
+      "id" : "q_QokR4hAr4q53FDXJ6HB9rc",
+      "type" : "OTHER",
+      "content" : "Ways to create beans in Spring."
+    }, {
+      "id" : "q_P1cvnMCCFi3haWedGX3yYg",
+      "type" : "OTHER",
+      "content" : "What is AOP and where is it useful?"
+    }, {
+      "id" : "q_8dgqVpwA572u6qrRJPgka7",
+      "type" : "OTHER",
+      "content" : "ConcurrentHashMap concepts and internal working."
+    }, {
+      "id" : "q_SYJUEwATw7xY8J5hU5BVH2",
+      "type" : "OTHER",
+      "content" : "HashMap vs Hashtable."
+    }, {
+      "id" : "q_Ug6kbWY9TTAFaxHHxfqxS5",
+      "type" : "OTHER",
+      "content" : "JVM memory model overview."
+    }, {
+      "id" : "q_KwRaDYxdLNguZ2oFbyCUCu",
+      "type" : "OTHER",
+      "content" : "How garbage collection works."
+    }, {
+      "id" : "q_YFhDNTPZEgoS95Nk1MG49D",
+      "type" : "OTHER",
+      "content" : "What happens internally when we add @Transactional?"
+    }, {
+      "id" : "q_U68qLZigohVFThSvMvnCsp",
+      "type" : "OTHER",
+      "content" : "Can a functional interface extend another interface?"
+    }, {
+      "id" : "q_W3nWN4E83RzatBbojFs5rz",
+      "type" : "OTHER",
+      "content" : "How to optimize slow performing API? How to speed up the process of data retrieval?"
+    }, {
+      "id" : "q_JhwbqCsFRkpditHYADGu2N",
+      "type" : "OTHER",
+      "content" : "Do you know windows function? (RANK)"
+    }, {
+      "id" : "q_9s35ETBqtV35gYC99dDi6H",
+      "type" : "OTHER",
+      "content" : "Explain @RestController vs @Controller."
+    }, {
+      "id" : "q_VNPFJNszGanC5LhhvH9mFL",
+      "type" : "DSA",
+      "content" : "One coding problem based on HashMap (medium)."
+    } ]
+  }, {
+    "id" : "r_HNMcy4vb41BvPaNvLXPuow",
+    "questions" : [ {
+      "id" : "q_GyZxDE7oHhSQ44hCajnU3S",
+      "type" : "OTHER",
+      "content" : "Introduction and strong technical areas."
+    }, {
+      "id" : "q_PfMsGx5rRLKdkGPr4uZLvt",
+      "type" : "DSA",
+      "content" : "Medium-level problem: Longest Substring with At Most K Distinct Characters."
+    }, {
+      "id" : "q_2A1gYeQGiuDPo6NckauBA8",
+      "type" : "OTHER",
+      "content" : "End-to-end deployment experience in detail."
+    }, {
+      "id" : "q_AwXxJX3SsFCBqHq2gjmAjE",
+      "type" : "OTHER",
+      "content" : "What is IAM and how applications are secured using IAM?"
+    }, {
+      "id" : "q_Kb7MhqB6NAXZgFeWRo1kMk",
+      "type" : "OTHER",
+      "content" : "Authentication vs Authorization."
+    }, {
+      "id" : "q_3jmzH7km6NA8gSBi24ejc9",
+      "type" : "OTHER",
+      "content" : "How JWT tokens work."
+    }, {
+      "id" : "q_4QzU3nmsXxwqirjsJqEzHw",
+      "type" : "OTHER",
+      "content" : "How Kubernetes helps in securing applications."
+    }, {
+      "id" : "q_AV51nb8Z3AYc3HeKwNtDvH",
+      "type" : "OTHER",
+      "content" : "Usage, real project use case, and related questions."
+    }, {
+      "id" : "q_CYjrx6RqLKRizGAtvAHC6v",
+      "type" : "OTHER",
+      "content" : "Error vs Exception. If both are throwable, why Java separates them?"
+    }, {
+      "id" : "q_VBjcRg89SLdjtsU2PSyiZw",
+      "type" : "OTHER",
+      "content" : "Can an abstract class have a constructor?"
+    }, {
+      "id" : "q_CMuVKgbPfMhzH7SyRFTmh2",
+      "type" : "OTHER",
+      "content" : "What are HTTP status codes?"
+    }, {
+      "id" : "q_DPWgkQYyoQrWTePM9HJzJj",
+      "type" : "OTHER",
+      "content" : "What HTTP methods are idempotent?"
+    }, {
+      "id" : "q_VxtErUBFX82Q8EL8hkLe4w",
+      "type" : "OTHER",
+      "content" : "What is the difference between a Proxy and a Reverse Proxy?"
+    }, {
+      "id" : "q_L56Seb1WLKL53tijTKhBPw",
+      "type" : "OTHER",
+      "content" : "In which scenarios do we use an API Gateway?"
+    }, {
+      "id" : "q_m9iRHnZyA97i6BJs4VgNH",
+      "type" : "OTHER",
+      "content" : "Why do we need an API Gateway in a microservices architecture?"
+    } ]
+  }, {
+    "id" : "r_G7BrwirJ4pkPhqGyqf4crL",
+    "questions" : [ {
+      "id" : "q_4qGZkFVzqG9bVgdFMfEZm3",
+      "type" : "BEHAVIOURAL",
+      "content" : "Where do you see yourself in the next 5 years?"
+    }, {
+      "id" : "q_Uq9GCws7AmfBTHSFuB2NJp",
+      "type" : "BEHAVIOURAL",
+      "content" : "Why Deutsche Bank?"
+    }, {
+      "id" : "q_aXZoXqDakCJ381XtKVd3z",
+      "type" : "BEHAVIOURAL",
+      "content" : "Current roles and responsibilities?"
+    }, {
+      "id" : "q_4NLtXRktt4Ktfm6JPf8XBW",
+      "type" : "BEHAVIOURAL",
+      "content" : "Key strengths?"
+    }, {
+      "id" : "q_LahZRMcEqYQS3UcP7wfgAi",
+      "type" : "BEHAVIOURAL",
+      "content" : "What you enjoy most in technology?"
+    }, {
+      "id" : "q_7hDpaM2uFMmhuAZX6S8G51",
+      "type" : "BEHAVIOURAL",
+      "content" : "Three things you like about Deutsche Bank?"
+    } ]
+  }, {
+    "id" : "r_BUucLhxsjvSaqeax4VBD1b",
+    "questions" : [ {
+      "id" : "q_QfBPJCX2Tc7SizscFZt53d",
+      "type" : "OTHER",
+      "content" : "Compensation discussion."
+    }, {
+      "id" : "q_Y4dTZ6jjtqqFYaH2WfJvwA",
+      "type" : "OTHER",
+      "content" : "Discussed expectations, policies, and joining dates during the call."
+    } ]
+  } ],
+  "date" : "2025-12-12"
+}, {
+  "id" : "i_QE3eMDT5vda3hxQxax34kw",
+  "leetcodeId" : "7396139",
+  "company" : "Airtable",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_5bUzBxax6AfeQukrzwFcci",
+    "questions" : [ {
+      "id" : "q_3XSZTASFSVUjRxes5WsK3r",
+      "type" : "DSA",
+      "content" : "Implement `undo()` and `redo()` for set_cell case"
+    }, {
+      "id" : "q_4Q3em25Vm8kEejFae4bNmz",
+      "type" : "DSA",
+      "content" : "Extend `undo()` and `redo()` for the other operations (eg: add_row, remove_row, add_column, remove_column)"
+    } ]
+  } ],
+  "date" : "2025-12-06"
+}, {
   "id" : "i_XEump6iFEtXZwhSH9qwht",
   "leetcodeId" : "7372684",
   "company" : "Google",
