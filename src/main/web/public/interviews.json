@@ -1,4 +1,212 @@
 [ {
+  "id" : "i_T2jyroSVHkcSA8a5nKWhKr",
+  "leetcodeId" : "7410309",
+  "company" : "Chubb",
+  "role" : "AI/ML Engineer",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_GqFQdC27nYgrUii6d4ezPy",
+    "questions" : [ {
+      "id" : "q_24qAau4ZpofKa1kAkfSAwG",
+      "type" : "OTHER",
+      "content" : "What’s the expected total compensation (base + bonus + stocks) for a AI ML Engineer at Chubb (India)?"
+    }, {
+      "id" : "q_Nup1YCNYpmtpvBMFjTJnK2",
+      "type" : "OTHER",
+      "content" : "Any tips on how to negotiate, if an initial offer feels on the lower side?"
+    } ]
+  } ],
+  "date" : "2025-12-13"
+}, {
+  "id" : "i_AVUht8Ri5EAP1cKP3sE2j8",
+  "leetcodeId" : "7410581",
+  "company" : "Rakuten Symphony",
+  "role" : "Senior Software Engineer",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_7mTXAQ2KdLyfYAbjiCgWH9",
+    "questions" : [ {
+      "id" : "q_G3oXQmP9hDMNJTxK6w22fv",
+      "type" : "OTHER",
+      "content" : "Purpose and memory saving aspects of static variables."
+    }, {
+      "id" : "q_TSn5vNzJ1mE9dCv5gmxkLC",
+      "type" : "DSA",
+      "content" : "Implementing the Fibonacci Series."
+    }, {
+      "id" : "q_APPZU7pkdjwUgfTieENtNa",
+      "type" : "DSA",
+      "content" : "Java Streams: Counting word frequency in a given string."
+    }, {
+      "id" : "q_75xqLwDjAiejdYRY69FGda",
+      "type" : "OTHER",
+      "content" : "OOPS concepts"
+    }, {
+      "id" : "q_S9RpAie7ZXh9QnX8LjNecR",
+      "type" : "OTHER",
+      "content" : "Several rapid-fire questions on basic JAVA concepts."
+    }, {
+      "id" : "q_Jt77r7YD8vRhCfJWgFKjCY",
+      "type" : "OTHER",
+      "content" : "Spring JPA fundamentals and implementation."
+    }, {
+      "id" : "q_WiT2ZEDHUVf55fJPu23JFR",
+      "type" : "OTHER",
+      "content" : "Writing complex SELECT queries using JPA."
+    }, {
+      "id" : "q_XqiXLhqpRp9QGF71LJ5tcm",
+      "type" : "OTHER",
+      "content" : "Difference between @RestController and @Controller."
+    }, {
+      "id" : "q_K9NkspmKL96XfuxwoBPNcz",
+      "type" : "OTHER",
+      "content" : "Writing a basic REST Controller."
+    }, {
+      "id" : "q_SCWgjquWuyisjJiz6vgMRM",
+      "type" : "OTHER",
+      "content" : "Functionality of the @SpringBootApplication annotation."
+    }, {
+      "id" : "q_BM8fXwJ8nD2wjUKXwWPPmd",
+      "type" : "OTHER",
+      "content" : "Microservice communication models (Synchronous vs. Asynchronous)."
+    }, {
+      "id" : "q_RiyGr4SLaoeLVitpbe4ZHP",
+      "type" : "OTHER",
+      "content" : "Essential Git commands (checking commit history, reverting a commit)."
+    }, {
+      "id" : "q_LnW46DvbL2nKbKXZahefvq",
+      "type" : "OTHER",
+      "content" : "Resolving Maven conflicts."
+    }, {
+      "id" : "q_8Du8ye3TvFCXZjpBigdyTs",
+      "type" : "DSA",
+      "content" : "SQL query to find the maximum salary."
+    }, {
+      "id" : "q_Ja3jetf52Uau7DcWs3mncL",
+      "type" : "OTHER",
+      "content" : "Basic Kubernetes commands."
+    }, {
+      "id" : "q_NLh4XF6noD9UWb7y9VZdf3",
+      "type" : "OTHER",
+      "content" : "Advantages and Disadvantages of Microservices architecture."
+    } ]
+  }, {
+    "id" : "r_Byhf1hSVgGjiabHwGmLeyD",
+    "questions" : [ {
+      "id" : "q_6TkKcoFKaXLyC9dLPkLPbi",
+      "type" : "OTHER",
+      "content" : "Detailed questions on Project Architecture."
+    }, {
+      "id" : "q_7ojrhWdy8eAJHHHyzFFtHc",
+      "type" : "OTHER",
+      "content" : "General System Design questions."
+    }, {
+      "id" : "q_BQYJhmmn4KsNbUKYTfvFMS",
+      "type" : "OTHER",
+      "content" : "Role and function of an API Gateway."
+    }, {
+      "id" : "q_47EH7wy9iipunAJjz8nJQy",
+      "type" : "OTHER",
+      "content" : "Service-to-service communication mechanisms."
+    }, {
+      "id" : "q_HaJuDQZHeKL6zJTyubSEuG",
+      "type" : "OTHER",
+      "content" : "Service Discovery."
+    }, {
+      "id" : "q_TMbf5g8DgZ1mjVZzcYYy4i",
+      "type" : "OTHER",
+      "content" : "How requests are routed from the API Gateway to a service."
+    }, {
+      "id" : "q_3JMrR38L398DTBgueVZVUk",
+      "type" : "OTHER",
+      "content" : "Deployment methods used."
+    }, {
+      "id" : "q_9PBVBXLM6xetA5ei5Wdfu4",
+      "type" : "OTHER",
+      "content" : "Scaling a service (approaches and considerations)."
+    }, {
+      "id" : "q_R9gRwYmT1U8uLe66Ss7QR2",
+      "type" : "OTHER",
+      "content" : "Resolving performance issues in a system."
+    }, {
+      "id" : "q_Et6WSWkw2zvQaVnHo6KN2H",
+      "type" : "OTHER",
+      "content" : "Hosting/Routing considerations for global access (e.g., users from different countries)."
+    }, {
+      "id" : "q_UerzMP32NoPmhLKFDsUiNQ",
+      "type" : "OTHER",
+      "content" : "Authentication and Authorization mechanisms."
+    }, {
+      "id" : "q_BcGfwiKexF2bhaom5Dbgqn",
+      "type" : "OTHER",
+      "content" : "Handling authentication/authorization for customers without standard PII (like email)."
+    }, {
+      "id" : "q_YGvEuWzYjgPuHHexCoC1BZ",
+      "type" : "OTHER",
+      "content" : "General Security Aspects and how to write secure code."
+    }, {
+      "id" : "q_sCeV582qLm1xcQ9ifaU65",
+      "type" : "OTHER",
+      "content" : "Reason for the Singleton class pattern."
+    }, {
+      "id" : "q_S17qFJgoPZrBrjRbGGXdty",
+      "type" : "OTHER",
+      "content" : "Java Memory Management (How the JVM allocates memory)."
+    }, {
+      "id" : "q_CydZqB3F3XkD8PyzWfjUkr",
+      "type" : "OTHER",
+      "content" : "In-depth discussion on static variables (revisiting from Round 1)."
+    }, {
+      "id" : "q_AGJbgDjSGsQbGmdseEP4vv",
+      "type" : "DSA",
+      "content" : "SQL query to find the 2nd highest salary of an employee."
+    }, {
+      "id" : "q_F7VdkwKjWoWm6X4qaxTjkU",
+      "type" : "DSA",
+      "content" : "Print all non-repeating characters in a given string."
+    }, {
+      "id" : "q_V42g6E5XtNFEpe81HQG4Tg",
+      "type" : "OTHER",
+      "content" : "Knowledge on AWS (General concepts)."
+    }, {
+      "id" : "q_CKJkTVXELS9CWv7onj3TcU",
+      "type" : "OTHER",
+      "content" : "Kubernetes Concepts (Deeper dive)."
+    } ]
+  }, {
+    "id" : "r_8nyEFBBkhPTBhDzTk1zynk",
+    "questions" : [ {
+      "id" : "q_6LvYzE3Rm2Y5N1x38CF8Rv",
+      "type" : "OTHER",
+      "content" : "Questions specific to the content on the resume."
+    }, {
+      "id" : "q_CnHv1mVSmvZgGDGSbu5ZYG",
+      "type" : "OTHER",
+      "content" : "Detailed discussion and deep dive into past projects."
+    }, {
+      "id" : "q_V4Muw3kusK59h5To8nqJxD",
+      "type" : "BEHAVIOURAL",
+      "content" : "Why do you want to switch (Standard behavioral question)."
+    }, {
+      "id" : "q_JRQqTPnMze77WKnexzrmu5",
+      "type" : "OTHER",
+      "content" : "Integration of Large Language Models (LLM)."
+    }, {
+      "id" : "q_S9rgz6kLRbtuLQAnsYggx6",
+      "type" : "OTHER",
+      "content" : "Retrieval-Augmented Generation (RAG) framework."
+    }, {
+      "id" : "q_XmzGTsKUJukKEWzdcbJwFC",
+      "type" : "OTHER",
+      "content" : "Kafka (Message Queueing)."
+    }, {
+      "id" : "q_2wPuR6aJkFugkwVFfvayk5",
+      "type" : "OTHER",
+      "content" : "Which algorithm is used for semantic similarity search."
+    } ]
+  } ],
+  "date" : "2025-12-13"
+}, {
   "id" : "i_BivL8vYRdfskdttLZXd1qa",
   "leetcodeId" : "7409063",
   "company" : "HashedIn by Deloitte",
