@@ -1,4 +1,46 @@
 [ {
+  "id" : "i_NKzzzJnryb7RFBygwD6v8h",
+  "leetcodeId" : "7415838",
+  "company" : "Thoughtspot",
+  "role" : "MTS 3",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_8QFSjQhm7scXSefvHNdUqh",
+    "questions" : [ {
+      "id" : "q_PL5epcx4VEwPhsdrk2jjyT",
+      "type" : "DSA",
+      "content" : "Implement a versioned stack"
+    }, {
+      "id" : "q_VEmfYZDYjbMwq1YF8T2iXz",
+      "type" : "DSA",
+      "content" : "Adding 2 large numbers that doesn't fit into normal integers using linked list"
+    }, {
+      "id" : "q_QdSPH7ktQx4dLWeNArafKZ",
+      "type" : "OTHER",
+      "content" : "Alternatives to redux for state management"
+    }, {
+      "id" : "q_7n7du4FpZoQji6ht3zF26S",
+      "type" : "OTHER",
+      "content" : "Do you know how GraphQL works ?"
+    }, {
+      "id" : "q_DGEPZPfGpTqiR7ejFrL3iy",
+      "type" : "OTHER",
+      "content" : "How does streaming response work in LLM chatbot ?"
+    } ]
+  }, {
+    "id" : "r_5dMjr9dihEcUQXgjicF7kG",
+    "questions" : [ {
+      "id" : "q_CPjc2ksajFREjihWyBTjCg",
+      "type" : "OTHER",
+      "content" : "Discussions around the projects I worked on and alternate approaches"
+    }, {
+      "id" : "q_NjnoVZ5Q3TxD4HGE7K5FMd",
+      "type" : "BEHAVIOURAL",
+      "content" : "Behavioral questions"
+    } ]
+  } ],
+  "date" : "2025-12-15"
+}, {
   "id" : "i_T2jyroSVHkcSA8a5nKWhKr",
   "leetcodeId" : "7410309",
   "company" : "Chubb",
