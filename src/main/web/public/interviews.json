@@ -41,25 +41,6 @@
   } ],
   "date" : "2025-12-15"
 }, {
-  "id" : "i_T2jyroSVHkcSA8a5nKWhKr",
-  "leetcodeId" : "7410309",
-  "company" : "Chubb",
-  "role" : "AI/ML Engineer",
-  "yoe" : 5,
-  "rounds" : [ {
-    "id" : "r_GqFQdC27nYgrUii6d4ezPy",
-    "questions" : [ {
-      "id" : "q_24qAau4ZpofKa1kAkfSAwG",
-      "type" : "OTHER",
-      "content" : "What’s the expected total compensation (base + bonus + stocks) for a AI ML Engineer at Chubb (India)?"
-    }, {
-      "id" : "q_Nup1YCNYpmtpvBMFjTJnK2",
-      "type" : "OTHER",
-      "content" : "Any tips on how to negotiate, if an initial offer feels on the lower side?"
-    } ]
-  } ],
-  "date" : "2025-12-13"
-}, {
   "id" : "i_AVUht8Ri5EAP1cKP3sE2j8",
   "leetcodeId" : "7410581",
   "company" : "Rakuten Symphony",
