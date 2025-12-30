@@ -1,4 +1,57 @@
 [ {
+  "id" : "i_XAvLAhMF8ApywsFuUgHNqq",
+  "leetcodeId" : "7433054",
+  "company" : "Meltwater",
+  "role" : "Software Engineer - Full Stack",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_TDBof38rT88QHL9c5Rk4AY",
+    "questions" : [ {
+      "id" : "q_HCs2xawpYJxmGNZPqyDLVm",
+      "type" : "OTHER",
+      "content" : "Recent Project Experience."
+    }, {
+      "id" : "q_FjDVi3knPjAFGiE78R4gsv",
+      "type" : "OTHER",
+      "content" : "Technical Challenged faced."
+    }, {
+      "id" : "q_HFGorXzwHsPVMmp7r9rNQD",
+      "type" : "OTHER",
+      "content" : "Your part in the project."
+    }, {
+      "id" : "q_MbuFVPaBS5zPaw8LQ8AePT",
+      "type" : "OTHER",
+      "content" : "Any live production issue you solved."
+    }, {
+      "id" : "q_YQr7DVgqspV4K2oj5yUggJ",
+      "type" : "OTHER",
+      "content" : "Database that Youtube uses and why they are a good fit for its use case?"
+    } ]
+  }, {
+    "id" : "r_4tLv5KPu3BYby3mpBdy4Ac",
+    "questions" : [ {
+      "id" : "q_DbpbzxKERbyjNwn3JwLKSZ",
+      "type" : "DSA",
+      "content" : "Given some similar data set like this [ robot1_tool1, robot2_tool2, robot1_tool3, robot3_tool4, robot2_tool1, robot3_tool3 ] Output: tool1 - [robot1, robot2]"
+    }, {
+      "id" : "q_KvsmqvjvuKr9avmuSUdbrg",
+      "type" : "DSA",
+      "content" : "Given a directed graph, you need to output root to leafs paths. Eg: [ A -> [B, E, G], C -> [D, F, I], H -> [F, M, N] ] -- Basically you need to find indegree 0 nodes and do a BFS"
+    } ]
+  }, {
+    "id" : "r_77CwLBkWyuhuwgjLRj6ave",
+    "questions" : [ {
+      "id" : "q_9kfgJSrnqYdzcYhKnMfsdC",
+      "type" : "DSA",
+      "content" : "Given an array (0-indexed) of points difference of a team in a football match. you need to find the index where the team went from trailing to leading else return -1. Input: [0, 1, 0, -1, 0, 1, 2, 1, 0] Output: 5"
+    }, {
+      "id" : "q_HN5yo6fXPSNPLE35r9BYai",
+      "type" : "DSA",
+      "content" : "Now we have an arrary called rectifications, [ time | score [0 ,   +1], [3 ,   0] ] Each rectification updates the score difference at the given time, and this correction should affect all subsequent values to the right of that index. After applying these rectifications, the task is to determine the same output as in Q1."
+    } ]
+  } ],
+  "date" : "2025-12-23"
+}, {
   "id" : "i_XWfPh35wuECNpqVDMMKr9k",
   "leetcodeId" : "7420003",
   "company" : "Google",
