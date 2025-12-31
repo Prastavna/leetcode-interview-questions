@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_oFF77MMnXVPG6VaQhnoDq",
+  "leetcodeId" : "7434759",
+  "company" : "Gemscap",
+  "role" : "SDE-1",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_TVTVFEeCyT2vQ3CGwUUaXu",
+    "questions" : [ {
+      "id" : "q_Eqwvs3DEHG2kT3pCEP933r",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design architecture for managing millions of incoming data streams (e.g., WebSocket data) for traders."
+    }, {
+      "id" : "q_8NgyHrd3tKQa52kCswGf8n",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How will you store data for live news and old news?"
+    } ]
+  } ],
+  "date" : "2025-12-24"
+}, {
   "id" : "i_XAvLAhMF8ApywsFuUgHNqq",
   "leetcodeId" : "7433054",
   "company" : "Meltwater",
