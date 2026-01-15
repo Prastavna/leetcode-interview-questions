@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_BbmWEFe5nRz7nzatBxGEGm",
+  "leetcodeId" : "7476769",
+  "company" : "fynd",
+  "role" : "sde-1",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NtQfoKFt2js7NYuu7tcsne",
+    "questions" : [ {
+      "id" : "q_6wPvqw6g3swzTXt3An25y7",
+      "type" : "DSA",
+      "content" : "Check if a binary tree is height-balanced."
+    } ]
+  } ],
+  "date" : "2026-01-08"
+}, {
   "id" : "i_9EG5H6fGngpHVB6nMYHXCL",
   "leetcodeId" : "7470165",
   "company" : "Block/Cash App",
