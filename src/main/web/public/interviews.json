@@ -1,4 +1,35 @@
 [ {
+  "id" : "i_8eBr4zHNTnmVbBNBVw4AoG",
+  "leetcodeId" : "7482362",
+  "company" : "Hudl",
+  "role" : "Software Engineer II",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_CX8vrKvRWNNNqy3DuvwUAX",
+    "questions" : [ {
+      "id" : "q_UtxsW5yPZ4SSsr29DBmcS",
+      "type" : "OTHER",
+      "content" : "expectations in lld/Hld"
+    }, {
+      "id" : "q_PZ6vHemKUuR7cF9vYAqBMQ",
+      "type" : "OTHER",
+      "content" : "what are the most faq lld and hld"
+    }, {
+      "id" : "q_Ri6BwrrznHN6qx4SsrATJA",
+      "type" : "OTHER",
+      "content" : "tips for dsa specific to Hudl if they particularly follow a pattern or if anyone has any list of asked ques recently"
+    }, {
+      "id" : "q_APgUZ4gPZwMR29KED7jCA8",
+      "type" : "OTHER",
+      "content" : "is running code expected in dsa?"
+    }, {
+      "id" : "q_MKQuZvB2nB9ucS5ShFsZpv",
+      "type" : "OTHER",
+      "content" : "Any questions Related to OS,DBMS?"
+    } ]
+  } ],
+  "date" : "2026-01-10"
+}, {
   "id" : "i_BbmWEFe5nRz7nzatBxGEGm",
   "leetcodeId" : "7476769",
   "company" : "fynd",
