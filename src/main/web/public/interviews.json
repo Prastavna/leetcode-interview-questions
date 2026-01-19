@@ -1,4 +1,148 @@
 [ {
+  "id" : "i_PyDYjVzNLoJDMhtG8VaHN6",
+  "leetcodeId" : "7488547",
+  "company" : "Walmart",
+  "role" : "SSE",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_V39UombeVPTmnbi4x19EZZ",
+    "questions" : [ {
+      "id" : "q_Gq4Ctc5A3L9Z9bHqevox9M",
+      "type" : "DSA",
+      "content" : "Given a list of strings containing real number (positive, negative, decimal), sort it, without converting it to arithmetic data type."
+    }, {
+      "id" : "q_FXo19uvLP9UJebSYzntoWL",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Consider a stream of location co-ordinates (lat, long), which can enable users for below operations:\n1. Give nearest 10 locations for given co-ordinates.\n2. Give top 5 hotspots."
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
+  "id" : "i_Vuq3czArSGPBQxLe1V3EUw",
+  "leetcodeId" : "7488498",
+  "company" : "Tide",
+  "role" : "",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_5U9gB2bwmw3SKihGkxGb8m",
+    "questions" : [ {
+      "id" : "q_BWZePtX7jCKVLmEgfTKAko",
+      "type" : "DEBUGGING",
+      "content" : "Review the code for 30 minutes, add comments in the same google doc. Discuss the top 5 issues."
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
+  "id" : "i_6wHpZmkUerjt7dVP4d3bGt",
+  "leetcodeId" : "7488428",
+  "company" : "Oracle",
+  "role" : "SE3",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_XfUWeQ9wxv53mTRrcM4ghr",
+    "questions" : [ {
+      "id" : "q_mtDPm4TZWdRQUNJTPpgh3",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a Java program that processes incoming tasks concurrently, handles any failures, and stores the successful results. Each task involves printing an integer, handling exceptions, and ensuring extensibility to accommodate any number of tasks."
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
+  "id" : "i_PwZ9TgnELCgGFWsyunPp1a",
+  "leetcodeId" : "7488487",
+  "company" : "Savantlabs",
+  "role" : "SSE",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_MAMpJK4ohgDtjtguAty4po",
+    "questions" : [ {
+      "id" : "q_SSFJVT2m1n5fRtCapy2dFu",
+      "type" : "DSA",
+      "content" : "You are given a graph of cities with name as integer, and a start city. At minute 0, an infection starts from the city with value start. Each minute, a city becomes infected if: The city is currently uninfected. The city is adjacent to an infected city. Return the number of minutes needed for the entire tree to be infected. graph = [\"1->5\", \"1->3\", \"5->4\", \"4->9\", \"4->2\", \"3->10\", \"3->6\"] start = 3 output = 4"
+    }, {
+      "id" : "q_HtWoCJg7VFRKvWNPehENBA",
+      "type" : "DSA",
+      "content" : "Write code to print dfs and bfs of a given graph. The node information will be user-defined (unlike the typical leetcode graphs where node values will be 0, 1, 2 and so on)."
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
+  "id" : "i_PVzttsdNKNeGUPgUnRBK8P",
+  "leetcodeId" : "7488554",
+  "company" : "Workday",
+  "role" : "SSE",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_9W1v6wpGSuK6Z9GbsFqish",
+    "questions" : [ {
+      "id" : "q_25sjAHpypV667xkFZTQ4pX",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about yourself"
+    }, {
+      "id" : "q_4SVy4iMCz9eyHgGt32QG7q",
+      "type" : "BEHAVIOURAL",
+      "content" : "What is the role that I'm looking forward? - Lead developer or manager?"
+    }, {
+      "id" : "q_7ypR1JCmE7VjS2CLv6jD2H",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me a complex project that you have worked on and what were the challenges faced"
+    }, {
+      "id" : "q_MnrReVKTPGBmGeq5WhQrPa",
+      "type" : "BEHAVIOURAL",
+      "content" : "Explain the platform project and your contribution towards it"
+    }, {
+      "id" : "q_9x98d17eUZnFKi1EEHv51K",
+      "type" : "DSA",
+      "content" : "Find if the string is valid or not - paranthesis validator. Follow-up question to understand if the input is super high, and the memory overflow happens that heap is full. How will you solve the problem?"
+    } ]
+  }, {
+    "id" : "r_ugXDdv6haYpxGgcaVFkyQ",
+    "questions" : [ {
+      "id" : "q_LADPn5YFx66ijAgrCPDHsW",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a document creator system, maintain versions, retrieve all the versions, update only on the latest versions"
+    }, {
+      "id" : "q_jmz8wD3P5adF7kGfV7NyV",
+      "type" : "OTHER",
+      "content" : "Few questions about my decisions like ArrayList vs Hashmap vs linkedhashmap"
+    }, {
+      "id" : "q_A2ZsT8YTkYkuc4BZD4FfKQ",
+      "type" : "OTHER",
+      "content" : "How to return objects that can be immutable"
+    }, {
+      "id" : "q_WdbTHAD6sj3uAjPX5ZJ5V5",
+      "type" : "OTHER",
+      "content" : "How to avoid race conditions"
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
+  "id" : "i_Kk7ehfMsesABEeJWXykP5f",
+  "leetcodeId" : "7488400",
+  "company" : "JPMorgan",
+  "role" : "SE3",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_BYsGRXbyEfnjmzn7rArv1o",
+    "questions" : [ {
+      "id" : "q_RiFhyHn7VUraa9U3HYtK5E",
+      "type" : "DSA",
+      "content" : "The storage drive isn't being used efficiently because the data is scattered across many partitions. Each partition has some space already used under maximum capacity. Rearrange the data so that it takes up the fewest possible partitions. Find the minimum number of partitions needed. For example, input n equal to 5 partitions, used equal to 3, 2, 1, 3, 1. Total capacity equal to 3, 5, 3, 5, 5. Output equal to 2."
+    }, {
+      "id" : "q_YWoU1quZ247aZ5AnnMxu9r",
+      "type" : "DSA",
+      "content" : "https://leetcode.com/problems/merge-in-between-linked-lists/"
+    } ]
+  }, {
+    "id" : "r_Tfm9f3LrSv7bNtUvjdStm1",
+    "questions" : [ {
+      "id" : "q_Jq6bvZWZD92TmBLLx1ivY6",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Create a system to monitor the scores of volleyball teams based on match outcomes. Develop a class that tracks team scores, allows efficient querying to find the team with the highest score after all match results have been recorded. Given an interface GameTracker, with the following functions:\nvoid addMatch(String team1, String team2, String score);\nString findFirst();\n\nConstraints\nThe findFirst method should have a time complexity of less than O(n)."
+    } ]
+  } ],
+  "date" : "2026-01-12"
+}, {
   "id" : "i_8eBr4zHNTnmVbBNBVw4AoG",
   "leetcodeId" : "7482362",
   "company" : "Hudl",
