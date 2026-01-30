@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_W9HpWRjn2J9CVNejcP6s83",
+  "leetcodeId" : "7516297",
+  "company" : "Amazon",
+  "role" : "System Development Engineer L4",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_4rP3uJpLiF95gAqWr3s2va",
+    "questions" : [ {
+      "id" : "q_LAdxUrDb7cwNHpGZvtpSAQ",
+      "type" : "OTHER",
+      "content" : "What should be expected CTC or expectation for Amazon SysDE L4 Level?"
+    } ]
+  } ],
+  "date" : "2026-01-22"
+}, {
   "id" : "i_6PjQaNhgfQMaobTffWBpng",
   "leetcodeId" : "7507319",
   "company" : "Xneeti",
