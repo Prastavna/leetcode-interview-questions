@@ -1,4 +1,27 @@
 [ {
+  "id" : "i_EfP5brr89X6EQUBWCFXtbt",
+  "leetcodeId" : "7603519",
+  "company" : "Amazon",
+  "role" : "SDE2",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_PjWyjyGuAzMdAASs2PXyjy",
+    "questions" : [ {
+      "id" : "q_XY1AKXWEyQoorc8oLgEb5P",
+      "type" : "OTHER",
+      "content" : "Timed mock interviews (DSA + LLD + HLD)"
+    }, {
+      "id" : "q_4CrcAWr72CUDtdk9cinAPq",
+      "type" : "OTHER",
+      "content" : "Discuss approach, optimizations, trade-offs, and edge cases"
+    }, {
+      "id" : "q_EcvtdegVL1qHuhVoPzu7pi",
+      "type" : "OTHER",
+      "content" : "Cross-questioning similar to real interviews"
+    } ]
+  } ],
+  "date" : "2026-02-23"
+}, {
   "id" : "i_EmzsxQFM3Wh32yBz1Resvv",
   "leetcodeId" : "7599733",
   "company" : "Flipkart",
