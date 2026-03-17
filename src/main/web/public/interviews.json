@@ -1,4 +1,121 @@
 [ {
+  "id" : "i_JtQzVsnFT6xGBtKfV5VLVf",
+  "leetcodeId" : "7635823",
+  "company" : "Geico",
+  "role" : "Senior Developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_U7SWuYjfJzkNFSHLdRZMA1",
+    "questions" : [ {
+      "id" : "q_B1KKiCHgQzCU85Vtd6drPL",
+      "type" : "DSA",
+      "content" : "What is the time complexity of searching an element in a binary search tree?"
+    }, {
+      "id" : "q_WonZHNUmrsq8DoqBL5Ky4o",
+      "type" : "DSA",
+      "content" : "How do you reverse a linked list?"
+    }, {
+      "id" : "q_5pdwL5cHyBKWVFnqTXy2Sn",
+      "type" : "OTHER",
+      "content" : "Explain the SOLID principles of object-oriented design."
+    } ]
+  } ],
+  "date" : "2026-03-08"
+}, {
+  "id" : "i_BKoSf89eg9srvWThgb2p2S",
+  "leetcodeId" : "7635548",
+  "company" : "Beli",
+  "role" : "SWE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_2BkLfPc6QvPU4owKz8Xy5q",
+    "questions" : [ {
+      "id" : "q_2c1cDCS9UQ4D9ZBHmtr4Gu",
+      "type" : "OTHER",
+      "content" : "what's the default style for a `<p>` element in HTML"
+    } ]
+  } ],
+  "date" : "2026-03-08"
+}, {
+  "id" : "i_4AwUZNmhbepvxfUh1FKYmi",
+  "leetcodeId" : "7631247",
+  "company" : "PayPal",
+  "role" : "CL5",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_M4V8Rb5L16oVr7iRupRPbA",
+    "questions" : [ {
+      "id" : "q_6BU1MZ8ab3LCGoeoFKKgiQ",
+      "type" : "OTHER",
+      "content" : "What to expect in Role specialization and SD rounds?"
+    } ]
+  }, {
+    "id" : "r_VN2J4RbRhMo44Fh3gdEE4m",
+    "questions" : [ {
+      "id" : "q_Rf6H5XFC7ZG3zazT8PHpMa",
+      "type" : "OTHER",
+      "content" : "Is PayPal leetcode tagged question enough for DSA round?"
+    } ]
+  } ],
+  "date" : "2026-03-07"
+}, {
+  "id" : "i_BaYQg9vHK3JETyTkwdCJK7",
+  "leetcodeId" : "7629890",
+  "company" : "walmart",
+  "role" : "sde 3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_DLHDReD2vDiYBEDsTVo99i",
+    "questions" : [ {
+      "id" : "q_KhA8S9ksvydhByjrNF2fhs",
+      "type" : "DSA",
+      "content" : "greedy problem"
+    }, {
+      "id" : "q_YaTv5ptEL3bv63gBepzJNk",
+      "type" : "DSA",
+      "content" : "sliding windows"
+    } ]
+  } ],
+  "date" : "2026-03-06"
+}, {
+  "id" : "i_D2e9g36NTyyAWRixst5Qwx",
+  "leetcodeId" : "7627821",
+  "company" : "Google",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_6dzmEUcMah76CvCubWBLNr",
+    "questions" : [ {
+      "id" : "q_Y1mYyo8S3tvT7QXmMQyPQL",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you prompt an AI to find the memory leak in this, and how would you verify if the AI's fix is actually safe?"
+    } ]
+  } ],
+  "date" : "2026-03-05"
+}, {
+  "id" : "i_6kWizDdsEtkRDRvGfABxfY",
+  "leetcodeId" : "7627212",
+  "company" : "D.E Shaw",
+  "role" : "SMT",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_G8N9X3N3qoALpC62S55DzT",
+    "questions" : [ {
+      "id" : "q_Cc5tGxqNcE8h1wt3gGbvVC",
+      "type" : "DSA",
+      "content" : "1 DSA Question (DP question- max product subarray)"
+    }, {
+      "id" : "q_JY6FA2SgmEX5gob9WFXL94",
+      "type" : "OTHER",
+      "content" : "Python questions (decorators, generators, GIL, async programming)"
+    }, {
+      "id" : "q_BtixUKXiT88UVf64DosDjY",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "LLD question (aggregate data from different data sources that have common data fields as well as additional fields, primary data source would be defined)"
+    } ]
+  } ],
+  "date" : "2026-03-05"
+}, {
   "id" : "i_WwpyyNZApb6jmyDVgchjWB",
   "leetcodeId" : "7623588",
   "company" : "KPIT",
