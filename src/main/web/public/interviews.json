@@ -37,28 +37,6 @@
   } ],
   "date" : "2026-03-08"
 }, {
-  "id" : "i_4AwUZNmhbepvxfUh1FKYmi",
-  "leetcodeId" : "7631247",
-  "company" : "PayPal",
-  "role" : "CL5",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_M4V8Rb5L16oVr7iRupRPbA",
-    "questions" : [ {
-      "id" : "q_6BU1MZ8ab3LCGoeoFKKgiQ",
-      "type" : "OTHER",
-      "content" : "What to expect in Role specialization and SD rounds?"
-    } ]
-  }, {
-    "id" : "r_VN2J4RbRhMo44Fh3gdEE4m",
-    "questions" : [ {
-      "id" : "q_Rf6H5XFC7ZG3zazT8PHpMa",
-      "type" : "OTHER",
-      "content" : "Is PayPal leetcode tagged question enough for DSA round?"
-    } ]
-  } ],
-  "date" : "2026-03-07"
-}, {
   "id" : "i_BaYQg9vHK3JETyTkwdCJK7",
   "leetcodeId" : "7629890",
   "company" : "walmart",
