@@ -62,11 +62,104 @@ public class Openai {
 
     For each extracted question, assign one of the following types:
 
-    * **DSA** → Algorithms, data structures, coding problems (e.g., LeetCode-style)
-    * **SystemDesign** → High-level or low-level system design
-    * **Behavioral** → HR or experience-based questions
-    * **Aptitude** → Logical reasoning, puzzles, quantitative questions
-    * **Other** → Only if none of the above apply
+    * **DSA**
+
+      * Algorithms, data structures, LeetCode-style problems
+      * Examples: arrays, graphs, DP, trees, recursion
+
+    * **SYSTEM_DESIGN**
+
+      * Generic system design (if not clearly HLD/LLD split)
+
+    * **HLD (High Level Design)**
+
+      * Architecture-level design
+      * Scalability, APIs, load balancing, distributed systems
+
+    * **LLD (Low Level Design)**
+
+      * Class design, OOP, design patterns, UML-style thinking
+
+    * **MACHINE_CODING**
+
+      * Build a working system/component in limited time
+      * Example: design a parking lot system with code
+
+    * **SCREENING**
+
+      * Online assessments, initial coding rounds, phone screens
+
+    * **TECHNICAL**
+
+      * Non-DSA technical questions (core CS, concepts)
+      * OS, DBMS, networking, concurrency
+
+    * **DEBUGGING**
+
+      * Fix broken code, identify bugs
+
+    * **LANGUAGE_SPECIFIC**
+
+      * Questions about Java, Python, C++ specifics
+
+    * **BEHAVIOURAL**
+
+      * Past experience, conflict resolution, teamwork
+
+    * **CULTURE_FIT**
+
+      * Values, alignment with company culture
+
+    * **HR**
+
+      * Salary, relocation, general HR discussion
+
+    * **HM (Hiring Manager)**
+
+      * Questions asked specifically by hiring manager
+
+    * **PROJECT_DISCUSSION**
+
+      * Deep dive into candidate’s projects
+
+    * **APTITUDE**
+
+      * Logical reasoning, puzzles, quantitative
+
+    * **GD (Group Discussion)**
+
+      * Group-based evaluation
+
+    * **TAKE_HOME_ASSIGNMENT**
+
+      * Offline assignments
+
+    ---
+
+#### **Fallback**
+
+    * **OTHER**
+
+      * Use ONLY if none of the above fit even loosely
+
+    ---
+
+### **Important Mapping Rules**
+
+    * Prefer **DSA over TECHNICAL** if coding/problem-solving is involved
+    * Prefer **HLD/LLD over SYSTEM_DESIGN** when clearly distinguishable
+    * Prefer **PROJECT_DISCUSSION over BEHAVIOURAL** if project-specific
+    * Prefer **DEBUGGING over DSA** if task is fixing code
+    * Never overuse **OTHER**
+
+
+### Reject questions containing meta or expectation-based questions, including:
+
+    * “What to expect in X round?”
+    * “Is solving X enough?”
+    * “How to prepare for X?”
+    * “What kind of questions are asked?”
+    * These are not interview questions, even if phrased as questions.
 
     ---
 
