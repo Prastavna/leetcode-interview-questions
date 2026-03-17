@@ -47,8 +47,7 @@ public class Openai {
     * **yoe (years of experience)**:
 
       * Extract only if clearly stated.
-      * If ambiguous or suspicious → return `-1`.
-    * **date**: Extract if explicitly mentioned; otherwise leave empty.
+      * If ambiguous or suspicious → return `0`.
 
     ---
 
