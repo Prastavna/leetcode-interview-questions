@@ -12,24 +12,82 @@ import com.prastavna.leetcode.models.Interview;
 public class Openai {
   private final OpenAIClient openAIClient;
   private final String prompt = """
-    IMPORTANT: DO NOT GENERATE ANYTHING THAT's NOT IN THE POST
-    -----------------------------------
-    You are given a LeetCode discussion post. Your job is to determine if it contains actual interview experiences with explicit questions. If it seems like that this post doesn't contain anything meaning full, just return null.
+    You are given a LeetCode discussion post. Your task is to determine whether it contains **real interview experience details with explicitly mentioned questions**.
 
-    Rules:
-    1. If the post contains one or more explicit interview questions (DSA problems, coding tasks, system design, aptitude, HR, etc.), return a valid JSON object matching the `Interview` schema below.
-    2. If the post only contains:
-      - Requests for interview questions
-      - General advice about interviews
-      - Self-promotion or course links
-      - Generic study guidance
-      - Any other content not related to interviews
-      Then return `null`.
-    3. Do not infer or hallucinate questions. Only use what is explicitly mentioned in the post. If you feel like that no question is present in the post, reject that post.
-    4. Company name, role, years of experience (yoe), and date must come directly from the post if present, otherwise leave them empty or default. Company name should not be something generic like `Company`, `MNC`, `Startup` et. Role can be empty but keep in mind that come compnaies like Microsoft have roles like L60, L61 etc. For YoE, if the post seems even a bit fishy return -1.
-    5. Each interview round must contain only the explicit questions stated. Classify each question into the appropriate `QuestionType`. Sometimes for DSA questions will be give for example: Max area of Island etc. You need to figure out whether that is a DSA question or it would go to another category.Try to determine the category extensively, only mark it as `Other` when nothing else suits even remotely. 
-    6. Output must strictly follow the `Interview` Java model structure.
-  """;
+    ---
+
+### **Decision Rules**
+
+    1. **Return a valid JSON (Interview schema) ONLY if:**
+
+      * The post clearly describes an interview experience, AND
+      * Contains **at least one explicitly stated question** asked during the interview.
+
+    2. **Return `null` if the post contains ONLY:**
+
+      * Requests for questions
+      * General interview advice or preparation tips
+      * Study plans, resources, or links
+      * Self-promotion or referrals
+      * Vague descriptions without actual questions
+      * Previously asked questions not tied to a real interview experience
+
+    3. **Strict Extraction Policy**
+
+      * DO NOT infer, rephrase, or assume questions.
+      * ONLY extract **verbatim or clearly stated questions**.
+      * If no concrete question is present → return `null`.
+
+    ---
+
+### **Field Extraction Rules**
+
+    * **company**: Extract only if explicitly mentioned (e.g., Google, Amazon). Avoid generic terms like "MNC", "Startup".
+    * **role**: Extract if present (e.g., SDE, L4, Backend Engineer). Otherwise, leave empty.
+    * **yoe (years of experience)**:
+
+      * Extract only if clearly stated.
+      * If ambiguous or suspicious → return `-1`.
+    * **date**: Extract if explicitly mentioned; otherwise leave empty.
+
+    ---
+
+### **Interview Rounds Handling**
+
+    * Split the interview into rounds **only if the post distinguishes them** (e.g., Round 1, Online Assessment, HR Round).
+    * If rounds are not clearly separated, group all questions into a **single round**.
+
+    ---
+
+### **Question Classification**
+
+    For each extracted question, assign one of the following types:
+
+    * **DSA** → Algorithms, data structures, coding problems (e.g., LeetCode-style)
+    * **SystemDesign** → High-level or low-level system design
+    * **Behavioral** → HR or experience-based questions
+    * **Aptitude** → Logical reasoning, puzzles, quantitative questions
+    * **Other** → Only if none of the above apply
+
+    ---
+
+### **Important Constraints**
+
+    * Do NOT hallucinate missing details.
+    * Do NOT include explanations or extra text.
+    * Ensure output is **strictly valid JSON** matching the `Interview` schema.
+    * If uncertain about validity → return `null`.
+
+    ---
+
+### **Output Format**
+
+    * Return ONLY:
+
+      * A valid `Interview` JSON object
+        OR
+      * `null`
+""";
 
   public Openai(String openaiBaseUrl, String openaiApiKey) {
     openAIClient = OpenAIOkHttpClient.builder()
