@@ -1,19 +1,4 @@
 [ {
-  "id" : "i_RBNe7whqsYfgdpQrCiQghw",
-  "leetcodeId" : "7640704",
-  "company" : "JPMC",
-  "role" : "",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_3jRmGBhTDMMx28yyqBUT1q",
-    "questions" : [ {
-      "id" : "q_4LQdnNFS3w5uYMmQmpdWHU",
-      "type" : "OTHER",
-      "content" : "What are my chances for getting an offer from JPMC?"
-    } ]
-  } ],
-  "date" : "2026-03-11"
-}, {
   "id" : "i_VKBAve4ZRDqcU7yz3G6YAS",
   "leetcodeId" : "7641207",
   "company" : "Microsoft",
