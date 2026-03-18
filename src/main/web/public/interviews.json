@@ -1,4 +1,135 @@
 [ {
+  "id" : "i_RBNe7whqsYfgdpQrCiQghw",
+  "leetcodeId" : "7640704",
+  "company" : "JPMC",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_3jRmGBhTDMMx28yyqBUT1q",
+    "questions" : [ {
+      "id" : "q_4LQdnNFS3w5uYMmQmpdWHU",
+      "type" : "OTHER",
+      "content" : "What are my chances for getting an offer from JPMC?"
+    } ]
+  } ],
+  "date" : "2026-03-11"
+}, {
+  "id" : "i_VKBAve4ZRDqcU7yz3G6YAS",
+  "leetcodeId" : "7641207",
+  "company" : "Microsoft",
+  "role" : "Data Scientist",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LbbqtAc6zXJHihftJ7CMUy",
+    "questions" : [ {
+      "id" : "q_9hVCL4iMrzeWe2U3AYgRdb",
+      "type" : "TECHNICAL",
+      "content" : "In a given dataset, some feature values are extremely large. How do you handle them? Do you remove, retain, or transform them?"
+    }, {
+      "id" : "q_6oJKER3vLwDVYc2yNwDVVw",
+      "type" : "TECHNICAL",
+      "content" : "What are other critical data quality issues you have faced in production systems?"
+    }, {
+      "id" : "q_DTRRvH6XSbnTtaYJSpQaME",
+      "type" : "TECHNICAL",
+      "content" : "What are the top 5 features you would engineer to predict user churn?"
+    }, {
+      "id" : "q_T1bhwGLuZYvrg9h4JTc4LX",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What is the optimal architectural design for this? How do you balance the trade-off between algorithmic accuracy and system latency?"
+    } ]
+  } ],
+  "date" : "2026-03-11"
+}, {
+  "id" : "i_NbsGsvVhokpGC2JbaeLrRh",
+  "leetcodeId" : "7641319",
+  "company" : "Fidelity",
+  "role" : "Director, Quant Development (Java)",
+  "yoe" : 20,
+  "rounds" : [ {
+    "id" : "r_YBFF2BLAJrQsuQGvQ9w99c",
+    "questions" : [ {
+      "id" : "q_7dNkiz6GMc2D5H6tGobhU",
+      "type" : "TECHNICAL",
+      "content" : "Describe experience with Risk Systems"
+    }, {
+      "id" : "q_KUaQkPD8PAGWAAcC33AqiJ",
+      "type" : "TECHNICAL",
+      "content" : "What container technologies have worked with"
+    } ]
+  }, {
+    "id" : "r_H8e1v2LHaWfTUYpfEJ7PVd",
+    "questions" : [ {
+      "id" : "q_HZUYLmSU8wdxj8ezt83twv",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "In-depth architecture review of one of my projects: individual components, how they were scaled, communication between components, overall data flow, scheduling of jobs and tasks"
+    }, {
+      "id" : "q_PSWVZi9aDi6TX9vizyb3KS",
+      "type" : "TECHNICAL",
+      "content" : "Java JDBC API: describe the typical flow, classes involved and connection pooling"
+    }, {
+      "id" : "q_Ak2Md7gAbvnvb9vx4FJpq5",
+      "type" : "TECHNICAL",
+      "content" : "Java facilities for automatic closing of resources"
+    }, {
+      "id" : "q_Mpb5HF3ZWmgs9UxupVhsP",
+      "type" : "TECHNICAL",
+      "content" : "Describe newer features of Java language found most useful"
+    }, {
+      "id" : "q_RHzhFCTDZAQPVpqn6bX4hY",
+      "type" : "TECHNICAL",
+      "content" : "Level of experience with relational databases and SQL"
+    }, {
+      "id" : "q_4DgbMU5JXVGrMqhsDCrXxL",
+      "type" : "TECHNICAL",
+      "content" : "Technologies used to implement REST APIs"
+    }, {
+      "id" : "q_GMdQGk8wxrH7yVtJnX7abD",
+      "type" : "TECHNICAL",
+      "content" : "HTTP protocol, various request methods, differences between GET and POST"
+    }, {
+      "id" : "q_82xS32GeUEGrLWHNJHUyNw",
+      "type" : "TECHNICAL",
+      "content" : "Typical payload formats in POST requests"
+    }, {
+      "id" : "q_MqyRHhppTFAeP3UggGvrDw",
+      "type" : "TECHNICAL",
+      "content" : "Experience with Spring Boot, what are the main concepts"
+    } ]
+  }, {
+    "id" : "r_5isFhGz2nYweJoWBfymbXK",
+    "questions" : [ {
+      "id" : "q_2FZFQmogtwrCbU8n9zUbcm",
+      "type" : "TECHNICAL",
+      "content" : "Descrive dealing with data quality issues, validations before data even gets into the system"
+    }, {
+      "id" : "q_NGgMBDMGbcXcyrXmbijKhB",
+      "type" : "TECHNICAL",
+      "content" : "Diagnose production problems: how to instantly know what went wrong, what can be done other than thread dump"
+    }, {
+      "id" : "q_WZVTx6k5zxhCdpW6to1mxH",
+      "type" : "TECHNICAL",
+      "content" : "Production problems in containers in the absence of facilities to login to physical servers: what if Splunk is either down or is not showing anything"
+    }, {
+      "id" : "q_5ysWgyd4FLAay3tyo5BRro",
+      "type" : "TECHNICAL",
+      "content" : "What can we use Semaphores for"
+    }, {
+      "id" : "q_TFUvGjKFFqzgBdXi94ZE3N",
+      "type" : "TECHNICAL",
+      "content" : "Have I used JMS systems, RabbitMQ specifically"
+    }, {
+      "id" : "q_NqHaBJqAgneWaZUTzjAxbJ",
+      "type" : "TECHNICAL",
+      "content" : "How are messages processed by subscribers on Kafka"
+    }, {
+      "id" : "q_LfeaUoPkyswzKy3tyTbMvW",
+      "type" : "TECHNICAL",
+      "content" : "Newer Java language features (same as the first interviewer), had I used Virtual Threads"
+    } ]
+  } ],
+  "date" : "2026-03-11"
+}, {
   "id" : "i_JtQzVsnFT6xGBtKfV5VLVf",
   "leetcodeId" : "7635823",
   "company" : "Geico",
