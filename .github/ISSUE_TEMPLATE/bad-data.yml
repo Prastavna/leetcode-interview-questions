@@ -1,0 +1,21 @@
+name: Bad data
+description: Report incorrect or invalid LeetCode interview data
+title: "Bad data: LeetCode ID "
+labels:
+  - bug
+body:
+  - type: input
+    id: leetcode_id
+    attributes:
+      label: LeetCode ID
+      description: The LeetCode problem ID that looks incorrect
+      placeholder: "1234"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What looks wrong? Include any helpful context.
+    validations:
+      required: false

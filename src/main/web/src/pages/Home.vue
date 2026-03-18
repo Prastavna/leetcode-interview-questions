@@ -43,17 +43,30 @@
     <Table :data="filteredInterviews" :is-loading="isLoading" :error="error" />
 
     <footer class="mt-6 border-t border-gray-200 pt-6 pb-10 text-center text-sm text-gray-600">
-      <span class="dark:text-white">
-        Compensation insights generated from Leetcode Discussions:
-        <a
-          href="https://leetcode-compensation.prastavna.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-primary font-semibold hover:underline"
-        >
-          Leetcode Compensation
-        </a>
-      </span>
+      <div class="flex flex-col gap-2">
+        <span class="dark:text-white">
+          Compensation insights generated from Leetcode Discussions:
+          <a
+            href="https://leetcode-compensation.prastavna.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary font-semibold hover:underline"
+          >
+            Leetcode Compensation
+          </a>
+        </span>
+        <span class="dark:text-white">
+          Spot an invalid LeetCode Interview? Raise an issue here:
+          <a
+            href="https://github.com/Prastavna/leetcode-interview-questions/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary font-semibold hover:underline"
+          >
+            GitHub Issues
+          </a>
+        </span>
+      </div>
     </footer>
   </div>
 </template>
