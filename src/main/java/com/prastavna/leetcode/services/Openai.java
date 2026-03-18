@@ -159,6 +159,7 @@ public class Openai {
     * “Is solving X enough?”
     * “How to prepare for X?”
     * “What kind of questions are asked?”
+    * “What are my chances for getting an offer?”
     * These are not interview questions, even if phrased as questions.
 
     ---
