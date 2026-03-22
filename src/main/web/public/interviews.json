@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_Djg7xgitY5FoiU18YzYoFa",
+  "leetcodeId" : "7648416",
+  "company" : "Schrödinger",
+  "role" : "Machine learning Full stack developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_ChuKyZPFcoeCtq5LTMDGes",
+    "questions" : [ {
+      "id" : "q_ALf2DmW5QPwCESapoZy12R",
+      "type" : "DSA",
+      "content" : "You are given an integer array nums of size n and an integer x. Return the number of distinct triplets (i, j, k) such that: 0 ≤ i < j < k < n nums[i] * nums[j] * nums[k] == x At least one pair in the triplet must be adjacent in the array, i.e.: either j = i + 1, or k = j + 1. Two triplets are considered different if their indices are different."
+    }, {
+      "id" : "q_Muob3QA4qrKMDn8yMPL9BV",
+      "type" : "DSA",
+      "content" : "You are given n bacteria labeled from 1 to n. There are m infection relationships represented by two arrays: infected[] of size m vulnerable[] of size m For each index i, bacteria infected[i] can infect bacteria vulnerable[i]. An interval [L, R] (where 1 ≤ L ≤ R ≤ n) is called good if: No bacteria within this interval can infect another bacteria within the same interval. Return the number of good intervals."
+    } ]
+  } ],
+  "date" : "2026-03-14"
+}, {
   "id" : "i_VKBAve4ZRDqcU7yz3G6YAS",
   "leetcodeId" : "7641207",
   "company" : "Microsoft",
