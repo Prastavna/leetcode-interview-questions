@@ -1,4 +1,31 @@
 [ {
+  "id" : "i_A8bcEx4NLwGwvA5yhfT28G",
+  "leetcodeId" : "7652438",
+  "company" : "Barclays",
+  "role" : "C++ Senior OMS / Connectivity Developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_CpArAHYov9k6HTMGm5KX2a",
+    "questions" : [ {
+      "id" : "q_LMkaHBtoWk83U4PPrfK4kC",
+      "type" : "OTHER",
+      "content" : "What was the structure of the assessment (number of coding questions, MCQs, etc.)?"
+    }, {
+      "id" : "q_53ubzGEKTfGpp2uyJFXVyz",
+      "type" : "OTHER",
+      "content" : "What kind of DSA difficulty level should be expected (LC Medium/Hard)?"
+    }, {
+      "id" : "q_6inq7xhs8KP25coWDNA8TU",
+      "type" : "OTHER",
+      "content" : "Were there questions focused on C++ internals, multithreading, or low-latency concepts?"
+    }, {
+      "id" : "q_RbVPijL4jM1Y4X4ArLZJUh",
+      "type" : "OTHER",
+      "content" : "Any trading / OMS / FIX protocol related questions?"
+    } ]
+  } ],
+  "date" : "2026-03-16"
+}, {
   "id" : "i_Djg7xgitY5FoiU18YzYoFa",
   "leetcodeId" : "7648416",
   "company" : "Schrödinger",
