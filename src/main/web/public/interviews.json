@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_GKkSBzVP7Q85fSTAoak742",
+  "leetcodeId" : "7654135",
+  "company" : "TOAST",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_AB4PahfwaSgEfssu61KX2V",
+    "questions" : [ {
+      "id" : "q_SxGD8XNxxqXPGPsUyi8r7K",
+      "type" : "DSA",
+      "content" : "Problem: Maximum Profit with 5-Day Selling Constraint\n\nYou are given two integer arrays cost and sales, where:\n\ncost[i] represents the cost of making a sourdough bread on day i\n\nsales[i] represents the selling price of bread on day i\n\nA bread made on day i can only be sold on or after day i + 5.\n\nReturn the maximum profit achievable by choosing one day to make the bread and a valid future day to sell it.\n\nIf no profit is possible, return 0."
+    } ]
+  } ],
+  "date" : "2026-03-17"
+}, {
   "id" : "i_A8bcEx4NLwGwvA5yhfT28G",
   "leetcodeId" : "7652438",
   "company" : "Barclays",
