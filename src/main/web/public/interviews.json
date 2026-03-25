@@ -1,4 +1,33 @@
 [ {
+  "id" : "i_EWhNofyPxEbrxm9rn2HXM3",
+  "leetcodeId" : "7655986",
+  "company" : "Autodesk",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LtYzqWEwoo6DZnHSdBQpZF",
+    "questions" : [ {
+      "id" : "q_93nz9GEo8R4Zvc2WN69bWv",
+      "type" : "MACHINE_CODING",
+      "content" : "Design in-memory database with TTL (Cache with expiry)"
+    } ]
+  }, {
+    "id" : "r_e3RDSfafNKeMNYnUqVaPT",
+    "questions" : [ {
+      "id" : "q_AXM6pNKDSEAEZimZkfpW3H",
+      "type" : "DSA",
+      "content" : "Deep merge of objects with conflict resolution through provided custom function"
+    } ]
+  }, {
+    "id" : "r_5caU9bTWWzAD93kJXdBvwP",
+    "questions" : [ {
+      "id" : "q_CHEEtDN1f91nGvfg3xfaC4",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Online grocery store (Zepto / Blinkit)"
+    } ]
+  } ],
+  "date" : "2026-03-18"
+}, {
   "id" : "i_GKkSBzVP7Q85fSTAoak742",
   "leetcodeId" : "7654135",
   "company" : "TOAST",
