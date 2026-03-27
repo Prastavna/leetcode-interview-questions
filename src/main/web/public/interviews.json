@@ -1,4 +1,143 @@
 [ {
+  "id" : "i_FxTtpnrWAR7uMdW6HoPFor",
+  "leetcodeId" : "7676202",
+  "company" : "TikTok",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_N66syxUF6PA32QYUrKMY7w",
+    "questions" : [ {
+      "id" : "q_2Y45ApqDBiwBcuQfooXTwH",
+      "type" : "DSA",
+      "content" : "Given a memory array consisting of 0s and 1s (0 = free, 1 = occupied). Memory is aligned by 8. Support an operation `alloc x`: find the leftmost contiguous block of x free units whose starting index is divisible by 8, allocate it (mark as occupied and assign a unique ID). Return the starting index, or -1 if not found."
+    }, {
+      "id" : "q_T8GnCT2qbNGgXTNBnAznCn",
+      "type" : "DSA",
+      "content" : "Given an integer array, count the number of contiguous subarrays that form a sawtooth sequence (adjacent elements have alternating parity)."
+    }, {
+      "id" : "q_Mt7ZVakxJejMsTMfipCGmz",
+      "type" : "DSA",
+      "content" : "Starting from position 0, repeatedly walk to the nearest charging station ahead, then use a drone to carry the cargo as far forward as possible. Continue until reaching the target. Compute the total distance you actually carry the cargo on foot."
+    }, {
+      "id" : "q_YQ8HC4U5R4ZsSQ3SBmkR9S",
+      "type" : "DSA",
+      "content" : "Given multiple paragraphs, their alignment (LEFT or RIGHT), and a maximum line width, format the text like a newspaper: pack words greedily into lines, pad spaces according to alignment, and add a border of `*` around the entire output."
+    } ]
+  } ],
+  "date" : "2026-03-20"
+}, {
+  "id" : "i_4sTZFMdWFZz8qSCtUdBtQq",
+  "leetcodeId" : "7671056",
+  "company" : "Confluent",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QBjZ4pxnbgwfnhrEsYfhAt",
+    "questions" : [ {
+      "id" : "q_3uZ6X66MgyqeHYmXWQuwaS",
+      "type" : "MACHINE_CODING",
+      "content" : "Analyze potential revenue for football (soccer) clubs based on their stadium capacity and historical performance."
+    }, {
+      "id" : "q_4v7TQH36cQQZRNjT7uRPLd",
+      "type" : "MACHINE_CODING",
+      "content" : "Implement unix 'tail -n' command to print last n lines of a file."
+    }, {
+      "id" : "q_Es2488HeVakukFjz9YjGqM",
+      "type" : "DSA",
+      "content" : "Given a list of numbers, each representing a bank account transaction (positive for credit and negative for debit) your task it to tell if there exists a sequence of transactions which can lead to a given balance amount."
+    } ]
+  } ],
+  "date" : "2026-03-20"
+}, {
+  "id" : "i_6f5Smm5vdkoXdhqLuSaZ9B",
+  "leetcodeId" : "7673354",
+  "company" : "BCG",
+  "role" : "Junior Engineer(SWE/Data)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_S3PYaznXEmAphKLPyUPmeV",
+    "questions" : [ {
+      "id" : "q_QXFUv7YqCVor9Esn7hkrdy",
+      "type" : "DSA",
+      "content" : "Find the aggregate of the particular user id"
+    }, {
+      "id" : "q_PQJyAxHHyRNgdQ3dykqbvF",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Write an SQL Query with the correct syntax"
+    }, {
+      "id" : "q_TY7Jv3GPrPEnNbmwfLJu5",
+      "type" : "TECHNICAL",
+      "content" : "What is the difference between Array and Hashmap"
+    } ]
+  }, {
+    "id" : "r_FLXYCfLL9VTCg5zVHkvboA",
+    "questions" : [ {
+      "id" : "q_5GWbDeMRbB9d3VvibYaCAK",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Give an example of JavaScript events and explain preventdefault"
+    }, {
+      "id" : "q_GGpLuKBTyVaUrZfW64tA5x",
+      "type" : "TECHNICAL",
+      "content" : "What are APIs? Provide code examples for GET, PUT, POST, and PATCH"
+    }, {
+      "id" : "q_SEtu98pU8aPZCqSMsMkftq",
+      "type" : "TECHNICAL",
+      "content" : "What is localStorage?"
+    }, {
+      "id" : "q_GbeuqDxfr8zfDfUcetHKLQ",
+      "type" : "TECHNICAL",
+      "content" : "What are ORMs?"
+    }, {
+      "id" : "q_LkFGPpbNcSV3ttM2ybaG1q",
+      "type" : "TECHNICAL",
+      "content" : "Explain Decorator Functions and Generator Functions"
+    }, {
+      "id" : "q_Qo87w9J5xJiEBJjzjcfi2o",
+      "type" : "DEBUGGING",
+      "content" : "Provide a tricky snippet of a Lambda Function and asked for the output"
+    }, {
+      "id" : "q_Gq9K3Jvx86FDrnoehb59gh",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Provide 8 SQL Queries getting tougher each time"
+    }, {
+      "id" : "q_Xs9PDkyWXmzyQadbgcyFgw",
+      "type" : "TECHNICAL",
+      "content" : "What are React useEffect and useState? Why and when are they used?"
+    }, {
+      "id" : "q_PAi4WyxtU68R5PVsNQxC7R",
+      "type" : "TECHNICAL",
+      "content" : "Explain Database Indexing"
+    }, {
+      "id" : "q_GbqmUPcvSK3SG2BUpha1P6",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Discuss your Project/Internship listed on your Resume"
+    } ]
+  }, {
+    "id" : "r_Hja2AJwN81bNYSvym6x2TC",
+    "questions" : [ {
+      "id" : "q_6sThH1GKGTShhGjWp8J1Zr",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Discuss about your past projects"
+    }, {
+      "id" : "q_ADGLV3zeUV1JpVpyPj8Ld2",
+      "type" : "BEHAVIOURAL",
+      "content" : "Describe a scary moment in development you've faced"
+    }, {
+      "id" : "q_KJ6sF9Yeg7QPD4s9Pw2wsj",
+      "type" : "BEHAVIOURAL",
+      "content" : "What are your weaknesses?"
+    }, {
+      "id" : "q_JdGNVSB179LV3aEPgnXV5P",
+      "type" : "BEHAVIOURAL",
+      "content" : "Describe a situation regarding team collaboration"
+    }, {
+      "id" : "q_7ENGDm3moqwNuNtMBADaVQ",
+      "type" : "BEHAVIOURAL",
+      "content" : "How would you handle a critical situation with an assignment due on Friday?"
+    } ]
+  } ],
+  "date" : "2026-03-20"
+}, {
   "id" : "i_EWhNofyPxEbrxm9rn2HXM3",
   "leetcodeId" : "7655986",
   "company" : "Autodesk",
