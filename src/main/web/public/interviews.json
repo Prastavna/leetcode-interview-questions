@@ -1,4 +1,37 @@
 [ {
+  "id" : "i_TSXH2kASV2RSASC3KkGSGK",
+  "leetcodeId" : "7680930",
+  "company" : "Tractable",
+  "role" : "Senior Software",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Q1Z6otdPUALGwvSkifSdMs",
+    "questions" : [ {
+      "id" : "q_T5R7PUtcsbHGByu5L9NERX",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Can you design an auth system in a distributed environment?"
+    }, {
+      "id" : "q_H9gUpnpgi5ufa6caBY72Lp",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is your understanding of TypeScript?"
+    } ]
+  }, {
+    "id" : "r_Ku3NEXMF23BqcW9DhagMwa",
+    "questions" : [ {
+      "id" : "q_Pa1u6Qz9e4rEwXgGhAGfTZ",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Can you design a system that can be integrated into a B2B system, with functionality to upload images and return/show analysis on a dashboard?"
+    } ]
+  }, {
+    "id" : "r_2QFpcfLaFppXSJfRPZtXxW",
+    "questions" : [ {
+      "id" : "q_N43tHvQp51CMZMywdsLqWm",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you design a driver tracking screen feature (end-to-end) for a food delivery app?"
+    } ]
+  } ],
+  "date" : "2026-03-22"
+}, {
   "id" : "i_FxTtpnrWAR7uMdW6HoPFor",
   "leetcodeId" : "7676202",
   "company" : "TikTok",
