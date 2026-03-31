@@ -74,40 +74,6 @@
   } ],
   "date" : "2026-03-24"
 }, {
-  "id" : "i_Qa2PskNUhxjJa76yprC8Fh",
-  "leetcodeId" : "7685951",
-  "company" : "Apple",
-  "role" : "",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_9KHPCx2njCD3UnBXfdJADu",
-    "questions" : [ {
-      "id" : "q_6Rq6zPen8cRQCHpk4xSuZ3",
-      "type" : "OTHER",
-      "content" : "Is it to write a pyspark sql or design a system with flink/spark?"
-    } ]
-  } ],
-  "date" : "2026-03-24"
-}, {
-  "id" : "i_7VSxkoH3RJVkMgquFsXHrE",
-  "leetcodeId" : "7681976",
-  "company" : "Visa",
-  "role" : "Software Engineer",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_PJdwnDGh6kVGkgTuWDJ6dx",
-    "questions" : [ {
-      "id" : "q_Ki9AU1eYFd5uEY5UkGVgE2",
-      "type" : "OTHER",
-      "content" : "How long does it usually take to hear back after the OA?"
-    }, {
-      "id" : "q_6tRB5z3VVpqJgQFKaeLjHK",
-      "type" : "OTHER",
-      "content" : "Is partial completion like this usually considered for shortlisting?"
-    } ]
-  } ],
-  "date" : "2026-03-23"
-}, {
   "id" : "i_75QGhjecpr9RaDBFqK7PYZ",
   "leetcodeId" : "7684752",
   "company" : "Eightfold.ai",
