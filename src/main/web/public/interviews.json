@@ -1,4 +1,70 @@
 [ {
+  "id" : "i_Y6SNtb5UsZ4f3aLFtWgroi",
+  "leetcodeId" : "7692764",
+  "company" : "MARRIOT",
+  "role" : "Senior Software Engineer",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_YTRcu2FB5skU8insyHCEBQ",
+    "questions" : [ {
+      "id" : "q_MCs9viihKnNMaUQVN7nk8a",
+      "type" : "DSA",
+      "content" : "Using stream api find second most frequent element."
+    }, {
+      "id" : "q_BKeqV2rpCqcvwxjVkD2AFL",
+      "type" : "TECHNICAL",
+      "content" : "Some questions on AWS, like how to make s3 private etc"
+    }, {
+      "id" : "q_MQwFiY7iGdu99vG4AnQAAQ",
+      "type" : "LLD",
+      "content" : "LLD of coffee machine. Should have different type of coffee with different ingredients requirement. system should be extendible to more coffee type and should support add ons."
+    } ]
+  } ],
+  "date" : "2026-03-25"
+}, {
+  "id" : "i_SfPqiVTJWNMWaBfhGwRvk3",
+  "leetcodeId" : "7692432",
+  "company" : "BlackRock",
+  "role" : "Java Backend Developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QqLMKwBi3DJxQSLoBFifSe",
+    "questions" : [ {
+      "id" : "q_NV2Ewt37vzh8mzVJpS3EAT",
+      "type" : "DSA",
+      "content" : "A multiprocessor system contains several processors, where ability[i] represents the number of processes the ith processor can schedule in one second. The goal is to determine the minimum time (in seconds) required to schedule all given processes."
+    }, {
+      "id" : "q_QiXBZDcMcNsJhjjWtE1ir5",
+      "type" : "DSA",
+      "content" : "Calculate frequency of the given string (solved on notepad) - need to solve using streams"
+    }, {
+      "id" : "q_QsS5Kkkn6i4v4vSipqZZLM",
+      "type" : "TECHNICAL",
+      "content" : "HashMap internal implementation, `hashCode()` working, What happens when we override `hashCode()`?"
+    }, {
+      "id" : "q_YELSPxsJSC8UJz2epydrZc",
+      "type" : "TECHNICAL",
+      "content" : "Java Multithreading - `synchronized` block, `ExecutorService`"
+    }, {
+      "id" : "q_YJ2ith2xNksZWPfWvZfkj",
+      "type" : "TECHNICAL",
+      "content" : "Microservices - Circuit Breaker"
+    }, {
+      "id" : "q_SNMfpdTinY77Ej8PCC1UZA",
+      "type" : "TECHNICAL",
+      "content" : "Difference between `@Component` and `@Configuration`"
+    }, {
+      "id" : "q_HfEseSBrwVThgDt8pTW9cZ",
+      "type" : "TECHNICAL",
+      "content" : "Bean Lifecycle"
+    }, {
+      "id" : "q_Laq7k6gJNSU1KtoVW6HwGM",
+      "type" : "TECHNICAL",
+      "content" : "Kafka working"
+    } ]
+  } ],
+  "date" : "2026-03-25"
+}, {
   "id" : "i_UpfomFmtL3Yfe3gsytof9n",
   "leetcodeId" : "7686023",
   "company" : "eBay",
