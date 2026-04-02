@@ -1,4 +1,57 @@
 [ {
+  "id" : "i_FvYh6qujNTxGVFBWn8ayUU",
+  "leetcodeId" : "7699523",
+  "company" : "One Pay",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_WGcikf9Qpvp3cgGooGeH5G",
+    "questions" : [ {
+      "id" : "q_CyE9gNJqXFYRsAbE9vttRB",
+      "type" : "DEBUGGING",
+      "content" : "correct the code to pass the test cases."
+    }, {
+      "id" : "q_RuRu8JzfGewsHy2zNUgske",
+      "type" : "MACHINE_CODING",
+      "content" : "write a function to count the total journey of all the users."
+    } ]
+  } ],
+  "date" : "2026-03-26"
+}, {
+  "id" : "i_2Vxe5T359q5McNp3JGjMtG",
+  "leetcodeId" : "7698725",
+  "company" : "Citadel",
+  "role" : "Software Engineering Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_SyqQbbzuG8uaBRCGnbxEKq",
+    "questions" : [ {
+      "id" : "q_C4qHBVqqgv8xhms4RJENVw",
+      "type" : "DSA",
+      "content" : "Problem 1: Minimum Server Upgradation Time"
+    }, {
+      "id" : "q_27LNiYKqtHL9eW3h1cuHKP",
+      "type" : "DSA",
+      "content" : "Problem 2: Maximum Team Size (Pivot-Based Overlap)"
+    } ]
+  } ],
+  "date" : "2026-03-26"
+}, {
+  "id" : "i_NXRGZShucxLrcrB68pNVuk",
+  "leetcodeId" : "7697450",
+  "company" : "Forward Networks",
+  "role" : "",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_MwaMm2owJS5KYF1ptGVMbu",
+    "questions" : [ {
+      "id" : "q_NkCy7P8cVuKp3CGJ3eb8RT",
+      "type" : "MACHINE_CODING",
+      "content" : "A network device maintains Policy Based Routing (PBR) entries. Each entry contains an IP subnet in CIDR notation and a corresponding next-hop IP address. When a packet with a destination IP arrives, the device must determine the next-hop based on the Longest Prefix Match rule. If multiple subnets match the destination IP, the subnet with the largest prefix length must be selected. If no subnet matches, the default route (0.0.0.0/0) should be used. You are given: A list of PBR entries represented by a class PrefixEntry, where: ipSubnet is a subnet in CIDR format (e.g., \"168.19.100.0/24\") nextHop is the next-hop IP address. A list of IPv4 addresses. Write a function: public static Map<String, String> findNextHops(List<PrefixEntry> prefixEntries, List<String> ipAddresses) The function should return a mapping of each IP address to the next-hop IP address determined using the longest prefix match."
+    } ]
+  } ],
+  "date" : "2026-03-26"
+}, {
   "id" : "i_Y6SNtb5UsZ4f3aLFtWgroi",
   "leetcodeId" : "7692764",
   "company" : "MARRIOT",
