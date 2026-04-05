@@ -48,25 +48,6 @@
   } ],
   "date" : "2026-03-27"
 }, {
-  "id" : "i_XAzbWFbHGrcBXniJwE7vJY",
-  "leetcodeId" : "7701642",
-  "company" : "MongoDB",
-  "role" : "SE-3",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_MHyM6xYxux7EzKQkAV7bok",
-    "questions" : [ {
-      "id" : "q_AAMdkhEcWUWvNzbKbn8PfL",
-      "type" : "OTHER",
-      "content" : "What is the typical format of the second coding round in MongoDb?"
-    }, {
-      "id" : "q_ByarNUu3BjrfiA4CkAVp6G",
-      "type" : "OTHER",
-      "content" : "Is it focused on machine coding (implementing a complete working solution), or is it more of a Low-Level Design (LLD) discussion?"
-    } ]
-  } ],
-  "date" : "2026-03-27"
-}, {
   "id" : "i_FvYh6qujNTxGVFBWn8ayUU",
   "leetcodeId" : "7699523",
   "company" : "One Pay",
