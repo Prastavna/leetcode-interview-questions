@@ -1,4 +1,103 @@
 [ {
+  "id" : "i_51cxKCZ31bFRJCBVoUkyJr",
+  "leetcodeId" : "7727541",
+  "company" : "Equall (LTCV Credit)",
+  "role" : "SDE",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_9oJsshohmnFr16FFKbEAif",
+    "questions" : [ {
+      "id" : "q_DEkxQYeoxHB5zaUMWW6RiH",
+      "type" : "LLD",
+      "content" : "Design a Food Delivery Platform."
+    }, {
+      "id" : "q_C4DtQBCPQ4hRXDJtn1BVbq",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Discuss the schema for the platform."
+    }, {
+      "id" : "q_GXUWmd2oyKgCb5THgD5uRu",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How to handle webhooks?"
+    }, {
+      "id" : "q_FEEvezNJ3DvCSvRDttPdyk",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What is idempotency for payments?"
+    } ]
+  } ],
+  "date" : "2026-03-31"
+}, {
+  "id" : "i_NfRsHSAMSbZubLKYHxD4cv",
+  "leetcodeId" : "7733706",
+  "company" : "Microsoft",
+  "role" : "Data Science Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_YNUH3de4B1mBeBSdRSj8GQ",
+    "questions" : [ {
+      "id" : "q_AhJ1Wgkz66DrwDjqQVEcLn",
+      "type" : "DSA",
+      "content" : "Find the Global Maxima of a Quadratic Equation using SciPy Library"
+    }, {
+      "id" : "q_LjPTZb3kvJ1NBqYAnn3ebg",
+      "type" : "TECHNICAL",
+      "content" : "Write query to find average marks of each Department"
+    }, {
+      "id" : "q_9ApU4vyu7bED6446MT6ok6",
+      "type" : "TECHNICAL",
+      "content" : "Write a Query to find out how many students attended each Event"
+    } ]
+  }, {
+    "id" : "r_3CwAwQs6Moc8kotFKhXfF8",
+    "questions" : [ {
+      "id" : "q_49qeQdYrWv9V8VfS26cMDZ",
+      "type" : "TECHNICAL",
+      "content" : "Started of with Asking Probability and Statistics Question, p-value null hypothesis z-test t-test ANOVA"
+    }, {
+      "id" : "q_7HYgHTbS8Z4EmaSjr1kUM",
+      "type" : "TECHNICAL",
+      "content" : "Basic ML Questions with Real Life Examples Supervised Unsupervised RL"
+    }, {
+      "id" : "q_9ARg4tM3zBUZjHiHmEKfcJ",
+      "type" : "TECHNICAL",
+      "content" : "Questions about Time-Series Datasets and models"
+    } ]
+  } ],
+  "date" : "2026-03-31"
+}, {
+  "id" : "i_T1EkByE7gYsH2bgnDNqTGe",
+  "leetcodeId" : "7727443",
+  "company" : "Microsoft",
+  "role" : "SE2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_2ADAjZx5KxXWZ6aZfRnxWu",
+    "questions" : [ {
+      "id" : "q_6gyMpt5GB3e7Sb9ZX3JRER",
+      "type" : "BEHAVIOURAL",
+      "content" : "How are my chances looking for moving forward to an offer?"
+    }, {
+      "id" : "q_DUumVTXfu8kCKvwxAzyQBo",
+      "type" : "BEHAVIOURAL",
+      "content" : "Does a No Hire in DSA usually block hiring even if design rounds are strong?"
+    } ]
+  } ],
+  "date" : "2026-03-31"
+}, {
+  "id" : "i_SPBwM2KdcQQD8XMScszb22",
+  "leetcodeId" : "7727310",
+  "company" : "Eventual Treasury",
+  "role" : "Lead Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UFFAHYRBVFrt9xP7CnG1og",
+    "questions" : [ {
+      "id" : "q_JfoAYyA2623UDEee6VfvLL",
+      "type" : "LLD",
+      "content" : "Design and implement a thread-safe transaction ledger system that manages account balances with the following requirements: Core Operations: deposit - Add funds to an account, withdraw - Remove funds, transfer - Move funds between accounts. Query Operations (must be optimized): getTransactions - Return all transactions for an account, getTransactionsByTimestampRange - Return transactions within timestamp range across all the accounts"
+    } ]
+  } ],
+  "date" : "2026-03-31"
+}, {
   "id" : "i_CRtSXfVokzr5UReuc3nJAa",
   "leetcodeId" : "7717718",
   "company" : "Walmart",
