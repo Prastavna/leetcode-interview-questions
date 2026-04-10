@@ -200,21 +200,6 @@
   } ],
   "date" : "2026-04-03"
 }, {
-  "id" : "i_CrZfSwsYm4CuSc8CBCdUSC",
-  "leetcodeId" : "7748233",
-  "company" : "Mastercard",
-  "role" : "Senior Software Engineer",
-  "yoe" : 3,
-  "rounds" : [ {
-    "id" : "r_6F51bCumTrQoDJ9g6E7KSk",
-    "questions" : [ {
-      "id" : "q_JwcACbTFXXWbBdUVzuzkXA",
-      "type" : "OTHER",
-      "content" : "What can I expect in the first round?"
-    } ]
-  } ],
-  "date" : "2026-04-02"
-}, {
   "id" : "i_69UJLRw6FQiupCaj1jLk3b",
   "leetcodeId" : "7738411",
   "company" : "WEX",
@@ -298,25 +283,6 @@
       "id" : "q_9ARg4tM3zBUZjHiHmEKfcJ",
       "type" : "TECHNICAL",
       "content" : "Questions about Time-Series Datasets and models"
-    } ]
-  } ],
-  "date" : "2026-03-31"
-}, {
-  "id" : "i_T1EkByE7gYsH2bgnDNqTGe",
-  "leetcodeId" : "7727443",
-  "company" : "Microsoft",
-  "role" : "SE2",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_2ADAjZx5KxXWZ6aZfRnxWu",
-    "questions" : [ {
-      "id" : "q_6gyMpt5GB3e7Sb9ZX3JRER",
-      "type" : "BEHAVIOURAL",
-      "content" : "How are my chances looking for moving forward to an offer?"
-    }, {
-      "id" : "q_DUumVTXfu8kCKvwxAzyQBo",
-      "type" : "BEHAVIOURAL",
-      "content" : "Does a No Hire in DSA usually block hiring even if design rounds are strong?"
     } ]
   } ],
   "date" : "2026-03-31"
