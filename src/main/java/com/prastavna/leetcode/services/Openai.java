@@ -160,6 +160,9 @@ public class Openai {
     * “How to prepare for X?”
     * “What kind of questions are asked?”
     * “What are my chances for getting an offer?”
+    * “What can I expect in the first round?”
+    * “How are my chances looking for moving forward to an offer?”
+    * “Does a No Hire in DSA usually block hiring even if design rounds are strong?”
     * These are not interview questions, even if phrased as questions.
 
     ---
