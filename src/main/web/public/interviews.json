@@ -1,4 +1,205 @@
 [ {
+  "id" : "i_YNWiddAXTtHxAj6qhidQcv",
+  "leetcodeId" : "7767664",
+  "company" : "Nvidia",
+  "role" : "Senior System Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_5WvKSm1CXJLnoB7KAYzGeQ",
+    "questions" : [ {
+      "id" : "q_Tg2FSZ2odTSeHTVdSFrWpa",
+      "type" : "DEBUGGING",
+      "content" : "coding and debugging round"
+    } ]
+  } ],
+  "date" : "2026-04-03"
+}, {
+  "id" : "i_QzuEBW2U8igUxwYrRRHnS8",
+  "leetcodeId" : "7767793",
+  "company" : "Arcesium",
+  "role" : "Java Backend",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_2ScmM96oqbNuHDUiJPBwTq",
+    "questions" : [ {
+      "id" : "q_4ecjt3uT6oy9v2EZkFvszc",
+      "type" : "DSA",
+      "content" : "Sliding window"
+    }, {
+      "id" : "q_2UWeyjzbs2wFMZrmHEJ3C7",
+      "type" : "DSA",
+      "content" : "DP"
+    } ]
+  }, {
+    "id" : "r_3396mwcbvCpJf9NED5bthW",
+    "questions" : [ {
+      "id" : "q_6xfY8bdbm71Qd9nQk5A9zj",
+      "type" : "DSA",
+      "content" : "Delete nth node from end of Linked List"
+    }, {
+      "id" : "q_qRgKmrn8RGz1yLn7oECA1",
+      "type" : "DSA",
+      "content" : "Return Right view of Binary tree"
+    } ]
+  } ],
+  "date" : "2026-04-03"
+}, {
+  "id" : "i_QnB9H44C8QUFKky3oyiL5c",
+  "leetcodeId" : "7769548",
+  "company" : "Microsoft",
+  "role" : "Software Engineer II",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_Cipz7AQbaPuxDFKV9ohejq",
+    "questions" : [ {
+      "id" : "q_HsXD8BoTAkGMEgxtgGBqRh",
+      "type" : "DSA",
+      "content" : "find the shortest path in a weighted grid with some constraints"
+    } ]
+  }, {
+    "id" : "r_VWx4DGnvjWe4VUewjwMxdw",
+    "questions" : [ {
+      "id" : "q_LiiR3VJSE7UwLhFXccGpgk",
+      "type" : "LLD",
+      "content" : "designing a Vending Machine or Parking Lot"
+    } ]
+  }, {
+    "id" : "r_2W5MpAYCrwSU7zu6b9PTrU",
+    "questions" : [ {
+      "id" : "q_N9PLLEP6U5pn4G2KRabazM",
+      "type" : "HLD",
+      "content" : "Designed a Distributed Key-Value Store (like Redis)"
+    } ]
+  }, {
+    "id" : "r_DEbUTGAbPTHPJMmeBKSw78",
+    "questions" : [ {
+      "id" : "q_QXtiCHWnWDTBU1VEUUJyCC",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "architectural deep dives into my past projects"
+    }, {
+      "id" : "q_QDuNsbGPX2L6wDuGGuZcNn",
+      "type" : "BEHAVIOURAL",
+      "content" : "behavioral questions related to Growth Mindset and technical disagreements"
+    } ]
+  } ],
+  "date" : "2026-04-03"
+}, {
+  "id" : "i_Tfawv6a7k5kUDNWVbcsXoc",
+  "leetcodeId" : "7768723",
+  "company" : "Target",
+  "role" : "Sr Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NyhrBMH7eh7cXuEjR5HiWZ",
+    "questions" : [ {
+      "id" : "q_UM9yg1ruZT6nEFKiFP2dq9",
+      "type" : "DSA",
+      "content" : "Find distance between two strings (delete, replace, insert) for Q queries and return minDis String from S strings."
+    }, {
+      "id" : "q_WYryMwY2Epi2GUR34TWYwG",
+      "type" : "DSA",
+      "content" : "Find LuckyNumbers from [l,r]. 1<= l,r <= 10^18 lucky numbers x are integers, which are divisible by floor(sqRoot(x))."
+    }, {
+      "id" : "q_GRvKMKdenVSF4ZbiNp6tyR",
+      "type" : "DSA",
+      "content" : "Synchronised ticket booking system where total N seats are available. you return for Q queries first seat available, if not available -1; First available seat is assigned (assuming enough seats are there)."
+    } ]
+  }, {
+    "id" : "r_WUvDJGGLeGSvLLGYX6rVKG",
+    "questions" : [ {
+      "id" : "q_AoiYG5gybpMRt9R5ohnXmg",
+      "type" : "DSA",
+      "content" : "2 LC easy question (don't remember)."
+    } ]
+  }, {
+    "id" : "r_ETPSduS33S4AV8NLwga5Na",
+    "questions" : [ {
+      "id" : "q_5pZWgAXMKAGwbhYcDGAJfE",
+      "type" : "LLD",
+      "content" : "Design Redbus LLD -> expectation was functional requirements and entities, classes, interfaces (no code, just listing out) and showing user journey flow while booking."
+    }, {
+      "id" : "q_NwmXsssCXydnJprZXZvNmE",
+      "type" : "TECHNICAL",
+      "content" : "Asked question about one SQL query which required join between 2 tables."
+    } ]
+  }, {
+    "id" : "r_Nra1Q9Pdv7Z4JcKt4SZZw2",
+    "questions" : [ {
+      "id" : "q_VMfsM5Bf8SPKMQ469NXJmF",
+      "type" : "HLD",
+      "content" : "Design Google Drive - Functional Req, Non functional Req, Database tables and choice, Architecture and components were discussed."
+    } ]
+  }, {
+    "id" : "r_4R4PPLev4MxfqtxFFFwDtz",
+    "questions" : [ {
+      "id" : "q_7WVYFGWh3upVW7QKxgc5qJ",
+      "type" : "HM",
+      "content" : "Most challenging project, tradeoffs in decisions, production issue, mentoring, etc - mostly typical hiring manager questions."
+    } ]
+  } ],
+  "date" : "2026-04-03"
+}, {
+  "id" : "i_Hjy2hm3mUSis73JgpdmFEv",
+  "leetcodeId" : "7765688",
+  "company" : "Visa",
+  "role" : "Sr SWE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_SGqovgvJq1V83tjtUGocLR",
+    "questions" : [ {
+      "id" : "q_TRYinJoYc7jKpN5Rj5pjmT",
+      "type" : "DSA",
+      "content" : "Bus departure"
+    }, {
+      "id" : "q_SKxDvkJLRkGebrY58umqRD",
+      "type" : "DSA",
+      "content" : "Numbers with odd 0s"
+    }, {
+      "id" : "q_ASi2r2iqhX8YUQYhhsQz6X",
+      "type" : "DSA",
+      "content" : "Allocate memory"
+    }, {
+      "id" : "q_Co94TMEoP138PKxPfgoPzp",
+      "type" : "DSA",
+      "content" : "View gap mountain , find minGap"
+    } ]
+  }, {
+    "id" : "r_CBYaRqTqiRTzjGXfbBZ191",
+    "questions" : [ {
+      "id" : "q_UJACz3QAdHLWDiwG193LLt",
+      "type" : "TECHNICAL",
+      "content" : "Springboot components, design patterns, annotations, jpa, isolation levels, singleton pattern, how can it be broken, decorator Pattern and example"
+    }, {
+      "id" : "q_EYU8esKUp3G3ALeC28RGN8",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "horizontal vs vertical scaling"
+    }, {
+      "id" : "q_FRYoRAHS5AsB92tmnMWPfc",
+      "type" : "TECHNICAL",
+      "content" : "authentication mechanisms"
+    }, {
+      "id" : "q_HRHcRDuUWi2tfFvnS6MhTN",
+      "type" : "TECHNICAL",
+      "content" : "Shedlock, load balancer different techniques, api protocols"
+    }, {
+      "id" : "q_8Tm4RtAsjkFatD45rW7ZCm",
+      "type" : "DSA",
+      "content" : "lru cache implementation"
+    }, {
+      "id" : "q_Cq7NTmzUn2a8jywytC9HKo",
+      "type" : "TECHNICAL",
+      "content" : "hashmap internals, hash code and equals"
+    } ]
+  }, {
+    "id" : "r_FodKeK1nY9F7QkK7Ey2qEz",
+    "questions" : [ {
+      "id" : "q_EJFKeKXxG67QA1AJc3unLp",
+      "type" : "BEHAVIOURAL",
+      "content" : "Most difficult project, team structure, production issues, SDLC"
+    } ]
+  } ],
+  "date" : "2026-04-03"
+}, {
   "id" : "i_CrZfSwsYm4CuSc8CBCdUSC",
   "leetcodeId" : "7748233",
   "company" : "Mastercard",
