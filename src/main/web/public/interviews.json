@@ -1,4 +1,106 @@
 [ {
+  "id" : "i_T5S3NJbMcTfWtEWAAozkKE",
+  "leetcodeId" : "7810972",
+  "company" : "Goldcast",
+  "role" : "Senior Software Engineer 2 (Backend)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_3v2gE5sQeqM44dfVdSkDJb",
+    "questions" : [ {
+      "id" : "q_U4vggDqCoVDEasx44wPwuX",
+      "type" : "DSA",
+      "content" : "Movement of Robots - https://leetcode.com/problems/movement-of-robots/description/"
+    }, {
+      "id" : "q_WFr9xhjMQHXLE2vXxH6fTN",
+      "type" : "DSA",
+      "content" : "Restore IP Addresses – https://leetcode.com/problems/restore-ip-addresses/"
+    } ]
+  } ],
+  "date" : "2026-04-07"
+}, {
+  "id" : "i_Jo1y1BN8NVvXpbNtCFAM2C",
+  "leetcodeId" : "7817473",
+  "company" : "Albertsons",
+  "role" : "DevOps",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_9FwhGEfjeTNMxVrjb392hm",
+    "questions" : [ {
+      "id" : "q_8WYtJ67xtJFYXQP6Dwubk7",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Write a python script(decorator) that retries a function up to 3 times if it raises an exception."
+    }, {
+      "id" : "q_FcyQxBkZfYXtAmjrUct44o",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Write a bash script to archive logs older than 7 days."
+    }, {
+      "id" : "q_QUwcSG6VD1kzmgEDyWFc3V",
+      "type" : "TECHNICAL",
+      "content" : "A query taking unnecessary time to find email, how to prevent it."
+    }, {
+      "id" : "q_CrF2eGLVS6ojJNU3FqQuBg",
+      "type" : "DSA",
+      "content" : "How to create an index for the same?"
+    }, {
+      "id" : "q_UvzeV7Fvecg4GTNZggM2ai",
+      "type" : "TECHNICAL",
+      "content" : "A pod went to CrashLoopBackOff, how to mitigate it."
+    }, {
+      "id" : "q_DErxEmAEk9KLmxC3KtinnW",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Azure CLI to create a resource group in specific location(us-east) and create a storage account with name \"Demo\" in hottier."
+    }, {
+      "id" : "q_XuuSyPjMVZ98JqTzd8pQyq",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How to design a highly available application in Azure?"
+    }, {
+      "id" : "q_FdcMNU3YVTpzPbFSTpchrG",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "There is a 5x traffic to be expected on a specific occasion on website, what steps as a devops engineer you need to take to make sure systems are reliable and scalable."
+    }, {
+      "id" : "q_WfuPLhmKJmKUwgfviyWqSo",
+      "type" : "DEBUGGING",
+      "content" : "Generally on normal days 5k requests come and hit the website but from last few days, the requests are dropped down to 4k - how you will find the root cause for this?"
+    }, {
+      "id" : "q_Ntak43grxUnCZQA4mUFQVS",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Your application is using AKS - the data needs to be persisted. what you will do to achieve the same?"
+    }, {
+      "id" : "q_NicmvAL2QPH1Bxe1E8vSVV",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "There is a 3 tier web application deployed on azure. how you make sure the application is monitored properly (name services which you will use to achieve the same)."
+    }, {
+      "id" : "q_U3eCNcScAsvYwagYx59bzP",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the process workflow of pipeline from developer commit till release."
+    }, {
+      "id" : "q_4TUFMzj3TDWjqNEcsF4PLk",
+      "type" : "TECHNICAL",
+      "content" : "What release strategy do you use in your organization?"
+    }, {
+      "id" : "q_49QkFhgBshQybNniirvKy9",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Suppose blue green deployment is the strategy, green deployment was successful but blue deployment stucks - what steps you will take to mitigate it?"
+    }, {
+      "id" : "q_5HyTopBEL6CUdtRUNF5zT7",
+      "type" : "DEBUGGING",
+      "content" : "Jenkins release pipeline failed at 90%, how you will resolve it considering release window deadline?"
+    }, {
+      "id" : "q_GsxgvGKitgqCcQtedh58wd",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "How you enable tagging to Jenkins pipeline and in case of rollback to previous tag, what command is used?"
+    }, {
+      "id" : "q_JwUJzD2UXE1QYUdszqsiHp",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Explain queue-based system. Scenario - You might see an unnecessarily high number of queues, how to design autoscaling correctly to avoid that problem."
+    }, {
+      "id" : "q_6thxkuYgWsUMHeYQsuGQMX",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How to configure a Kubernetes HPA (Horizontal Pod Autoscaler) to scale when CPU utilization is greater than 70%"
+    } ]
+  } ],
+  "date" : "2026-04-07"
+}, {
   "id" : "i_DFEw1DFecfxcZH1maiJsSx",
   "leetcodeId" : "7800395",
   "company" : "Oscar Health",
