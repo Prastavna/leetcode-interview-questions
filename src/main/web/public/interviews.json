@@ -1,4 +1,55 @@
 [ {
+  "id" : "i_JyPAM9p69ojvxK6bo1dzRJ",
+  "leetcodeId" : "7864471",
+  "company" : "NVIDIA",
+  "role" : "Sr Infrastructure Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UQHKoBMjseDEUWLKo9FqUX",
+    "questions" : [ {
+      "id" : "q_LTMftZZCmy7Xnz5a461uaj",
+      "type" : "TECHNICAL",
+      "content" : "What specific Compute components have you worked with and what role did each play?"
+    }, {
+      "id" : "q_YTXYw7H9LRSmJQyJJ2hrf8",
+      "type" : "TECHNICAL",
+      "content" : "How have you used Networking to define network architecture?"
+    }, {
+      "id" : "q_TfZ6H9p9i4Tk5U73kKLGGL",
+      "type" : "TECHNICAL",
+      "content" : "How have you configured or enforced security at the network level using Security Groups?"
+    }, {
+      "id" : "q_B3zrbUmMudALpV1DwGxnUC",
+      "type" : "TECHNICAL",
+      "content" : "What types of Image formats have you worked with, and how do you choose between them?"
+    }, {
+      "id" : "q_L8A3XJCYdmYCXemX56p1xH",
+      "type" : "TECHNICAL",
+      "content" : "Can you compare when you've used block storage volumes versus ephemeral storage?"
+    }, {
+      "id" : "q_VGFf3uc4vKM17s5evqwCxp",
+      "type" : "TECHNICAL",
+      "content" : "Have you deployed or supported workloads using Bare Metal services? What led to a bare metal over VM choice?"
+    }, {
+      "id" : "q_SeeCcg8MFA11ynH6xFwTWN",
+      "type" : "TECHNICAL",
+      "content" : "Describe your experience with scripting at scale. What kind of problems did you solve?"
+    }, {
+      "id" : "q_EhqPdcjbuSxMQTJ7xs8Gae",
+      "type" : "TECHNICAL",
+      "content" : "Have you used Jenkins or similar tools to run pipelines?"
+    }, {
+      "id" : "q_G3ZtjHbeCauEKCYhRMroMf",
+      "type" : "TECHNICAL",
+      "content" : "Tell me about your familiarity with PXE booting. Which services were involved and how did you troubleshoot?"
+    }, {
+      "id" : "q_PXmjZLtdtKM6WLPh7TXoEz",
+      "type" : "TECHNICAL",
+      "content" : "What protocols or tools have you used to interact with Baseboard Management Controllers (BMCs)?"
+    } ]
+  } ],
+  "date" : "2026-04-10"
+}, {
   "id" : "i_T5S3NJbMcTfWtEWAAozkKE",
   "leetcodeId" : "7810972",
   "company" : "Goldcast",
