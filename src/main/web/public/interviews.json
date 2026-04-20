@@ -41,37 +41,6 @@
   } ],
   "date" : "2026-04-13"
 }, {
-  "id" : "i_3DC97rKSn2AaLnnmSKtv2n",
-  "leetcodeId" : "7876718",
-  "company" : "Amazon",
-  "role" : "SDE II",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_DTcGkXzEoYzCMR6h45vDdk",
-    "questions" : [ {
-      "id" : "q_FVv45E3yDaUW57xnuP9eAj",
-      "type" : "OTHER",
-      "content" : "How deep does she actually go? Is this purely background plus visa plus location alignment, or does she probe technical depth on the stack she mentioned?"
-    }, {
-      "id" : "q_Dqqbvt7nBCFqqz88zGuKSL",
-      "type" : "OTHER",
-      "content" : "CV walkthrough vs technical questions? Is it enough to have crisp answers for each role, or should I be ready to go one level deeper on specific technologies?"
-    }, {
-      "id" : "q_TxVk7zd4AfroSEu9UtqtAW",
-      "type" : "OTHER",
-      "content" : "LP questions at this stage? Do sourcing recruiters ask STAR-based questions in the 30-minute screen or does that come exclusively in the HM screen and loop?"
-    }, {
-      "id" : "q_H6fNxewxwRMLCemARhh4Xo",
-      "type" : "OTHER",
-      "content" : "Visa: I am on OPT needing H-1B sponsorship. Does this come up directly and how do recruiters typically handle it?"
-    }, {
-      "id" : "q_WKmdCGwLxksm4XqUatqMtV",
-      "type" : "OTHER",
-      "content" : "Anything else that I should expect that I'm not aware of?"
-    } ]
-  } ],
-  "date" : "2026-04-12"
-}, {
   "id" : "i_JyPAM9p69ojvxK6bo1dzRJ",
   "leetcodeId" : "7864471",
   "company" : "NVIDIA",
