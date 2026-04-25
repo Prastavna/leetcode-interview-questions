@@ -1,4 +1,54 @@
 [ {
+  "id" : "i_9xgxnkEisKJLntqwMdxzN5",
+  "leetcodeId" : "7974440",
+  "company" : "Juspay",
+  "role" : "backend software developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NWKgRuSyGkmkYBQHVcUGbP",
+    "questions" : [ {
+      "id" : "q_NgCZzH1H6oZDVsu7kAQgf2",
+      "type" : "OTHER",
+      "content" : "Higher number of questions from CS, logical reasoning background."
+    } ]
+  }, {
+    "id" : "r_V6NVrXT8t3YfTdK73a6E6n",
+    "questions" : [ {
+      "id" : "q_P4nUWrwtsyW39vHpQ8sfrb",
+      "type" : "DSA",
+      "content" : "Standard DSA round with 3 questions in around 75-90 mins."
+    } ]
+  }, {
+    "id" : "r_FH1k4EsEYCTcEoNJKW1woC",
+    "questions" : [ {
+      "id" : "q_8WqTyA2wJRJ4BDma9R76Fo",
+      "type" : "MACHINE_CODING",
+      "content" : "You will be given one question and 3 hours to solve it, the question will be based on graphs and trees."
+    } ]
+  }, {
+    "id" : "r_2rHTPovoxSKa4uuzVChdpo",
+    "questions" : [ {
+      "id" : "q_H7vCof4eFJEooxR3jgdmx7",
+      "type" : "DSA",
+      "content" : "Focus on BFS/DFS, recursion, and graphs/trees."
+    } ]
+  }, {
+    "id" : "r_KSTFV5nLJqFs32XrSNXwjg",
+    "questions" : [ {
+      "id" : "q_EEvKWAaxRsEdE7rfbhkuNF",
+      "type" : "TECHNICAL",
+      "content" : "The second part is spent on operating systems fundamentals and logical thinking."
+    } ]
+  }, {
+    "id" : "r_UqmbeVuVLe3bp4EGU3FrzA",
+    "questions" : [ {
+      "id" : "q_GA4BrmBJNtaqP8tS8eEqL4",
+      "type" : "DSA",
+      "content" : "Computer networks, your thinking process and maybe one DSA question."
+    } ]
+  } ],
+  "date" : "2026-04-18"
+}, {
   "id" : "i_Cf7PQ2YGGKw7M5Ggox6rb7",
   "leetcodeId" : "7967680",
   "company" : "Nutanix",
