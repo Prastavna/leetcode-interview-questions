@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_FcEjoCYMHcUfjgKn9y3i4Q",
+  "leetcodeId" : "8046704",
+  "company" : "MoEngage",
+  "role" : "SDE - 2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_FwfDEJYnJh7b9qp2cEKqGL",
+    "questions" : [ {
+      "id" : "q_T1dtFu8bzYe9bzbMJnoG8B",
+      "type" : "DSA",
+      "content" : "Given a string `s` containing only three types of characters: `'('`, `')'` and `'*'`, return true if `s` is valid. The following rules define a valid string: Any left parenthesis `'('` must have a corresponding right parenthesis `')'`. Any right parenthesis `')'` must have a corresponding left parenthesis `'('`. Left parenthesis `'('` must go before the corresponding right parenthesis `')'`. `'*'` could be treated as: a single right parenthesis `')'`, or a single left parenthesis `'('`, or an empty string `\"\"`."
+    }, {
+      "id" : "q_9C3ySER1dJoHCD28o1gw4b",
+      "type" : "DSA",
+      "content" : "There are `n` cars at given miles away from the starting mile `0`, traveling to reach the mile `target`. You are given two integer arrays `position` and `speed`, both of length `n`, where: `position[i]` is the starting mile of the `i-th` car. `speed[i]` is the speed of the `i-th` car in miles per hour. A car cannot pass another car, but it can catch up and then travel next to it at the speed of the slower car. A **car fleet** is a single car or a group of cars driving together at the same speed. If a car catches up to a fleet at the destination point, it is still considered part of the fleet. Return the number of car fleets that will arrive at the destination."
+    } ]
+  } ],
+  "date" : "2026-04-22"
+}, {
   "id" : "i_boMdfyNWadFmHBgcYNAQy",
   "leetcodeId" : "8037181",
   "company" : "Arcesium",
