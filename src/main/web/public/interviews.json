@@ -1,4 +1,31 @@
 [ {
+  "id" : "i_SA3dCtKV2bv238bcYBVYxr",
+  "leetcodeId" : "8092426",
+  "company" : "Visa",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_6zwiEy5qx1fCmAeo57iwub",
+    "questions" : [ {
+      "id" : "q_QAfGTMuFydSYWyQ5GnNNpQ",
+      "type" : "DSA",
+      "content" : "Are they still focusing on standard DSA (Graphs/DP) or more on Concurrency/Multithreading given the transactional nature of the work?"
+    }, {
+      "id" : "q_47AoaMEJSViP22itdqm5mr",
+      "type" : "LLD",
+      "content" : "Do they ask for full machine coding (running code) or just a deep dive into Design Patterns (Strategy, State, etc.)?"
+    }, {
+      "id" : "q_W6PTqjPDvmUp98dm9wvi9o",
+      "type" : "HLD",
+      "content" : "Since PPT deals with payments, do they focus on Distributed Transactions, Idempotency, and Saga patterns?"
+    }, {
+      "id" : "q_Bzb6MQamAvXWkf27VrMChE",
+      "type" : "HM",
+      "content" : "What are the \"Visa-specific\" values they look for?"
+    } ]
+  } ],
+  "date" : "2026-04-24"
+}, {
   "id" : "i_FcEjoCYMHcUfjgKn9y3i4Q",
   "leetcodeId" : "8046704",
   "company" : "MoEngage",
