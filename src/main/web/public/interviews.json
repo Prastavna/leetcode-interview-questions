@@ -1,4 +1,42 @@
 [ {
+  "id" : "i_WtPQRfR8DKWvrnh99s1xyH",
+  "leetcodeId" : "8097248",
+  "company" : "Salesforce",
+  "role" : "SMTS",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_YAp8643WBRjwZZbH2PwtTh",
+    "questions" : [ {
+      "id" : "q_Kf34g2j7NHf4KyiQ1WX2tA",
+      "type" : "DSA",
+      "content" : "Best Time to Buy and Sell Stock"
+    } ]
+  } ],
+  "date" : "2026-04-25"
+}, {
+  "id" : "i_Lk6uqmpF7zQhNUunxzYLUM",
+  "leetcodeId" : "8096138",
+  "company" : "Amazon",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_BWGi35DfdBGkhtUhibC5y2",
+    "questions" : [ {
+      "id" : "q_PyYHx9BmzR7dUkGLwUF914",
+      "type" : "DSA",
+      "content" : "DSA Question (Graph-based)"
+    }, {
+      "id" : "q_DEXgZZwKXUkfSaPycy7Rr4",
+      "type" : "DEBUGGING",
+      "content" : "Spring Boot API Debugging Question"
+    }, {
+      "id" : "q_KfJTU6nwuQNk4mMcPrjq9n",
+      "type" : "BEHAVIOURAL",
+      "content" : "Standard Amazon behavioral questions (LP-based scenarios)"
+    } ]
+  } ],
+  "date" : "2026-04-25"
+}, {
   "id" : "i_SA3dCtKV2bv238bcYBVYxr",
   "leetcodeId" : "8092426",
   "company" : "Visa",
