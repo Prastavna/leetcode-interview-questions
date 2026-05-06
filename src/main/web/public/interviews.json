@@ -1,4 +1,50 @@
 [ {
+  "id" : "i_GEUa4E6gXGDDUXrqXPSoeU",
+  "leetcodeId" : "8114566",
+  "company" : "Google",
+  "role" : "ML Engineer (L4/L5)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_4wiBirNzbSoLPNHHJmbXEL",
+    "questions" : [ {
+      "id" : "q_Y25oiDUMRuypKiv6SLVjxu",
+      "type" : "DSA",
+      "content" : "Graph + heap (top K follow-up). Got questioned, then it paid off"
+    }, {
+      "id" : "q_YVU5YrVpcEWQC9ESH2VCka",
+      "type" : "DSA",
+      "content" : "DP counting problem. Messed up base case + minor mistake"
+    }, {
+      "id" : "q_HUpv34s4XK9wRaheF2eGeQ",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Google Reviews system, BERT + LLM trade-offs"
+    } ]
+  } ],
+  "date" : "2026-04-29"
+}, {
+  "id" : "i_XhvxdTDz7V8FMjET6aqa7p",
+  "leetcodeId" : "8110242",
+  "company" : "Amazon",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_3Tbryv5qp6mqUvwqSG2sPF",
+    "questions" : [ {
+      "id" : "q_Hokwk6iiSAydZGHc33qLjc",
+      "type" : "OTHER",
+      "content" : "How much do LPs weigh compared to technical performance for SDE-2?"
+    }, {
+      "id" : "q_EgermNATJv8KsSDkK3WW5c",
+      "type" : "OTHER",
+      "content" : "If technical rounds (including BR coding) go well but LPs are average, what are the chances of clearing?"
+    }, {
+      "id" : "q_7XpB2pGzGvzy7xyWJSSgUp",
+      "type" : "OTHER",
+      "content" : "Has anyone been in a similar situation — what was your outcome (hire / downlevel / reject)?"
+    } ]
+  } ],
+  "date" : "2026-04-29"
+}, {
   "id" : "i_87gT3mVNSTxbK7zcA6SKj7",
   "leetcodeId" : "8099158",
   "company" : "IDFC First Bank",
