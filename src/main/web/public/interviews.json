@@ -1,4 +1,73 @@
 [ {
+  "id" : "i_9Hdbzrk6XTdKP37YS4HScE",
+  "leetcodeId" : "8121991",
+  "company" : "IDFC",
+  "role" : "SDE3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VigZnGJYGNYQoWz2dv1nVM",
+    "questions" : [ {
+      "id" : "q_AFUXoDEy127NnTrZuFTNzX",
+      "type" : "DSA",
+      "content" : "Special binary strings are binary strings with the following two properties: The number of 0's is equal to the number of 1's. Every prefix of the binary string has at least as many 1's as 0's. You are given a special binary string s. A move consists of choosing two consecutive, non-empty, special substrings of s, and swapping them. Two strings are consecutive if the last character of the first string is exactly one index before the first character of the second string. Return the lexicographically largest resulting string possible after applying the mentioned operations on the string."
+    } ]
+  } ],
+  "date" : "2026-05-01"
+}, {
+  "id" : "i_Laf4fPP2UiRKmTARGgsh8U",
+  "leetcodeId" : "8122064",
+  "company" : "eBay",
+  "role" : "SWE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_JEZUSEv5yTVZLnstoaj8Y3",
+    "questions" : [ {
+      "id" : "q_TiRpRN3GChBY9dfTkEeMCM",
+      "type" : "MACHINE_CODING",
+      "content" : "Implement a data storage system that supports basic operations, filtering, and \"point-in-time\" recovery (backups)."
+    }, {
+      "id" : "q_HypdYac2g16Bg2sNfwsFEQ",
+      "type" : "DSA",
+      "content" : "SET_OR_INC(key, field, value): If the field is a string, update it. If it's an integer, increment it."
+    }, {
+      "id" : "q_Lpma1gVjiKnt3wPr8omS93",
+      "type" : "DSA",
+      "content" : "GET(key, field): Basic retrieval."
+    }, {
+      "id" : "q_QFzzuU2MURWu1WMBN35f3q",
+      "type" : "DSA",
+      "content" : "DELETE(key, field): Remove a specific field or the entire key if no fields remain."
+    }, {
+      "id" : "q_NmSrZd3AZ8QBKrejW4dVhF",
+      "type" : "DSA",
+      "content" : "FETCH(field, value): Scan all records and return those that match."
+    }, {
+      "id" : "q_9hCaJATuEeWW4HxqnbmyLH",
+      "type" : "DSA",
+      "content" : "BACKUP(): Capture the state and return a backupId."
+    }, {
+      "id" : "q_QtbxAyzFihqfpk4TXXHCna",
+      "type" : "DSA",
+      "content" : "RESTORE(backupId): The database must instantly revert."
+    } ]
+  } ],
+  "date" : "2026-05-01"
+}, {
+  "id" : "i_AxeRGja8N2ti2Ke3VRxCun",
+  "leetcodeId" : "8121485",
+  "company" : "Amazon",
+  "role" : "SDE II",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_JZ1St2G5Nm85L8nMAkeNvz",
+    "questions" : [ {
+      "id" : "q_Ngbik7Y2xqTm7CRGzqqTvH",
+      "type" : "DEBUGGING",
+      "content" : "I only got 2/6 on the debugging part"
+    } ]
+  } ],
+  "date" : "2026-05-01"
+}, {
   "id" : "i_R5x2GesoG4jcwNkCGg7KnA",
   "leetcodeId" : "8115020",
   "company" : "Autodesk",
