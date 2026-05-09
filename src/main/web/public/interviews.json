@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_EdUCe2zpttU3oRzKgkX3eh",
+  "leetcodeId" : "8130661",
+  "company" : "Amazon",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_2E1aobUzgJPGqqNN42sGrR",
+    "questions" : [ {
+      "id" : "q_53Hyh5uotk987ycazpXQ4L",
+      "type" : "OTHER",
+      "content" : "What kind of question is asked in the Amazon Online Assessment for the AI-Assisted Code Repository question?"
+    } ]
+  } ],
+  "date" : "2026-05-02"
+}, {
   "id" : "i_9Hdbzrk6XTdKP37YS4HScE",
   "leetcodeId" : "8121991",
   "company" : "IDFC",
