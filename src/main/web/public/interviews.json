@@ -1,4 +1,38 @@
 [ {
+  "id" : "i_MAyhtMntgk511iPuEg1QBJ",
+  "leetcodeId" : "8133843",
+  "company" : "Google",
+  "role" : "L4",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_AFgx2XVWMzCpv7o9FacKHo",
+    "questions" : [ {
+      "id" : "q_UUyAJA4JYVrgvRuEtzpHdW",
+      "type" : "OTHER",
+      "content" : "How relevant are topics like Kosaraju’s algorithm, Tarjan’s algorithm, strongly connected components (SCC), and Euler paths/circuits in interviews at Google?"
+    } ]
+  } ],
+  "date" : "2026-05-03"
+}, {
+  "id" : "i_2T9nmoTyyt2X9tEQgQ5zEA",
+  "leetcodeId" : "8133937",
+  "company" : "Amazon Global Logistics",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UtYtqzWFgL1Fy4Sx4U1mqS",
+    "questions" : [ {
+      "id" : "q_QZyc1rm9hAv86oheaXsbGo",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What kind of questions are being asked these days?"
+    }, {
+      "id" : "q_X8rWbViPL9jo9kUzVk6tAJ",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How deep do they expect you to go on tradeoffs?"
+    } ]
+  } ],
+  "date" : "2026-05-03"
+}, {
   "id" : "i_EdUCe2zpttU3oRzKgkX3eh",
   "leetcodeId" : "8130661",
   "company" : "Amazon",
