@@ -1,53 +1,4 @@
 [ {
-  "id" : "i_MAyhtMntgk511iPuEg1QBJ",
-  "leetcodeId" : "8133843",
-  "company" : "Google",
-  "role" : "L4",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_AFgx2XVWMzCpv7o9FacKHo",
-    "questions" : [ {
-      "id" : "q_UUyAJA4JYVrgvRuEtzpHdW",
-      "type" : "OTHER",
-      "content" : "How relevant are topics like Kosaraju’s algorithm, Tarjan’s algorithm, strongly connected components (SCC), and Euler paths/circuits in interviews at Google?"
-    } ]
-  } ],
-  "date" : "2026-05-03"
-}, {
-  "id" : "i_2T9nmoTyyt2X9tEQgQ5zEA",
-  "leetcodeId" : "8133937",
-  "company" : "Amazon Global Logistics",
-  "role" : "SDE-2",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_UtYtqzWFgL1Fy4Sx4U1mqS",
-    "questions" : [ {
-      "id" : "q_QZyc1rm9hAv86oheaXsbGo",
-      "type" : "SYSTEM_DESIGN",
-      "content" : "What kind of questions are being asked these days?"
-    }, {
-      "id" : "q_X8rWbViPL9jo9kUzVk6tAJ",
-      "type" : "SYSTEM_DESIGN",
-      "content" : "How deep do they expect you to go on tradeoffs?"
-    } ]
-  } ],
-  "date" : "2026-05-03"
-}, {
-  "id" : "i_EdUCe2zpttU3oRzKgkX3eh",
-  "leetcodeId" : "8130661",
-  "company" : "Amazon",
-  "role" : "",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_2E1aobUzgJPGqqNN42sGrR",
-    "questions" : [ {
-      "id" : "q_53Hyh5uotk987ycazpXQ4L",
-      "type" : "OTHER",
-      "content" : "What kind of question is asked in the Amazon Online Assessment for the AI-Assisted Code Repository question?"
-    } ]
-  } ],
-  "date" : "2026-05-02"
-}, {
   "id" : "i_9Hdbzrk6XTdKP37YS4HScE",
   "leetcodeId" : "8121991",
   "company" : "IDFC",
@@ -102,36 +53,6 @@
   } ],
   "date" : "2026-05-01"
 }, {
-  "id" : "i_AxeRGja8N2ti2Ke3VRxCun",
-  "leetcodeId" : "8121485",
-  "company" : "Amazon",
-  "role" : "SDE II",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_JZ1St2G5Nm85L8nMAkeNvz",
-    "questions" : [ {
-      "id" : "q_Ngbik7Y2xqTm7CRGzqqTvH",
-      "type" : "DEBUGGING",
-      "content" : "I only got 2/6 on the debugging part"
-    } ]
-  } ],
-  "date" : "2026-05-01"
-}, {
-  "id" : "i_R5x2GesoG4jcwNkCGg7KnA",
-  "leetcodeId" : "8115020",
-  "company" : "Autodesk",
-  "role" : "",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_6AMdcsJk7VvCA49LbquLxd",
-    "questions" : [ {
-      "id" : "q_Du2E241DXYgvkh3A4xJYUq",
-      "type" : "OTHER",
-      "content" : "What all topics do I expect for my Autodesk OA test?"
-    } ]
-  } ],
-  "date" : "2026-04-30"
-}, {
   "id" : "i_5i6PfARm3HkJzJBTkHmBfv",
   "leetcodeId" : "8115468",
   "company" : "Microsoft",
@@ -184,29 +105,6 @@
       "id" : "q_HUpv34s4XK9wRaheF2eGeQ",
       "type" : "SYSTEM_DESIGN",
       "content" : "Google Reviews system, BERT + LLM trade-offs"
-    } ]
-  } ],
-  "date" : "2026-04-29"
-}, {
-  "id" : "i_XhvxdTDz7V8FMjET6aqa7p",
-  "leetcodeId" : "8110242",
-  "company" : "Amazon",
-  "role" : "SDE-2",
-  "yoe" : 0,
-  "rounds" : [ {
-    "id" : "r_3Tbryv5qp6mqUvwqSG2sPF",
-    "questions" : [ {
-      "id" : "q_Hokwk6iiSAydZGHc33qLjc",
-      "type" : "OTHER",
-      "content" : "How much do LPs weigh compared to technical performance for SDE-2?"
-    }, {
-      "id" : "q_EgermNATJv8KsSDkK3WW5c",
-      "type" : "OTHER",
-      "content" : "If technical rounds (including BR coding) go well but LPs are average, what are the chances of clearing?"
-    }, {
-      "id" : "q_7XpB2pGzGvzy7xyWJSSgUp",
-      "type" : "OTHER",
-      "content" : "Has anyone been in a similar situation — what was your outcome (hire / downlevel / reject)?"
     } ]
   } ],
   "date" : "2026-04-29"
