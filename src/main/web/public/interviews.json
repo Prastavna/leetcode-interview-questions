@@ -1,4 +1,38 @@
 [ {
+  "id" : "i_8C7Y6d7BAE68q8Z1aKmhvd",
+  "leetcodeId" : "8154247",
+  "company" : "Specbee",
+  "role" : "SDE-2",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_CR9c8on3gfRSbc4vRXSQy2",
+    "questions" : [ {
+      "id" : "q_8RvFYQoebxay1bnBWLnEGy",
+      "type" : "DSA",
+      "content" : "ArrayChallenge — Tetris Line Clear: You are given a Tetris piece (I, O, T, L, J, S, Z) and heights of 12 columns representing the current board state. The task is to place the piece optimally (considering all valid rotations and positions) and return the maximum number of lines that can be cleared with a single move."
+    } ]
+  } ],
+  "date" : "2026-05-06"
+}, {
+  "id" : "i_WSRkrrgScL8aEge4NsTBvA",
+  "leetcodeId" : "8151603",
+  "company" : "Goldman Sachs",
+  "role" : "VP",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_DZ5h9L7y5cxYdey7ukLvtq",
+    "questions" : [ {
+      "id" : "q_SqAVX4QPbxd4znWYH9uSEN",
+      "type" : "DSA",
+      "content" : "Find minimum element in sorted rotated array"
+    }, {
+      "id" : "q_MGpqqnqtyXVZnwzFN4thgz",
+      "type" : "DSA",
+      "content" : "Given:child -> parent relationship for a forest. Find: largest tree ka root. If tie: smallest root return karo"
+    } ]
+  } ],
+  "date" : "2026-05-06"
+}, {
   "id" : "i_P7LgsKySqgSfd6N9Du7UV3",
   "leetcodeId" : "8144201",
   "company" : "Amazon",
