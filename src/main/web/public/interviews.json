@@ -1,4 +1,71 @@
 [ {
+  "id" : "i_VVQvKGeCTFfSWNhewmv8fw",
+  "leetcodeId" : "8173972",
+  "company" : "IBM",
+  "role" : "frontend developer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_K6zaAMJ258PmfBSRBjEoze",
+    "questions" : [ {
+      "id" : "q_SBxNwZLarWhSh9KszXoJKp",
+      "type" : "OTHER",
+      "content" : "suggest me the questions which they can ask in that assessment"
+    } ]
+  } ],
+  "date" : "2026-05-08"
+}, {
+  "id" : "i_E9QYQ1YbyP42btgpfBdqBy",
+  "leetcodeId" : "8173874",
+  "company" : "Google",
+  "role" : "SWE - II (L3)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_47CGVVR2a5PbbANo1SBVHh",
+    "questions" : [ {
+      "id" : "q_VH43iJ7Kp73KqfRPUuexti",
+      "type" : "DSA",
+      "content" : "Given a weighted graph and a node, remove that node along with all its connected edges, and return the maximum edge weight remaining in the graph."
+    } ]
+  }, {
+    "id" : "r_GWwzrLzGMqvoZ6QUKyoToq",
+    "questions" : [ {
+      "id" : "q_EiS4Bp2TaJimSj7Dc4Lwt8",
+      "type" : "BEHAVIOURAL",
+      "content" : "Discuss past projects, problem-solving approaches, real-life situations, ownership and decision-making."
+    } ]
+  } ],
+  "date" : "2026-05-08"
+}, {
+  "id" : "i_J8Vzj5DfG7ABhFiHnTpEST",
+  "leetcodeId" : "8172297",
+  "company" : "ThoughtSpot",
+  "role" : "MTS2,3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_GxAh9aeKJLyzda8n3eUVJP",
+    "questions" : [ {
+      "id" : "q_EJ86NYLXKqAL4fM5qnrVdW",
+      "type" : "MACHINE_CODING",
+      "content" : "You are given a root directory called: \n/services\n\nInside this directory, each subdirectory represents a service.\n\nExample:\n/services\n    /Auth\n        config.txt\n    /Billing\n        config.txt\n    /User\n        config.txt\n    /Database\n        config.txt\n\n📄 Config File Format\n\nEach service contains a file config.txt.\n\nThe file contains exactly one line in this format:\ndepends=ServiceA,ServiceB,ServiceC\n\nIf there are no dependencies:\ndepends=\n\n🎯 Requirements\n\nWrite a C++ program that:\n\nScans all service folders inside /services.\n\nParses each config.txt.\n\nDetermines the correct deployment order.\n\nEnsures:\nA service is deployed only after all services listed in its depends line are deployed.\n\nServices that have no remaining unmet dependencies can be deployed in parallel.\n\nOutputs deployment batches.\n\nDetects cyclic dependencies and prints:\nError: Cycle detected. Deployment not possible.\n\n✅ Example\nFolder Structure\nAuth     → depends=Database\nBilling  → depends=Auth\nUser     → depends=Auth\nDatabase → depends=\n\nExpected Output\nBatch 1: Database\nBatch 2: Auth\nBatch 3: Billing User"
+    } ]
+  } ],
+  "date" : "2026-05-08"
+}, {
+  "id" : "i_5G3R6ybsE7n7nPFsWGv4Pi",
+  "leetcodeId" : "8157761",
+  "company" : "Expedia",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LC3CXzZjmfGYmbmazHQWpW",
+    "questions" : [ {
+      "id" : "q_KBuxGiiUaq5c1TJm7pvFGD",
+      "type" : "OTHER",
+      "content" : "What kind of questions are usually asked in this round?"
+    } ]
+  } ],
+  "date" : "2026-05-07"
+}, {
   "id" : "i_8C7Y6d7BAE68q8Z1aKmhvd",
   "leetcodeId" : "8154247",
   "company" : "Specbee",
