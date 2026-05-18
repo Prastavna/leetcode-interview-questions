@@ -1,4 +1,62 @@
 [ {
+  "id" : "i_Vc9Pzn5ra9n12uybwQqGfy",
+  "leetcodeId" : "8192893",
+  "company" : "Twilio",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_XrtsyzV93WRBD7K1hJEdUQ",
+    "questions" : [ {
+      "id" : "q_LwhWqJXkwCnD6qc3BEVaSd",
+      "type" : "BEHAVIOURAL",
+      "content" : "Why Twilio?"
+    } ]
+  }, {
+    "id" : "r_KFQWh4HQfm6UgCGF2rMjA",
+    "questions" : [ {
+      "id" : "q_UBgZ6yxpCrqcjNXzR7fFKs",
+      "type" : "BEHAVIOURAL",
+      "content" : "Discuss past experience and ownership."
+    } ]
+  }, {
+    "id" : "r_4d6F2TLkiN7e42oRP55qm3",
+    "questions" : [ {
+      "id" : "q_SFniWU6d6nyscguN5SSS2u",
+      "type" : "MACHINE_CODING",
+      "content" : "Implement an asynchronous Task Scheduler."
+    } ]
+  }, {
+    "id" : "r_SM7Ms8xtMRGo9WsdgUsH2C",
+    "questions" : [ {
+      "id" : "q_NwfnUPJRLWyDBpnULyNgxw",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Discussion around designing systems related to SMS APIs / communication infrastructure."
+    } ]
+  }, {
+    "id" : "r_CG9N8EJFWWSaYx6t1mreEn",
+    "questions" : [ {
+      "id" : "q_LmCN6gsbbCcPERjcsg1kFs",
+      "type" : "BEHAVIOURAL",
+      "content" : "Standard leadership and behavioral questions."
+    } ]
+  } ],
+  "date" : "2026-05-11"
+}, {
+  "id" : "i_PMpsvXgK2yHhwLdb9ALmfY",
+  "leetcodeId" : "8191929",
+  "company" : "Amazon",
+  "role" : "SDE2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_7X3XVDF6GiwrgQ7xCGamAw",
+    "questions" : [ {
+      "id" : "q_9XRFFAG88Ld7wTpbMCS5bk",
+      "type" : "DSA",
+      "content" : "You are given n tasks. Each task has:\n\nA type (string/character)\nA list of dependencies (other tasks that must finish first)\n\nRules:\n\nEach task takes 1 unit of time to execute.\nTasks of the same type must be separated by a cooldown of k units (i.e., after executing a task of type X at time t, the next task of type X can only run at time ≥ t + k + 1).\nA task is ready only after all its dependencies have completed.\nIf no task is ready or all ready tasks are blocked by cooldown, time advances (idle).\n\nFind the minimum time to complete all the tasks.\n\nexample :\n{t1 -> \"A\",\nt2->\"A\",\nt3->\"B\",\nt4->\"A\",\nt5->\"B\"}\ndependencies : {[t3,t1], [t4, t2]}\ncooldown : 2\n\nresult : 7"
+    } ]
+  } ],
+  "date" : "2026-05-11"
+}, {
   "id" : "i_Fthdy1hzU3XKBHpaQ9dLZm",
   "leetcodeId" : "8182158",
   "company" : "Microsoft",
