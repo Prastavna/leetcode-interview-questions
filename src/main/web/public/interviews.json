@@ -1,4 +1,65 @@
 [ {
+  "id" : "i_BihvLY7qaAvrLDe352Q22h",
+  "leetcodeId" : "8245647",
+  "company" : "Rippling",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_MqNeksaMaA4yGdTnC4S7gh",
+    "questions" : [ {
+      "id" : "q_UCneYCzaFWSuvUioJ2JavB",
+      "type" : "OTHER",
+      "content" : "How long does it typically take to hear back after the technical phone interview at Rippling?"
+    } ]
+  } ],
+  "date" : "2026-05-16"
+}, {
+  "id" : "i_D4xSducakYg2go2UHVUida",
+  "leetcodeId" : "8252043",
+  "company" : "Susquenna International Group",
+  "role" : "mid-level software",
+  "yoe" : 10,
+  "rounds" : [ {
+    "id" : "r_KqrRhjqdrYkzHhxor6Xa2u",
+    "questions" : [ {
+      "id" : "q_LoLjLm4jSEn6emdReML8xg",
+      "type" : "OTHER",
+      "content" : "What are the CodeSignal problems asked for SIG?"
+    } ]
+  } ],
+  "date" : "2026-05-16"
+}, {
+  "id" : "i_JHGWQr4Pbh2HeYcssXcooL",
+  "leetcodeId" : "8245242",
+  "company" : "Adobe",
+  "role" : "Senior software engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_7ZhBPuuBT5NxaphSPPeZDg",
+    "questions" : [ {
+      "id" : "q_WYzf7EhiodqxHL6CM69D6j",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is your experience with Java?"
+    }, {
+      "id" : "q_DsLyUjmmP41EgJS7HZDWja",
+      "type" : "TECHNICAL",
+      "content" : "What are your experiences with architecture?"
+    }, {
+      "id" : "q_8qhCK7vBxQ3Mpv5gJx1STZ",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How do you build scalable applications?"
+    }, {
+      "id" : "q_DxaH5UY1YuQSx9Qo2idyBu",
+      "type" : "TECHNICAL",
+      "content" : "What is your experience with Linux?"
+    }, {
+      "id" : "q_22nnAmgidoKYazBwxqfBun",
+      "type" : "TECHNICAL",
+      "content" : "What is your experience with cloud native systems?"
+    } ]
+  } ],
+  "date" : "2026-05-16"
+}, {
   "id" : "i_MtQbdDDnQRJzGjnUww25hk",
   "leetcodeId" : "8245091",
   "company" : "Visa",
