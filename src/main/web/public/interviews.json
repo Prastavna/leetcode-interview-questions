@@ -1,4 +1,62 @@
 [ {
+  "id" : "i_VCBiwp2vrnJQXGnfxQKCfr",
+  "leetcodeId" : "8256412",
+  "company" : "De Shaw",
+  "role" : "Application Engineer | Execution Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_CzDbVo5jHCZp56HFMK863y",
+    "questions" : [ {
+      "id" : "q_TYhtsHrMwFnVoBgd3mU7kk",
+      "type" : "OTHER",
+      "content" : "What are the chances for De Shaw interview for application engineer?"
+    }, {
+      "id" : "q_55HHgsz9cruqZQRtCoa3Zx",
+      "type" : "OTHER",
+      "content" : "What will be the interview questions for application engineer role?"
+    } ]
+  } ],
+  "date" : "2026-05-17"
+}, {
+  "id" : "i_9vgm12DZx57zbKqp6KiDNc",
+  "leetcodeId" : "8258211",
+  "company" : "Accolite Digital",
+  "role" : ".Net",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_4u2t1r2RQAhPUWiutHKVQd",
+    "questions" : [ {
+      "id" : "q_EJWoWAj3VBDLGiX8BRV1Yo",
+      "type" : "TECHNICAL",
+      "content" : "What do you do for automated security scanning for your application, and what security practices do you follow in an Azure DevOps pipeline?"
+    }, {
+      "id" : "q_Aem7LtUMYsyNXMTtDyDp8w",
+      "type" : "DSA",
+      "content" : "Implement a thread-safe LRU Cache in your preferred language."
+    }, {
+      "id" : "q_XgbuAsdBCbfy6LMFmzn7ek",
+      "type" : "TECHNICAL",
+      "content" : "What is your approach to ensure thread safety and avoid deadlocks in a multithreaded application?"
+    }, {
+      "id" : "q_Rx4hiSKzsuctwceLZpgwHF",
+      "type" : "TECHNICAL",
+      "content" : "What do you use C# Reflection for in developing plugin applications?"
+    }, {
+      "id" : "q_8UB87qWzLAi44wysybV1pg",
+      "type" : "TECHNICAL",
+      "content" : "How do you improve performance in large SQL queries, and what techniques do you use for managing slow queries in SQL Server?"
+    }, {
+      "id" : "q_XJkUM6JJegFB2D8PChTRs",
+      "type" : "TECHNICAL",
+      "content" : "How do you ensure multi-tenancy and data security in database design?"
+    }, {
+      "id" : "q_TF3y7vrpZtjM4jBPnTPG97",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you handle an application that is processing millions of records?"
+    } ]
+  } ],
+  "date" : "2026-05-17"
+}, {
   "id" : "i_BihvLY7qaAvrLDe352Q22h",
   "leetcodeId" : "8245647",
   "company" : "Rippling",
