@@ -1,4 +1,65 @@
 [ {
+  "id" : "i_VG3RuyUAAWkjCRNA1CX9Rv",
+  "leetcodeId" : "8264746",
+  "company" : "Arcesium",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_FsPdRMnzhFpYDJDe4YRpBj",
+    "questions" : [ {
+      "id" : "q_5LKMWaiXXds61inpmCbit2",
+      "type" : "OTHER",
+      "content" : "what can be asked in Arcesium hm interviews"
+    } ]
+  } ],
+  "date" : "2026-05-18"
+}, {
+  "id" : "i_RB98XK1XXzgGJLh1sBD1y4",
+  "leetcodeId" : "8262492",
+  "company" : "Amazon",
+  "role" : "SDE II",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_3S1xow9BNt8E8u2bQPw37b",
+    "questions" : [ {
+      "id" : "q_KzW8GBdyUQzdc1q4SMMGcL",
+      "type" : "OTHER",
+      "content" : "What exact algorithmic patterns do they ask in the coding rounds?"
+    }, {
+      "id" : "q_VsmEWAoon54isDYWa835vg",
+      "type" : "OTHER",
+      "content" : "What kind of LLD/HLD scenarios do they expect for a fulfillment/logistics platform?"
+    } ]
+  } ],
+  "date" : "2026-05-18"
+}, {
+  "id" : "i_TtSh599c6LsqzauL1NbFqK",
+  "leetcodeId" : "8260477",
+  "company" : "Snowflake",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_F3aDV7Ed4pA9x7Mmez3PWk",
+    "questions" : [ {
+      "id" : "q_T4t6xky3jvmvzMH6niTzRm",
+      "type" : "DSA",
+      "content" : "What is the Prime String Partition problem?"
+    }, {
+      "id" : "q_2ne93ztBvXjYL2iMmedBXF",
+      "type" : "DSA",
+      "content" : "How would you optimize the Text Scoring / Prefix Match Score problem using the KMP algorithm?"
+    }, {
+      "id" : "q_XPp4cvtJqkydxb4H5TU9re",
+      "type" : "DSA",
+      "content" : "Can you explain how to handle constraints in the Task Scheduling with Constraints problem?"
+    }, {
+      "id" : "q_A9h7rEfibnMGzpHy1TLyQC",
+      "type" : "DSA",
+      "content" : "How do you check if a string is a rotation of another string?"
+    } ]
+  } ],
+  "date" : "2026-05-18"
+}, {
   "id" : "i_VCBiwp2vrnJQXGnfxQKCfr",
   "leetcodeId" : "8256412",
   "company" : "De Shaw",
