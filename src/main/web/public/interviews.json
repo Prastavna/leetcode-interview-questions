@@ -1,4 +1,61 @@
 [ {
+  "id" : "i_2cXr2Rj4CBVCpPJ35PXGgc",
+  "leetcodeId" : "8275298",
+  "company" : "Zomato",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_BTSCQ2dTmxmj8z6p4kLgvH",
+    "questions" : [ {
+      "id" : "q_TtFLQDbdpvZSQNY2MNbsMd",
+      "type" : "DSA",
+      "content" : "1Medium Leetcode standard"
+    }, {
+      "id" : "q_TY7ds216p6PhKuSTBt4PdV",
+      "type" : "DSA",
+      "content" : "1Hard Leetcode standard"
+    } ]
+  } ],
+  "date" : "2026-05-19"
+}, {
+  "id" : "i_LAfzPJboZHr1aGzmzLiBeo",
+  "leetcodeId" : "8277961",
+  "company" : "Amazon",
+  "role" : "SDE II",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NFsfA84Cd7hqR8VM2i9WL",
+    "questions" : [ {
+      "id" : "q_AReJYXtBQVmu7cB8odvggR",
+      "type" : "DSA",
+      "content" : "What exact algorithmic patterns do they ask in the coding rounds?"
+    }, {
+      "id" : "q_AvqXQ4DpVc2xjYfbujnd2M",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What kind of LLD/HLD scenarios do they expect for a fulfillment/logistics platform?"
+    } ]
+  } ],
+  "date" : "2026-05-19"
+}, {
+  "id" : "i_7eGiGRnJJkkDNmMCrkU9NJ",
+  "leetcodeId" : "8277956",
+  "company" : "Salesforce",
+  "role" : "C++ Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_DuCb18UNS3y7GZ4rRF4uZp",
+    "questions" : [ {
+      "id" : "q_EQpPwvYcGJrtUdvzQRT4vu",
+      "type" : "DSA",
+      "content" : "Question 1: Almost similar to LC 443. String Compression - Input: aaaabeee, Output: a4be3 (if char is repeating more than once then only display count)"
+    }, {
+      "id" : "q_5fiiSqMTN1nahxaiX5H5SD",
+      "type" : "DSA",
+      "content" : "Question 2: LC 2380. Time Needed to Rearrange a Binary String but with a different context."
+    } ]
+  } ],
+  "date" : "2026-05-19"
+}, {
   "id" : "i_VG3RuyUAAWkjCRNA1CX9Rv",
   "leetcodeId" : "8264746",
   "company" : "Arcesium",
