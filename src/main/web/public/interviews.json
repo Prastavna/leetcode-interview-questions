@@ -1,4 +1,95 @@
 [ {
+  "id" : "i_Hkqv2kcaKmhgRNxapUK42t",
+  "leetcodeId" : "8284184",
+  "company" : "Warner Bros",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LC7Jk1BbqLVnQDNjxSJTGv",
+    "questions" : [ {
+      "id" : "q_981dx8WaVmLDG8ZEoptMjp",
+      "type" : "DSA",
+      "content" : "What DSA topics were asked and problems? (Stack/Graphs/Trees/DP/Heaps?)"
+    }, {
+      "id" : "q_GwJeijkjLNuq3yNaNrkbgg",
+      "type" : "OTHER",
+      "content" : "Any specific advice for the interview process?"
+    }, {
+      "id" : "q_V1EhK4VpURDKUNiLnFenH9",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "LLD and HLD questions"
+    } ]
+  } ],
+  "date" : "2026-05-21"
+}, {
+  "id" : "i_AEMhYY2EZCq3WSm8Ymd6fo",
+  "leetcodeId" : "8284466",
+  "company" : "McAfee",
+  "role" : "Cloud Development Engineer (AI/ML)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LfcnRgPvhggwA7tXpz9hqD",
+    "questions" : [ {
+      "id" : "q_KbYRdf9Jinkf8a1Y3273MA",
+      "type" : "DSA",
+      "content" : "1st was based on Binary search"
+    }, {
+      "id" : "q_DGRdu8FBNBAe4HyV45TV4c",
+      "type" : "DSA",
+      "content" : "2nd was on sliding window"
+    }, {
+      "id" : "q_WP9VhPuiPsSEXzqLtgUciQ",
+      "type" : "LLD",
+      "content" : "He further asked me about the LLD of Snack and Ladder"
+    }, {
+      "id" : "q_4YxDdQnBqrMS6LnRD79uhz",
+      "type" : "TECHNICAL",
+      "content" : "And some basic questions on LLMs GenAI and RAG systems"
+    } ]
+  } ],
+  "date" : "2026-05-21"
+}, {
+  "id" : "i_Puuk18gKUF2p53f3qRYxzU",
+  "leetcodeId" : "8282799",
+  "company" : "Paylocity",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_41VVjek1BcypvXBtC2RySK",
+    "questions" : [ {
+      "id" : "q_3AQaVUapA11zrr5mXciCQ1",
+      "type" : "DSA",
+      "content" : "Binary Search Question"
+    }, {
+      "id" : "q_HsXoKFeKGTWCPFV18dmRAH",
+      "type" : "DSA",
+      "content" : "Merge 2 sorted arrays"
+    } ]
+  }, {
+    "id" : "r_T2cQ21qsfbgjkejkAZvf3n",
+    "questions" : [ {
+      "id" : "q_PVyRe7ijr73jMUYGtCSDjq",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Invoice Storage System with certain requirements"
+    } ]
+  }, {
+    "id" : "r_NgBkrXBY1YRZMgDd1yP5nf",
+    "questions" : [ {
+      "id" : "q_WqRfSaSaxkvGQCookL6VNx",
+      "type" : "BEHAVIOURAL",
+      "content" : "Behavioural"
+    }, {
+      "id" : "q_4V4FZgfw4y2oui9beFuwrE",
+      "type" : "TECHNICAL",
+      "content" : "AI Experience"
+    }, {
+      "id" : "q_R7vExYAPVAsE2vzQisos6r",
+      "type" : "BEHAVIOURAL",
+      "content" : "Previous Experience"
+    } ]
+  } ],
+  "date" : "2026-05-21"
+}, {
   "id" : "i_GmXfih75LyjmhVGdXuR8qi",
   "leetcodeId" : "8278988",
   "company" : "Meta",
