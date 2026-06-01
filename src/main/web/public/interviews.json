@@ -1,4 +1,68 @@
 [ {
+  "id" : "i_GkLHyDW4bfDTprVgRCHc4",
+  "leetcodeId" : "8293018",
+  "company" : "Rippling",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_5F37Qnr4U2NmQLKtCstRPu",
+    "questions" : [ {
+      "id" : "q_6Sd4Q9ppQJEu9c35JXqzaw",
+      "type" : "OTHER",
+      "content" : "How long does it typically take to hear back after the technical phone interview at Rippling?"
+    } ]
+  } ],
+  "date" : "2026-05-25"
+}, {
+  "id" : "i_7fnDcCcJkZoR1nXquU7tbh",
+  "leetcodeId" : "8292628",
+  "company" : "Agoda",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_4R6fDhV3QNPsD5J7JV4M1W",
+    "questions" : [ {
+      "id" : "q_Gw3v65RNWxJkVPorgYjek1",
+      "type" : "DSA",
+      "content" : "Feasibility of Printing Within Given Days"
+    }, {
+      "id" : "q_3HQb21QErohu3Zw1P5aATb",
+      "type" : "DSA",
+      "content" : "Minimum Daily Printing Limit"
+    } ]
+  }, {
+    "id" : "r_6DHi35ewqnnH8Yc7wGMqoY",
+    "questions" : [ {
+      "id" : "q_TK9VhDuhnATsQ5XcKvfg4W",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a Flight Booking System"
+    } ]
+  }, {
+    "id" : "r_3TeTH57qfigo2SUiwyYGWt",
+    "questions" : [ {
+      "id" : "q_PA4we56SfvTs5yepwPj3Et",
+      "type" : "HR",
+      "content" : "Previous round feedback"
+    }, {
+      "id" : "q_NYTyGGif7WGbJJAzUYbW6i",
+      "type" : "HR",
+      "content" : "Preferred location: Singapore or Gurugram"
+    }, {
+      "id" : "q_QZhxnpLkVcCv2GreQDS5RY",
+      "type" : "HR",
+      "content" : "Salary expectations"
+    }, {
+      "id" : "q_2bcFfcATDAafZs9buDtpiM",
+      "type" : "HR",
+      "content" : "Relocation willingness"
+    }, {
+      "id" : "q_KydT3wbZfmX5NinNy5cEvd",
+      "type" : "HR",
+      "content" : "Notice period"
+    } ]
+  } ],
+  "date" : "2026-05-25"
+}, {
   "id" : "i_2g5vrQ2s9JTY1ELDaKhcCJ",
   "leetcodeId" : "8286843",
   "company" : "MongoDB",
