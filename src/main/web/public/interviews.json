@@ -1,4 +1,43 @@
 [ {
+  "id" : "i_6WXoubiqE6JKvLAtaonaT5",
+  "leetcodeId" : "8295293",
+  "company" : "Tookitaki",
+  "role" : "Senior Software Engineer",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_Mt9sDug1KiX7mqECaNH5ui",
+    "questions" : [ {
+      "id" : "q_MV5y8aPgGv8JZthj6Dcjrr",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What are some of the most complex projects that you worked on, and explain that in detail."
+    }, {
+      "id" : "q_TLPTSJnPUaVruLpKAemLz8",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What design patterns you used in your projects and explain the use case with examples"
+    }, {
+      "id" : "q_V6VcV5ENKdahr3K9EMZYa1",
+      "type" : "TECHNICAL",
+      "content" : "Have you ever worked on api response time optimisation, and improved performance, explain that."
+    }, {
+      "id" : "q_RoYSoyxSJwydyXp36YvGzR",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Tell me about the project where you dealt with high scale."
+    }, {
+      "id" : "q_JdoUjYWynXRdcVqXpggJ4D",
+      "type" : "TECHNICAL",
+      "content" : "What all tech stack you worked on and which all framework in those. (application, BE, FE, DB, communications, patterns, GenAI)"
+    }, {
+      "id" : "q_JYAHyF4VkEvkHsMiNfQmg1",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Tell me about one significant design decision or architecture choice you have done, you are proud about."
+    }, {
+      "id" : "q_KuKmt3WoVd5U6gfX68yk1W",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How does the development workflow look like in your recent experience, how do you get the requirement, how do they translate further in SDLC and all? (they want to hear about how is your experience with the AI assistance tools look like.)"
+    } ]
+  } ],
+  "date" : "2026-05-26"
+}, {
   "id" : "i_GkLHyDW4bfDTprVgRCHc4",
   "leetcodeId" : "8293018",
   "company" : "Rippling",
