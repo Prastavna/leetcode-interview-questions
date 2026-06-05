@@ -1,4 +1,58 @@
 [ {
+  "id" : "i_QHMP44P81ZYszqqMjdcKDW",
+  "leetcodeId" : "8300863",
+  "company" : "Target",
+  "role" : "Lead Engineer",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_X4pZ1tnudkcxGw7FS5b3h3",
+    "questions" : [ {
+      "id" : "q_LX9XUxKR2wwKm5zid8wSdB",
+      "type" : "HLD",
+      "content" : "Design a service using which customer can rate (provide ratings and write reviews) for the products they have bought using target e-commerce. The service should also be able to provide the feedback based on the reviews/ratings to the team/owner of particular product so based on those feedback the product team members can get incentives or improve the product."
+    }, {
+      "id" : "q_EZQeiB2jqWKYyq5imVmekr",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would I scope and estimate if I am actually doing this project, timeline estimations with a team of how many etc?"
+    } ]
+  } ],
+  "date" : "2026-05-29"
+}, {
+  "id" : "i_AZBBdHmfaT27yAEarjNgUr",
+  "leetcodeId" : "8300497",
+  "company" : "EXL",
+  "role" : "Java Developer",
+  "yoe" : 7,
+  "rounds" : [ {
+    "id" : "r_QJQgvQKQdrC1iRyaY7Ccdb",
+    "questions" : [ {
+      "id" : "q_U9jjYkVEc2YceBrWfEAEzZ",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Use of the `intern()` method"
+    }, {
+      "id" : "q_JAAjXje8dS7UJAqdvwgzTz",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Different ways to create objects in Java"
+    }, {
+      "id" : "q_4G86qcXq5i1gQgUz4HMY2s",
+      "type" : "TECHNICAL",
+      "content" : "Using `try/catch` inside `finally` — why and when"
+    }, {
+      "id" : "q_HoFBc1RzEx4uWR2JQcqyz7",
+      "type" : "TECHNICAL",
+      "content" : "Whether `final` and `static` can be used with an abstract class and explain reason."
+    }, {
+      "id" : "q_UKhM546oLdbxD2LDB6b6X1",
+      "type" : "DSA",
+      "content" : "Explain Bubble Sort and its time complexity (first time I was asked this in an interview!)"
+    }, {
+      "id" : "q_7Uvxdezmyw2gLeK3zYp67n",
+      "type" : "DSA",
+      "content" : "Move Zeroes to the End"
+    } ]
+  } ],
+  "date" : "2026-05-29"
+}, {
   "id" : "i_JKqjGZqDJGJYFfGax6xZqs",
   "leetcodeId" : "8299606",
   "company" : "Adobe",
