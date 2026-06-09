@@ -1,4 +1,112 @@
 [ {
+  "id" : "i_LEroLiPB3ZoAApmd5saVJJ",
+  "leetcodeId" : "8308996",
+  "company" : "Walmart",
+  "role" : "Staff Engineer iOS",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_NQRPBFddhsig5wXGw1Fju1",
+    "questions" : [ {
+      "id" : "q_58AHhG86Dwij5KJv9V41kj",
+      "type" : "TECHNICAL",
+      "content" : "How protocols are saved in the memory if they are not conformed by struct or class"
+    }, {
+      "id" : "q_3C4PuaCS3tybNYnzXKC9QT",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Given a use case like Walmart, where a product page has product metadata, related items, cart list, reviews, comments etc. How would you design the page in iOS?"
+    }, {
+      "id" : "q_TT6pX51PBuwVSpNSxy2PUF",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you fetch the requirements from other teams like API with backend team?"
+    }, {
+      "id" : "q_Gfp3z9irQUKh9xgdmykf2h",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you design the layout using CollectionView?"
+    } ]
+  } ],
+  "date" : "2026-06-02"
+}, {
+  "id" : "i_HDeGuPZuiTthjsibY6M8xJ",
+  "leetcodeId" : "8308986",
+  "company" : "Tesco",
+  "role" : "SDE 2 iOS",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_HZ45s9qyE28EWJXnkRL7WP",
+    "questions" : [ {
+      "id" : "q_NUfJ4a27MiD1vkD6kgvoKi",
+      "type" : "TECHNICAL",
+      "content" : "Questions related to ARC"
+    }, {
+      "id" : "q_mmVm4DEcCyjFDFKKxFmMz",
+      "type" : "TECHNICAL",
+      "content" : "Questions from SwiftUI, Combine, async await"
+    }, {
+      "id" : "q_D5a5veVE92JVkiZRQKKW2y",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How project is architectured in swiftUI"
+    }, {
+      "id" : "q_6z3Zh3xj21iBWfm7MqsV95",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How API calls are made, How network layer is constructed"
+    }, {
+      "id" : "q_Vdm5ZvSn6L5eGKb7iwbz6h",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How Business logic is handled etc."
+    }, {
+      "id" : "q_Lus3yJ4MunmHXkkNsfvZKL",
+      "type" : "DSA",
+      "content" : "Coding question: Cannot recollect that solved O(n) and later was asked to solve in O(log n)"
+    } ]
+  }, {
+    "id" : "r_CUsqRqyeYdkCabtamZM7ng",
+    "questions" : [ {
+      "id" : "q_M4bKeyuLzHQg4MV1hD3jDR",
+      "type" : "DSA",
+      "content" : "Given an array of array of strings, find the strings with hashtags in that. Input: [[\"Hi\",\"My name is #XYZAABC\"],[\"How are you doing\", \"This is first post #FirstPost\"]] Output: [\"#XYZAABC\", \"#FirstPost\"]"
+    }, {
+      "id" : "q_kMHu1PH6qok9bWFqFPr7Q",
+      "type" : "TECHNICAL",
+      "content" : "SOLID principles"
+    }, {
+      "id" : "q_QqsJC8PEGT4KrPgJh9sfNC",
+      "type" : "TECHNICAL",
+      "content" : "Asked to identify issues with subclassing and violation on which rule in SOLID and asked to solve it"
+    }, {
+      "id" : "q_CFsJBWP6EBJHY8wWumaPSm",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Architechtures and Patterns used"
+    }, {
+      "id" : "q_H1H956ufjtU2bXho2L5FF3",
+      "type" : "TECHNICAL",
+      "content" : "Combine, High order functions"
+    }, {
+      "id" : "q_x92tn8n4erzLtJ5Vor99m",
+      "type" : "TECHNICAL",
+      "content" : "ARC, State management"
+    }, {
+      "id" : "q_Bv8f2qmRzAW5747KYZdf1t",
+      "type" : "DEBUGGING",
+      "content" : "Given code of the GCD threads, asked to predict output"
+    }, {
+      "id" : "q_XjQ2qmas6RMQbiQ4Wd8kzo",
+      "type" : "TECHNICAL",
+      "content" : "Actor vs Classed, whats data isolation in Actor"
+    } ]
+  }, {
+    "id" : "r_4gyJ69Dg48PWx2UcHLjw2m",
+    "questions" : [ {
+      "id" : "q_QgzYqTXVAKTzkJ3H4Fo9Fu",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Given a feature, Categories have SubCategories, A Subcategory can either have Subcategory or a product."
+    }, {
+      "id" : "q_2zqmxwMYEwWdvGZR5EfPMZ",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Asked for a high level design and then low level design."
+    } ]
+  } ],
+  "date" : "2026-06-02"
+}, {
   "id" : "i_LeZwhkpioNvqDivppWiHrG",
   "leetcodeId" : "8302660",
   "company" : "Salesforce",
