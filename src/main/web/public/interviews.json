@@ -1,4 +1,49 @@
 [ {
+  "id" : "i_EQSZpwS5GKzdpE3uGVEAzA",
+  "leetcodeId" : "8312924",
+  "company" : "Zynga",
+  "role" : "SSE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_cFfEzdfjYFiSnMrsZhhJH",
+    "questions" : [ {
+      "id" : "q_DfZpC4ha6fEGTSRVbvjurg",
+      "type" : "DSA",
+      "content" : "What is your optimal solution for the problem?"
+    }, {
+      "id" : "q_M5p8VZuQpsn73EkxqUD41g",
+      "type" : "DSA",
+      "content" : "Can you provide both the brute force and optimal solutions to the problem?"
+    } ]
+  } ],
+  "date" : "2026-06-04"
+}, {
+  "id" : "i_7doakWRa3ueDkiayYEjBPw",
+  "leetcodeId" : "8314146",
+  "company" : "Nutanix",
+  "role" : "MTS 2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UKpQfXhMUx1KRrPXB4fVdm",
+    "questions" : [ {
+      "id" : "q_5FqmBjcssUnrZNkE9g7Bvy",
+      "type" : "DSA",
+      "content" : "You are given two integer arrays, a of length n and b of length n + 1. Transform array a -> b with minimum operations. You can perform the following operations on elements in array a: Increment by 1, Decrement by 1, Copy an element from array a to the end of the array a. The transformation should happen for respective index i.e. a[i] should get transformed to b[i]."
+    }, {
+      "id" : "q_HsbfwYWq66Azrn27UXBN3k",
+      "type" : "DSA",
+      "content" : "Book Allocation: I messed up the solution which I knew of."
+    } ]
+  }, {
+    "id" : "r_McSetRikWAupSQjn8fu7wq",
+    "questions" : [ {
+      "id" : "q_AALC6gAJJGoyh5YvGyrqHQ",
+      "type" : "LLD",
+      "content" : "Design Leetcode. Was asked to cover the functional requirements through a diagram. Tried to cover submissions and contest leaderboard and main focus was on how database entities would interact with it, not on the HLD aspect."
+    } ]
+  } ],
+  "date" : "2026-06-04"
+}, {
   "id" : "i_LEroLiPB3ZoAApmd5saVJJ",
   "leetcodeId" : "8308996",
   "company" : "Walmart",
