@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_LZaBxoakEqx1MXveoKo4Lm",
+  "leetcodeId" : "8323765",
+  "company" : "Meesho",
+  "role" : "SDE 3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_BD8KiiG12q7FezfdnunNoz",
+    "questions" : [ {
+      "id" : "q_QxkpWVNm5nnmekMwKMJMbY",
+      "type" : "MACHINE_CODING",
+      "content" : "Can you design a parking lot system?"
+    } ]
+  } ],
+  "date" : "2026-06-09"
+}, {
   "id" : "i_GhtK4j7fBxoLhFZmYtrssg",
   "leetcodeId" : "8321110",
   "company" : "Salesforce",
