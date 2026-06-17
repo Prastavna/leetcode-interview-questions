@@ -1,4 +1,62 @@
 [ {
+  "id" : "i_XgfgasLR1nPFQukQbUtpB4",
+  "leetcodeId" : "8325645",
+  "company" : "Ebay",
+  "role" : "Data Scientist",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VV9LsebpjRSkhJVRw5S3PY",
+    "questions" : [ {
+      "id" : "q_SW3dNjT2PcP5nn158xgSPB",
+      "type" : "TECHNICAL",
+      "content" : "Can you explain SQL and Python?"
+    }, {
+      "id" : "q_GDWj6Qf3AyB6fbHfFxk5MQ",
+      "type" : "TECHNICAL",
+      "content" : "What are the ML model evaluation metrics?"
+    }, {
+      "id" : "q_2GVCUjrS8WyfTUBxgZagUs",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How can you improve a recommendation system?"
+    }, {
+      "id" : "q_JDN7C8wWkUuwcJUg5Xoe91",
+      "type" : "OTHER",
+      "content" : "What are the product-related challenges?"
+    }, {
+      "id" : "q_5AEm31415AQoRDJ9iM8xVi",
+      "type" : "TECHNICAL",
+      "content" : "What are guardrail metrics?"
+    }, {
+      "id" : "q_GskR4TSrYhEemnWVDQU61x",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the product case study you discussed."
+    } ]
+  } ],
+  "date" : "2026-06-10"
+}, {
+  "id" : "i_VEvm9rfspBxPu6CzvPDc4W",
+  "leetcodeId" : "8326592",
+  "company" : "Cerebras",
+  "role" : "Post-Silicon Bring-up / Validation Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Q39iT2B1dHALRFXLCNrDfB",
+    "questions" : [ {
+      "id" : "q_XMjLhKXQY91B42jtM9JcYV",
+      "type" : "DSA",
+      "content" : "Is it standard SWE LeetCode (Data Structures/Algorithms) or is it more domain-specific (Bit manipulation, Array/String manipulation for parsing or even hardware MCQs)?"
+    }, {
+      "id" : "q_8VtAEzZZxwAqpPs4CmS3FR",
+      "type" : "TECHNICAL",
+      "content" : "Are we talking OOP design patterns, scripting automation scenarios (like log parsing/regex), or low-level bitwise operations?"
+    }, {
+      "id" : "q_FJG3e2QdfhBdWbzX3QzXUU",
+      "type" : "DEBUGGING",
+      "content" : "How do they balance coding with actual silicon debugging scenarios (like debugging I2C/PCIe hangs, register tuning, etc.)?"
+    } ]
+  } ],
+  "date" : "2026-06-10"
+}, {
   "id" : "i_LZaBxoakEqx1MXveoKo4Lm",
   "leetcodeId" : "8323765",
   "company" : "Meesho",
