@@ -1,4 +1,139 @@
 [ {
+  "id" : "i_KrNibg5AnYB5xZ3v3ZgiN2",
+  "leetcodeId" : "8330117",
+  "company" : "JPMC",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_HexbKMf47rDa2RWChPaHhx",
+    "questions" : [ {
+      "id" : "q_XMZKoATVt3SYN4aZ68MUk7",
+      "type" : "DSA",
+      "content" : "What are subarrays and how do you track the maximum and minimum elements in an array?"
+    }, {
+      "id" : "q_WvhcuSJ7is5MUTwqw9ztGC",
+      "type" : "DSA",
+      "content" : "How can you manipulate strings effectively in a coding interview?"
+    } ]
+  } ],
+  "date" : "2026-06-12"
+}, {
+  "id" : "i_CQSnr7fiE6bbeErJhbbVKv",
+  "leetcodeId" : "8329609",
+  "company" : "IBM",
+  "role" : "Application Developer-Cloud FullStack",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_GpMkDVC4NriK9VzWnURFCY",
+    "questions" : [ {
+      "id" : "q_2vUAZ7XgNRZr28Levr2EKn",
+      "type" : "DSA",
+      "content" : "An ideal number is defined as 3^x . 5^y where x and y are non-negative (>= 0). Your goal is to count how many such numbers exist in the inclusive range between a given low and high."
+    } ]
+  } ],
+  "date" : "2026-06-12"
+}, {
+  "id" : "i_UciJ3QRcBs7Ek1f9n93k4u",
+  "leetcodeId" : "8329811",
+  "company" : "Nexturn",
+  "role" : "Senior Java Developer",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_Mgupt39pXpiNQqoh1s4Naj",
+    "questions" : [ {
+      "id" : "q_WFpsfvSmMdEqMEtVwoanbP",
+      "type" : "TECHNICAL",
+      "content" : "Kafka topic vs partition vs replicas?"
+    }, {
+      "id" : "q_CRWAYCT2Hm8w9Zunf449Kv",
+      "type" : "TECHNICAL",
+      "content" : "How to achieve ordering in kafka?"
+    }, {
+      "id" : "q_LU5LGEpu3N446dFGwvMPac",
+      "type" : "TECHNICAL",
+      "content" : "How to achieve idempotency in kafka?"
+    }, {
+      "id" : "q_5ALQDgWwKRALBo4uruZzTX",
+      "type" : "TECHNICAL",
+      "content" : "How kafka works and how it handles massive amount of data?"
+    }, {
+      "id" : "q_LPTMc99UBk1NqeRRrDLupU",
+      "type" : "TECHNICAL",
+      "content" : "How to increase api throughput?"
+    }, {
+      "id" : "q_9JNa7uf2HHCL2w73K56UuM",
+      "type" : "TECHNICAL",
+      "content" : "Api authentication and authorization?"
+    }, {
+      "id" : "q_8e5iJf7j3U2hUcSirWMYuW",
+      "type" : "TECHNICAL",
+      "content" : "Few spring annotation like responsebody?"
+    }, {
+      "id" : "q_3NuaT7VPSBzcr5o98JQWYn",
+      "type" : "TECHNICAL",
+      "content" : "What happens when we run spring application in detail?"
+    }, {
+      "id" : "q_VmMX2bQXh9japXoCE88rQF",
+      "type" : "DSA",
+      "content" : "Return all palindrome strings in a list from a sentence."
+    } ]
+  }, {
+    "id" : "r_DyfPxecgh42kc9bUdMNoxY",
+    "questions" : [ {
+      "id" : "q_H8Gqrd9X2YU1trGjDe4buD",
+      "type" : "TECHNICAL",
+      "content" : "How to handle out of memory error?"
+    }, {
+      "id" : "q_2wGrVhrpZBF4tRpFnjtiH2",
+      "type" : "TECHNICAL",
+      "content" : "Database optimisation techniques?"
+    }, {
+      "id" : "q_4tjHzfbSxP7bG9bTYwfNyo",
+      "type" : "TECHNICAL",
+      "content" : "Batch vs stream processing?"
+    }, {
+      "id" : "q_Ayzrhe5TUyST9oHpGyLQCW",
+      "type" : "DSA",
+      "content" : "Remove alpha numeric character from a string."
+    } ]
+  }, {
+    "id" : "r_YBkgvkyc2NyE9U466buwrn",
+    "questions" : [ {
+      "id" : "q_J2i2f9XPLMfSQMKfJHmWh1",
+      "type" : "TECHNICAL",
+      "content" : "Which microservice patterns I implemented in my current project and where?"
+    }, {
+      "id" : "q_64iWfUZbHinweujUsykLkC",
+      "type" : "TECHNICAL",
+      "content" : "Circuit breaker design pattern and exactly when it closes or opens circuit?"
+    }, {
+      "id" : "q_GXdX2pmG9hegXQw3p3qCj7",
+      "type" : "TECHNICAL",
+      "content" : "Saga design pattern in details?"
+    }, {
+      "id" : "q_MTQ3ZJQZmoYch8doXPhjRd",
+      "type" : "TECHNICAL",
+      "content" : "Factory vs factory method?"
+    }, {
+      "id" : "q_MxCESYasWHN3kWN5K4VCHM",
+      "type" : "TECHNICAL",
+      "content" : "SQL vs NoSQL and Columnar db?"
+    }, {
+      "id" : "q_2bTmTNkYA4QnQ2BP3AYgbC",
+      "type" : "TECHNICAL",
+      "content" : "Java memory model in very deep?"
+    }, {
+      "id" : "q_TSzQhHUEK1taoHXVsA6KZY",
+      "type" : "MACHINE_CODING",
+      "content" : "Create a helloWorld kind API and also external API call using restClient."
+    }, {
+      "id" : "q_Ae3NUfGJdzqmokniBwYM3y",
+      "type" : "MACHINE_CODING",
+      "content" : "Code a sorting algorithm (quick sort)."
+    } ]
+  } ],
+  "date" : "2026-06-12"
+}, {
   "id" : "i_RnBU1GZMcG7K3NBm8Qw8Wv",
   "leetcodeId" : "8327781",
   "company" : "IBM",
