@@ -1,4 +1,361 @@
 [ {
+  "id" : "i_GUuFFbVrHKX2GAALK31BMJ",
+  "leetcodeId" : "8338644",
+  "company" : "OKX",
+  "role" : "Senior backend engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_GBjGGRFx2jtAxhYrzhE1Gr",
+    "questions" : [ {
+      "id" : "q_RLdNmMxzHUfNzscX2LR8Hx",
+      "type" : "DSA",
+      "content" : "Combination Sum - https://leetcode.com/problems/combination-sum/description/"
+    }, {
+      "id" : "q_Wy1DkE2jmW66UrxWtFNesL",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What is your design for an AI feature?"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_5jXY6w8xiXrQdNw3CoHvzq",
+  "leetcodeId" : "8338937",
+  "company" : "Walmart",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_PLjGqmWC8xQdruV3T5rfDi",
+    "questions" : [ {
+      "id" : "q_5GvkkMC9RveWNdDuE8jP6H",
+      "type" : "DSA",
+      "content" : "Determine the minimum total cost required to select a k-capable set of models."
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_NxMLKydBYrYsXTn6pGUVMA",
+  "leetcodeId" : "8338605",
+  "company" : "Tiktok",
+  "role" : "Backend engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_J5Ao1y9GPbLamDCk2AQChb",
+    "questions" : [ {
+      "id" : "q_J4vpCyU1DF1yDcJ5bUALMe",
+      "type" : "MACHINE_CODING",
+      "content" : "Design vending machine."
+    }, {
+      "id" : "q_KqbsQ3gZMcEJt4M4MQfHUA",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you solve the trust and safety problem? Discuss the approach and high level solution."
+    } ]
+  }, {
+    "id" : "r_R9uRmKXBr9dFtPY5TF1yj2",
+    "questions" : [ {
+      "id" : "q_F6ruQuiwJiZA2NPv7oav4x",
+      "type" : "DSA",
+      "content" : "Merge k sorted linked list."
+    }, {
+      "id" : "q_CbyJku9SkitD6xQPWyyEgX",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Discuss your previous projects in detail."
+    } ]
+  }, {
+    "id" : "r_3ZwrpwhnVpZBvv8CSQhLg1",
+    "questions" : [ {
+      "id" : "q_Q5EMeFUX29MJaV3dStPkGg",
+      "type" : "TECHNICAL",
+      "content" : "What are fundamental C++ questions?"
+    }, {
+      "id" : "q_D9aAZ48C2rcoduX4cZzFCC",
+      "type" : "TECHNICAL",
+      "content" : "What are fundamental Java questions?"
+    }, {
+      "id" : "q_3wmGNJwxByBN3jTqYr2tgN",
+      "type" : "TECHNICAL",
+      "content" : "What are fundamental OS questions?"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_24U8h3fy6GibBg4qBWRi8p",
+  "leetcodeId" : "8338675",
+  "company" : "Goldman Sachs",
+  "role" : "Java developer (AVP)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_4JZ9ZgyNWyaDAcVvWrxS3g",
+    "questions" : [ {
+      "id" : "q_T97zgHs7ntMjPPB4q2216X",
+      "type" : "TECHNICAL",
+      "content" : "What is Graph?"
+    }, {
+      "id" : "q_2LuBXReden52KzqdefAmx5",
+      "type" : "TECHNICAL",
+      "content" : "What is DAG?"
+    }, {
+      "id" : "q_RQbVQ1npzNvqctMkZNsjH9",
+      "type" : "TECHNICAL",
+      "content" : "What is the difference between graph and tree?"
+    } ]
+  }, {
+    "id" : "r_6jCqwGHEYqCbKGBVbNrs4t",
+    "questions" : [ {
+      "id" : "q_QYmq33NF7oAsLwHnpm4Pab",
+      "type" : "DSA",
+      "content" : "High five https://leetcode.com/problems/high-five/"
+    }, {
+      "id" : "q_LMfgei3oxFGNmErBczweDo",
+      "type" : "DSA",
+      "content" : "Employee free time https://leetcode.com/problems/employee-free-time/description/"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_4XEx6Em4eN6tTJH3VBW9bH",
+  "leetcodeId" : "8338453",
+  "company" : "Omnissa",
+  "role" : "MTS",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_7esEg9YTJWsyRSMwaixgz8",
+    "questions" : [ {
+      "id" : "q_DzadE9iKYCb9grbAPp4Ze",
+      "type" : "MACHINE_CODING",
+      "content" : "Print even and odd numbers using threads."
+    }, {
+      "id" : "q_4npgd6G87ZxEX4XHVMk8ma",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "System design of Google drive."
+    } ]
+  }, {
+    "id" : "r_CBXzSTTgu5RMZCg7KvSD3w",
+    "questions" : [ {
+      "id" : "q_8fqKXyi5PcKR7Gx2NhLPQW",
+      "type" : "DSA",
+      "content" : "Given a string and asked to remove all adjacent duplicate characters."
+    }, {
+      "id" : "q_CfmToj241zD1SFSvuqTQ5n",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Some system design related questions."
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_MW7H1yiR2XLZUxzE2idu3R",
+  "leetcodeId" : "8337376",
+  "company" : "Amazon",
+  "role" : "SDE 2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_6SJndFRoi4oFgVbncSYCKW",
+    "questions" : [ {
+      "id" : "q_E5L2c186vrUdsMXahiX3JL",
+      "type" : "DSA",
+      "content" : "Can you solve a traditional coding problem?"
+    }, {
+      "id" : "q_RqhMZpQTotHgru94NCXJ94",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How do you use an AI coding assistant in a code repository environment?"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_Mr1yQD4PbJQWVkJm9ByMUn",
+  "leetcodeId" : "8338035",
+  "company" : "Qualcomm",
+  "role" : "C++/AIML Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_HFUwozHdRhKEmrtGBnjCfs",
+    "questions" : [ {
+      "id" : "q_A9wL6N8iWrJAagNiKLCqhK",
+      "type" : "TECHNICAL",
+      "content" : "What are the main concepts of OOP?"
+    }, {
+      "id" : "q_Po1cw8LzMSgpViXqHxNu6g",
+      "type" : "TECHNICAL",
+      "content" : "Can you explain how memory management works in Operating Systems?"
+    } ]
+  }, {
+    "id" : "r_MAUG4CjKJTSak7HcgB3EDR",
+    "questions" : [ {
+      "id" : "q_REYufdSq1pfYwgV5c1Ao5F",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is the use of smart pointers in C++?"
+    }, {
+      "id" : "q_9nGBwQVvqMuDxvDY9u5a4L",
+      "type" : "TECHNICAL",
+      "content" : "Can you explain the trade-offs of memory management techniques?"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_JeZmdZ2LS5JMu2Cu6W4uGj",
+  "leetcodeId" : "8338473",
+  "company" : "Redwood Software",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QZFpJFxLxJ8bZfLCfty6Zm",
+    "questions" : [ {
+      "id" : "q_Rv5gkcAkU9tgJpUfiiSyRK",
+      "type" : "DSA",
+      "content" : "Two easy to medium level leetcode questions."
+    }, {
+      "id" : "q_SX1GzBz3EfroTQ3idKMsbw",
+      "type" : "TECHNICAL",
+      "content" : "Core Java questions"
+    } ]
+  }, {
+    "id" : "r_5utNtfKDiusSgqHJ4M16PE",
+    "questions" : [ {
+      "id" : "q_Tdmcv4RdnFCTANF5brqCmb",
+      "type" : "DSA",
+      "content" : "Rotten oranges problem."
+    }, {
+      "id" : "q_7xhXGVkxFdzaMurwASf2Ez",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Uber system design."
+    } ]
+  }, {
+    "id" : "r_RhxXBYDA9FbpfVX8hWDuNL",
+    "questions" : [ {
+      "id" : "q_B6XBVuoVM8rPMEqofaZ2xp",
+      "type" : "HM",
+      "content" : "Resume and scenario based questions."
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_C7mkR4ZugJxXnnmjdUCu9E",
+  "leetcodeId" : "8337142",
+  "company" : "Zuora",
+  "role" : "Senior SDET",
+  "yoe" : 7,
+  "rounds" : [ {
+    "id" : "r_ESfFww5g447S5QfskegKFB",
+    "questions" : [ {
+      "id" : "q_C9yxj3KmeeTcnh1x2GaGz2",
+      "type" : "TECHNICAL",
+      "content" : "Explain your automation framework in detail."
+    }, {
+      "id" : "q_ER4VwhANHHHZe28RRL2Ufq",
+      "type" : "TECHNICAL",
+      "content" : "Playwright vs Selenium – differences, advantages, and use cases."
+    }, {
+      "id" : "q_3hMk8RiLLp9vGxdPZNoomA",
+      "type" : "DSA",
+      "content" : "Coding Question: Rotate Image (LeetCode #48)"
+    }, {
+      "id" : "q_GTaePmA9xqiQv19a8K5BPg",
+      "type" : "DSA",
+      "content" : "Coding Question: Reverse Only Letters (LeetCode #917)"
+    }, {
+      "id" : "q_CWNk6NGhcZY2oBJnUiKqUe",
+      "type" : "DSA",
+      "content" : "Coding Question: Group Anagrams (LeetCode #49)"
+    } ]
+  }, {
+    "id" : "r_VVwrVj8P3v3JmzEkeVkY8h",
+    "questions" : [ {
+      "id" : "q_XZHfngBxvDM7VzJd68dntR",
+      "type" : "TECHNICAL",
+      "content" : "Explain your automation framework architecture."
+    }, {
+      "id" : "q_MDXrR9xay2mbuTaNkFabb4",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a typical automation framework structure."
+    }, {
+      "id" : "q_V4zSRADQmzzL5vSEgp554b",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you automate a payment flow?"
+    }, {
+      "id" : "q_CMoNnQ6d9fEcj6xGthqcVq",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you design a framework specifically for payment flow automation?"
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
+  "id" : "i_MTzx2GLrJtDYajPUWRHTZh",
+  "leetcodeId" : "8337180",
+  "company" : "Quantum Capital AI Labs",
+  "role" : "QA/Automation Engineer",
+  "yoe" : 7,
+  "rounds" : [ {
+    "id" : "r_WGPq5zDrsUCWLb5oYmt1Rs",
+    "questions" : [ {
+      "id" : "q_TEGuvAAFcAW18jBByqkDha",
+      "type" : "BEHAVIOURAL",
+      "content" : "Walk me through your professional experience and the domains you have worked in."
+    }, {
+      "id" : "q_KC2EHJzv7pvAUHNufA5shr",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the key projects and automation initiatives you have led."
+    }, {
+      "id" : "q_R9w3NQvLCcq24Q8J1sFS97",
+      "type" : "TECHNICAL",
+      "content" : "How would you approach testing an internal ChatGPT-like product?"
+    }, {
+      "id" : "q_897oGMdkQG3RTeU1XLxWyk",
+      "type" : "TECHNICAL",
+      "content" : "What test scenarios would you consider for an AI-powered conversational application?"
+    } ]
+  }, {
+    "id" : "r_EuhR1sV4BAeqZdHAMrLaVE",
+    "questions" : [ {
+      "id" : "q_BcwSp22ST4sHKtj68jXooN",
+      "type" : "TECHNICAL",
+      "content" : "Explain SDLC and STLC."
+    }, {
+      "id" : "q_CAjTWz9NR2dw2AWa3dKJzm",
+      "type" : "TECHNICAL",
+      "content" : "Different testing artifacts and templates used during the testing lifecycle."
+    }, {
+      "id" : "q_JCTYKVjNKxDWocKAa99Ch4",
+      "type" : "TECHNICAL",
+      "content" : "Test planning and execution approaches."
+    }, {
+      "id" : "q_6Gk3EJzcREKdeHj5MjyJ",
+      "type" : "TECHNICAL",
+      "content" : "Scenario-based testing questions."
+    }, {
+      "id" : "q_4jVoiTioSu6zYpv6C7kvtb",
+      "type" : "TECHNICAL",
+      "content" : "Manual testing concepts and best practices."
+    }, {
+      "id" : "q_UUQBiJRQox8kZbeLD1P9uC",
+      "type" : "TECHNICAL",
+      "content" : "How would you test a RAG (Retrieval-Augmented Generation) system?"
+    }, {
+      "id" : "q_TVW6W2XHV7EFMjDQWEvoqt",
+      "type" : "TECHNICAL",
+      "content" : "What are the key validation points for LLM-based applications?"
+    }, {
+      "id" : "q_TJ6fXUMC4U6VJtx1bj5q8r",
+      "type" : "TECHNICAL",
+      "content" : "Challenges involved in testing AI-powered systems."
+    }, {
+      "id" : "q_6QSV8QVxn2RcU3Zj3aJiRa",
+      "type" : "TECHNICAL",
+      "content" : "Methods to evaluate response quality and accuracy."
+    }, {
+      "id" : "q_SCPaX2JMJRgr75vq5yRQQe",
+      "type" : "MACHINE_CODING",
+      "content" : "Write a simple Selenium script for a login workflow."
+    }, {
+      "id" : "q_9ntHd21BRv2oHihssCvV3V",
+      "type" : "TECHNICAL",
+      "content" : "Follow-up questions related to the implementation."
+    }, {
+      "id" : "q_8CTfaBGRjVDPiNdaUesZj2",
+      "type" : "TECHNICAL",
+      "content" : "Discussion around automation best practices and framework concepts."
+    } ]
+  } ],
+  "date" : "2026-06-16"
+}, {
   "id" : "i_NV1MWzHgLjbfJQiVkbDytV",
   "leetcodeId" : "8330957",
   "company" : "Adobe",
