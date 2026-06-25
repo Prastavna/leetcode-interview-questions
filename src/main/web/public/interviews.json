@@ -1,4 +1,31 @@
 [ {
+  "id" : "i_Qax9qogoCf2xAP1fKgzJNC",
+  "leetcodeId" : "8343073",
+  "company" : "Amazon",
+  "role" : "SD2 L5",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_MCAtii6tmn8BNE6SyDGMg7",
+    "questions" : [ {
+      "id" : "q_FCYSf65WzBPs7fztzcJLNK",
+      "type" : "SCREENING",
+      "content" : "What is the coding challenge like?"
+    }, {
+      "id" : "q_P5MHeJHgkNMeeTDngnnZo2",
+      "type" : "SCREENING",
+      "content" : "What kind of problems will I face during the coding challenge?"
+    }, {
+      "id" : "q_7XFCrayqNBY7hT4dMwNsXJ",
+      "type" : "SCREENING",
+      "content" : "How do the work simulation tasks look?"
+    }, {
+      "id" : "q_RtFfw2Fh8SFBjm7Qruk15i",
+      "type" : "SCREENING",
+      "content" : "What should I expect in the work style surveys?"
+    } ]
+  } ],
+  "date" : "2026-06-18"
+}, {
   "id" : "i_GUuFFbVrHKX2GAALK31BMJ",
   "leetcodeId" : "8338644",
   "company" : "OKX",
