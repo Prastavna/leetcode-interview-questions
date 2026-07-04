@@ -1,4 +1,37 @@
 [ {
+  "id" : "i_RhuD5AhNUrEt8hFCzmwkGe",
+  "leetcodeId" : "8361927",
+  "company" : "Freshworks",
+  "role" : "Senior Data Scientist",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_LRE1ZrFpovwVrU9YJ5oew3",
+    "questions" : [ {
+      "id" : "q_3t4bT1NLjX2quhiuVkjzSk",
+      "type" : "TECHNICAL",
+      "content" : "What are loss functions?"
+    }, {
+      "id" : "q_P6t8yYjfLpSGpYLucNHKD2",
+      "type" : "TECHNICAL",
+      "content" : "What metrics do you use for model evaluation?"
+    } ]
+  }, {
+    "id" : "r_MJw31furDHgYso7UzzrbTL",
+    "questions" : [ {
+      "id" : "q_QCDkAVTycbc7TNSKoy3CkK",
+      "type" : "DSA",
+      "content" : "Solve an ML + array coding problem."
+    } ]
+  }, {
+    "id" : "r_5u1MZ96UVC8YHTU9seDeXZ",
+    "questions" : [ {
+      "id" : "q_R9GFSG5hwEuwkCWHfbspPs",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "What is your approach to ML system design?"
+    } ]
+  } ],
+  "date" : "2026-06-27"
+}, {
   "id" : "i_2hhDmyWVv7DVYjyhiD6dx8",
   "leetcodeId" : "8358551",
   "company" : "Google",
