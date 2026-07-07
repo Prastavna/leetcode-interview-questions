@@ -1,4 +1,62 @@
 [ {
+  "id" : "i_PX9tzSRYQn28reyHbkTCiC",
+  "leetcodeId" : "8367976",
+  "company" : "startup",
+  "role" : "SDE-1 Backend",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_K5KypGogYwpUZkTXxBJs5K",
+    "questions" : [ {
+      "id" : "q_Te251L1CZPR5vE1RSYCWix",
+      "type" : "OTHER",
+      "content" : "What level of DSA/LeetCode should I expect? Easy, Medium, or Hard?"
+    }, {
+      "id" : "q_H9XnvF5Cyi4BBDAPxkQVCK",
+      "type" : "OTHER",
+      "content" : "How deeply do startups usually assess Node.js internals (event loop, async, streams, clustering, etc.)?"
+    }, {
+      "id" : "q_TsyihXgCDNS4gpRXjAW3tR",
+      "type" : "OTHER",
+      "content" : "What TypeScript topics are commonly asked in backend interviews?"
+    }, {
+      "id" : "q_LtdZ2ZqNchSzvUxmdMuws7",
+      "type" : "OTHER",
+      "content" : "What kinds of questions or rounds did you face in similar Node.js/TypeScript startup roles?"
+    } ]
+  } ],
+  "date" : "2026-06-30"
+}, {
+  "id" : "i_6CCj2JSwAWjuyYP55D9rfe",
+  "leetcodeId" : "8368329",
+  "company" : "Cisco",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_9JiYyNfeLxp3YdJmiubLFf",
+    "questions" : [ {
+      "id" : "q_4V1ELHE9xkGkFEu6G3tzpg",
+      "type" : "OTHER",
+      "content" : "What should I focus on in the last couple of days before the interview?"
+    }, {
+      "id" : "q_XhcjUshtX1s51gQJNsRGzo",
+      "type" : "OTHER",
+      "content" : "What are the most common mistakes freshers make?"
+    }, {
+      "id" : "q_335nV6utmTZRCWb2ZHMiR5",
+      "type" : "OTHER",
+      "content" : "How should I answer technical questions if I don't know the complete answer?"
+    }, {
+      "id" : "q_VbeorfkZ5mLD4RQEeY24eR",
+      "type" : "OTHER",
+      "content" : "What topics are most important for an entry-level software engineering interview?"
+    }, {
+      "id" : "q_E8YMwyhTAWqqsmmxFAUZPJ",
+      "type" : "OTHER",
+      "content" : "Any tips to stay calm and confident during the interview?"
+    } ]
+  } ],
+  "date" : "2026-06-30"
+}, {
   "id" : "i_4utoPs61XUFn1G46Ft8qJN",
   "leetcodeId" : "8364252",
   "company" : "Huawei",
