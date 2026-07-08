@@ -1,4 +1,192 @@
 [ {
+  "id" : "i_HUqGQAyZP7KNqaGV5gWN94",
+  "leetcodeId" : "8370275",
+  "company" : "Graviton Research Capital",
+  "role" : "SDE-1",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_nKoYmV4bWuymk8EXfeHhv",
+    "questions" : [ {
+      "id" : "q_AvTmJiMkK8xachTqnUyoNf",
+      "type" : "MACHINE_CODING",
+      "content" : "Implement a VS Code-style file and folder explorer from scratch."
+    } ]
+  } ],
+  "date" : "2026-07-01"
+}, {
+  "id" : "i_2aRmhisJC1gBLAcsLJTTui",
+  "leetcodeId" : "8369286",
+  "company" : "Amazon",
+  "role" : "System Development Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_PRzWExmp8msSnXNKWNNfzJ",
+    "questions" : [ {
+      "id" : "q_8W8WJbGNM1cR2g7iyL4C3e",
+      "type" : "OTHER",
+      "content" : "What kind of questions should I expect for the \"Troubleshooting and Automation\" round and how can I effectively prepare for it in a few days?"
+    } ]
+  } ],
+  "date" : "2026-07-01"
+}, {
+  "id" : "i_UqwNF12k4bTEZKkUNJEvF8",
+  "leetcodeId" : "8369426",
+  "company" : "Equinix",
+  "role" : "AI Platform Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QCyi1mTVAVTKsZTqbEi64a",
+    "questions" : [ {
+      "id" : "q_P9GfFfMRR3mpuYKPEoqp9H",
+      "type" : "TECHNICAL",
+      "content" : "What is RAG?"
+    }, {
+      "id" : "q_P6XqVeJRjicmdxq3kU8vwY",
+      "type" : "TECHNICAL",
+      "content" : "How do you do indexing?"
+    }, {
+      "id" : "q_X3MDi77jvBd32FJwVpAmox",
+      "type" : "TECHNICAL",
+      "content" : "What kind of database would you use?"
+    }, {
+      "id" : "q_4iWfGv4cS4H45jcRFxqPUw",
+      "type" : "TECHNICAL",
+      "content" : "Would you use evaluators?"
+    }, {
+      "id" : "q_L3W8ReywcG5FamoB6uL5eo",
+      "type" : "TECHNICAL",
+      "content" : "How would you deal stream data?"
+    }, {
+      "id" : "q_ThKNkHxNhWXZ5e4SPrChMp",
+      "type" : "TECHNICAL",
+      "content" : "What are OOPs principles?"
+    }, {
+      "id" : "q_TZr6HQ925Wy3BH1N3Z7h3w",
+      "type" : "DSA",
+      "content" : "If given a sorted array, what kind of methods would you use to find an element?"
+    }, {
+      "id" : "q_3KXpgUDjNbAkkyPVMqPE96",
+      "type" : "TECHNICAL",
+      "content" : "What kind of constraints do you think of apart from time and space complexity?"
+    }, {
+      "id" : "q_2XjRaeBqYxVXfvcZPmsgQz",
+      "type" : "TECHNICAL",
+      "content" : "What is Encapsulation vs abstraction?"
+    }, {
+      "id" : "q_4ZmCzauWCCANj6rf9t3eFj",
+      "type" : "TECHNICAL",
+      "content" : "What is cohesion and coupling?"
+    }, {
+      "id" : "q_4LPQgcVurkD5foKFZciw8q",
+      "type" : "TECHNICAL",
+      "content" : "What is ETL?"
+    }, {
+      "id" : "q_5YBCYaVdz2wnZewgdVsFjg",
+      "type" : "TECHNICAL",
+      "content" : "SOLID principles?"
+    }, {
+      "id" : "q_EvYDDToZ88JuWEWCJptWvd",
+      "type" : "DSA",
+      "content" : "What is a linked list, why do you use it?"
+    }, {
+      "id" : "q_EPyT15MyP4nMfUdowzqsXL",
+      "type" : "MACHINE_CODING",
+      "content" : "Write pseudo code for reversing a linked list."
+    } ]
+  } ],
+  "date" : "2026-07-01"
+}, {
+  "id" : "i_DTubyhxH6QUpkg2rE2AhBo",
+  "leetcodeId" : "8369774",
+  "company" : "Stryker",
+  "role" : "Staff Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_D2XGMRAk2L1np7ejq6T1LF",
+    "questions" : [ {
+      "id" : "q_A7MiHo7GVWKiuXLgUSf3zU",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about yourself, your education and professional background."
+    }, {
+      "id" : "q_LpTHAtCiPRsvZ8rysCiL5D",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Tell me about your project and walk me through your job role day to day."
+    }, {
+      "id" : "q_Ex8p1JnvPxBNt9g46L72dL",
+      "type" : "BEHAVIOURAL",
+      "content" : "Why do you want to switch?"
+    }, {
+      "id" : "q_VeXM3HeCQZ4jSTYDX3gA5c",
+      "type" : "TECHNICAL",
+      "content" : "Do you have exposure to Angular? How would you rate yourself in React, node, js in a scale of 0-10?"
+    }, {
+      "id" : "q_DjLwdDKPyLHptMSqnHvzkH",
+      "type" : "TECHNICAL",
+      "content" : "What is useMemo?"
+    }, {
+      "id" : "q_NvSzMbNtAAcz1yZzKXJo2k",
+      "type" : "TECHNICAL",
+      "content" : "Virtual DOM? Diffing algorithm"
+    }, {
+      "id" : "q_9c4yrcvVMhq2b18YiUYi8f",
+      "type" : "TECHNICAL",
+      "content" : "How do you pass data from child components to parent?"
+    }, {
+      "id" : "q_4ucuR7FSpVoYD8cD3yVoin",
+      "type" : "TECHNICAL",
+      "content" : "Diff btw state and props?"
+    }, {
+      "id" : "q_D4QsBX36X2u4JC19wcng55",
+      "type" : "TECHNICAL",
+      "content" : "Selectors in Redux"
+    }, {
+      "id" : "q_FtfLDMGzzAhUAvGAcK4snC",
+      "type" : "TECHNICAL",
+      "content" : "Reducers in Redux"
+    }, {
+      "id" : "q_T2z1SWgvXFWakCXG5Jo4fp",
+      "type" : "TECHNICAL",
+      "content" : "Redux Saga"
+    }, {
+      "id" : "q_69u6bxAQVV1bUdfrvN4uHU",
+      "type" : "TECHNICAL",
+      "content" : "Synchronous and asynchronous reducers"
+    }, {
+      "id" : "q_NqpQjiH17KvW2ULHYdrpib",
+      "type" : "TECHNICAL",
+      "content" : "Synchronous and asynchronous middlewares in Redux"
+    }, {
+      "id" : "q_9CDB3UbbLkJuCCSeWEsnqq",
+      "type" : "TECHNICAL",
+      "content" : "Is Node JS single threaded?"
+    }, {
+      "id" : "q_9kVUzZvM1qEjfcjAiMkNjW",
+      "type" : "TECHNICAL",
+      "content" : "What are Promises?"
+    }, {
+      "id" : "q_28iCQaG1jPuiCRzbePsk8Y",
+      "type" : "TECHNICAL",
+      "content" : "How do u create server in Node JS?"
+    }, {
+      "id" : "q_WJcWfmkxZ16SBfAuG5nQ45",
+      "type" : "TECHNICAL",
+      "content" : "How do u handle routes in Backend?"
+    }, {
+      "id" : "q_YYkoP62bT1vcNMj3rKFax3",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How would you design an application -> folder and components structure"
+    }, {
+      "id" : "q_SdbAQkXdzhUvwpuXcnR9hg",
+      "type" : "DSA",
+      "content" : "Given an array in sorted order: [-5, -3, -2, -1, 2,4,6]. Return their square of elements in sorted order."
+    }, {
+      "id" : "q_HFW5ykDAZdXbWuLnL2ZFTW",
+      "type" : "DEBUGGING",
+      "content" : "How would you optimise the following code?\nfunction createButton(){\n\tconst button = document.createElement(‘button’);\n\tbutton.addEventListener(‘click’, () => {\n\t\tconsole.log(‘Clicked’);\n\t})\n\tdocument.body.appendChild(button);\n}\nfor(let i = 0; i< 1000; i++){\n\tcreateButton();\n}"
+    } ]
+  } ],
+  "date" : "2026-07-01"
+}, {
   "id" : "i_PX9tzSRYQn28reyHbkTCiC",
   "leetcodeId" : "8367976",
   "company" : "startup",
