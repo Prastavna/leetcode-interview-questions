@@ -1,4 +1,106 @@
 [ {
+  "id" : "i_4NQoCbHxpAQZqZKspCPKsu",
+  "leetcodeId" : "8377041",
+  "company" : "Amazon",
+  "role" : "SDE1",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_YQ8GoMxYDoe6wBB5aiDUDf",
+    "questions" : [ {
+      "id" : "q_QAkC2hNbVkwnsqhNsQ5Yju",
+      "type" : "DSA",
+      "content" : "It was a hard sweep line problem."
+    } ]
+  } ],
+  "date" : "2026-07-05"
+}, {
+  "id" : "i_JWGtrjKeTdWHMFm5ZeFuCt",
+  "leetcodeId" : "8377451",
+  "company" : "Amazon",
+  "role" : "SDE II",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_S86WuCNQArwngQPofMhu3i",
+    "questions" : [ {
+      "id" : "q_GKMXghsDPkWiTFcRsPsdxm",
+      "type" : "DSA",
+      "content" : "LeetCode 49 – Group Anagrams"
+    }, {
+      "id" : "q_VWSYjjfrbL1LkUuG9wMyoD",
+      "type" : "DSA",
+      "content" : "A grid/graph problem similar to LeetCode 62 – Unique Paths"
+    }, {
+      "id" : "q_V4wv9M4PC3YvjEHDjEQ9fB",
+      "type" : "DSA",
+      "content" : "Whether the graph problem could be solved in O(1) time"
+    } ]
+  }, {
+    "id" : "r_LKNoGUNMyGBGdsR8VRF9fM",
+    "questions" : [ {
+      "id" : "q_JGYoyBmQVg9KGwSsDXZCiN",
+      "type" : "LLD",
+      "content" : "Design a Hotel Management System"
+    } ]
+  }, {
+    "id" : "r_HNwQsxYNQL22fSKTKuERu",
+    "questions" : [ {
+      "id" : "q_DyQkDVXrjsh73iRzYZkZxD",
+      "type" : "HLD",
+      "content" : "Design an Online Code Compiler (similar to CodeChef)"
+    } ]
+  } ],
+  "date" : "2026-07-05"
+}, {
+  "id" : "i_voCWgdMfn9aJqjudZGbHv",
+  "leetcodeId" : "8378004",
+  "company" : "Safe Security",
+  "role" : "Software Engineer 3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_45jrt5MUh237sH5ZW8VYrb",
+    "questions" : [ {
+      "id" : "q_RmAHHf715eeQBufEgBSm6E",
+      "type" : "TECHNICAL",
+      "content" : "HTTP vs HTTPS"
+    }, {
+      "id" : "q_UR5JtPwG2fjDi2eNSS6xjA",
+      "type" : "TECHNICAL",
+      "content" : "Thread vs Process"
+    }, {
+      "id" : "q_UqoJ3FULey7ApTVgQibaL9",
+      "type" : "TECHNICAL",
+      "content" : "Multithreading in Java"
+    }, {
+      "id" : "q_VYEvd2bFQ9SzE7Uz9Gfc6A",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Describe a backend project handling high request throughput."
+    }, {
+      "id" : "q_ADjMHGw17dyeqqPKWQkQ9n",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain an AI-based project."
+    }, {
+      "id" : "q_6evuajtzNRAADNTQTy3w9w",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain a technically challenging project."
+    } ]
+  }, {
+    "id" : "r_LadG1tFUYXqCe6J63tKPQe",
+    "questions" : [ {
+      "id" : "q_QNCdJkAb5u97GuEvpuydq3",
+      "type" : "TECHNICAL",
+      "content" : "What are indexes?"
+    }, {
+      "id" : "q_JeTPfF3eeTXFp7E9tQJTxY",
+      "type" : "TECHNICAL",
+      "content" : "Explain ACID properties."
+    }, {
+      "id" : "q_5csYd8qQugC6ExbHRvQGFy",
+      "type" : "DSA",
+      "content" : "Maximum Subarray Sum - Given an integer array, find the contiguous subarray having the largest sum."
+    } ]
+  } ],
+  "date" : "2026-07-05"
+}, {
   "id" : "i_HUqGQAyZP7KNqaGV5gWN94",
   "leetcodeId" : "8370275",
   "company" : "Graviton Research Capital",
