@@ -1,4 +1,31 @@
 [ {
+  "id" : "i_4odo2dNiu5yKJH6SrrGPCH",
+  "leetcodeId" : "8378543",
+  "company" : "Qualified Health PBC",
+  "role" : "Senior Backend/Platform Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_H8dGjsasbQK5ffCYpotMZV",
+    "questions" : [ {
+      "id" : "q_HBptfHspzZskzGxJAGjV4F",
+      "type" : "OTHER",
+      "content" : "What kind of system design prompts do they ask?"
+    }, {
+      "id" : "q_5eLCtu3SZbof2mpzFgnwcM",
+      "type" : "OTHER",
+      "content" : "Are the rounds generic system design or healthcare/AI-specific?"
+    }, {
+      "id" : "q_HSmVmbnXevWPHjCZi4rFFL",
+      "type" : "OTHER",
+      "content" : "How deep do they go into LLM platforms, data pipelines, ETL, monitoring, security, HIPAA/PHI, or workflow engines?"
+    }, {
+      "id" : "q_WX9LsC4G17bicsMmKZiQoB",
+      "type" : "OTHER",
+      "content" : "What do they value most in the system design discussion?"
+    } ]
+  } ],
+  "date" : "2026-07-06"
+}, {
   "id" : "i_4NQoCbHxpAQZqZKspCPKsu",
   "leetcodeId" : "8377041",
   "company" : "Amazon",
