@@ -1,4 +1,34 @@
 [ {
+  "id" : "i_MsRSHVLyo5wNfizTgXsRPM",
+  "leetcodeId" : "8381168",
+  "company" : "Apple",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_7AQJmokecjwCPPfaBD6wje",
+    "questions" : [ {
+      "id" : "q_VuxxCYCtSX36au5GZbc2To",
+      "type" : "MACHINE_CODING",
+      "content" : "Phone Directory problem"
+    } ]
+  } ],
+  "date" : "2026-07-07"
+}, {
+  "id" : "i_MoJTahyyF1oE4qgfeUMYnX",
+  "leetcodeId" : "8381837",
+  "company" : "Apple",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UY761G3oFMBiV4kXSL3ojV",
+    "questions" : [ {
+      "id" : "q_JVStsBHMiEAoghjXD3PLX3",
+      "type" : "OTHER",
+      "content" : "given array, print product of subsets whose length is n-1 (zeros count = 1 , >1 0 0 0 0)"
+    } ]
+  } ],
+  "date" : "2026-07-07"
+}, {
   "id" : "i_4odo2dNiu5yKJH6SrrGPCH",
   "leetcodeId" : "8378543",
   "company" : "Qualified Health PBC",
