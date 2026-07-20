@@ -1,4 +1,110 @@
 [ {
+  "id" : "i_XdQ4YtXVqXuXtzRANnDXqr",
+  "leetcodeId" : "8393790",
+  "company" : "Amazon",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NvGtZptXesW6W8WeFxNtdV",
+    "questions" : [ {
+      "id" : "q_3nmCu3et5XSrsrMrkFk3Nt",
+      "type" : "LLD",
+      "content" : "What level of coding is actually expected?"
+    }, {
+      "id" : "q_WvmeKXqn3SkfZVoGWvp6w1",
+      "type" : "LLD",
+      "content" : "Are we expected to write complete, compilable code with constructors, getters/setters, and implementations for all classes?"
+    }, {
+      "id" : "q_YCwHSjJXLKZb2och66yB49",
+      "type" : "LLD",
+      "content" : "Is it sufficient to define the classes, their relationships, key attributes, and method signatures, while implementing only the core business logic?"
+    }, {
+      "id" : "q_MCvSTdNqATBmoLjFY9Gxk8",
+      "type" : "LLD",
+      "content" : "What do interviewers typically evaluate in LLD problems?"
+    }, {
+      "id" : "q_AX1UK9KdBmBQNKcL5nPpRd",
+      "type" : "LLD",
+      "content" : "Do they focus more on the design and architecture, or do they expect a fully working implementation?"
+    } ]
+  } ],
+  "date" : "2026-07-13"
+}, {
+  "id" : "i_SZL36Gxag9hixVKKYTzNjh",
+  "leetcodeId" : "8393465",
+  "company" : "Wise",
+  "role" : "SSE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_96hdB49QsJxNfLtmYB9Rq",
+    "questions" : [ {
+      "id" : "q_Xz8XC221vwvVYD5hyq1xPV",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about yourself"
+    }, {
+      "id" : "q_WzXqCFGUa7RbeSzey6snbv",
+      "type" : "TECHNICAL",
+      "content" : "If multiple microservices env, failure occurrs : how you prevent it?"
+    } ]
+  } ],
+  "date" : "2026-07-13"
+}, {
+  "id" : "i_3XQdX8jCtQu3MVxXT1TeZC",
+  "leetcodeId" : "8393579",
+  "company" : "Pan Science Innovations",
+  "role" : "Full Stack Developer (FSD) Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_PCz5VczMsMQ37jMdtAcnTW",
+    "questions" : [ {
+      "id" : "q_HVwikmy765G7ZaPwtCUhDS",
+      "type" : "TECHNICAL",
+      "content" : "Why do modern AI/deep learning models run almost exclusively on GPUs rather than traditional CPUs?"
+    }, {
+      "id" : "q_Vfom9Muc2poNk1uo4MLVUr",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Suppose you have a distributed cluster of 10,000 CCTV cameras across multiple physical environments generating continuous video streams. How would you design a software architecture to efficiently parse these streams to track down a single human target wearing a red hat?"
+    } ]
+  } ],
+  "date" : "2026-07-13"
+}, {
+  "id" : "i_8R8vpf8NkfYQNsFaWdXUMF",
+  "leetcodeId" : "8395257",
+  "company" : "QRT",
+  "role" : "software engineer - Data Platform",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VPhsbBzE6e8mQyNbfMFnkD",
+    "questions" : [ {
+      "id" : "q_2sEHKEGm9gM5nHWDGaZUvK",
+      "type" : "DSA",
+      "content" : "1 easy - frequency related computation in an array"
+    }, {
+      "id" : "q_KodsqoZZU4Cm4kybubNEiF",
+      "type" : "DSA",
+      "content" : "1 medium - number of ways for a knight to reach a destination in a NxN chess board"
+    } ]
+  }, {
+    "id" : "r_KgWk8FoL7kr9jfdCCgs8ZG",
+    "questions" : [ {
+      "id" : "q_Dfg7htvEC2Nf9qGAw5aKoB",
+      "type" : "LLD",
+      "content" : "Goal was to decouple cache eviction logic, and make it configurable - MFU, LFU, etc. Even doubly linked list was implemented (without hashmap)."
+    }, {
+      "id" : "q_KxRFYufDK7T3uD8bLmmadF",
+      "type" : "LLD",
+      "content" : "Followup - improve existing LRU performance. Basically added a map<String, DoublyLinkedNode> to improve eviction logic from O(n) to O(1)"
+    } ]
+  }, {
+    "id" : "r_24Vp6c6LkEjGksKS6fTxXQ",
+    "questions" : [ {
+      "id" : "q_EBNJ7ZBdNGejHjAP3U8GTF",
+      "type" : "HLD",
+      "content" : "Question was to design a library which would support that. It was a ETL tool with some fancy decorators."
+    } ]
+  } ],
+  "date" : "2026-07-13"
+}, {
   "id" : "i_Eyr5eDDjt2aB1XZXrnzZ5t",
   "leetcodeId" : "8389315",
   "company" : "Ripple",
