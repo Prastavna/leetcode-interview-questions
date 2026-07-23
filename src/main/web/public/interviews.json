@@ -1,4 +1,80 @@
 [ {
+  "id" : "i_5QJma3f7SHckjsAAc6jFz4",
+  "leetcodeId" : "8400925",
+  "company" : "CISCO",
+  "role" : "Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Tbnjwq6rGedtX3P5mHWSSy",
+    "questions" : [ {
+      "id" : "q_BZsYVqcuLLwn7JhLU5sFhE",
+      "type" : "SCREENING",
+      "content" : "42 questions in 1.5 hours"
+    } ]
+  } ],
+  "date" : "2026-07-16"
+}, {
+  "id" : "i_2nEBwZhBEEzADkhtLmxV8M",
+  "leetcodeId" : "8400456",
+  "company" : "Visa",
+  "role" : "Software Engineer 1 (SDE-1)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_8ZX1gmJ2PgTn93faLd9htP",
+    "questions" : [ {
+      "id" : "q_4L5WQngQMyuLT45A9YXR7K",
+      "type" : "DSA",
+      "content" : "How would you traverse a graph?"
+    }, {
+      "id" : "q_9bk8F5rTv1T4hUPCfZtvTo",
+      "type" : "DSA",
+      "content" : "Can you explain the difference between a depth-first search and a breadth-first search?"
+    } ]
+  } ],
+  "date" : "2026-07-16"
+}, {
+  "id" : "i_EfErF6SFqwfGPVYj3CgbBg",
+  "leetcodeId" : "8401640",
+  "company" : "Microsoft",
+  "role" : "SDE II",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_MFCXw2vYFPq9djeMWuS5b6",
+    "questions" : [ {
+      "id" : "q_EoDzpMZTcALLLWkqufA2a6",
+      "type" : "OTHER",
+      "content" : "What topics were covered?"
+    }, {
+      "id" : "q_MYBqapxfeNjejz8fd3odmD",
+      "type" : "OTHER",
+      "content" : "Was it purely behavioral, or were there technical/system design discussions as well?"
+    }, {
+      "id" : "q_KVroWmEbnu5XSWoxob2mKr",
+      "type" : "OTHER",
+      "content" : "What kind of questions were asked?"
+    }, {
+      "id" : "q_RwKjbvDRktzdJe8i17wr4K",
+      "type" : "OTHER",
+      "content" : "Any preparation tips or things you wish you had known beforehand?"
+    } ]
+  } ],
+  "date" : "2026-07-16"
+}, {
+  "id" : "i_5auxUPi9U7htMEnAZxYgyA",
+  "leetcodeId" : "8401062",
+  "company" : "Zomato",
+  "role" : "SDE-1",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Ph4CVnnNbbvdbkdEL6QdWX",
+    "questions" : [ {
+      "id" : "q_4sswvLcCFXXa6f2zvxYvxQ",
+      "type" : "DSA",
+      "content" : "Zomato is optimizing its automated warehouse layout. The warehouse consists of N bays arranged in a straight line, represented by a 0-indexed integer array packages, where packages[i] denotes the number of food package units stored at bay i. The robot starts its operation at one of the two ends of the warehouse line (either at bay 0 or at bay N-1). It must choose one starting base station and use it for all operations; it cannot switch its base station halfway through. To clear the packages, the robot performs sequential delivery trips under the following rules: In a single trip, the robot starts at its base station, moves to a targeted bay i, picks up at most 1 unit of a package from that bay, and returns to the base station. While traveling to a target bay i, the robot can also pick up at most 1 unit from any other intermediate bay it passes along the way for free, provided that bay still has packages left. The travel cost of a single trip is equal to the 1-indexed distance from the robot's chosen base station to the furthest bay i it visits on that trip. (1)If the base station is at index 0: Traveling to index i costs i + 1. (2) If the base station is at index N-1: Traveling to index i costs N - i. The handling cost to load and unload a single unit of any package is always 1 unit of cost. Your task is to return the minimum total cost (Total Travel Cost + Total Handling Cost) required to completely clear all package units from the warehouse."
+    } ]
+  } ],
+  "date" : "2026-07-16"
+}, {
   "id" : "i_YnHtRENTo3VJtYzZoMhAY",
   "leetcodeId" : "8398177",
   "company" : "ServiceNow",
