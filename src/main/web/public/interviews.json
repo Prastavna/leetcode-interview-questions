@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_TygQMkPzCpCYnWHFt2am3J",
+  "leetcodeId" : "8410722",
+  "company" : "Amazon",
+  "role" : "System Development Engineer (AFT Support)",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_EofxGiqqR2J1F6TUyzMyn8",
+    "questions" : [ {
+      "id" : "q_PTv4RriqiPMydaeRTmNuQc",
+      "type" : "DSA",
+      "content" : "Find all loyal customers satisfying: 1. The customer visited the website on both days. 2. On each day, the customer visited more than two distinct pages."
+    }, {
+      "id" : "q_VumMppNLYEeEe8q9bdKAom",
+      "type" : "DSA",
+      "content" : "Construct the smallest possible number having exactly the given number of digits and whose digits sum to the given value."
+    } ]
+  } ],
+  "date" : "2026-07-21"
+}, {
   "id" : "i_Cj9osq3H2gPVSi2wrs5MSh",
   "leetcodeId" : "8409412",
   "company" : "Meesho",
