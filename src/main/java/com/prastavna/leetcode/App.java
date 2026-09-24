@@ -24,17 +24,18 @@ public class App {
     DiscussionPostCollector collector =
         new DiscussionPostCollector(leetcodeClient, com.prastavna.leetcode.config.Leetcode.PAGE_SIZE);
     InterviewProcessor processor =
-        new InterviewProcessor(leetcodeClient, openai, repository, mapper);
+        new InterviewProcessor(leetcodeClient, openai, mapper);
     LatestInterviewLocator latestInterviewLocator = new LatestInterviewLocator(repository);
 
     int concurrency = resolveConcurrency(dotenv);
     InterviewSyncRunner runner =
-        new InterviewSyncRunner(collector, processor, latestInterviewLocator, concurrency);
+        new InterviewSyncRunner(collector, processor, repository, latestInterviewLocator, concurrency);
 
     try {
       runner.run();
     } catch (Exception e) {
       System.err.println("Error during interview sync: " + e.getMessage());
+      System.exit(1);
     }
   }
 

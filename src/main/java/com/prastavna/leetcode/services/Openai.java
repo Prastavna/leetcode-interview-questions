@@ -1,10 +1,10 @@
 package com.prastavna.leetcode.services;
 
+import java.time.Duration;
 import java.util.Optional;
 
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
-import com.openai.models.ChatModel;
 import com.openai.models.chat.completions.StructuredChatCompletion;
 import com.openai.models.chat.completions.StructuredChatCompletionCreateParams;
 import com.prastavna.leetcode.models.Interview;
@@ -189,6 +189,9 @@ public class Openai {
     openAIClient = OpenAIOkHttpClient.builder()
       .baseUrl(openaiBaseUrl)
       .apiKey(openaiApiKey)
+      // Gemini's free tier often answers 503 "high demand"; retry with backoff before giving up.
+      .maxRetries(8)
+      .timeout(Duration.ofSeconds(90))
       .build();
   }
 
@@ -196,7 +199,7 @@ public class Openai {
     StructuredChatCompletionCreateParams<Interview> params = StructuredChatCompletionCreateParams.<Interview>builder()
       .addSystemMessage(prompt)
       .addUserMessage(msg)
-      .model(ChatModel.GPT_4O_MINI)
+      .model("gemini-3.5-flash-lite")
       .responseFormat(Interview.class)
       .build();
     

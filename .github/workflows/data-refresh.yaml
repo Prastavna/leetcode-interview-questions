@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write
   pull-requests: write
-  models: read
 
 concurrency:
   group: automatic-data-refresh
@@ -19,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      OPENAI_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
-      OPENAI_CONCURRENCY: ${{ vars.OPENAI_CONCURRENCY || '4' }}
+      OPENAI_CONCURRENCY: ${{ vars.OPENAI_CONCURRENCY || '2' }}
       LEETCODE_API_URL: ${{ vars.LEETCODE_API_URL || 'https://leetcode.com/graphql' }}
       LEETCODE_PAGE_SIZE: ${{ vars.LEETCODE_PAGE_SIZE || '50' }}
       LEETCODE_TIMEOUT_MS: ${{ vars.LEETCODE_TIMEOUT_MS || '60000' }}

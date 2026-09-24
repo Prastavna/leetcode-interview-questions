@@ -74,8 +74,8 @@ Fill in the variables:
 | `LEETCODE_FETCH_START_DATE` | Earliest date to retain (e.g. `2025-01-01`). |
 | `LEETCODE_PAGE_SIZE` | Page size for GraphQL paging. 50 works well. |
 | `LEETCODE_LAG_DAYS` | Skip extremely recent posts that may still change. |
-| `OPENAI_BASE_URL` | Optional override for the OpenAI endpoint. |
-| `OPENAI_API_KEY` | Required for parsing discussions into interviews. |
+| `OPENAI_BASE_URL` | OpenAI-compatible endpoint. Use `https://generativelanguage.googleapis.com/v1beta/openai/` (Gemini). |
+| `OPENAI_API_KEY` | Gemini API key (Google AI Studio), required for parsing discussions into interviews. |
 | `INTERVIEWS_JSON_PATH` | Output location for the dataset (`interviews.json` by default). |
 
 ### 2. Run the Ingestion Pipeline
@@ -117,11 +117,11 @@ Configure the following secrets/variables in the repository or organization sett
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `OPENAI_API_KEY` | Secret | ✅ | Key used by the OpenAI client to structure discussions. |
-| `OPENAI_BASE_URL` | Secret | Optional | Override for custom OpenAI-compatible endpoints. |
+| `OPENAI_API_KEY` | Secret | ✅ | Gemini API key used by the OpenAI client to structure discussions. |
+| `OPENAI_BASE_URL` | Secret | ✅ | `https://generativelanguage.googleapis.com/v1beta/openai/` (Gemini's OpenAI-compatible endpoint). |
 | `PAT_TOKEN` | Secret | ✅ | Classic PAT with `repo` scope so the workflow can open PRs. |
 | `LEETCODE_*` | Variable | Optional | Override API URL, paging, lag days, or fetch start date. |
-| `OPENAI_CONCURRENCY` | Variable | Optional | Caps concurrent OpenAI requests (defaults to 4). |
+| `OPENAI_CONCURRENCY` | Variable | Optional | Caps concurrent OpenAI requests (defaults to 2 in CI). |
 | `INTERVIEWS_JSON_PATH` | Variable | Optional | Alternate output location for the dataset. |
 
 Once these values are present, the workflow will keep the published dataset up to date without manual intervention.
