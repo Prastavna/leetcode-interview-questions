@@ -1,4 +1,307 @@
 [ {
+  "id" : "i_NfigxBd2PDJqsA1tXZjgQp",
+  "leetcodeId" : "8434483",
+  "company" : "Freshworks",
+  "role" : "Senior Software Engineer – Fullstack",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_SEpW7yBSKv2eqAXifmaagF",
+    "questions" : [ {
+      "id" : "q_ELqrAs2xk8Bc8Pp9AjVbZD",
+      "type" : "DSA",
+      "content" : "Stock Span I"
+    }, {
+      "id" : "q_BaLp8v8NHdSZc1oyjRrWMV",
+      "type" : "DSA",
+      "content" : "Stock Span II"
+    }, {
+      "id" : "q_CKTHBpSNvqaT142kSX3599",
+      "type" : "DSA",
+      "content" : "Stock Span III"
+    } ]
+  }, {
+    "id" : "r_HjzKQeJ3L6zJ1CTj2V3dvR",
+    "questions" : [ {
+      "id" : "q_WjHMBLaqWiYu3t3FMHmRN9",
+      "type" : "TECHNICAL",
+      "content" : "What are semantic HTML elements and why are they important?"
+    }, {
+      "id" : "q_4h8mSXb3iFzqbFDSibNvMe",
+      "type" : "TECHNICAL",
+      "content" : "Performance comparison: left: 200px vs transform: translateX(200px). Which is faster and why?"
+    }, {
+      "id" : "q_4uLw3DDKAKhMNYQZWkCx9v",
+      "type" : "TECHNICAL",
+      "content" : "Difference between async and defer in the <script> tag."
+    }, {
+      "id" : "q_C7R7R4SSvHmp7UNRhHWu1J",
+      "type" : "TECHNICAL",
+      "content" : "Difference between Shadow DOM and Virtual DOM."
+    }, {
+      "id" : "q_3tEUam2X5u6Y9hKux4xr7S",
+      "type" : "TECHNICAL",
+      "content" : "Design a tooltip using only HTML/CSS (constraint: no JavaScript)."
+    }, {
+      "id" : "q_Jd1N5oSGNwhpGSkp84r6oW",
+      "type" : "DSA",
+      "content" : "Implement flattening of a nested array and discuss extending it via Array prototype."
+    }, {
+      "id" : "q_BeVjN6DF39pSw82HCxyD6b",
+      "type" : "TECHNICAL",
+      "content" : "Explain React Fiber and how React scheduling/reconciliation works."
+    } ]
+  } ],
+  "date" : "2026-08-01"
+}, {
+  "id" : "i_Kf5Ws55iyopQAqoX1wyJNA",
+  "leetcodeId" : "8425451",
+  "company" : "ASM Technologies",
+  "role" : "C++ Developer",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_MUvC7LLU95AN9d7QbKJ5uf",
+    "questions" : [ {
+      "id" : "q_9YctZrGQXQXxKhCs8S5iCh",
+      "type" : "DSA",
+      "content" : "Find the maximum length substring containing all unique characters."
+    }, {
+      "id" : "q_3hwJ8HK7FYYm8LDpMi2uzE",
+      "type" : "TECHNICAL",
+      "content" : "What are smart pointers? Why do we need them? Implement any one smart pointer from scratch."
+    }, {
+      "id" : "q_BT5fasBZZ9uPUjanCYYFE2",
+      "type" : "TECHNICAL",
+      "content" : "What is the mutable keyword? Where is it useful?"
+    }, {
+      "id" : "q_GvuTLQR2yEdPQ9GQy77ZpB",
+      "type" : "TECHNICAL",
+      "content" : "Why do we need virtual functions? How does runtime polymorphism work? Explain with a small C++ program."
+    }, {
+      "id" : "q_G99HVxpXEGYTCFRGvwWibE",
+      "type" : "TECHNICAL",
+      "content" : "Explain the SOLID principles."
+    }, {
+      "id" : "q_4dEeyb2ycbUq3czEZm8XZi",
+      "type" : "TECHNICAL",
+      "content" : "Explain any one design pattern. Give a practical/real-world use case."
+    }, {
+      "id" : "q_7zzznucKND1BbRzMuVhnES",
+      "type" : "TECHNICAL",
+      "content" : "Explain the Rule of 3."
+    }, {
+      "id" : "q_UHWcbT9b1U5p3Dh4EHvFT5",
+      "type" : "TECHNICAL",
+      "content" : "Explain the Rule of 5."
+    }, {
+      "id" : "q_U6M99WUHEZyBiMDzeiZtUx",
+      "type" : "TECHNICAL",
+      "content" : "Why do we need copy/move constructors and assignment operators?"
+    } ]
+  }, {
+    "id" : "r_D1wnD5dqqQCvaVtPNbetuo",
+    "questions" : [ {
+      "id" : "q_TTiMGdgGVCux9zH9zin8xY",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Tell me about a key contribution you made in your current project."
+    }, {
+      "id" : "q_6zkg4zc8J2a8Wp2usvU5mN",
+      "type" : "BEHAVIOURAL",
+      "content" : "How are you using AI in your daily life/work?"
+    }, {
+      "id" : "q_uVsEHMjz8qtzMR6XoSARm",
+      "type" : "TECHNICAL",
+      "content" : "Explain the four pillars of OOP."
+    }, {
+      "id" : "q_Xf8D3bwrz7erspFTxRfaKL",
+      "type" : "TECHNICAL",
+      "content" : "Demonstrate runtime polymorphism using a C++ program."
+    }, {
+      "id" : "q_DJRutUMBZQoCmAWFjwyvsM",
+      "type" : "TECHNICAL",
+      "content" : "Write a template function."
+    }, {
+      "id" : "q_43R1f13c6uzRvZ8DgECzF5",
+      "type" : "TECHNICAL",
+      "content" : "Write a template class."
+    }, {
+      "id" : "q_SyEpkV86qVcxbknGHtj2zo",
+      "type" : "TECHNICAL",
+      "content" : "How do you pass a unique_ptr to a function?"
+    }, {
+      "id" : "q_5mkTUd9vBabqfnmSip84cc",
+      "type" : "TECHNICAL",
+      "content" : "Implement the Singleton Design Pattern."
+    }, {
+      "id" : "q_KXiULFU8KHbfgNCdDgTvFf",
+      "type" : "TECHNICAL",
+      "content" : "What design patterns do you use in your current project?"
+    }, {
+      "id" : "q_R9gS2bWD9KEpVtT8D5S8DK",
+      "type" : "TECHNICAL",
+      "content" : "Explain any design pattern of your choice."
+    } ]
+  }, {
+    "id" : "r_HaG2zfBksCEWBH8HGZaEUP",
+    "questions" : [ {
+      "id" : "q_7WyeC9MBCJvdvHzni8ipAB",
+      "type" : "TECHNICAL",
+      "content" : "Which design pattern is being used here?"
+    }, {
+      "id" : "q_WjYdfLf3PXpmDYcRNenrta",
+      "type" : "TECHNICAL",
+      "content" : "What is multiple inheritance in C++?"
+    }, {
+      "id" : "q_VdKuPBJqhfiG6549pf81bt",
+      "type" : "TECHNICAL",
+      "content" : "What problems can occur with multiple inheritance?"
+    }, {
+      "id" : "q_TxR6PWz13Uhc3GJiTLbLsz",
+      "type" : "TECHNICAL",
+      "content" : "Explain the diamond problem."
+    }, {
+      "id" : "q_NCxLWBSymMc7QmJZvPfv9h",
+      "type" : "TECHNICAL",
+      "content" : "How can we solve the diamond problem?"
+    }, {
+      "id" : "q_XmdfxeedTYntotdc2WZMJm",
+      "type" : "TECHNICAL",
+      "content" : "Explain virtual inheritance."
+    }, {
+      "id" : "q_DXJghyyGaYNFjJgVARRUjJ",
+      "type" : "TECHNICAL",
+      "content" : "Can you achieve the same functionality without using multiple inheritance?"
+    }, {
+      "id" : "q_BfRHF2V59ejnaM8ifJzrBJ",
+      "type" : "DSA",
+      "content" : "There is an egg tray containing 12 eggs, indexed from 0 to 11. You are provided with a function rand(min, max) which returns a random integer within the specified range. The requirement was: 1. First, randomly choose k, the number of eggs to sample, using the same rand(min, max) function. 2. Then select k random eggs from the tray. 3. All selected egg indices must be unique. 4. The same egg cannot be selected twice. 5. The expected complexity was approximately O(k + 12)."
+    } ]
+  } ],
+  "date" : "2026-07-28"
+}, {
+  "id" : "i_QXAciTH51TiJnDqqfaCEhG",
+  "leetcodeId" : "8423365",
+  "company" : "Qualys",
+  "role" : "SE2 Java",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_n6VVADyVVRsP64XgnE2PE",
+    "questions" : [ {
+      "id" : "q_99YAeYKGeWMtFhfkXaaYeq",
+      "type" : "BEHAVIOURAL",
+      "content" : "How would your typical day be in your current org?"
+    }, {
+      "id" : "q_3JkoHKUMcmY7gnZhrhFzes",
+      "type" : "TECHNICAL",
+      "content" : "JWT internals"
+    }, {
+      "id" : "q_HqoRYF8x6zHHU59KC77XDP",
+      "type" : "TECHNICAL",
+      "content" : "Authentication vs Authorization (including error codes)"
+    }, {
+      "id" : "q_YD3WPqhWdmoD44qXVEhSh5",
+      "type" : "TECHNICAL",
+      "content" : "How did you implement Sliding windo rate limiting algo in Lua Scipt?"
+    }, {
+      "id" : "q_3Yspx1r7Zyk35d3EiBrcvb",
+      "type" : "TECHNICAL",
+      "content" : "Redis Internals"
+    }, {
+      "id" : "q_8VY2YLYbmm8dZ4QRyMweB4",
+      "type" : "TECHNICAL",
+      "content" : "How is Lua Script atomic in nature?"
+    }, {
+      "id" : "q_97KjC4kVt19MKsFh2K5fUn",
+      "type" : "DSA",
+      "content" : "Top K Freq elements coding problem (DSA medium): Code should run"
+    } ]
+  }, {
+    "id" : "r_shFDRS5HEgHeMWmYMMgdP",
+    "questions" : [ {
+      "id" : "q_TxNRoGiREpUmjgGvNMvqTG",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain all the rate Limiting algos you have implemented & their pros & cons?"
+    }, {
+      "id" : "q_6rkfjv628UJdotqeccPn2h",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Explain synchronized in Java?"
+    }, {
+      "id" : "q_9dXh3mYWgGWESwhyvGs8u3",
+      "type" : "TECHNICAL",
+      "content" : "How will you make production logs debuggable?"
+    }, {
+      "id" : "q_6M6a61jSMu1VyH9qYLs76i",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Springboot Injector, and other annotations"
+    }, {
+      "id" : "q_Vop8gtLnk6bxZ8wbcvBWYL",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design an order service, how will you make POST calls idempotent?"
+    }, {
+      "id" : "q_D6FBXstcM6BLZQp8ka9MyE",
+      "type" : "DSA",
+      "content" : "Is a Annagram coding probkem(DSA easy)"
+    }, {
+      "id" : "q_Y6naaQsEjvHUM6dhfjQ25N",
+      "type" : "TECHNICAL",
+      "content" : "Views & questions on vibe coding & Agentic coding"
+    } ]
+  }, {
+    "id" : "r_MBYN26nYJSmYMabibawdzX",
+    "questions" : [ {
+      "id" : "q_JX9xifNouh36jBRXyVXuty",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What was your most excited project that you worked in prev org?"
+    }, {
+      "id" : "q_44wkfYCQqDt7a6tjWxCFrs",
+      "type" : "TECHNICAL",
+      "content" : "If cache latency is in seconds, how will you optimise to ms?"
+    }, {
+      "id" : "q_PqBHkSuJRYAXE51t64KA93",
+      "type" : "TECHNICAL",
+      "content" : "How will you handle DB operations to multiple DB's?"
+    }, {
+      "id" : "q_NEmj1HJ5hsuDJ1RC9znByP",
+      "type" : "TECHNICAL",
+      "content" : "How will you handle conflicts between the data?"
+    }, {
+      "id" : "q_9Smpzeg2462UxNZzH7aANB",
+      "type" : "TECHNICAL",
+      "content" : "Is Redis Single threaded? why and how"
+    }, {
+      "id" : "q_DTLVG5paRP4dV8ib4b1gK1",
+      "type" : "HR",
+      "content" : "What is your current & expected CTC"
+    }, {
+      "id" : "q_BxiuRR5HdeTxvXyN8oQgd",
+      "type" : "BEHAVIOURAL",
+      "content" : "How should we ensure, you will not to do Offer Hopping?"
+    } ]
+  } ],
+  "date" : "2026-07-27"
+}, {
+  "id" : "i_PCxaNnQL8Weset9cikh6t8",
+  "leetcodeId" : "8422162",
+  "company" : "Target",
+  "role" : "Backend Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_R17CYstU7qqpJ1xcR1N2mH",
+    "questions" : [ {
+      "id" : "q_7n1afCBgHQRUywYaWt64Xt",
+      "type" : "DSA",
+      "content" : "Find distance between two strings (delete, replace, insert) for Q queries and return minDis String from S strings."
+    }, {
+      "id" : "q_XwMW2jJvyVBJ6FPWYGtFLd",
+      "type" : "DSA",
+      "content" : "Find LuckyNumbers from [l,r]. 1<= l,r <= 10^18 lucky numbers x are integers, which are divisible by floor(sqRoot(x))."
+    }, {
+      "id" : "q_TSh4ikHnpNTLrfgAEA2Hqv",
+      "type" : "DSA",
+      "content" : "Synchronised ticket booking system where total N seats are available. you return for Q queries first seat available, if not available -1; First available seat is assigned (assuming enough seats are there)."
+    } ]
+  } ],
+  "date" : "2026-07-26"
+}, {
   "id" : "i_UrmFnyRfAUFXqfs74KEMtR",
   "leetcodeId" : "8414303",
   "company" : "eBay",
