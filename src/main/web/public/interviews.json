@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_DD9haiYoxhBKfgHH3sanyY",
+  "leetcodeId" : "8453124",
+  "company" : "TCS",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_FvKVa5NXmeoKSZ2LP9ddCV",
+    "questions" : [ {
+      "id" : "q_37o7ZhBUwyevuN3Cudnask",
+      "type" : "DSA",
+      "content" : "Count the number of elements smaller than a given ordered value that appeared on its left side in an array."
+    }, {
+      "id" : "q_GDp9gR5cKyGemKH1UQ3TLZ",
+      "type" : "DSA",
+      "content" : "Count the number of inversions or swaps during the merge sort process."
+    } ]
+  } ],
+  "date" : "2026-08-10"
+}, {
   "id" : "i_JVnXjf2n36ascy2wx5JsFR",
   "leetcodeId" : "8442899",
   "company" : "American Express",
