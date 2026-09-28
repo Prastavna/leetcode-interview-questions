@@ -1,4 +1,76 @@
 [ {
+  "id" : "i_4P6AJgV5ZGtcFgcU9Mwb3k",
+  "leetcodeId" : "8459449",
+  "company" : "American Express",
+  "role" : "Summer Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_CYpfsuNCLbhPQhDb7z5fqH",
+    "questions" : [ {
+      "id" : "q_RYVZd2MkiLtAgFna4CQ9HM",
+      "type" : "DSA",
+      "content" : "Given an array A of n integers (both positive and negative), choose two contiguous fragments — one of size K and one of size L. The two fragments may overlap. Each element contributes to the final sum only once: if it lies in only one of the two fragments, it's added with its original sign; if it lies in both fragments, it's added with its sign flipped (negated). Find the maximum possible sum."
+    }, {
+      "id" : "q_TjzJDs8CCcmk6vXT1CUyRa",
+      "type" : "DSA",
+      "content" : "Given an N x M boolean grid representing a map, where A[R][C] = true means a solar power plant can be built on that cell, and false means it cannot. Place two square-shaped power plants such that: Both squares are the same size. Every cell inside each square is true. The two squares do not share any cell (no overlap). A single cell (1×1) counts as a valid square. Find the maximum possible side length of the two equal squares."
+    } ]
+  } ],
+  "date" : "2026-08-13"
+}, {
+  "id" : "i_HQELWyWyFVCzV9oWFRXLxf",
+  "leetcodeId" : "8458441",
+  "company" : "Aspora",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_CdqRXGdyjFNLkB6pH8uNoT",
+    "questions" : [ {
+      "id" : "q_W2Ff2TZ45jhiRMQLiejZfc",
+      "type" : "HLD",
+      "content" : "Design a checkout system for a flash sale"
+    } ]
+  } ],
+  "date" : "2026-08-13"
+}, {
+  "id" : "i_AZNTkUJZ23MGqFCg9AdM5b",
+  "leetcodeId" : "8454604",
+  "company" : "Adobe",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_PJU2uDviyG9cE53WZR8Enn",
+    "questions" : [ {
+      "id" : "q_TGsYWkDz9WMCvza4pe7tsx",
+      "type" : "TECHNICAL",
+      "content" : "The problem required finding: 1. The village(s) that received the maximum total funding in 2024. 2. For those villages, the project(s) that received the maximum funding within that village. 3. Return the village name, project name, and the corresponding funding amount."
+    } ]
+  } ],
+  "date" : "2026-08-11"
+}, {
+  "id" : "i_65xzNJRv7nzwuBGvrwScdE",
+  "leetcodeId" : "8454303",
+  "company" : "micro1",
+  "role" : "Software Engineer, New Grad AI",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QiZrVaZPyR4mrYxiE6Tft1",
+    "questions" : [ {
+      "id" : "q_PKQAF1zfkokYY9oXzFqEzF",
+      "type" : "LLD",
+      "content" : "Explain LLD concepts such as rate limiting and caching."
+    }, {
+      "id" : "q_3QcBwwjLddjfjoa1pxWbCu",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What are the differences between Promise.all(), Promise.any(), and Promise.allSettled()?"
+    }, {
+      "id" : "q_ArMozjgmso1iuPky7Rkzqa",
+      "type" : "DSA",
+      "content" : "Merge Intervals (LeetCode 56)"
+    } ]
+  } ],
+  "date" : "2026-08-11"
+}, {
   "id" : "i_DD9haiYoxhBKfgHH3sanyY",
   "leetcodeId" : "8453124",
   "company" : "TCS",
