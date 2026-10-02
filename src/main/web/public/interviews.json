@@ -1,4 +1,54 @@
 [ {
+  "id" : "i_4Bf7pBttZ8b5K1KcU542xR",
+  "leetcodeId" : "8488656",
+  "company" : "IBM",
+  "role" : "Application developer-Cloud fullstack",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_AwEVYyLptkzCFjrW7UTxtt",
+    "questions" : [ {
+      "id" : "q_Ynth8K86PtMo54UYc4Tno",
+      "type" : "DSA",
+      "content" : "Maximize Rental Revenue: In a cloud computing platform, there are n virtual machine (VM) types. The number of available instances for each type is given in an array vmStock of size n. Each customer rents exactly one VM. The price paid is the current available instance count of the chosen VM type at that moment. Customers arrive sequentially (m customers total). Each customer always selects the VM type that is currently most expensive, meaning the type with the highest remaining stock. If multiple VM types tie for highest stock, any of them may be chosen. After a VM is rented, that chosen VM type's stock decreases by 1. Compute the total maximum revenue earned after serving all m customers."
+    }, {
+      "id" : "q_2BkHKXocbbVd6C5121eBdG",
+      "type" : "DSA",
+      "content" : "plusMult (pluwult): Given an array A of integers, determine whether the array is ODD, EVEN, or NEUTRAL using the calculations for even-indexed and odd-indexed elements alternating between multiplication and addition evaluated modulo 2."
+    } ]
+  } ],
+  "date" : "2026-08-29"
+}, {
+  "id" : "i_3aadE6VseiCspRRfiV6oWK",
+  "leetcodeId" : "8485816",
+  "company" : "Kotak Mahindra Bank",
+  "role" : "SDE-2",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_TNsphn2N8AqSPtENDTDGPm",
+    "questions" : [ {
+      "id" : "q_BExBhhygvjUEGaxoqfoUxb",
+      "type" : "DSA",
+      "content" : "Find the longest common prefix of the given strings."
+    }, {
+      "id" : "q_VRZL3xxByobxPkCZkvTBvT",
+      "type" : "LLD",
+      "content" : "Design Event ticket booking System LLD. Asked about api design, db schema , class design, design patterns to be used."
+    }, {
+      "id" : "q_Y8tZktVFTKXkUZ3JTSGNFT",
+      "type" : "TECHNICAL",
+      "content" : "Strong consistency vs Eventual consistency"
+    }, {
+      "id" : "q_TBhrSLWqphnrH79rBySS9S",
+      "type" : "TECHNICAL",
+      "content" : "CircuitBreaker."
+    }, {
+      "id" : "q_68LtL5QAhJa7jJoGrwTZ79",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "How to handle idempotency if user tries to click on the book seat button multiple times."
+    } ]
+  } ],
+  "date" : "2026-08-27"
+}, {
   "id" : "i_UBGWysKi21B7yCGruWMdrf",
   "leetcodeId" : "8481423",
   "company" : "Tekion",
