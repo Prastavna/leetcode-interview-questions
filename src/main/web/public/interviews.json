@@ -1,4 +1,140 @@
 [ {
+  "id" : "i_Jcc7U6f7weUfPDNBteRmBS",
+  "leetcodeId" : "8506015",
+  "company" : "Natwest Group",
+  "role" : "Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_KS1eLHGSrpfskq4rtAiDVN",
+    "questions" : [ {
+      "id" : "q_dFBQwtRVDmT5qZobHESjT",
+      "type" : "TECHNICAL",
+      "content" : "MCQs on SQL covering queries related to deleting, alter, views, order by, rollback and joins."
+    }, {
+      "id" : "q_8aK3GmdSXD1zD1AXTPwHhP",
+      "type" : "DSA",
+      "content" : "Number of components"
+    }, {
+      "id" : "q_9R4fYk46t89AiHgRMas6Wv",
+      "type" : "DSA",
+      "content" : "Given a parent string parent and a substring sub, return the number of times sub occurs in parent, ignoring case differences between letters."
+    } ]
+  } ],
+  "date" : "2026-09-06"
+}, {
+  "id" : "i_XUdJHMJ87AJAQeFFGQRywR",
+  "leetcodeId" : "8500357",
+  "company" : "Adyen",
+  "role" : "SWE",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_AGi58eoiPvN4P5S1rTXiLR",
+    "questions" : [ {
+      "id" : "q_ECVwnhy43k4hLVoUJQCfcB",
+      "type" : "HR",
+      "content" : "Why looking for a change"
+    }, {
+      "id" : "q_TLNGtLBByCKbn523WU2J2n",
+      "type" : "HR",
+      "content" : "Current role and responsibilities"
+    }, {
+      "id" : "q_7WcFgEzEpUWKFh2kuZA67L",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Best project so far and most challenging work done by me in that"
+    }, {
+      "id" : "q_Fonfz5oKDG4J2HrFqeavKn",
+      "type" : "TECHNICAL",
+      "content" : "Current tech stack and How do I make use of AI in day to day work"
+    }, {
+      "id" : "q_Ecwah4S5p7oixFASJVzRaC",
+      "type" : "HR",
+      "content" : "Discussion on relocation, cctc vs ectc, offered position of swe role"
+    } ]
+  }, {
+    "id" : "r_Rec6JwvQGzq3juvgA2S5De",
+    "questions" : [ {
+      "id" : "q_L78GPiN4UVmTT9cHbojuus",
+      "type" : "DSA",
+      "content" : "https://cses.fi/problemset/task/1750"
+    } ]
+  } ],
+  "date" : "2026-09-03"
+}, {
+  "id" : "i_BcPVAv7x65kaGyR7ymNWKV",
+  "leetcodeId" : "8500258",
+  "company" : "Salesforce",
+  "role" : "MTS",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_QSkwxqKCEMxZzJhZtXCset",
+    "questions" : [ {
+      "id" : "q_JDhsdzKB7S8dCu6hMjsV46",
+      "type" : "DSA",
+      "content" : "Valid Parentheses"
+    }, {
+      "id" : "q_Cju5WYtpRViLxzb6SduszL",
+      "type" : "DSA",
+      "content" : "Budget / Project Selection"
+    } ]
+  }, {
+    "id" : "r_QgmoGKkcpZsR4KffaPijnJ",
+    "questions" : [ {
+      "id" : "q_EqdWYbPZ2HatEwaXY63WvL",
+      "type" : "DSA",
+      "content" : "Path With Maximum Probability"
+    }, {
+      "id" : "q_2fqL8JcG3rDpGqCUQKVYtw",
+      "type" : "DSA",
+      "content" : "House Robber"
+    } ]
+  }, {
+    "id" : "r_bQczwSKcSs2YsEanHnMyu",
+    "questions" : [ {
+      "id" : "q_JDbZBGPH5xB4pAo5F6zisQ",
+      "type" : "DSA",
+      "content" : "LRU Cache"
+    } ]
+  } ],
+  "date" : "2026-09-03"
+}, {
+  "id" : "i_BN5eMvzMssNG1rNHSEXRhG",
+  "leetcodeId" : "8499472",
+  "company" : "BharatPe",
+  "role" : "Tech Lead",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_9zWiychLM5YHHz3UEjFbbv",
+    "questions" : [ {
+      "id" : "q_8NpML9JWVmuCKMe8aUdUj6",
+      "type" : "DSA",
+      "content" : "Merge K sorted linked lists"
+    }, {
+      "id" : "q_JzXhMBqWgH7AFUdsCcazk5",
+      "type" : "DSA",
+      "content" : "Given debit and credit of a wallet in form or integer array one needs to return the user balance on any selected day(array index)"
+    } ]
+  } ],
+  "date" : "2026-09-03"
+}, {
+  "id" : "i_Ak1VhKgaXEkKrQtinrYwUW",
+  "leetcodeId" : "8499468",
+  "company" : "Agoda",
+  "role" : "Staff Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_E6sZt2QU2cmGYBSXPcn2V3",
+    "questions" : [ {
+      "id" : "q_S55PBUxw5wNiievMAvqzBS",
+      "type" : "DSA",
+      "content" : "Find pivot element from a given array, all elements towards left are smaller and all elements towards right are greater than pivot."
+    }, {
+      "id" : "q_ThDm73b8KZZcxAtH8JQJxP",
+      "type" : "DSA",
+      "content" : "Given a chemical formula like CH4, return its weight, each element has a separate weight like C has 12, H has 1, O has 2."
+    } ]
+  } ],
+  "date" : "2026-09-03"
+}, {
   "id" : "i_PyQMvGgmUeAr1947aYGWEr",
   "leetcodeId" : "8496204",
   "company" : "Keploy",
