@@ -1,4 +1,53 @@
 [ {
+  "id" : "i_X8bkc46ZiLcmsMcNivppLD",
+  "leetcodeId" : "8509543",
+  "company" : "Tekion",
+  "role" : "Staff Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_GwgTsDVtNVL71dfqFfXzSN",
+    "questions" : [ {
+      "id" : "q_Q1347fm3U8cXAhobtz5jjm",
+      "type" : "DSA",
+      "content" : "Suppose you're in a hallway lined with 100 closed lockers. You begin by opening every locker. Then you close every second locker. Then you go to every third locker and toggle it — open it if it's closed, or close it if it's open. Continue this process for 100 passes. After the final pass, how many lockers are open?"
+    }, {
+      "id" : "q_6gsdKLmFD4YVUdyeuvQS21",
+      "type" : "DSA",
+      "content" : "A and B decide to play a coin game where each player gets a turn one by one. There is a row of even number of coins, and a player on his/her turn can pick a coin from any of the two corners of the row. The player that collects coins with more value wins the game. A being the younger one gets to play the first move."
+    } ]
+  } ],
+  "date" : "2026-09-08"
+}, {
+  "id" : "i_KsnheHfWX3hMw4pZBxRort",
+  "leetcodeId" : "8507623",
+  "company" : "HCL",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_J7PtqREJceRxbLy5qVqABh",
+    "questions" : [ {
+      "id" : "q_5BLujMambCb6SoKg2znEv8",
+      "type" : "DSA",
+      "content" : "Print the second highest non-repeated character in the given string."
+    } ]
+  } ],
+  "date" : "2026-09-07"
+}, {
+  "id" : "i_75tUXx3pUDkDrRuDyMFtBK",
+  "leetcodeId" : "8506568",
+  "company" : "Verily",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_y7GJEAvKbFE55subRvwUh",
+    "questions" : [ {
+      "id" : "q_hFb4Ns14aMWKjdB6pnTrm",
+      "type" : "DSA",
+      "content" : "You're given a list of elements. Each element has a unique id and 3 properties. Two elements are considered related if they share any of the 3 properties. Please write a function that takes the input and returns all the related IDs. - E1: id1, p1, p2, p3 - E2: id2, p1, p6, p5 - E3: id3, p3, p7, p8 Expected output: [[\"id1\", \"id2\"], [\"id1\", \"id3\"]]"
+    } ]
+  } ],
+  "date" : "2026-09-07"
+}, {
   "id" : "i_Jcc7U6f7weUfPDNBteRmBS",
   "leetcodeId" : "8506015",
   "company" : "Natwest Group",
