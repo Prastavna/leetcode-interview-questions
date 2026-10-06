@@ -1,4 +1,259 @@
 [ {
+  "id" : "i_WAQ8CvH2KfBXKPGAHAB5fj",
+  "leetcodeId" : "8543160",
+  "company" : "Google",
+  "role" : "L3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_WS13FweLUcQBXpo9HpNLGs",
+    "questions" : [ {
+      "id" : "q_CQroLDPZpjh3XMdUnDKXeN",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about your experience"
+    }, {
+      "id" : "q_75U5riQDFsW9grm8ncthKU",
+      "type" : "TECHNICAL",
+      "content" : "How do you use AI in your work?"
+    }, {
+      "id" : "q_R3rsSuSuDbTgJWG1D4tB6F",
+      "type" : "BEHAVIOURAL",
+      "content" : "What are you looking for in a manager?"
+    } ]
+  } ],
+  "date" : "2026-09-27"
+}, {
+  "id" : "i_V1aQaE4j5YVNcoJ3uDGGx",
+  "leetcodeId" : "8542860",
+  "company" : "Addepar",
+  "role" : "SSE Frontend",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_M1dSxnFbacNGMCe8J9JVvx",
+    "questions" : [ {
+      "id" : "q_Pef3kGmgiJudkHhJdAxt1s",
+      "type" : "DSA",
+      "content" : "Flat Object Array to Hierarchical Tree: Given a flat array of objects each with id and parentId, write an optimal algorithm to convert this flat structure into a deeply nested hierarchical tree."
+    } ]
+  } ],
+  "date" : "2026-09-27"
+}, {
+  "id" : "i_LfPbB88mDaD7HjGKonhkJr",
+  "leetcodeId" : "8539503",
+  "company" : "Eightfold AI",
+  "role" : "Senior Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_DMLESnvvLScxKV1VqcQa2Q",
+    "questions" : [ {
+      "id" : "q_98mjjVJ5goDrLtyC3H8vFE",
+      "type" : "LLD",
+      "content" : "Implemented a Meeting Room Booking System with support for recurring bookings."
+    } ]
+  }, {
+    "id" : "r_P2ao195BHsca7KjZAeSRBo",
+    "questions" : [ {
+      "id" : "q_VzqQNQdvB3uxmjfWm7GtRU",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "The problem involved collecting a stream of data, processing it, and performing actions based on the input."
+    } ]
+  } ],
+  "date" : "2026-09-25"
+}, {
+  "id" : "i_9FnyxpSQ9kNdzz9XA6GEfd",
+  "leetcodeId" : "8528072",
+  "company" : "Amazon",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VJqx6PXomxtqhKz2iVhnRY",
+    "questions" : [ {
+      "id" : "q_CMcRR2h9pDFiSZ2nixMHcD",
+      "type" : "DSA",
+      "content" : "You are given an integer totalInventory representing the total number of items available. You are also given a 2D array requests, where each request is represented as: [customerId, quantity, bidAmount, timestamp]. Return the IDs of all customers who received zero items, sorted in ascending order."
+    } ]
+  } ],
+  "date" : "2026-09-18"
+}, {
+  "id" : "i_CkAKyJkTEg8pj7kfx2wXph",
+  "leetcodeId" : "8524867",
+  "company" : "Persistent Systems",
+  "role" : "Senior Telecom Software Developer",
+  "yoe" : 3,
+  "rounds" : [ {
+    "id" : "r_EM1ncfB6GfsUrz4KFMHni8",
+    "questions" : [ {
+      "id" : "q_T3zuYmHB6rcJt4LKoDfibK",
+      "type" : "DSA",
+      "content" : "Write a program to reverse a string."
+    } ]
+  } ],
+  "date" : "2026-09-16"
+}, {
+  "id" : "i_4kreHxSEnq8Vn9nWyPoZPy",
+  "leetcodeId" : "8522798",
+  "company" : "WorldQuant",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_5w5gVSjXBW5HXjZivzE6cq",
+    "questions" : [ {
+      "id" : "q_Jvqqj2xyPFmfatbuxCJLyc",
+      "type" : "DSA",
+      "content" : "You are given an array of positive integers coins, representing available coin denominations, and an integer target. Return the number of different combinations of coins that add up exactly to target."
+    } ]
+  } ],
+  "date" : "2026-09-15"
+}, {
+  "id" : "i_Q8WLZqvXczGGyLXtqwQWnx",
+  "leetcodeId" : "8521331",
+  "company" : "Alpha Law",
+  "role" : "Full stack engineer",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_DMLwadtDxCf65inAa3eJ3G",
+    "questions" : [ {
+      "id" : "q_HkwLwexAExNz7qvFEW9e1W",
+      "type" : "HLD",
+      "content" : "How to scale arch to 1M users"
+    } ]
+  } ],
+  "date" : "2026-09-14"
+}, {
+  "id" : "i_DEqELPbZU5nPCxYPKsz2wH",
+  "leetcodeId" : "8520635",
+  "company" : "Apexon",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Kyb9Wq98f9TQpvMNzCUfoH",
+    "questions" : [ {
+      "id" : "q_XUQVYrrZyRF3NKUDfgUzZU",
+      "type" : "TECHNICAL",
+      "content" : "How HashMap works Internally."
+    }, {
+      "id" : "q_87rk92CAbkHSsdDC2d7aWU",
+      "type" : "TECHNICAL",
+      "content" : "Differnce between FastFail and Failsafe"
+    }, {
+      "id" : "q_QDUE3FPyWLHsKvQ7jH3J11",
+      "type" : "TECHNICAL",
+      "content" : "Runtime polymorphism vs compile time polymorphism."
+    }, {
+      "id" : "q_CoCAPA7mPLXUpTEQysYE3N",
+      "type" : "TECHNICAL",
+      "content" : "Runnable vs callable."
+    }, {
+      "id" : "q_MqRhR6R3BwGqwgfFkhxg1i",
+      "type" : "TECHNICAL",
+      "content" : "Springboot annotations."
+    }, {
+      "id" : "q_NiQkbwAgENzkx6DfufAcVQ",
+      "type" : "TECHNICAL",
+      "content" : "If application gets a request how it api knows its request body."
+    }, {
+      "id" : "q_3BhowBQCHqRYNrgzLH5nEg",
+      "type" : "TECHNICAL",
+      "content" : "How to optimise Database."
+    }, {
+      "id" : "q_3GYGMSWB8DeB1PQLaaUuDP",
+      "type" : "TECHNICAL",
+      "content" : "Indexing."
+    }, {
+      "id" : "q_S326UtkiX1rvwqQDbNxRzM",
+      "type" : "TECHNICAL",
+      "content" : "life cycle of bean"
+    }, {
+      "id" : "q_Xt3L1xkBi6beXbnq1kXauy",
+      "type" : "TECHNICAL",
+      "content" : "life cycle of scope"
+    }, {
+      "id" : "q_DU7vwtuRyjTXBhWpdgUvPL",
+      "type" : "DSA",
+      "content" : "program : move all the zeroes to end in array."
+    }, {
+      "id" : "q_AVUuq2RkLZMeVYFCzy11z2",
+      "type" : "TECHNICAL",
+      "content" : "PutMapping vs Post Mapping."
+    }, {
+      "id" : "q_ANnEbmXVAVEtK2w2dqy6ws",
+      "type" : "DSA",
+      "content" : "Given Array Shift all the Zeroes at the End."
+    } ]
+  } ],
+  "date" : "2026-09-14"
+}, {
+  "id" : "i_8S916aJMXU2e7iZ39v7UKD",
+  "leetcodeId" : "8519025",
+  "company" : "Emerson",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_KxLZSiWJFLHFsm6pjGa8Tt",
+    "questions" : [ {
+      "id" : "q_9V1wRtPAU9pKokgh5dhwjX",
+      "type" : "DSA",
+      "content" : "Spider-Man visits N buildings consecutively. The resistance level of each building is given in an array a. For every building i, calculate the sum of the resistance levels of all previously visited buildings j such that: j < i and a[j] < a[i]. The total web tension is the sum of these values for all buildings. Return the answer modulo 10^9 + 7."
+    } ]
+  } ],
+  "date" : "2026-09-13"
+}, {
+  "id" : "i_FJS2Spci3SVwTjUDfvYwFZ",
+  "leetcodeId" : "8518691",
+  "company" : "Juspay",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_FhoNAs4s6HKuyTvB8Poof6",
+    "questions" : [ {
+      "id" : "q_Y6JcZn76kau9RXzEL8b5ri",
+      "type" : "DSA",
+      "content" : "Given a tree with weighted edges and q queries of two types (1. update the edge between x1 and x2, 2. find the shortest distance between two nodes given x1 and x2), return the sum of all the shortest distance in all given sum type queries."
+    }, {
+      "id" : "q_RtPZgYLszo3fiMLChkXcmE",
+      "type" : "DSA",
+      "content" : "Given an array and a window size k, return the minimum of all the peaks of the fixed k size windows, where a peak is defined as the highest value in the window."
+    } ]
+  } ],
+  "date" : "2026-09-13"
+}, {
+  "id" : "i_5ygU2qmDYv5TYwk69MBTft",
+  "leetcodeId" : "8517587",
+  "company" : "Apple",
+  "role" : "SDET",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_Enan24JjFKCzQBJJRhiSG",
+    "questions" : [ {
+      "id" : "q_UJ8WCKkvmiiGVcxjnnXZa5",
+      "type" : "DSA",
+      "content" : "Write a program to \"factorize\" the extremities of two ASCII strings str1 and str2. Your must return a single string, initially made from the concatenation of two given strings. The longest substrings that is common between the end of the first string and the beginning of the second one must be factorized (written only once). You must decide the concatenation order str1 + str2 or str2 + str1 so that you get the best factorization."
+    } ]
+  } ],
+  "date" : "2026-09-12"
+}, {
+  "id" : "i_Y3sCCuN2JZcpFLKUMgzjpc",
+  "leetcodeId" : "8517421",
+  "company" : "SquadStack",
+  "role" : "Core Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VvoerMDx1pRTh8a8JPfC3c",
+    "questions" : [ {
+      "id" : "q_77cYguukJQjZgDxxeXbdos",
+      "type" : "DSA",
+      "content" : "Decode Ways - LeetCode 91 (with a twist): minimize the cost of reading the string where reading a character is associated with a cost."
+    }, {
+      "id" : "q_DCafHZwePx3LVbs6K12RFb",
+      "type" : "DSA",
+      "content" : "Minimum Seats Required - Car Pooling — LeetCode 1094: Find the minimum number of seats required in the car to accommodate all passengers given stops array with number of passengers, start point, and end point."
+    }, {
+      "id" : "q_EXL9V612yWvhU5wEjfqnbk",
+      "type" : "TECHNICAL",
+      "content" : "Find the Dominant Seller: Calculate the total revenue generated by each seller from Sellers and Orders tables, and return the seller_id and total_revenue of all dominant sellers whose total revenue is strictly greater than the combined total revenue of all other sellers."
+    } ]
+  } ],
+  "date" : "2026-09-12"
+}, {
   "id" : "i_TPmEsXgeJjcjQTwx8pVQJc",
   "leetcodeId" : "8515948",
   "company" : "Kotak",
