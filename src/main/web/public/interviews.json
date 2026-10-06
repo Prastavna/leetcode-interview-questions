@@ -1,4 +1,50 @@
 [ {
+  "id" : "i_5HmompuR3XhDbZ63KtbZkF",
+  "leetcodeId" : "8545634",
+  "company" : "Chubb",
+  "role" : "SDE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VVHxKCiynqMrR64UgDEhar",
+    "questions" : [ {
+      "id" : "q_LKtqNdRDBsp7P6WeNTPHS9",
+      "type" : "DSA",
+      "content" : "You are given a cost array where the weight of the i-th element is strictly 2^i (0-indexed). You are also given a target minWeight. You can pick any element multiple times. Find the minimum total cost to achieve a combined weight of at least minWeight."
+    }, {
+      "id" : "q_HmGN52hQajh6zfpMZdBZYX",
+      "type" : "DSA",
+      "content" : "You are given N markers on a track (numbered 1 to N) and an array of sprints. Each adjacent pair in the sprints array represents the starting and ending points of a sprint (which can run forwards or backwards). Return the lowest numbered marker that is visited the maximum number of times across all sprints."
+    }, {
+      "id" : "q_PwCCrQD59r3k2vdmJydTdb",
+      "type" : "DSA",
+      "content" : "You are given two fully stringified JSON objects representing flat key-value pairs. Parse both JSON strings and return a sorted list of all keys that are present in both JSONs but have different values."
+    }, {
+      "id" : "q_PrcLjxz2BpXngHMXL25LQg",
+      "type" : "DSA",
+      "content" : "You are given two arrays, current and desired (both contain the same elements). You can perform exactly one type of operation: extract the last element of the current array and insert it anywhere in the array. Find the minimum number of operations required to transform current into desired."
+    }, {
+      "id" : "q_P8Xff7SwW4AQpiKPSqEA4p",
+      "type" : "DSA",
+      "content" : "There are N students sitting in a line at indices 0 to N - 1. You are given an array pos representing the indices where teachers are standing. For each teacher at index p, the teacher assigns a value of 0 to the student at index p. For all other students, the assigned value increases by +1 for each step moving to the left of p, and similarly increases by +1 for each step moving to the right of p. A student's final score is the maximum value they receive across all teachers. Return an array of these maximum values for all students."
+    } ]
+  } ],
+  "date" : "2026-09-28"
+}, {
+  "id" : "i_35pap5waquWkvUHG8RuGgr",
+  "leetcodeId" : "8544890",
+  "company" : "Lloyds Technology Centre",
+  "role" : "Android Developer",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_WdvymoLSV5BCft5mEDZRzv",
+    "questions" : [ {
+      "id" : "q_QGez2mpq6uiQBbp3566KDL",
+      "type" : "DSA",
+      "content" : "Print all duplicate numbers (Appears twice in an Array)."
+    } ]
+  } ],
+  "date" : "2026-09-28"
+}, {
   "id" : "i_WAQ8CvH2KfBXKPGAHAB5fj",
   "leetcodeId" : "8543160",
   "company" : "Google",
