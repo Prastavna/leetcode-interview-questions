@@ -1283,6 +1283,32 @@
   } ],
   "date" : "2026-08-01"
 }, {
+  "id" : "i_8d4PgyZLfTur5spqa9XBcJ",
+  "leetcodeId" : "8428615",
+  "company" : "SIG",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_LShU86aeJwCoGyuH42DzVd",
+    "questions" : [ {
+      "id" : "q_VzFi2s61YgkogQ5ZaVNEaH",
+      "type" : "DSA",
+      "content" : "The code was reading in a CSV file of movies and exposing a search method that allowed searching based on genre and a year range. It started with a naive O(N) search. You are given 30 minutes to optimize the code. Use hashmaps to index the movies based on genre and year window."
+    } ]
+  }, {
+    "id" : "r_W2rVw8vpb8ymBkLLE6Yp5A",
+    "questions" : [ {
+      "id" : "q_7VE1SdgsQR88sUH25VhJER",
+      "type" : "DSA",
+      "content" : "Basically given a list of headlines and company->ticker pairs, you need to load the names into a trie with tickers at the terminal nodes and fetch all of the tickers you can find. Important: need to be able to find all of the tickers in a string. For example, say 'Big global company' and 'global' both have valid tickers then the headline 'Big global company does the thing' needs to return both."
+    }, {
+      "id" : "q_VcnNHG5nPGYRC5YZbW9hzp",
+      "type" : "LLD",
+      "content" : "Cash Register with printed receipt"
+    } ]
+  } ],
+  "date" : "2026-07-29"
+}, {
   "id" : "i_Kf5Ws55iyopQAqoX1wyJNA",
   "leetcodeId" : "8425451",
   "company" : "ASM Technologies",

@@ -46,6 +46,7 @@ public class InterviewProcessor {
       }
 
       Interview interview = interviewOpt.get();
+      InterviewValidator.removeEmptyEntries(interview);
       List<String> validationErrors = InterviewValidator.validate(interview);
       if (!validationErrors.isEmpty()) {
         return ProcessingResult.skipped(

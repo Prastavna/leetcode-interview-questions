@@ -7,6 +7,33 @@ public final class InterviewValidator {
 
   private InterviewValidator() {}
 
+  /**
+   * Drops blank questions and the rounds left empty, so a stray empty round from the model
+   * doesn't make an otherwise valid interview fail validation.
+   */
+  public static void removeEmptyEntries(Interview interview) {
+    if (interview == null || interview.getRounds() == null) {
+      return;
+    }
+    List<Round> rounds = new ArrayList<>();
+    for (Round round : interview.getRounds()) {
+      if (round == null || round.getQuestions() == null) {
+        continue;
+      }
+      List<Question> questions = new ArrayList<>();
+      for (Question question : round.getQuestions()) {
+        if (question != null && question.getContent() != null && !question.getContent().isBlank()) {
+          questions.add(question);
+        }
+      }
+      if (!questions.isEmpty()) {
+        round.setQuestions(questions);
+        rounds.add(round);
+      }
+    }
+    interview.setRounds(rounds);
+  }
+
   public static List<String> validate(Interview interview) {
     List<String> errors = new ArrayList<>();
     if (interview == null) {
