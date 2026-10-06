@@ -1,4 +1,163 @@
 [ {
+  "id" : "i_TPmEsXgeJjcjQTwx8pVQJc",
+  "leetcodeId" : "8515948",
+  "company" : "Kotak",
+  "role" : "SDE 2",
+  "yoe" : 2,
+  "rounds" : [ {
+    "id" : "r_R6mFFmi93fshnXqP3vscDg",
+    "questions" : [ {
+      "id" : "q_AoS3bic2JgfZvYWQ3ere3F",
+      "type" : "DSA",
+      "content" : "is number palindrome"
+    }, {
+      "id" : "q_8WTr6KZCXZLZKSBcZoqw2x",
+      "type" : "DSA",
+      "content" : "valid parentheisis using stack"
+    }, {
+      "id" : "q_5fFCDHfFyH6U9uTakThrzp",
+      "type" : "LLD",
+      "content" : "event ticket booking system"
+    } ]
+  }, {
+    "id" : "r_BAn4KyBasgoZvC3T7PNV84",
+    "questions" : [ {
+      "id" : "q_7uqfvVS5caj3GMrA7LfEge",
+      "type" : "DSA",
+      "content" : "https://leetcode.com/problems/word-ladder/description/"
+    }, {
+      "id" : "q_KgVQRfWnYuQZ9g2AoJzvqj",
+      "type" : "LLD",
+      "content" : "implement payment trascation between two users with code"
+    } ]
+  }, {
+    "id" : "r_b9YTWzSmXjGjXwnQGPApY",
+    "questions" : [ {
+      "id" : "q_x4qcWNv9ATXVZD71GJKgc",
+      "type" : "LLD",
+      "content" : "Design ATM Machine"
+    } ]
+  } ],
+  "date" : "2026-09-11"
+}, {
+  "id" : "i_ToRnav4cKC7skRBqsnbF46",
+  "leetcodeId" : "8514985",
+  "company" : "Brex",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Mv8RcdhBCRTEapB9JVoHnr",
+    "questions" : [ {
+      "id" : "q_PuQksWmnBA2iUG3P3C3pES",
+      "type" : "MACHINE_CODING",
+      "content" : "We want to write a can_purchase() function such that, given a card and the player's gem collection, it returns true if the player can afford the card, and false otherwise."
+    }, {
+      "id" : "q_C7DBC6VgYv4RoG8xJSmqjh",
+      "type" : "MACHINE_CODING",
+      "content" : "Let's create a function called purchase() that takes as input a card and a player's collection of gems and checks if the player has enough gems to afford the card."
+    }, {
+      "id" : "q_EBwSjQTs9Y8dmt8otGLgXy",
+      "type" : "MACHINE_CODING",
+      "content" : "Now, we want to introduce the concept of discounts. The color of each card in the player's hand will be used to give a discount in the respective price of that gem’s color when purchasing a new card."
+    }, {
+      "id" : "q_4ASHsQXhiZfoL863WdySQS",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Imagine, now, that we are running this code in parallel where there may be multiple requests from the same player to purchase cards at the same time. How would your design change to accommodate this?"
+    } ]
+  } ],
+  "date" : "2026-09-11"
+}, {
+  "id" : "i_AZwR8nAEmtFMieNxKd6V3q",
+  "leetcodeId" : "8513902",
+  "company" : "IBM",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_EJdoGZEkvcR8MNqvJojm1T",
+    "questions" : [ {
+      "id" : "q_TRYzksewh4PLt5uaa8rLmV",
+      "type" : "DSA",
+      "content" : "Given an integer array named yCoordinates where yCoordinates[i] represents the Y axis and each index represents the X axis. Find the strictly increasing contiguous slope of the give points of size exactly K."
+    } ]
+  } ],
+  "date" : "2026-09-10"
+}, {
+  "id" : "i_SpC7mNMdPdpAoqb3ZJ4g4S",
+  "leetcodeId" : "8513766",
+  "company" : "Amazon",
+  "role" : "Sr. SDE",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Vc7z7w8RrfJQp26JwnZUkb",
+    "questions" : [ {
+      "id" : "q_HQKjRPHGQ9dDHkYpfPzasx",
+      "type" : "BEHAVIOURAL",
+      "content" : "Learn and Be Curious, Customer Obsession and Ownership"
+    }, {
+      "id" : "q_RfuLEkgjnVLjNFx6jZ21hW",
+      "type" : "DSA",
+      "content" : "Topological sort and finding the cycle in the graph."
+    } ]
+  } ],
+  "date" : "2026-09-10"
+}, {
+  "id" : "i_2egy1cBMh72xva6PBCnF6e",
+  "leetcodeId" : "8513333",
+  "company" : "WEX",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_5bWhigSTQTmsn6XdKDjPBt",
+    "questions" : [ {
+      "id" : "q_F3eEFCXmqHoW9tt6ofKt5u",
+      "type" : "DSA",
+      "content" : "Print all permuation of string it can contain digit, small charater and capital charater. Return permuation of string in sorted order (digit-> small char -> captial char)"
+    }, {
+      "id" : "q_CKSCY63UaBv93VHNji63HK",
+      "type" : "DSA",
+      "content" : "Given input U 3 U -3 O O X output: -3 3. U push in stack, O pop in stack, X end of string"
+    } ]
+  } ],
+  "date" : "2026-09-10"
+}, {
+  "id" : "i_5S5Yv89Rpk8nhxRBVo2zZw",
+  "leetcodeId" : "8512348",
+  "company" : "GetMyParking",
+  "role" : "Senior Software Engineer",
+  "yoe" : 4,
+  "rounds" : [ {
+    "id" : "r_YNJytJRoNESCN4DitFhxjs",
+    "questions" : [ {
+      "id" : "q_NjnjW824XaQBVQ4sFhhZ3p",
+      "type" : "DSA",
+      "content" : "Remove duplicate elements in a sorted array in-place."
+    }, {
+      "id" : "q_MyqopyzMRbUDRhMqFGLoJA",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about the most challenging problem that you faced in your recent experience."
+    }, {
+      "id" : "q_8v1t6yxgKQLem8jRJuyNk8",
+      "type" : "LLD",
+      "content" : "Return a list of transactions with failed status and pending with TTL expired based on payments."
+    } ]
+  } ],
+  "date" : "2026-09-09"
+}, {
+  "id" : "i_UaaenY8YXaF5f9TSuhYTYt",
+  "leetcodeId" : "8512326",
+  "company" : "FalconX",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NNGCvHMDzVH9VPBYstShkP",
+    "questions" : [ {
+      "id" : "q_4dveN3UimJ3Zvq8prBth68",
+      "type" : "DSA",
+      "content" : "You are building an auditing module for a high-frequency trading platform. The system receives an asynchronous, out-of-order telemetry stream containing trade execution logs across multiple financial exchanges. Your task is to reconstruct the chronological execution timeline for a specified exchange venue and find the maximum number of consecutive trade logs in a continuous execution window that satisfies strict operational risk limits."
+    } ]
+  } ],
+  "date" : "2026-09-09"
+}, {
   "id" : "i_X8bkc46ZiLcmsMcNivppLD",
   "leetcodeId" : "8509543",
   "company" : "Tekion",
