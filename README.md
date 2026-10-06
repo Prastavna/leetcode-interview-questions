@@ -76,6 +76,7 @@ Fill in the variables:
 | `LEETCODE_LAG_DAYS` | Skip extremely recent posts that may still change. |
 | `OPENAI_BASE_URL` | OpenAI-compatible endpoint. Use `https://generativelanguage.googleapis.com/v1beta/openai/` (Gemini). |
 | `OPENAI_API_KEY` | Gemini API key (Google AI Studio), required for parsing discussions into interviews. |
+| `OPENROUTER_API_KEY` | Optional OpenRouter key; posts Gemini can't serve (503/429) fall back to a free OpenRouter model. |
 | `INTERVIEWS_JSON_PATH` | Output location for the dataset (`interviews.json` by default). |
 
 ### 2. Run the Ingestion Pipeline
@@ -119,6 +120,7 @@ Configure the following secrets/variables in the repository or organization sett
 | --- | --- | --- | --- |
 | `OPENAI_API_KEY` | Secret | ✅ | Gemini API key used by the OpenAI client to structure discussions. |
 | `OPENAI_BASE_URL` | Secret | ✅ | `https://generativelanguage.googleapis.com/v1beta/openai/` (Gemini's OpenAI-compatible endpoint). |
+| `OPENROUTER_API_KEY` | Secret | Optional | Free-tier OpenRouter key used as a fallback when Gemini is overloaded. |
 | `PAT_TOKEN` | Secret | ✅ | Classic PAT with `repo` scope so the workflow can open PRs. |
 | `LEETCODE_*` | Variable | Optional | Override API URL, paging, lag days, or fetch start date. |
 | `OPENAI_CONCURRENCY` | Variable | Optional | Caps concurrent OpenAI requests (defaults to 2 in CI). |

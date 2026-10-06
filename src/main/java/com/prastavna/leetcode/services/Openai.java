@@ -1,16 +1,27 @@
 package com.prastavna.leetcode.services;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
+import com.openai.errors.InternalServerException;
+import com.openai.errors.OpenAIIoException;
+import com.openai.errors.OpenAIRetryableException;
+import com.openai.errors.RateLimitException;
 import com.openai.models.chat.completions.StructuredChatCompletion;
 import com.openai.models.chat.completions.StructuredChatCompletionCreateParams;
 import com.prastavna.leetcode.models.Interview;
 
 public class Openai {
-  private final OpenAIClient openAIClient;
+  private static final String OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
+
+  private record Provider(OpenAIClient client, String model) {}
+
+  // Tried in order. Both are free tiers; OpenRouter only gets posts Gemini can't serve (503/429).
+  private final List<Provider> providers = new ArrayList<>();
   private final String prompt = """
     You are given a LeetCode discussion post. Your task is to determine whether it contains **real interview experience details with explicitly mentioned questions**.
 
@@ -185,27 +196,57 @@ public class Openai {
       * `null`
 """;
 
-  public Openai(String openaiBaseUrl, String openaiApiKey) {
-    openAIClient = OpenAIOkHttpClient.builder()
-      .baseUrl(openaiBaseUrl)
-      .apiKey(openaiApiKey)
-      // Gemini's free tier often answers 503 "high demand"; retry with backoff before giving up.
-      .maxRetries(8)
+  public Openai(String openaiBaseUrl, String openaiApiKey, String openrouterApiKey) {
+    providers.add(new Provider(client(openaiBaseUrl, openaiApiKey), "gemini-3.5-flash-lite"));
+    if (openrouterApiKey != null && !openrouterApiKey.isBlank()) {
+      providers.add(new Provider(
+          client(OPENROUTER_BASE_URL, openrouterApiKey), "nvidia/nemotron-3-super-120b-a12b:free"));
+    }
+  }
+
+  private static OpenAIClient client(String baseUrl, String apiKey) {
+    return OpenAIOkHttpClient.builder()
+      .baseUrl(baseUrl)
+      .apiKey(apiKey)
+      // Free tiers often answer 503 "high demand"; retry with backoff before moving on.
+      .maxRetries(4)
       .timeout(Duration.ofSeconds(90))
       .build();
   }
 
   public Optional<Interview> getJsonCompletion(String msg) {
-    StructuredChatCompletionCreateParams<Interview> params = StructuredChatCompletionCreateParams.<Interview>builder()
-      .addSystemMessage(prompt)
-      .addUserMessage(msg)
-      .model("gemini-3.5-flash-lite")
-      .responseFormat(Interview.class)
-      .build();
-    
-    StructuredChatCompletion<Interview> response =
-        openAIClient.chat().completions().create(params);
+    RuntimeException lastTransient = null;
+    for (Provider provider : providers) {
+      StructuredChatCompletionCreateParams<Interview> params = StructuredChatCompletionCreateParams.<Interview>builder()
+        .addSystemMessage(prompt)
+        .addUserMessage(msg)
+        .model(provider.model())
+        .responseFormat(Interview.class)
+        .build();
 
-    return response.choices().get(0).message().content();
+      try {
+        StructuredChatCompletion<Interview> response =
+            provider.client().chat().completions().create(params);
+        return response.choices().get(0).message().content();
+      } catch (RuntimeException ex) {
+        // A fallback's own failure (bad key, 400) must not make the post permanently failed:
+        // the primary only failed transiently, so the post stays retryable.
+        if (!isTransient(ex) && lastTransient == null) {
+          throw ex;
+        }
+        if (lastTransient == null) {
+          lastTransient = ex;
+        }
+      }
+    }
+    throw lastTransient;
+  }
+
+  // Overload (5xx), rate limiting and network errors are worth retrying elsewhere or on a later run.
+  public static boolean isTransient(Exception ex) {
+    return ex instanceof InternalServerException
+        || ex instanceof RateLimitException
+        || ex instanceof OpenAIRetryableException
+        || ex instanceof OpenAIIoException;
   }
 }

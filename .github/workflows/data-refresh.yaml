@@ -20,6 +20,7 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       OPENAI_CONCURRENCY: ${{ vars.OPENAI_CONCURRENCY || '2' }}
       LEETCODE_API_URL: ${{ vars.LEETCODE_API_URL || 'https://leetcode.com/graphql' }}
       LEETCODE_PAGE_SIZE: ${{ vars.LEETCODE_PAGE_SIZE || '50' }}

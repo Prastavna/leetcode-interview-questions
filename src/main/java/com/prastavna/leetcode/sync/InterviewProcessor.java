@@ -1,10 +1,6 @@
 package com.prastavna.leetcode.sync;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.openai.errors.InternalServerException;
-import com.openai.errors.OpenAIIoException;
-import com.openai.errors.OpenAIRetryableException;
-import com.openai.errors.RateLimitException;
 import com.prastavna.leetcode.models.DiscussPostDetail;
 import com.prastavna.leetcode.models.DiscussPostItems;
 import com.prastavna.leetcode.models.Interview;
@@ -63,19 +59,11 @@ public class InterviewProcessor {
       return ProcessingResult.success(topicId, interview, json);
     } catch (Exception ex) {
       String message = ex.getMessage() != null ? ex.getMessage() : ex.toString();
-      if (isTransient(ex)) {
+      if (Openai.isTransient(ex)) {
         return ProcessingResult.retryable(topicId, message);
       }
       return ProcessingResult.failed(topicId, message);
     }
-  }
-
-  // Overload (503), rate limiting and network errors are worth retrying on a later run.
-  private static boolean isTransient(Exception ex) {
-    return ex instanceof InternalServerException
-        || ex instanceof RateLimitException
-        || ex instanceof OpenAIRetryableException
-        || ex instanceof OpenAIIoException;
   }
 
   public enum ProcessingStatus {
