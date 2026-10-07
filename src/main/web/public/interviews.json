@@ -1,4 +1,70 @@
 [ {
+  "id" : "i_K6YyZZaSSKCWoZdG2Asrv5",
+  "leetcodeId" : "8548110",
+  "company" : "Securonix",
+  "role" : "Staff Software Engineer Java/backend engineering",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_L3ejUaTKjXQ7Zbvsbe5hXn",
+    "questions" : [ {
+      "id" : "q_SDXhN6sbRPeq4UHchQYw9c",
+      "type" : "MACHINE_CODING",
+      "content" : "Meeting Schedular"
+    } ]
+  }, {
+    "id" : "r_CXpFWyjFB4V4CxssmogEem",
+    "questions" : [ {
+      "id" : "q_SJ3rE4zuQjZ6TejATQiohY",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Rate limiter"
+    } ]
+  } ],
+  "date" : "2026-09-30"
+}, {
+  "id" : "i_Vye7BuHgHYuQf4AuKxSWEj",
+  "leetcodeId" : "8548109",
+  "company" : "Crowdstrike",
+  "role" : "Senior Software Backend Engineer(Auth)",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_9s4khdcdCW1AsDDSBnn6wR",
+    "questions" : [ {
+      "id" : "q_N87dTBQRM4BdKad8Vyq2u6",
+      "type" : "MACHINE_CODING",
+      "content" : "Provide definition to this class: class DetectionStore { public: DetectionStore() {} void Put(const Detection& detection) {} std::unique_ptr<Detection> GetNext() { return nullptr; } };"
+    } ]
+  } ],
+  "date" : "2026-09-30"
+}, {
+  "id" : "i_KsA7kvvcZEn9cUTA9ukyJK",
+  "leetcodeId" : "8548103",
+  "company" : "Amo",
+  "role" : "Senior Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_DQuPigs2U5JzXSYGcfSzJe",
+    "questions" : [ {
+      "id" : "q_6LXfq4cMYtL9DeZbfftpYF",
+      "type" : "DSA",
+      "content" : "Write a custom iterator which parses a delimiter and creates strings using the same in c++"
+    } ]
+  }, {
+    "id" : "r_G5ZgMcWHCEpUpDg27Qb2DX",
+    "questions" : [ {
+      "id" : "q_PzjGrm172rQCYa64gVaQBM",
+      "type" : "LLD",
+      "content" : "Design a concurrent queue, where multiple producers, multiple consumers can read/write from it"
+    } ]
+  }, {
+    "id" : "r_8z58ra2ZT7BzeCfM2CzSMN",
+    "questions" : [ {
+      "id" : "q_7A2UPgkUQ5tQH47wZNKGfv",
+      "type" : "HLD",
+      "content" : "Design a birthday email sending service. Drill down deeper and deeper to deduplication(sending duplicate mails), fault tolerance, timezone mismatch issues"
+    } ]
+  } ],
+  "date" : "2026-09-30"
+}, {
   "id" : "i_5HmompuR3XhDbZ63KtbZkF",
   "leetcodeId" : "8545634",
   "company" : "Chubb",
