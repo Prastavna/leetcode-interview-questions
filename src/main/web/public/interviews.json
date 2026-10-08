@@ -1,4 +1,621 @@
 [ {
+  "id" : "i_Dmq7cFtRjom9qPaApycKHb",
+  "leetcodeId" : "8550664",
+  "company" : "Amazon",
+  "role" : "SDE-I Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_NTvXLegFMVLNKa62D6DvaV",
+    "questions" : [ {
+      "id" : "q_RHwFLJ25SpLQfuV2nAe3k8",
+      "type" : "DSA",
+      "content" : "Minimum Total Cost to Make Array Non-Decreasing: You are given an integer array nums of length n. In one operation, you choose a contiguous segment nums[l..r] (where 0 <= l <= r < n) and a positive integer x, then add x to every element in that segment. The cost of the operation is x. You may perform any number of operations. Return the minimum total cost needed to make nums non-decreasing."
+    } ]
+  }, {
+    "id" : "r_PpRjhHDRspB5WWedZweaZY",
+    "questions" : [ {
+      "id" : "q_MJcgWH8xTDN1W5Wx7v9xjU",
+      "type" : "DSA",
+      "content" : "Tallest Billboard (https://leetcode.com/problems/tallest-billboard/)"
+    }, {
+      "id" : "q_Jcbb3ZUr3GQQqB78nVhn36",
+      "type" : "DSA",
+      "content" : "Next Smaller Element (NSE)"
+    }, {
+      "id" : "q_LyrGSwV8ypXhxpLaotMff1",
+      "type" : "DSA",
+      "content" : "What would you change in your code if the array was circular?"
+    }, {
+      "id" : "q_JQKeRJNyYVWkRQuvLkiFAE",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me about your internship, have you faced deadlines before? If so, how did you handle them?"
+    } ]
+  } ],
+  "date" : "2026-10-01"
+}, {
+  "id" : "i_8jpDgypJoNpMKp7k42vD5C",
+  "leetcodeId" : "8549682",
+  "company" : "HyperVerge",
+  "role" : "SDE Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Tn7JBooDgeYFStrQpiBABF",
+    "questions" : [ {
+      "id" : "q_MJ8atCBM4mQtjJXGQcZnts",
+      "type" : "HLD",
+      "content" : "How would you find due reminders without scanning 10 million rows?"
+    }, {
+      "id" : "q_5Bzbf4nnVtmeB4hPSqNFdT",
+      "type" : "HLD",
+      "content" : "How would you divide the work?"
+    }, {
+      "id" : "q_fh7tJL4nSyCfYSVYJ4kUv",
+      "type" : "HLD",
+      "content" : "How would you prevent multiple machines from processing the same reminder?"
+    }, {
+      "id" : "q_D9C6tz2teo9ZX9Ns6t3XYg",
+      "type" : "HLD",
+      "content" : "How would you ensure each reminder is sent only once?"
+    } ]
+  }, {
+    "id" : "r_Uqprgjh3p7skQMWrpW72Yq",
+    "questions" : [ {
+      "id" : "q_FKDvaJcz6zrVZr47Y6nVJ1",
+      "type" : "TECHNICAL",
+      "content" : "Why did you create these tables?"
+    }, {
+      "id" : "q_Sb9XuDxhiMemvoteccwcwW",
+      "type" : "TECHNICAL",
+      "content" : "Why is each table required?"
+    }, {
+      "id" : "q_VLRyaQCNmV7kPDXTZTPo4U",
+      "type" : "TECHNICAL",
+      "content" : "Why did you choose these attributes?"
+    }, {
+      "id" : "q_Jn2W3zbma2pVztVA17jNHi",
+      "type" : "TECHNICAL",
+      "content" : "What should be the primary key?"
+    }, {
+      "id" : "q_NggFPJQEGCv8n8uafWZhJH",
+      "type" : "TECHNICAL",
+      "content" : "Which fields should be indexed and why?"
+    }, {
+      "id" : "q_4gyA7c6Q6mQRfLSakYvkip",
+      "type" : "TECHNICAL",
+      "content" : "What queries would use those indexes?"
+    }, {
+      "id" : "q_XoDFeS2cVfv2T4EwfuFNKn",
+      "type" : "TECHNICAL",
+      "content" : "Are your tables normalized?"
+    }, {
+      "id" : "q_SqeXwupYjuKCxWZ4AcETTc",
+      "type" : "TECHNICAL",
+      "content" : "What normal form does the design follow?"
+    }, {
+      "id" : "q_2gjZ7vQju7pmJtYGZQPvsx",
+      "type" : "TECHNICAL",
+      "content" : "Is there redundant data?"
+    }, {
+      "id" : "q_Y7iRZ5cs1Dr7yBwdTCtEN1",
+      "type" : "TECHNICAL",
+      "content" : "Would you keep pending notifications separately?"
+    }, {
+      "id" : "q_WLASwf18YtLrtoK3t9haPf",
+      "type" : "TECHNICAL",
+      "content" : "How would you maintain notification status?"
+    }, {
+      "id" : "q_Ts9bQ8Yc6YyXEMFu4ayyCa",
+      "type" : "TECHNICAL",
+      "content" : "How would you identify pending or failed notifications?"
+    }, {
+      "id" : "q_KJhKZhXSpPLdLviem5igzq",
+      "type" : "TECHNICAL",
+      "content" : "How would retry information be stored?"
+    }, {
+      "id" : "q_Vc9PhRc4hj7aPs6zmKMbJq",
+      "type" : "TECHNICAL",
+      "content" : "Why normalize the tables?"
+    }, {
+      "id" : "q_Gz3Y6mJxcitcnxsmLr9ReR",
+      "type" : "TECHNICAL",
+      "content" : "What problems does data redundancy create?"
+    }, {
+      "id" : "q_TV4szeaTBuDkYZLZzm5NNH",
+      "type" : "TECHNICAL",
+      "content" : "What happens if everything is stored in one table?"
+    }, {
+      "id" : "q_NaoEaY3Xx1LkggoL3eQGhM",
+      "type" : "TECHNICAL",
+      "content" : "When would denormalization make sense?"
+    }, {
+      "id" : "q_Cv8awSYcLih4iyu1BMKeNJ",
+      "type" : "TECHNICAL",
+      "content" : "What are the read/write trade-offs?"
+    }, {
+      "id" : "q_HDAEL8ZmqqcV6EE14shQng",
+      "type" : "HLD",
+      "content" : "What happens when reminders increase beyond 10 million?"
+    }, {
+      "id" : "q_BkCDasSuhdhDczarovvKBv",
+      "type" : "HLD",
+      "content" : "What becomes the first bottleneck?"
+    }, {
+      "id" : "q_CuX94rsjTmB77CKCd8Xmzy",
+      "type" : "HLD",
+      "content" : "How would you scale application servers?"
+    }, {
+      "id" : "q_T7m5mCPGpHekYMPbzHm2wG",
+      "type" : "HLD",
+      "content" : "What happens when all 10 machines query the database together?"
+    }, {
+      "id" : "q_DE6Ki5FAEnLddoPiaSupqq",
+      "type" : "TECHNICAL",
+      "content" : "How would you avoid a full-table scan?"
+    }, {
+      "id" : "q_HzYx4TDKYDDHim13mjWNXi",
+      "type" : "HLD",
+      "content" : "How would you handle 200,000 reminders becoming due together?"
+    }, {
+      "id" : "q_8tDpQS9k8yRBx282kuEQxs",
+      "type" : "HLD",
+      "content" : "How would you divide the workload among workers?"
+    }, {
+      "id" : "q_4yUskwogNgyakW6JUH1owS",
+      "type" : "HLD",
+      "content" : "How would you prevent duplicate processing?"
+    }, {
+      "id" : "q_2HkcPkCkq7kesJRVmc1nmk",
+      "type" : "HLD",
+      "content" : "What happens if a worker crashes during processing?"
+    }, {
+      "id" : "q_UbA1qGtJJWVK5T86fZc87X",
+      "type" : "HLD",
+      "content" : "What happens if database state is updated but notification sending fails?"
+    }, {
+      "id" : "q_Gk65sW15XssUJWq38phWEj",
+      "type" : "HLD",
+      "content" : "How would retries work?"
+    }, {
+      "id" : "q_9AmyNqrsbP6YaDPfeW687J",
+      "type" : "TECHNICAL",
+      "content" : "How would you avoid loading millions of notifications at once?"
+    }, {
+      "id" : "q_Vv2fLhGzk6ZQ7MBFgXJkcX",
+      "type" : "TECHNICAL",
+      "content" : "How would you process records in batches?"
+    }, {
+      "id" : "q_21hWLmzFKnYmxY9wVDwLTL",
+      "type" : "TECHNICAL",
+      "content" : "How would pagination behave when multiple servers process the same table?"
+    }, {
+      "id" : "q_8EXzuWhAjUL8cvSJtUPzaJ",
+      "type" : "TECHNICAL",
+      "content" : "Can two servers fetch the same records?"
+    }, {
+      "id" : "q_XgPnHZ8q21tYKBEuEpPcpe",
+      "type" : "TECHNICAL",
+      "content" : "Would page-number pagination be suitable?"
+    }, {
+      "id" : "q_EiMVpqPPEYUvLqJMAeHpDx",
+      "type" : "TECHNICAL",
+      "content" : "What alternative pagination strategy could be used?"
+    } ]
+  }, {
+    "id" : "r_JHQkkJZgE6nA9EwBMFSzHG",
+    "questions" : [ {
+      "id" : "q_7jzcgpK98bTBPenqUCqgMu",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the project architecture."
+    }, {
+      "id" : "q_MVrJmv8eXUCCRZg6X1VQVr",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Why did you choose these technologies?"
+    }, {
+      "id" : "q_4ojCTuTZtEfXdzyhMGuUT7",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Why this particular model?"
+    }, {
+      "id" : "q_WH8nXbifKWgMS2McS6hMee",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How does the AI pipeline work?"
+    }, {
+      "id" : "q_CH1ofCif6xa9SWreiQ4MXx",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How does the frontend communicate with the backend?"
+    }, {
+      "id" : "q_XRRDikfkTWA3YffgQEvbEq",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How is data stored?"
+    }, {
+      "id" : "q_QvHAg6H8u7jqe7mzwi3NeY",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How does retrieval work?"
+    }, {
+      "id" : "q_5CYZNJvUJLt4t1ikW5yF1w",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How does authentication work?"
+    }, {
+      "id" : "q_GsVSVW3cWBRCHmdpWY1Z9N",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How do you handle failures?"
+    }, {
+      "id" : "q_XmivU1VpW9q1EBSQYGvERN",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What happens when users increase?"
+    }, {
+      "id" : "q_B7DRvweer9x3ZCPr1uYjmS",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "How would you scale the project?"
+    }, {
+      "id" : "q_2XJ4BP3iEPMYxGf47rwces",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What could become a performance bottleneck?"
+    }, {
+      "id" : "q_EMmcL6o1d8HPWiDQ8bLCx4",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Why did you choose this database?"
+    }, {
+      "id" : "q_9hY8kidMyJAbJUhzSQ36Aj",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What alternatives did you consider?"
+    }, {
+      "id" : "q_Mzbh2BgX8PtXWenNio94ou",
+      "type" : "TECHNICAL",
+      "content" : "What is JWT?"
+    }, {
+      "id" : "q_YDMrUNwvgKBpTqwgpYcCd9",
+      "type" : "TECHNICAL",
+      "content" : "How does JWT authentication work?"
+    }, {
+      "id" : "q_E1mKLcCL48eto5u97r8tAP",
+      "type" : "TECHNICAL",
+      "content" : "How is a JWT generated?"
+    }, {
+      "id" : "q_NSHSNdRDGGfhjKvxTMXTF7",
+      "type" : "TECHNICAL",
+      "content" : "What information does it contain?"
+    }, {
+      "id" : "q_Ptr26zgBBTQSBBcSYWKhfT",
+      "type" : "TECHNICAL",
+      "content" : "How does the server verify it?"
+    }, {
+      "id" : "q_C945aZtBz3tVv94TsstZRH",
+      "type" : "TECHNICAL",
+      "content" : "Where would you store the JWT?"
+    }, {
+      "id" : "q_RxCMGcTLLnodd2owUEr5WE",
+      "type" : "TECHNICAL",
+      "content" : "How would you protect an API endpoint?"
+    }, {
+      "id" : "q_9Cj2oPVQ5JdMm9CzBFBEv9",
+      "type" : "TECHNICAL",
+      "content" : "Authentication vs authorization?"
+    }, {
+      "id" : "q_S8RM4CD8VzFZorUhb2NzAb",
+      "type" : "TECHNICAL",
+      "content" : "What happens when a JWT expires?"
+    }, {
+      "id" : "q_8Z5bny68iQStRKr3NNx36f",
+      "type" : "TECHNICAL",
+      "content" : "What happens if a JWT is stolen?"
+    }, {
+      "id" : "q_JmQPqWtrLqrrGBunyZsR6o",
+      "type" : "TECHNICAL",
+      "content" : "How would you store passwords in a database?"
+    }, {
+      "id" : "q_RnK8wgFN2A18CYWXMdkxLh",
+      "type" : "TECHNICAL",
+      "content" : "Hashing or encryption?"
+    }, {
+      "id" : "q_JD9GF14PnQWi8YxRyCvsaX",
+      "type" : "TECHNICAL",
+      "content" : "What is hashing?"
+    }, {
+      "id" : "q_EwYenyr1W3oq2QcHZqw5LQ",
+      "type" : "TECHNICAL",
+      "content" : "What is encryption?"
+    }, {
+      "id" : "q_3TZQRiTMmNbF1RrmyVXjDW",
+      "type" : "TECHNICAL",
+      "content" : "What is decryption?"
+    }, {
+      "id" : "q_PRPZ6WsaZaJuE8ud42oZ7g",
+      "type" : "TECHNICAL",
+      "content" : "Hashing vs encryption?"
+    }, {
+      "id" : "q_HChQcgAD7WSwtEqhxjrEve",
+      "type" : "TECHNICAL",
+      "content" : "Is hashing reversible?"
+    }, {
+      "id" : "q_4SSK7SfFnJHTo5JSNvcX2c",
+      "type" : "TECHNICAL",
+      "content" : "Is encryption reversible?"
+    }, {
+      "id" : "q_H74T2d4YZGZkdFcDKyDreP",
+      "type" : "TECHNICAL",
+      "content" : "Why shouldn't passwords be stored in plain text?"
+    }, {
+      "id" : "q_D6ujmWhYrueKSS4ZkEBDVv",
+      "type" : "TECHNICAL",
+      "content" : "How would you verify a password during login?"
+    }, {
+      "id" : "q_5qGn11i6W8WHw8oaKq6Gbc",
+      "type" : "TECHNICAL",
+      "content" : "What is a salt and why is it used?"
+    }, {
+      "id" : "q_LpF6Xt6iV1SrTy8jFTkpjV",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is a Promise?"
+    }, {
+      "id" : "q_9tV64L14cyKJdqDZfRNDUX",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What are its different states?"
+    }, {
+      "id" : "q_RLtGsK21zWcVGf9FRtj1y9",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "How does asynchronous execution work?"
+    }, {
+      "id" : "q_4yfNZLLkSUGNX1pZ3JTPmP",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Sequential vs concurrent Promise execution?"
+    }, {
+      "id" : "q_GNr3aTTNAJVqjXzvKLdaLw",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "If two Promises each take 10 seconds and start together, how long does the overall operation take?"
+    }, {
+      "id" : "q_VbZDZm8apNmSbdQAvVUQjc",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What happens if they execute sequentially?"
+    }, {
+      "id" : "q_6MhpC11Y9XrWc7jzqNPAUF",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is Promise.all()?"
+    }, {
+      "id" : "q_MzogeUmHSPC3jfsEPqsgko",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What happens if one Promise rejects?"
+    }, {
+      "id" : "q_KyR1ncaadHCfuQvkM5iheM",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Is JavaScript single-threaded or multi-threaded?"
+    }, {
+      "id" : "q_HTTXK1SzVXSHsbCSKeaMYx",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "If JavaScript is single-threaded, how can asynchronous operations run concurrently?"
+    }, {
+      "id" : "q_4tYX435CPJF8pC7jMUXDp1",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is the event loop?"
+    }, {
+      "id" : "q_VnYKkQZpGNxmSSiPeXt219",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is the call stack?"
+    }, {
+      "id" : "q_MbAHM2UUA2vRyMu2WJhi9F",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What is the task queue?"
+    }, {
+      "id" : "q_EhfzPnEMpqZsLRhEzX6npr",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "How does asynchronous I/O work?"
+    }, {
+      "id" : "q_CwbyzcnnYWZsopNCQ4eb9A",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Does asynchronous execution mean JavaScript becomes multi-threaded?"
+    }, {
+      "id" : "q_2aRQ7e5Moj6DFbJPq3aAyG",
+      "type" : "TECHNICAL",
+      "content" : "What is Node.js?"
+    }, {
+      "id" : "q_6hbcfP3uSddk8ZjqVbBrZJ",
+      "type" : "TECHNICAL",
+      "content" : "Why is it used for backend development?"
+    }, {
+      "id" : "q_7SLBv8TzGwCez5woTRBfMc",
+      "type" : "TECHNICAL",
+      "content" : "How does Node.js handle multiple requests?"
+    }, {
+      "id" : "q_KfmxHsnbr6weEWVpqAKwdi",
+      "type" : "TECHNICAL",
+      "content" : "What is the Node.js event loop?"
+    }, {
+      "id" : "q_6sEBZBr3xqWuXY8CwL7KQc",
+      "type" : "TECHNICAL",
+      "content" : "How does Node.js handle concurrent requests?"
+    }, {
+      "id" : "q_7USZtXsVyqqFi4WQZ8Uy8q",
+      "type" : "DSA",
+      "content" : "Given an array containing numbers from 1 to N with one number missing, find the missing number."
+    }, {
+      "id" : "q_YCvgvkidpWgm93s51LAJ7F",
+      "type" : "DSA",
+      "content" : "How would you solve it?"
+    }, {
+      "id" : "q_BWTt9iM2aNcgMxYYqLrdTE",
+      "type" : "DSA",
+      "content" : "Time complexity?"
+    }, {
+      "id" : "q_8qM7atrJdfQWeMgpyoHW2v",
+      "type" : "DSA",
+      "content" : "Space complexity?"
+    }, {
+      "id" : "q_KHESR3zNtqXijuNN5T6bDq",
+      "type" : "DSA",
+      "content" : "Can it be solved without extra space?"
+    }, {
+      "id" : "q_KKqXKTVbyzDoY9PYx8LGwW",
+      "type" : "DSA",
+      "content" : "What alternative approaches can be used?"
+    } ]
+  }, {
+    "id" : "r_BPwNQdiaw5X6wvV4eSYTiR",
+    "questions" : [ {
+      "id" : "q_MZpyzprVZ4RCNKGVUXsaeL",
+      "type" : "APTITUDE",
+      "content" : "Finding a valid strategy for the Bridge Crossing puzzle"
+    }, {
+      "id" : "q_85wGuYSeBYMbbz8qDHmNvh",
+      "type" : "APTITUDE",
+      "content" : "Comparing strategies for the Bridge Crossing puzzle"
+    }, {
+      "id" : "q_6WZSrbSLZ4orXY66kn1Dhj",
+      "type" : "APTITUDE",
+      "content" : "Minimizing total crossing time"
+    }, {
+      "id" : "q_JS16C9XcPLR6yBzy8VqVeF",
+      "type" : "APTITUDE",
+      "content" : "Reasoning about the order of crossings"
+    }, {
+      "id" : "q_6njexJ4GwHcCpF4n8v91Qt",
+      "type" : "APTITUDE",
+      "content" : "Dividing horses into groups for the 25 Horses problem"
+    }, {
+      "id" : "q_N2ci7Yv782iqvGVPu44Faz",
+      "type" : "APTITUDE",
+      "content" : "Conducting races"
+    }, {
+      "id" : "q_7dAyZJM6VSYkwS23rB7q9F",
+      "type" : "APTITUDE",
+      "content" : "Eliminating horses that could no longer be among the fastest"
+    }, {
+      "id" : "q_TTqngdHYh2MtETjB8qRZ48",
+      "type" : "APTITUDE",
+      "content" : "Identifying the remaining candidates"
+    }, {
+      "id" : "q_PwAdhWoRAKCX3mU1tL7Da6",
+      "type" : "APTITUDE",
+      "content" : "Finding the minimum number of races"
+    } ]
+  }, {
+    "id" : "r_T2jKzqiJPthcFKruvVZtEg",
+    "questions" : [ {
+      "id" : "q_L3Z6KKHsWWe2Y6Phq8T64C",
+      "type" : "BEHAVIOURAL",
+      "content" : "How were you academically until Class 10?"
+    }, {
+      "id" : "q_8BhEV26e1cNPW3egRbJQqb",
+      "type" : "BEHAVIOURAL",
+      "content" : "How were you socially?"
+    }, {
+      "id" : "q_HHNtCXwMfZRrGKZbwF5Ev9",
+      "type" : "BEHAVIOURAL",
+      "content" : "What were your interests?"
+    }, {
+      "id" : "q_8eKwFGX5cRxJuEut8VR2g5",
+      "type" : "BEHAVIOURAL",
+      "content" : "What were your strengths and weaknesses?"
+    }, {
+      "id" : "q_BwuCPeThqPUY8XV9qXxLto",
+      "type" : "BEHAVIOURAL",
+      "content" : "What achievements are you proud of?"
+    }, {
+      "id" : "q_L1yCtMod6ZeCmSfp1ZKVk3",
+      "type" : "BEHAVIOURAL",
+      "content" : "What would your friends say about you?"
+    }, {
+      "id" : "q_QSoCTVimdDucVd9kxVi1mR",
+      "type" : "BEHAVIOURAL",
+      "content" : "What would your friends say you need to improve?"
+    }, {
+      "id" : "q_QwLFvq6PGTvLcijLPNw4nt",
+      "type" : "BEHAVIOURAL",
+      "content" : "How did you change after Class 10?"
+    }, {
+      "id" : "q_AKuNLVJFGQo2KqSUhnwXVn",
+      "type" : "BEHAVIOURAL",
+      "content" : "What challenges did you face?"
+    }, {
+      "id" : "q_CHBmq9pSdsNMc4SxMZJnif",
+      "type" : "BEHAVIOURAL",
+      "content" : "What did you improve?"
+    }, {
+      "id" : "q_8Ck3SrJwYqW78WWoAbe5yh",
+      "type" : "BEHAVIOURAL",
+      "content" : "What were your achievements?"
+    }, {
+      "id" : "q_JD5enYhMTtkU512FVR9doe",
+      "type" : "BEHAVIOURAL",
+      "content" : "How did your friends perceive you?"
+    }, {
+      "id" : "q_9MoDr2ACinz1GBsuNeEBb6",
+      "type" : "BEHAVIOURAL",
+      "content" : "How was your first year?"
+    }, {
+      "id" : "q_Y3PB9ukJjmRPTffjfN5oq2",
+      "type" : "BEHAVIOURAL",
+      "content" : "How was your second year?"
+    }, {
+      "id" : "q_HHeN88dDKabcoZkj1LNzHp",
+      "type" : "BEHAVIOURAL",
+      "content" : "How were your friendships?"
+    }, {
+      "id" : "q_NVPR64bGa8cTKLGCsC2Bzn",
+      "type" : "BEHAVIOURAL",
+      "content" : "What were your biggest challenges?"
+    }, {
+      "id" : "q_QQzpRKbgW3Z23oESHF6gMK",
+      "type" : "BEHAVIOURAL",
+      "content" : "What have you improved since joining college?"
+    }, {
+      "id" : "q_CVS5BQtCQesayoMitJ2Ryf",
+      "type" : "BEHAVIOURAL",
+      "content" : "What would your friends appreciate about you?"
+    }, {
+      "id" : "q_BfCpH2AJHp3BU8BA5PGfaP",
+      "type" : "BEHAVIOURAL",
+      "content" : "What would they say you need to improve?"
+    }, {
+      "id" : "q_DfdVU9ZsoAUt8vAeFwHiHE",
+      "type" : "BEHAVIOURAL",
+      "content" : "What are 2–3 things your friends would appreciate about you?"
+    }, {
+      "id" : "q_DzvNi9zErRqeHBtBH6WdWF",
+      "type" : "BEHAVIOURAL",
+      "content" : "What are 2–3 things your friends would say you need to improve?"
+    }, {
+      "id" : "q_BNngn42b6naLRzxRymXkt2",
+      "type" : "HR",
+      "content" : "Why do you want to join HyperVerge?"
+    }, {
+      "id" : "q_KeASwZWiisCo61rcJaDnLj",
+      "type" : "HR",
+      "content" : "What skills will you bring to the company?"
+    }, {
+      "id" : "q_EK7Hv7KNywKGJhMEy1jwyY",
+      "type" : "HR",
+      "content" : "What can you contribute as an intern?"
+    }, {
+      "id" : "q_MBAVMG8M4dgoVRW9cMPzNj",
+      "type" : "HR",
+      "content" : "What would you bring to the team?"
+    }, {
+      "id" : "q_4jEdNeTycWymDwECCfZeWi",
+      "type" : "HR",
+      "content" : "What are you looking to learn?"
+    }, {
+      "id" : "q_Qi8mGB2hamCoiU5BzYEgrd",
+      "type" : "HR",
+      "content" : "What do you expect from the company?"
+    }, {
+      "id" : "q_BptKX9qNf6Unj2gcime1fB",
+      "type" : "HR",
+      "content" : "What are your career goals?"
+    }, {
+      "id" : "q_CxcAobp4viReaGxm9yFYsK",
+      "type" : "HR",
+      "content" : "Why do you want this role?"
+    }, {
+      "id" : "q_WkFHYLAfDPgcxHgHhUoNUv",
+      "type" : "HR",
+      "content" : "Where do you see yourself in the next 3 years?"
+    }, {
+      "id" : "q_9VffYRktHRfBU9Mfy3ppm2",
+      "type" : "HR",
+      "content" : "Where do you see yourself in the next 5 years?"
+    } ]
+  } ],
+  "date" : "2026-10-01"
+}, {
   "id" : "i_K6YyZZaSSKCWoZdG2Asrv5",
   "leetcodeId" : "8548110",
   "company" : "Securonix",
