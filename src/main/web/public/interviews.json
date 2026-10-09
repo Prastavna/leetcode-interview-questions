@@ -1,4 +1,23 @@
 [ {
+  "id" : "i_3ZqDgQu6dM1MWUqiSd3AQb",
+  "leetcodeId" : "8552004",
+  "company" : "Oracle",
+  "role" : "IC3",
+  "yoe" : 5,
+  "rounds" : [ {
+    "id" : "r_C6CjTdtbCJTrU2jx7pyZrG",
+    "questions" : [ {
+      "id" : "q_LzApy5M7acohoFx6JkypzJ",
+      "type" : "DSA",
+      "content" : "Remove All Adjacent Duplicates in String II"
+    }, {
+      "id" : "q_RE9kTr2wwqS4uUChURR8gS",
+      "type" : "DSA",
+      "content" : "Given a List<String> of attendance records and an integer m (the number of employees), I had to find for how many consecutive days all employees were present."
+    } ]
+  } ],
+  "date" : "2026-10-02"
+}, {
   "id" : "i_Dmq7cFtRjom9qPaApycKHb",
   "leetcodeId" : "8550664",
   "company" : "Amazon",
