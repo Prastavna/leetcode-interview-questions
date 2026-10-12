@@ -1,4 +1,60 @@
 [ {
+  "id" : "i_9XJHHmzLJLqsMPLhraJWLG",
+  "leetcodeId" : "8557253",
+  "company" : "FamPay",
+  "role" : "Tech Lead",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_EE6XCvmofPLG1fAJR8bxAk",
+    "questions" : [ {
+      "id" : "q_7BdVdM5wDLriNafUGJdSBj",
+      "type" : "LLD",
+      "content" : "Design a rate limiter."
+    } ]
+  } ],
+  "date" : "2026-10-05"
+}, {
+  "id" : "i_TZd3q7RdbDW6XfFABQTxrK",
+  "leetcodeId" : "8556785",
+  "company" : "CoinDCX",
+  "role" : "SDE 3",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_48SD1cK2RoaNh8JNsAHsny",
+    "questions" : [ {
+      "id" : "q_TKqMRZLB8g2wv3DShVRPwX",
+      "type" : "DSA",
+      "content" : "A problem related to Wiggle Sort (not exact, but the solution involved counting valleys in a wiggle sort pattern)."
+    }, {
+      "id" : "q_x4PNa2KHdQVkebcjAzZs8",
+      "type" : "DSA",
+      "content" : "Find all subsequence strings of a given string (solved using backtracking)."
+    } ]
+  }, {
+    "id" : "r_5RGGDVTaNsw1c5y2CptP8m",
+    "questions" : [ {
+      "id" : "q_EFwNgBovj9k4VGo6jE4nRF",
+      "type" : "LLD",
+      "content" : "Design a crypto matching engine."
+    } ]
+  } ],
+  "date" : "2026-10-05"
+}, {
+  "id" : "i_PJgWn6YGq4VP4JG9vTSLZq",
+  "leetcodeId" : "8556773",
+  "company" : "Lokal App",
+  "role" : "Tech Lead",
+  "yoe" : 8,
+  "rounds" : [ {
+    "id" : "r_DkPu6VmNvKAG3WoUL9cnAz",
+    "questions" : [ {
+      "id" : "q_UV56zf7EBJd6JftZ2QrJAC",
+      "type" : "LLD",
+      "content" : "Design a Slack-like Notification System. Deliver real-time notifications to users based on messages and interactions across different conversation types. The system needs to intelligently decide when to notify a user based on message type, conversation type, user preferences, mentions, and thread participation."
+    } ]
+  } ],
+  "date" : "2026-10-05"
+}, {
   "id" : "i_T3HwkPPnyKHiTTbtcu3tqQ",
   "leetcodeId" : "8552896",
   "company" : "Netapp",
