@@ -1,4 +1,33 @@
 [ {
+  "id" : "i_NXsZYJFsQHcebrkNo14Nsi",
+  "leetcodeId" : "8563231",
+  "company" : "Okta",
+  "role" : "Staff Engineer",
+  "yoe" : 9,
+  "rounds" : [ {
+    "id" : "r_LCL3NNeZ8njxKgPox4ZBW8",
+    "questions" : [ {
+      "id" : "q_SnRQpqSKQxzHu4oiJn1XXN",
+      "type" : "DSA",
+      "content" : "Graph and binary search related question"
+    } ]
+  }, {
+    "id" : "r_5L7zpxc4Z6zJCFWwWA56iP",
+    "questions" : [ {
+      "id" : "q_3B2nxhB1dzSNaDfD13kwsk",
+      "type" : "DSA",
+      "content" : "Array medium difficulty problem"
+    } ]
+  }, {
+    "id" : "r_U7JNFivp6MxPToWicvyAJb",
+    "questions" : [ {
+      "id" : "q_3yZ8DFLxjUEpcwD8vaWQ2b",
+      "type" : "DEBUGGING",
+      "content" : "Code snippet review related to a thundering herd issue in a cache implementation"
+    } ]
+  } ],
+  "date" : "2026-10-08"
+}, {
   "id" : "i_G5ic6KABT9RNr56ngjz9eA",
   "leetcodeId" : "8559922",
   "company" : "Quince",
