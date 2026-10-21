@@ -1,4 +1,107 @@
 [ {
+  "id" : "i_FEjaZ82XzCBkkEXupsr8gF",
+  "leetcodeId" : "8572804",
+  "company" : "SAP Labs",
+  "role" : "Associate Consultant",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_5hTxy6oFaNWcz4b5w4EefC",
+    "questions" : [ {
+      "id" : "q_WphbzqMuJwYLepNRfn6nru",
+      "type" : "GD",
+      "content" : "Being Famous vs. Being Knowledgeable"
+    } ]
+  }, {
+    "id" : "r_9iFmRGL6diwTFsRwPWyDTc",
+    "questions" : [ {
+      "id" : "q_NZfMKcMJA3CUYNgszebUzj",
+      "type" : "BEHAVIOURAL",
+      "content" : "Introduce yourself."
+    }, {
+      "id" : "q_5LJXHJp4Gg6o9uFqMFKHUm",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What problems did you face during your internship or projects, and how did you resolve them?"
+    }, {
+      "id" : "q_HbHnaSY1GUsUS863oik5nc",
+      "type" : "TECHNICAL",
+      "content" : "How efficiently can you learn new technologies?"
+    }, {
+      "id" : "q_D884ay7xELG5sBRpVyUSu4",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Which frameworks and technologies did you use during your internship?"
+    }, {
+      "id" : "q_DTMd71kJo8bCqyETNR2TSj",
+      "type" : "TECHNICAL",
+      "content" : "Can you explain Prisma ORM?"
+    }, {
+      "id" : "q_EzQ51jRmzQKbxuBr6cy9fH",
+      "type" : "TECHNICAL",
+      "content" : "Why did you choose PostgreSQL?"
+    }, {
+      "id" : "q_8nPMgf69LDVLJ1roo7FE1Z",
+      "type" : "TECHNICAL",
+      "content" : "What is the difference between RDBMS and non-RDBMS databases?"
+    }, {
+      "id" : "q_LFQZTyRLyuWjo7vvkUMa3G",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "What machine learning models have you trained, and why did you choose them?"
+    }, {
+      "id" : "q_KmSzhfc6waDYRPQDjRoDS5",
+      "type" : "BEHAVIOURAL",
+      "content" : "How have you demonstrated teamwork?"
+    }, {
+      "id" : "q_PZVayNHYqDuANSz454jXfF",
+      "type" : "HR",
+      "content" : "Why do you want this role despite having a strong coding background?"
+    } ]
+  } ],
+  "date" : "2026-10-14"
+}, {
+  "id" : "i_RueRRSHKohssWsR63NACFB",
+  "leetcodeId" : "8572690",
+  "company" : "Tripadvisor",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VqTCNZjKcXB1XLBm1sxFhB",
+    "questions" : [ {
+      "id" : "q_7oohJBJMa1D2xDAHsh9fDr",
+      "type" : "DSA",
+      "content" : "Check whether a sequence of parentheses was valid (customised version of Valid Parentheses)"
+    } ]
+  } ],
+  "date" : "2026-10-14"
+}, {
+  "id" : "i_RXgVhwAgHkPMtJ7nMim1nj",
+  "leetcodeId" : "8572335",
+  "company" : "Hexaware",
+  "role" : "Python Automation Engineer and ETL Tester",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_448ptYZYkpWFSh9UCXbsA1",
+    "questions" : [ {
+      "id" : "q_TTpKDiYxoWjXVUvEao16Ti",
+      "type" : "TECHNICAL",
+      "content" : "SQL queries"
+    }, {
+      "id" : "q_C3eDkV6nifAn2eFxb3YHgp",
+      "type" : "DSA",
+      "content" : "Python coding"
+    } ]
+  }, {
+    "id" : "r_DkRTW5jntoQfL1ZRtUdjis",
+    "questions" : [ {
+      "id" : "q_TLoYdVuTm5g78FyvEpDVT2",
+      "type" : "TECHNICAL",
+      "content" : "Python Automation framework questions"
+    }, {
+      "id" : "q_RS12VTTPhVSRWFXdgTsm85",
+      "type" : "TECHNICAL",
+      "content" : "Scenario based python libraries= pyspark and pandas questions"
+    } ]
+  } ],
+  "date" : "2026-10-14"
+}, {
   "id" : "i_NXsZYJFsQHcebrkNo14Nsi",
   "leetcodeId" : "8563231",
   "company" : "Okta",
