@@ -200,7 +200,7 @@ public class Openai {
     providers.add(new Provider(client(openaiBaseUrl, openaiApiKey), "gemini-3.5-flash-lite"));
     if (openrouterApiKey != null && !openrouterApiKey.isBlank()) {
       providers.add(new Provider(
-          client(OPENROUTER_BASE_URL, openrouterApiKey), "nvidia/nemotron-3-super-120b-a12b:free"));
+          client(OPENROUTER_BASE_URL, openrouterApiKey), "nvidia/nemotron-3.5-super-vl:free"));
     }
   }
 
