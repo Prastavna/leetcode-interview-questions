@@ -229,6 +229,9 @@ public class Openai {
             provider.client().chat().completions().create(params);
         return response.choices().get(0).message().content();
       } catch (RuntimeException ex) {
+        // Only the first transient error is rethrown, so log each one to see why fallbacks failed too.
+        System.err.println(
+            "Provider " + provider.model() + " failed: " + ex.getClass().getSimpleName() + ": " + ex.getMessage());
         // A fallback's own failure (bad key, 400) must not make the post permanently failed:
         // the primary only failed transiently, so the post stays retryable.
         if (!isTransient(ex) && lastTransient == null) {
