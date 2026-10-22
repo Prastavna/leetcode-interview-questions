@@ -1,4 +1,38 @@
 [ {
+  "id" : "i_KFce2yrcG991nkqCiTZE6f",
+  "leetcodeId" : "8574327",
+  "company" : "Microsoft",
+  "role" : "Data Science Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_UenCx6AbbmnPNbzmQNFyS1",
+    "questions" : [ {
+      "id" : "q_5eKqYGwcuMYDp3jrmnSzcc",
+      "type" : "DSA",
+      "content" : "Write a Python program using SymPy that balances a chemical equation. An equation is balanced when the number of atoms of each element is the same on both sides. Given an unbalanced equation, return the list of coefficients of the balanced equation, in the order the compounds appear."
+    }, {
+      "id" : "q_LUYPBEa2TrWxCCM1ies7Xm",
+      "type" : "DSA",
+      "content" : "A string is beautiful if no two adjacent characters are either the same or adjacent in the alphabet. One operation lets you pick any index i and change s[i] to any lowercase English letter. Return the minimum number of operations needed to make the string beautiful."
+    } ]
+  } ],
+  "date" : "2026-10-15"
+}, {
+  "id" : "i_F1SCLGKr1CQJ5381nb1aBG",
+  "leetcodeId" : "8574236",
+  "company" : "Inmobi",
+  "role" : "Applied Scientist I",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Mzm5dyRq1q8rfW5M4e8Rs3",
+    "questions" : [ {
+      "id" : "q_79ZK2R2h6MHzBCi8XDtVe4",
+      "type" : "DSA",
+      "content" : "One hard interval-dp question"
+    } ]
+  } ],
+  "date" : "2026-10-15"
+}, {
   "id" : "i_FEjaZ82XzCBkkEXupsr8gF",
   "leetcodeId" : "8572804",
   "company" : "SAP Labs",
