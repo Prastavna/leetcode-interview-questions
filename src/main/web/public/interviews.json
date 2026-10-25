@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_AaRMEzLcYKhPCC2kqnGeF6",
+  "leetcodeId" : "8577627",
+  "company" : "Amazon",
+  "role" : "SDE Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_D4yQcnvHmZWvNTFL3f8viD",
+    "questions" : [ {
+      "id" : "q_GK3mjGZHs2Ueis5inpGT2o",
+      "type" : "DSA",
+      "content" : "Given an array, we have to choose an element and an index. To make the left side equal to arr[i], the cost is i * arr[i], and to make all elements of the right side equal to arr[i], the cost is (n - 1 - i) * arr[i]. Calculate the minimum cost to make all elements equal. Test case: [5,1,1,2,1,1], answer is 3."
+    } ]
+  } ],
+  "date" : "2026-10-18"
+}, {
   "id" : "i_R6d4e6H118Rcrv8SmwonhN",
   "leetcodeId" : "8575069",
   "company" : "Safe Security",
