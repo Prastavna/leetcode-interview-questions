@@ -1,4 +1,141 @@
 [ {
+  "id" : "i_6iFKpgmRLre8vne28MDqPY",
+  "leetcodeId" : "8579395",
+  "company" : "Chubb",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_PM3xquLgjJucsA3Wkc55sT",
+    "questions" : [ {
+      "id" : "q_GLdfwFBK8NHbRdSqSfd4v6",
+      "type" : "DSA",
+      "content" : "Minimize the Maximum Array Element: Given an array, choose indices l, r and an offset i where 0 <= l < r < n and 0 <= i < r. You can perform the operation arr[l+r] = arr[l+i] & arr[r-i], where & denotes bitwise AND. Find the minimum possible value of the maximum element after performing the operation any number of times."
+    }, {
+      "id" : "q_BQuRRBetQbWDsZ1iDLG3wp",
+      "type" : "DSA",
+      "content" : "Maximize Revenue from Selling Items: A shop has n types of items, with their quantities given in an array. The price of an item equals its current remaining quantity. Given m customers, find the maximum revenue by selling one item to each customer."
+    }, {
+      "id" : "q_M3e7XGFADf5kNJZbNw4WZU",
+      "type" : "DSA",
+      "content" : "Minimize the Sum of Prefix Costs: The cost of each array element is the number of distinct elements in the prefix ending at that position. You can rearrange the array into any permutation. Find the minimum possible sum of the costs."
+    }, {
+      "id" : "q_GVhhqBY7i4AuQsasUsqKDB",
+      "type" : "DSA",
+      "content" : "Count Valid Pairs: Given an array and integers k and x, count pairs of indices (i, j) satisfying arr[i] <= arr[j], such that the interval [arr[i], arr[j]] contains exactly k elements divisible by x."
+    }, {
+      "id" : "q_3WZmKcpEduYV52M2BvZsbq",
+      "type" : "DSA",
+      "content" : "Maximum Element After Rotations: Given an array arr and an array rotate, find the index of the maximum element after performing the specified number of rotations for each query."
+    } ]
+  }, {
+    "id" : "r_BUhGEFjC5ZETEEjhWwirEm",
+    "questions" : [ {
+      "id" : "q_Fna24ajTG6MRMhwDLLPwwC",
+      "type" : "BEHAVIOURAL",
+      "content" : "Introduce yourself."
+    }, {
+      "id" : "q_3SbwCir4JVZLGk9GS31PbW",
+      "type" : "TECHNICAL",
+      "content" : "What is normalization? Explain the different normal forms."
+    }, {
+      "id" : "q_D5h7NTVCfVGFpKw8TkbaW6",
+      "type" : "TECHNICAL",
+      "content" : "Explain ACID properties and deadlocks. How can deadlocks be handled?"
+    }, {
+      "id" : "q_KXpm2xtWTGZjzgDV7w8qbB",
+      "type" : "TECHNICAL",
+      "content" : "Write an SQL query to find the second-highest salary."
+    }, {
+      "id" : "q_2M2JqmSy9CUjtS2ML9vR3X",
+      "type" : "TECHNICAL",
+      "content" : "Differentiate between DELETE, TRUNCATE, and DROP."
+    }, {
+      "id" : "q_EZL1qippfyx7yc61Nbwy5J",
+      "type" : "TECHNICAL",
+      "content" : "What is JWT? Explain the token creation and validation process."
+    }, {
+      "id" : "q_WeRxumuKAk19JZYoBa3mXm",
+      "type" : "TECHNICAL",
+      "content" : "Differentiate between MySQL and H2."
+    }, {
+      "id" : "q_LrY6BgNFErYKvSJiJejCEp",
+      "type" : "TECHNICAL",
+      "content" : "Differentiate between SQL and NoSQL databases."
+    }, {
+      "id" : "q_EKTi5zPPoFkWtqca9WqTcV",
+      "type" : "TECHNICAL",
+      "content" : "Differentiate between a process and a thread."
+    }, {
+      "id" : "q_AvYz9uTegeKnh6KKD6uW9h",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Differentiate between async def and def."
+    }, {
+      "id" : "q_QVPxachBKeM3beqjuBRcBD",
+      "type" : "TECHNICAL",
+      "content" : "What is middleware in Express.js?"
+    }, {
+      "id" : "q_AxAtZE3P3ni6v9Vuf2dyP3",
+      "type" : "TECHNICAL",
+      "content" : "Explain the Virtual DOM."
+    }, {
+      "id" : "q_G2WN5qfhiK8r2ZRicpSrMo",
+      "type" : "TECHNICAL",
+      "content" : "Differentiate between Spring and Spring Boot."
+    }, {
+      "id" : "q_C8mvQzrCQGcp33ZSPBy3qy",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain one of your projects."
+    }, {
+      "id" : "q_6VLiBtbHSQ8MqsVfX11iAM",
+      "type" : "TECHNICAL",
+      "content" : "What are the advantages and disadvantages of using AI for coding?"
+    }, {
+      "id" : "q_CjUA3UXrNBEkGZVXbavGk1",
+      "type" : "LLD",
+      "content" : "Explain the Singleton design pattern."
+    }, {
+      "id" : "q_GVhra8BNzBfPWeRUPMQaXA",
+      "type" : "TECHNICAL",
+      "content" : "What is RBAC (Role-Based Access Control)?"
+    }, {
+      "id" : "q_XahpnFyh98HcS6iYu3qGop",
+      "type" : "DSA",
+      "content" : "Reverse a linked list."
+    }, {
+      "id" : "q_XCavFmdeJy31uo35BTjypX",
+      "type" : "DSA",
+      "content" : "Given an array where every element appears twice except one, find the unique element."
+    } ]
+  }, {
+    "id" : "r_WWuNQvjEF9pnteQpZywoFo",
+    "questions" : [ {
+      "id" : "q_4EF6C2BMnXPXvGCfnYB9va",
+      "type" : "BEHAVIOURAL",
+      "content" : "What motivates you?"
+    }, {
+      "id" : "q_L3RrFu44BkUMgrceVeArz6",
+      "type" : "BEHAVIOURAL",
+      "content" : "Tell me one thing that gave you a quirk in the last month."
+    }, {
+      "id" : "q_SfZr9gJLBZbokQ1Jrc5Z5b",
+      "type" : "BEHAVIOURAL",
+      "content" : "You are assigned a complex task with a strict deadline. How would you approach it?"
+    }, {
+      "id" : "q_J1BaspGKje1TJqE4CvtNeF",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain one of your projects, the challenges you faced, and how you resolved them."
+    }, {
+      "id" : "q_DD9HtGs9KEutikdQvYAary",
+      "type" : "TECHNICAL",
+      "content" : "What is hallucination?"
+    }, {
+      "id" : "q_BTkwvUX6sUJ6b3gCwwATqP",
+      "type" : "BEHAVIOURAL",
+      "content" : "A colleague shares confidential information with you, but you discover that they are doing something unethical. How would you handle the situation?"
+    } ]
+  } ],
+  "date" : "2026-10-19"
+}, {
   "id" : "i_AaRMEzLcYKhPCC2kqnGeF6",
   "leetcodeId" : "8577627",
   "company" : "Amazon",
