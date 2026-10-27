@@ -1,4 +1,160 @@
 [ {
+  "id" : "i_y4Tu53mR3xuwvheAywJdY",
+  "leetcodeId" : "8580370",
+  "company" : "Qualys",
+  "role" : "Software Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_FxWmYrMvq5qBZjjqqMwtPS",
+    "questions" : [ {
+      "id" : "q_C5UfXRgHuCMdefRdizpVdF",
+      "type" : "BEHAVIOURAL",
+      "content" : "Introduce yourself."
+    }, {
+      "id" : "q_8HpYSFxmUBDUz3D3yjXWSe",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the projects you have worked on."
+    }, {
+      "id" : "q_XS1SvEYtJRgTV65jn4Wrcx",
+      "type" : "TECHNICAL",
+      "content" : "What technical skills and technologies have you worked with?"
+    }, {
+      "id" : "q_6DnNV66t8rCyA7STMVe6Zp",
+      "type" : "HR",
+      "content" : "Why are you looking for a job change?"
+    }, {
+      "id" : "q_BZo8WLP6D4ZbUEnFCKoTf8",
+      "type" : "HR",
+      "content" : "What is your current CTC?"
+    }, {
+      "id" : "q_9U37375FsWn9THng9M4ZFQ",
+      "type" : "HR",
+      "content" : "What are your salary expectations?"
+    } ]
+  }, {
+    "id" : "r_2f1LBnrV8wpMKHSRgjppkB",
+    "questions" : [ {
+      "id" : "q_RkywqXWBpFM6ptZZ2x6YM4",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Introduce yourself and explain your projects in detail."
+    }, {
+      "id" : "q_9wEXDA4c3aXZLZeKkb5qNh",
+      "type" : "DSA",
+      "content" : "Detect a cycle in a linked list and return the node where the cycle begins. Explain the approach, time complexity, and space complexity."
+    }, {
+      "id" : "q_3SToNzYQjUtLypveCFyXxo",
+      "type" : "DSA",
+      "content" : "Check whether a string containing brackets is valid. Explain the time and space complexity."
+    }, {
+      "id" : "q_LeEbh8JJTAGccnfksNMjbn",
+      "type" : "DSA",
+      "content" : "Rotate an array to the right by k steps, where k is non-negative. Explain the different approaches and their exact time and auxiliary space complexities. Discuss the reversal algorithm in detail, including why it performs three reversals and how many operations are performed for each reversal, including the effect of k % n."
+    }, {
+      "id" : "q_5JpiCFfUnxhKL2SfP6W6H6",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "What are virtual functions in C++?"
+    }, {
+      "id" : "q_Kk55aEU78Dr6VyP4Zvfa8S",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Explain compile-time polymorphism vs. runtime polymorphism in C++."
+    }, {
+      "id" : "q_CfG4Ts2zFWV77qMeK9uh5k",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Questions about my AI projects and their implementation."
+    }, {
+      "id" : "q_LJXuGUKCTyDN9FSjBDfxpj",
+      "type" : "TECHNICAL",
+      "content" : "Explain the HNSW (Hierarchical Navigable Small World) algorithm."
+    }, {
+      "id" : "q_LgYLcjk5oX1MPPUQmymLn8",
+      "type" : "TECHNICAL",
+      "content" : "Questions related to Google Cloud SQL."
+    } ]
+  }, {
+    "id" : "r_8e72xT8BCpn9wvQ5abJA8L",
+    "questions" : [ {
+      "id" : "q_21NwWSwaddqpd1bSVa8xPf",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Introduce yourself and explain your projects in detail."
+    }, {
+      "id" : "q_UHWtpGZ3B4wYjBo6AdAh1y",
+      "type" : "TECHNICAL",
+      "content" : "Explain REST APIs and write a POST API method."
+    }, {
+      "id" : "q_PzN6kWqCETaH916GLRpMyV",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Explain Java multithreading and its concepts."
+    }, {
+      "id" : "q_BQExJeBgXLTH5q71WBQWw9",
+      "type" : "TECHNICAL",
+      "content" : "What are the different HTTP status codes?"
+    }, {
+      "id" : "q_PyCrvcbXyntDrGAj42jfm6",
+      "type" : "TECHNICAL",
+      "content" : "What are constraints in SQL?"
+    }, {
+      "id" : "q_SujrJWRo3AQWHKh8LNXKjv",
+      "type" : "TECHNICAL",
+      "content" : "Write SQL queries based on the given requirements."
+    }, {
+      "id" : "q_MLf3zpxVrJwsSjP5TRVMdD",
+      "type" : "DSA",
+      "content" : "Delete a node at a given position in a doubly linked list. Explain the approach, time complexity, and auxiliary space complexity."
+    }, {
+      "id" : "q_FGb4xm73hxY2dSby7LnMRv",
+      "type" : "DSA",
+      "content" : "Insert a node at a given position in a doubly linked list. Explain the approach, time complexity, and auxiliary space complexity."
+    }, {
+      "id" : "q_Sk1S1cEFWAnMAVtPYwDL6L",
+      "type" : "DSA",
+      "content" : "Explain binary search, its implementation, and its time and space complexity."
+    }, {
+      "id" : "q_EHsqSB5fMuzhbJMyCnYbbP",
+      "type" : "TECHNICAL",
+      "content" : "Explain how a multi-agent system works."
+    }, {
+      "id" : "q_3wRHMhcGPJBRX6LNMeKsut",
+      "type" : "TECHNICAL",
+      "content" : "What are a supervisor agent and subagents? How do they communicate, delegate tasks, and coordinate their execution?"
+    } ]
+  }, {
+    "id" : "r_CV8vfDbzFbtjibN61ZGU8G",
+    "questions" : [ {
+      "id" : "q_GY5HakHpwGjDW7DFnpQQMp",
+      "type" : "BEHAVIOURAL",
+      "content" : "Introduce yourself."
+    }, {
+      "id" : "q_C2cLbBa2bdwcVTa2AbnVYg",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain your projects in detail."
+    }, {
+      "id" : "q_HoiPJfGhLUq7tmGC6vM9h9",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Discuss your AI projects, their architecture, implementation, and challenges."
+    }, {
+      "id" : "q_Ly1FdARiLdT9oFY85RNbC3",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Answer cross-questions related to the AI projects."
+    }, {
+      "id" : "q_CJfJJpAvhwV1cgqBdhsHzJ",
+      "type" : "HR",
+      "content" : "Why are you looking for a job change?"
+    }, {
+      "id" : "q_Af69xUfYDkqxu5Jg5sXKL2",
+      "type" : "TECHNICAL",
+      "content" : "What is DNS, and how does it work?"
+    }, {
+      "id" : "q_UqTxThkJMwvFu7rmieF7HQ",
+      "type" : "TECHNICAL",
+      "content" : "What is DHCP, and why is it required?"
+    }, {
+      "id" : "q_Ace9wdT3mkmkxLfbvQFDbd",
+      "type" : "TECHNICAL",
+      "content" : "Your laptop is running slowly. How would you troubleshoot the issue step by step?"
+    } ]
+  } ],
+  "date" : "2026-10-20"
+}, {
   "id" : "i_6iFKpgmRLre8vne28MDqPY",
   "leetcodeId" : "8579395",
   "company" : "Chubb",
