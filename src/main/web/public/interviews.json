@@ -1,4 +1,149 @@
 [ {
+  "id" : "i_BvDAZfQr4fewooWhF9mwLm",
+  "leetcodeId" : "8587242",
+  "company" : "Amber",
+  "role" : "ASDE",
+  "yoe" : 1,
+  "rounds" : [ {
+    "id" : "r_8qPxByoxpqeLrx3PDxMBqU",
+    "questions" : [ {
+      "id" : "q_S6hFmDHzyGxxepupGnHZMG",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "JavaScript: var, let, const, hoisting, and Temporal Dead Zone."
+    }, {
+      "id" : "q_G8kTNaZtwZBQsr5fSVdbbe",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Promise-based output questions."
+    }, {
+      "id" : "q_YVUbeW2x6DNGKPgbdeReFD",
+      "type" : "TECHNICAL",
+      "content" : "Call stack, microtasks vs. macrotasks, and the this keyword."
+    }, {
+      "id" : "q_L5mT9fLfpeA8vzf2wBUx5R",
+      "type" : "MACHINE_CODING",
+      "content" : "Build a traffic light system."
+    }, {
+      "id" : "q_SAKJ3JvjHfvC1DCVKAfpKi",
+      "type" : "MACHINE_CODING",
+      "content" : "Pause the light at night and display the remaining time."
+    } ]
+  }, {
+    "id" : "r_7vimjNNS7MJdGg456irZ6d",
+    "questions" : [ {
+      "id" : "q_Fka64kmMsnCy9GWJauPmHb",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Project architecture, challenges, future scope, and scalability."
+    }, {
+      "id" : "q_8WYT6qTVbDqehYZXezCVwQ",
+      "type" : "TECHNICAL",
+      "content" : "Core Web Vitals: How I optimize LCP, INP, and CLS."
+    }, {
+      "id" : "q_XsHeLHh6wZZJ6XZFHNvqcx",
+      "type" : "TECHNICAL",
+      "content" : "Bundle size optimization: Code splitting, lazy loading, tree shaking, and reducing unnecessary dependencies."
+    }, {
+      "id" : "q_RirrgC21zb9gG9BsjmdYKx",
+      "type" : "DSA",
+      "content" : "Medium-level DSA: Two pointers, sliding window, and a problem similar to 3Sum."
+    } ]
+  }, {
+    "id" : "r_BynTE8uQpepaB2BnKYwUyy",
+    "questions" : [ {
+      "id" : "q_NRKosXvytJfCUcN4KVZv6Y",
+      "type" : "TECHNICAL",
+      "content" : "How I use AI in day-to-day development."
+    }, {
+      "id" : "q_WD27AfaueEvPydu2AywGU3",
+      "type" : "TECHNICAL",
+      "content" : "Production bugs and issues resolved across frontend and backend."
+    }, {
+      "id" : "q_AFYGAG2zGnhcU42X3hMxM4",
+      "type" : "DSA",
+      "content" : "DSA: Sorting, two pointers, and a problem similar to finding the minimum number of platforms required for trains."
+    } ]
+  } ],
+  "date" : "2026-10-24"
+}, {
+  "id" : "i_Sy1B53zCMEaEVDkSE8yJb8",
+  "leetcodeId" : "8586321",
+  "company" : "Nike",
+  "role" : "SDE 3",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VP1UhBQh3AZhePmEccBmM7",
+    "questions" : [ {
+      "id" : "q_9Gn1PXPCfMztY3bNV5vQSz",
+      "type" : "DSA",
+      "content" : "Binary Search DSA question"
+    }, {
+      "id" : "q_BAHf7ALUTDs5xBXuXAcNUL",
+      "type" : "LANGUAGE_SPECIFIC",
+      "content" : "Java basics and streams based questions"
+    }, {
+      "id" : "q_Ux53YkDPDbqn8wg37cjSRE",
+      "type" : "TECHNICAL",
+      "content" : "AWS questions like prod scenarios and when to use SQS vs SNS and CI/CD process"
+    }, {
+      "id" : "q_AFZqcymME4JqTTraKaJuV8",
+      "type" : "TECHNICAL",
+      "content" : "Springboot basics like how @transactional works and other questions"
+    } ]
+  }, {
+    "id" : "r_Hs6DC6dPWb2th9BnLEJe4c",
+    "questions" : [ {
+      "id" : "q_HhYXL6kidsgYwzWfQtjbNC",
+      "type" : "DSA",
+      "content" : "Spiral matrix"
+    }, {
+      "id" : "q_7Vf5hPi2yh2ij8PsguDBS4",
+      "type" : "MACHINE_CODING",
+      "content" : "Implement Hashmap with TTL"
+    }, {
+      "id" : "q_DqMKB3RKn3hUW7kL3mm8HZ",
+      "type" : "TECHNICAL",
+      "content" : "SQL queries and production scenarios"
+    }, {
+      "id" : "q_XhXfjirgih4EdaJqRQVUKQ",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Resume based questions"
+    } ]
+  }, {
+    "id" : "r_3zEiz9hgCXFDExM7WU4tMr",
+    "questions" : [ {
+      "id" : "q_YPwT4iLeAnGJeW76AzuffU",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Competitive Exam - Auto submit each section, Auto submit Exam when time up and display results immediately."
+    }, {
+      "id" : "q_YbpD48UkCTarz3xJFbEer8",
+      "type" : "DSA",
+      "content" : "DSA to flatten List with JSON and any object type"
+    } ]
+  } ],
+  "date" : "2026-10-24"
+}, {
+  "id" : "i_uRSoRBLWyYUC2J9eXNSMh",
+  "leetcodeId" : "8586200",
+  "company" : "Zscaler",
+  "role" : "Intern",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Jm9u5X6ifr8PdBVnxJiPUm",
+    "questions" : [ {
+      "id" : "q_K1dF3TTUgw44b46QXJgcbh",
+      "type" : "SYSTEM_DESIGN",
+      "content" : "Design a scalable microservices architecture for Zscaler's zero trust network access platform."
+    }, {
+      "id" : "q_LjhZbWDi3Rq8mDLVb1MtHP",
+      "type" : "DSA",
+      "content" : "Implement a rate limiter for API gateway with token bucket algorithm."
+    }, {
+      "id" : "q_5Tao8BuyuQoKzZeD4J8g5x",
+      "type" : "DSA",
+      "content" : "Find the shortest path in a weighted graph representing network topology."
+    } ]
+  } ],
+  "date" : "2026-10-24"
+}, {
   "id" : "i_y4Tu53mR3xuwvheAywJdY",
   "leetcodeId" : "8580370",
   "company" : "Qualys",
