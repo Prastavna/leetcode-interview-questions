@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_7tNjntJid2byytGVYrSZj7",
+  "leetcodeId" : "8588037",
+  "company" : "Celebal Technologies",
+  "role" : "Data Scientist",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_Ut3117nKyGxNiVHZnyqMHP",
+    "questions" : [ {
+      "id" : "q_43eERztr9wPXRBmkWMxHsz",
+      "type" : "DSA",
+      "content" : "Find the second largest distinct element in an array containing duplicate elements, without using built-in functions such as sort()."
+    } ]
+  } ],
+  "date" : "2026-10-25"
+}, {
   "id" : "i_BvDAZfQr4fewooWhF9mwLm",
   "leetcodeId" : "8587242",
   "company" : "Amber",
