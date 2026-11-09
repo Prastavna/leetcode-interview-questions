@@ -1,4 +1,125 @@
 [ {
+  "id" : "i_2HGKiZvuYVJzLmJ6QKtYAk",
+  "leetcodeId" : "8599085",
+  "company" : "IBM",
+  "role" : "Cloud & AI Engineer",
+  "yoe" : 6,
+  "rounds" : [ {
+    "id" : "r_JLCoP7cnRCWSsEK2C1BZCY",
+    "questions" : [ {
+      "id" : "q_Gvzfzc72u2DS6x8crEhGa5",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain your current work and recent projects."
+    }, {
+      "id" : "q_NbYEjquG8gGX3kBjh9DW8x",
+      "type" : "HLD",
+      "content" : "Walk through the high-level design of one of your projects."
+    }, {
+      "id" : "q_7RCm5b9rGKaXieHfmqjra5",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain the architecture and your contributions."
+    }, {
+      "id" : "q_V9i1P7Hp4oe3KsRuv8TZeR",
+      "type" : "TECHNICAL",
+      "content" : "Questions on Docker and Kubernetes fundamentals."
+    }, {
+      "id" : "q_2rHWkPh6k4SMqrsGyuAiQS",
+      "type" : "TECHNICAL",
+      "content" : "Discussion about my hands-on experience with these technologies."
+    }, {
+      "id" : "q_741uQUUpdWSNeAa8hSxqkP",
+      "type" : "DSA",
+      "content" : "Reverse Linked List"
+    }, {
+      "id" : "q_8FDrhsgq7K8eU2jq6XFS44",
+      "type" : "DEBUGGING",
+      "content" : "Debug an existing implementation of Merge Two Sorted Lists."
+    } ]
+  }, {
+    "id" : "r_TXH5EmWz833pha9woJc6Gx",
+    "questions" : [ {
+      "id" : "q_KBXtMzJJhZwPxRJptTX6rd",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Explain your recent projects and architecture decisions."
+    }, {
+      "id" : "q_KQpS6GYaaMXzS7Mtk1gZDJ",
+      "type" : "TECHNICAL",
+      "content" : "What is Linux inotify, and where have you used it?"
+    }, {
+      "id" : "q_Q2UoiSjDUYcnWVUxu7zehG",
+      "type" : "TECHNICAL",
+      "content" : "What happens if inotify generates duplicate notifications?"
+    }, {
+      "id" : "q_SSxdkc9qVrj5CkCNga9uBe",
+      "type" : "TECHNICAL",
+      "content" : "What is the difference between Kubernetes and OKE?"
+    }, {
+      "id" : "q_LvTZuSTr8YbFt5QNvcPyL8",
+      "type" : "TECHNICAL",
+      "content" : "What is Helm?"
+    }, {
+      "id" : "q_4Xu94BdnSCbsHr8rLbEmkD",
+      "type" : "TECHNICAL",
+      "content" : "How do Helm charts help in Kubernetes deployments?"
+    }, {
+      "id" : "q_UiwKHNapLYxMG2nHeTNR8S",
+      "type" : "TECHNICAL",
+      "content" : "REST vs gRPC."
+    }, {
+      "id" : "q_6fZVdQCatJirKXdt37Gku6",
+      "type" : "TECHNICAL",
+      "content" : "TLS vs mTLS."
+    }, {
+      "id" : "q_6ceA1y4D4rQQsY2ZfnZBz5",
+      "type" : "TECHNICAL",
+      "content" : "How does certificate verification work?"
+    }, {
+      "id" : "q_4wZMPoq4G682soXp7uBAAv",
+      "type" : "TECHNICAL",
+      "content" : "Why does a browser sometimes show a certificate warning with an Advanced/Proceed option?"
+    }, {
+      "id" : "q_HACLdBRD8ckpUMsFfUq8e6",
+      "type" : "TECHNICAL",
+      "content" : "What is a vector database?"
+    }, {
+      "id" : "q_5hEB2NzZVEr4jTmj2Vzs3T",
+      "type" : "PROJECT_DISCUSSION",
+      "content" : "Where have you used vector databases?"
+    }, {
+      "id" : "q_BPbfyqmaMkoywH2bpY5jnZ",
+      "type" : "TECHNICAL",
+      "content" : "How does semantic similarity work?"
+    }, {
+      "id" : "q_U5yV624sAkPpW4H7egcaq8",
+      "type" : "TECHNICAL",
+      "content" : "How would a system distinguish between Saswat and saswat, and determine which is more relevant?"
+    }, {
+      "id" : "q_LEM36eNz6TDG1D22y8aQak",
+      "type" : "DSA",
+      "content" : "Longest Palindromic Substring"
+    } ]
+  } ],
+  "date" : "2026-11-02"
+}, {
+  "id" : "i_NKwkKPRD7Ne2oXT7K2iwhM",
+  "leetcodeId" : "8598178",
+  "company" : "GoDaddy",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_9ccVw8VKG7CUdHVKU9iu1s",
+    "questions" : [ {
+      "id" : "q_8iqwuNydHx27FWLWe4AxcC",
+      "type" : "DSA",
+      "content" : "Task Scheduling with Cooling Period: A medium-level problem based on completing tasks with a given cooling period between consecutive executions of the same task."
+    }, {
+      "id" : "q_NH3Nz6NCook9HmBeBnFS6K",
+      "type" : "DSA",
+      "content" : "Count Subsets with a Given XOR for Multiple Queries: You are given an array of integers arr of size n and q queries. Each query consists of two integers: end and k. For each query, count the number of subsets that can be formed using the elements from index 0 to end (inclusive) such that the bitwise XOR of all elements in the subset equals k."
+    } ]
+  } ],
+  "date" : "2026-11-02"
+}, {
   "id" : "i_62h5k6ejjeRLFpSoe13HNX",
   "leetcodeId" : "8597310",
   "company" : "Hevo Data",
