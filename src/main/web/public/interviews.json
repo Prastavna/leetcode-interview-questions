@@ -1,4 +1,19 @@
 [ {
+  "id" : "i_EK8uD3QZzeeAgsZbeRC7kV",
+  "leetcodeId" : "8609780",
+  "company" : "Cisco",
+  "role" : "",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_VbKL7u47Ks9V8xAAuCf1Qd",
+    "questions" : [ {
+      "id" : "q_CT6EWT7roRFGgeWyzKuN6K",
+      "type" : "DSA",
+      "content" : "K-Step Bit Flip with Retention: You are given a binary string S of length n and a positive integer k. You must apply exactly k transformations to S, one after another."
+    } ]
+  } ],
+  "date" : "2026-11-12"
+}, {
   "id" : "i_8Mx7SnrbUKeV4T55Bo7N2V",
   "leetcodeId" : "8605041",
   "company" : "Cohesity",
