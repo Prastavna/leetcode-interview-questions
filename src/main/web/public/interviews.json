@@ -1,4 +1,41 @@
 [ {
+  "id" : "i_Y8sntSvpcuBKtSs71p7jR7",
+  "leetcodeId" : "8619040",
+  "company" : "Oracle",
+  "role" : "Senior Platform Engineer",
+  "yoe" : 0,
+  "rounds" : [ {
+    "id" : "r_J2nRQxuWPbEWRvz84GGn2U",
+    "questions" : [ {
+      "id" : "q_3ypnoZqAHhM3bwZ7wEVj6k",
+      "type" : "HLD",
+      "content" : "HLD Questions covering all topics"
+    } ]
+  }, {
+    "id" : "r_EMACxP33pZ8meBkpmw3Tkj",
+    "questions" : [ {
+      "id" : "q_9CsFi8HRZWgcsgT5uoj4Qt",
+      "type" : "DSA",
+      "content" : "Longest Subsequence with no duplicate characters"
+    }, {
+      "id" : "q_Msc726C2kFF7177UDwhyj5",
+      "type" : "DSA",
+      "content" : "A Greedy+Heap Problem (Hard)"
+    } ]
+  }, {
+    "id" : "r_T59WJaYqtLrWBGcx4vCD6Y",
+    "questions" : [ {
+      "id" : "q_XF5XX4Xz2h9452xhgc76n7",
+      "type" : "HLD",
+      "content" : "AI Monitoring and Observability Tool"
+    }, {
+      "id" : "q_LggrpFXYkE6j21WCn8dT91",
+      "type" : "DSA",
+      "content" : "Meeting Rooms 2"
+    } ]
+  } ],
+  "date" : "2026-11-20"
+}, {
   "id" : "i_XTWG5QBaaPAs7EpDqfUbgN",
   "leetcodeId" : "8617648",
   "company" : "Confluent",
